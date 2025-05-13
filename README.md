@@ -3,7 +3,7 @@
 
 Maintained by Willow and MaidNight.
 
-This mod aims to provide a fresh user experience for War Thunder by changing the names of vehicles to be more accurate to real-life.
+This mod aims to provide a fresh user experience for War Thunder by changing the names of vehicles and weaponry to be more accurate to real-life.
 
 A full list of changes can be found in the CHANGELOG file.
 
