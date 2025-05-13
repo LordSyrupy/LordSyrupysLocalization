@@ -1,4 +1,218 @@
-VERSION O.1.5.11.2025 CHANGELOG
+VERSION 0.1.1.5.13.2025 CHANGELOG (May 13, 2025)
+
+- Uploaded mod files to a GitHub repository, making keeping up with the mod much easier than it was previously
+
+- UI elements which were previously broken (titles, battlepass, achievement headers) now display correctly
+
+- Various capitalization fixes
+
+- Changed the names of the following German aircraft:
+    - Ta 152 C-3
+        - Focke-Wulf Ta 152 C-3 --> Ta 152 C-3 (in shop)
+        - Ta 152 C-3 --> Focke-Wulf Ta 152 C-3 (on statcard)
+    - MiG-29G
+        - MiG-29G (9.12G) Fulgrum-G --> MiG-29G (9.12G) Fulcrum-G
+
+- Changed the names of the following American weapons:
+    - Mk82 LDGP
+        - Mk82 500lb. Low-Drag General Purpose Ballute-Rype Air-Retarded Bombs --> Mk82 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (500lb.) (in custom loadout screen)
+        - Mk82 500lb. LDGP AIR --> Mk82 LDGP AIR (500lb.) (in HUD)
+
+    - Mk81 Snakeye
+        - Mk81 250lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk81 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (250lb.) (in custom loadout screen)
+        - Mk81 250lb. Snakeye --> Mk81 Snakeye (250lb.) (in HUD)
+
+    - Mk82 Snakeye
+        - Mk82 500lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk82 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (500lb.) (in custom loadout screen)
+        - Mk82 500lb. Snakeye --> Mk82 Snakeye (500lb.) (in HUD)
+
+    - Mk83 AIR
+        - Mk83 1000lb. Low-Drag General Purpose Ballute-Type Air-Retarded Bomb --> Mk83 Low-Drag General Purpose Ballute-Type Air-Retarded Bomb (1000lb.) (in custom loadout screen)
+        - Mk83 1000lb. LDGP AIR  --> Mk83 LDGP AIR (1000lb.) (in HUD)
+
+    - Mk84 LDGP
+        - Mk84 2000lb. Low-Drag General Purpose Bombs --> Mk84 Low-Drag General Purpose Bombs (2000lb.)
+        - Mk84 2000lb. LDGP --> Mk84 LDGP (2000lb.)
+
+    - Mk84 LDGP AIR
+        - Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs --> Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (2000lb.) (in custom loadout screen)
+        - Mk84 2000lb. LDGP AIR  --> Mk84 LDGP AIR (2000lb.) (in HUD)
+
+    - AN-M56 LCGP
+        - AN-M56 4000lb. Light-Case General Purpose Bombs --> AN-M56 Light-Case General Purpose Bombs (4000lb.) (in custom loadout screen)
+        - AN-M56 4000lb. LCGP --> AN-M56 LCGP (4000lb.) (in HUD)
+
+    - M117 cone 45 bomb
+        - 750 lb M117 cone 45 bomb --> M117 Low-Drag Demolition Bombs, Cone 45 (750lb.) (in custom loadout screen)
+        - M117 750 lb --> M117 LDDB (750lb.) (in HUD)
+
+    - Nuclear bomb Mark 6
+        - Nuclear bomb Mark 6 --> Mark 6 Nuclear Bomb (in custom loadout screen)
+
+    - Nuclear bomb Mark 7
+        - Nuclear bomb Mark 7 --> Mark 7 Nuclear Bomb (in custom loadout screen)
+
+    - BLU-27/B incendiary bomb
+        - BLU-27/B incendiary bomb --> BLU-27/B Forced-Ejection Incendiary Napalm Bombs (750lb.) (in custom loadout scren)
+        - BLU-27/B --> BLU-27/B INC (750lb.) (in HUD)
+
+    - BLU-1/B
+        - BLU-1 incendiary bomb --> BLU-1/B Forced-Ejection Incendiary Napalm Bombs (750lb.)
+        - BLU-1 --> BLU-1/B INC (750lb.)
+
+    - Mk 77 mod 2
+        - Mk 77 mod 2 incendiary bomb --> Mk77 Mod 2 Incendiary Napalm Bombs (750lb.) (in custom loadout screen)
+        - Mk 77 --> Mk77 INC (750lb.)
+
+    - Mk 77 mod 4
+        - Mk 77 mod 4 incendiary bomb --> Mk77 Mod 4 Incendiary Bombs (750lb.)
+        - Mk 77 --> Mk77 INC (750lb.)
+
+    - BLU-10/B
+        - BLU-10/B incendiary bomb --> BLU-10/B Forced-Ejection Incendiary Napalm Bombs (250lb.) (in custom loadout screen)
+        - BLU-10/B --> BLU-10/B INC (250lb.)
+
+    - BLU-23/B
+        - BLU-23/B incendiary bomb --> BLU-23/B Forced-Ejection Incendiary Napalm Bombs (500lb.) (in custom loadout screen)
+        - BLU-23/B --> BLU-23/B INC (500lb.) (in HUD)
+
+    - M116A2
+        - M116A2 incendiary bomb --> M116A2 Incendiary Bombs (750lb.) (in custom loadout scren)
+        - M116A2 --> M116A2 INC (750lb.) (in HUD)
+
+    - Mk 78
+        - Mk 78 incendiary bomb --> Mk78 Mod 2 Incendiary Bombs (750lb.) (in custom loadout screen)
+        - Mk 78 --> Mk78 INC (750lb.) (in HUD)
+
+    - Mk 77 Mod 0
+        - Mk 77 Mod 0 incendiary bomb --> Mk77 Mod 0 Incendiary Napalm Bombs (750lb.) (in custom loadout screen)
+        - Mk 77 --> Mk77 INC (750lb.) (in HUD)
+
+    - Mk 79 Mod 1
+        - 1000 lb Mk 79 Mod 1 incendiary bomb --> Mk79 Mod 1 Incendiary Napalm Bombs (1000lb.) (in custom loadout screen)
+        - Mk 79 --> Mk79 INC (1000lb.) (in HUD)
+
+    - AGM-130A
+        - AGM-130A 2000lb. Infrared-Guided Air-to-Ground Missile --> AGM-130A Infrared-Guided Air-to-Ground Missile (2000lb.) (in custom loadout screen)
+
+    - AGM-130A-12
+        - AGM-130A-12 2000lb. Infrared-Guided Air-to-Ground Missile --> AGM-130A-12 Infrared-Guided Air-to-Ground Missile (2000lb.) (in custom loadout screen)
+
+    - GBU-12
+        - GBU-12 Paveway II 500lb. Laser-Guided Bombs --> GBU-12 Paveway II Laser-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-49
+        - GBU-49 Enhanced Paveway II 500lb. Dual-Mode Laser-Guided Bombs --> EGBU-12 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - GBU-49 (E)Paveway II DMLGB (500lb.) --> EGBU-12 Paveway II DMLGB (500lb.) (in HUD)
+
+    - GBU-48
+        - GBU-48 Enhanced Paveway II 1000lb. Dual-Mode Laser-Guided Bombs --> EGBU-16 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (1000lb.) (in custom loadout screen)
+        - GBU-48 (E)Paveway II DMLGB (1000lb.) --> EGBU-16 Paveway II DMLGB (1000lb.) (in HUD)
+
+    - GBU-50
+        - GBU-50 Enhanced Paveway II 2000lb. Dual-Mode Laser-Guided Bombs --> EGBU-10 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+        - GBU-50 (E)Paveway II DMLGB (2000lb.) --> EGBU-10 Paveway II DMLGB (2000lb.) (in HUD)
+
+    - GBU-16
+        - GBU-16 Paveway II 1000lb. Laser-Guided Bombs --> GBU-16 Paveway II Laser-Guided Bombs (1000lb.) (in custom loadout screen)
+
+    - GBU-10
+        - GBU-10 Paveway II 2000lb. Laser-Guided Bombs --> GBU-10 Paveway II Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-24
+        - GBU-24 Paveway III 2000lb. Laser-Guided Bombs --> GBU-24 Paveway III Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-27
+        - GBU-27 Paveway III 2000lb. Laser-Guided Bombs --> GBU-27 Paveway III Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-22
+        - GBU-22 Paveway III 500lb. Laser-Guided Bombs --> GBU-22 Paveway III Laser-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-39
+        - GBU-39/B 250lb. GPS-Guided Small-Diameter Bombs I --> GBU-39/B Small-Diameter Bomb I GPS-Guided Bombs (250lb.) (in custom loadout screen)
+        - GBU-39 SDB I (250lb) --> GBU-39/B SDB I (250lb) (in HUD)
+
+    - AGM-123
+        - AGM-123 Skipper 1000lb. Laser-Guided Air-to-Ground Missiles --> AGM-123 Skipper Laser-Guided Air-to-Ground Missiles (1000lb.) (in custom loadout screen)
+
+    - EGBU-24
+        - EGBU-24B Enhanced Paveway III 2000lb. Dual-Mode Laser-Guided Bombs --> EGBU-24B Enhanced Paveway III Dual-Mode Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-15(V)1/B
+        - GBU-15(V)1/B 2000lb. Television-Guided Bombs --> GBU-15(V)1/B Television-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-15(V)2/B
+        - GBU-15(V)2/B 2000lb. Television-Guided Bombs --> GBU-15(V)2/B Television-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-38
+        - GBU-38 500lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-38 Joint Direct Attack Munition GPS-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-38(V)2/B
+        - GBU-38(V)2/B Joint Direct Attack Munition GPS-Guided Bombs --> GBU-38(V)2/B Joint Direct Attack Munition GPS-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-54B
+        - GBU-54B Laser Joint Direct Attack Munition Laser-Guided Bombs --> GBU-54B Laser Joint Direct Attack Munition Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - GBU-54B LJDAM (2000lb.) --> GBU-54B LJDAM (500lb.) (in HUD)
+
+    - GBU-31
+        - GBU-31 2000lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-31 Joint Direct Attack Munition GPS-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-32
+        - GBU-32 1000lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-32 Joint Direct Attack Munition GPS-Guided Bombs (1000lb.) (in custom loadout screen)
+
+    - AGM-62A ER
+        - AGM-62A Walleye I Extended-Range Television-Guided Bombs --> AGM-62A Walleye I Extended-Range Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AGM-62A
+        - AGM-62A 825lb. Walleye I Television-Guided Bombs --> AGM-62A Walleye I Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AGM-62A ER/DL
+        - AGM-62A 825lb. Walleye II Extended-Range Datalink Television-Guided Bombs --> AGM-62A Walleye II Extended-Range Datalink Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AN-M65A1
+        - 1000 lb AN-M65A1 Fin M129 bomb --> AN-M65A1 General-Purpose High-Explosive Bombs, Fin M129 (1000lb.) (in custom loadout screen)
+
+    - AN-M66A2
+        - 2000 lb AN-M66A2 bomb --> AN-M66A2 General-Purpose High-Explosive Bombs (2000lb.) (in custom loadout screen)
+        - AM-M66 2000 lb --> AN-M66A2 GPHE (2000lb.) (in HUD)
+
+    - AN-Mk 1
+        - 1600 lb AN-Mk 1 armor-piercing bomb --> AN-Mk1 Armor-Piercing High-Explosive Bombs (1600lb.) (in custom loadout screen)
+        - AN-Mk 1 --> AN-Mk1 APHE (1600lb.) (in HUD)
+
+    - AN-M65A1
+        - AN-M65A1 1000lb. General Purpose High-Explosive Bombs --> AN-M65A1 General Purpose High-Explosive Bombs (1000lb.) (in custom loadout screen)
+
+    - AN-M30A1
+        - AN-M30A1 100lb. General Purpose High-Explosive Bombs --> AN-M30A1 General Purpose High-Explosive Bombs (100lb.) (in custom loadout screen)
+
+    - AN-M64A1
+        - AN-M64A1 500lb. General Purpose High Explosve Bombs --> AN-M64A1 General Purpose High Explosve Bombs (500lb.) (in custom loadout screen)
+
+    - FFAR Mighty Mouse
+        - FFAR Mighty Mouse rockets --> Mk4 "Mighty Mouse" Folding-Fin Aerial Rockets (in custom loadout screen)
+        - FFAR Mighty Mouse --> Mk4 FFAR (in HUD)
+
+    - AGM-12B/C
+        - AGM-12B/C Bullpup air-to-ground missiles --> AGM-12B/C Bullpup Air-to-Ground Missiles (in custom loadout screen)
+        - AGM-12B/C Bullpup --> AGM-12B/C Bullpup AGM (in HUD)
+
+- Changed the names of the following British weapons:
+    - Paveway IV
+        - Paveway IV guided bomb --> Paveway IV Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - Paveway IV --> Paveway IV DMLGB (500lb.) (in HUD)
+
+- Changed the names of the following Japanese weapons:
+    - JM117 cone 45 bomb
+        - 750 lb JM117 cone 45 bomb --> JM117 Low-Drag Demolition Bombs, Cone 45 (750lb.) (in custom loadout screen)
+        - JM117 750 lb --> JM117 LDDB (750lb.) (in HUD)
+
+- Changed the names of the following Russian aircraft:
+    - MiG-219SMT (9.19) Fulcrum-E
+        - MiG-29SMT (9.19) Fulcrum-E --> MiG-29SMT Fulcrum-E (in shop)
+        - Mikoyan MiG-29SMT (Product 9.19) Fulcrum-E --> Mikoyan MiG-29SMT Fulcrum-E (at short distance)
+
+VERSION O.1.5.11.2025 CHANGELOG (May 11, 2025)
 
 - Changed the names of the following Russian guns:
     - NR-23
@@ -216,34 +430,3 @@ VERSION O.1.5.11.2025 CHANGELOG
     - Fw 190 A4/A5 --> Fw 190 A-4/A-5 Würger
     - Fw 190 A-5/U12 --> Fw 190 A-5/U12 Würger
     - Fw 190 A-5 --> Fw 190 A-5 Würger
-
-VERSION 0.1.1 CHANGELOG
-
-- Changed the names of the following German aircraft:
-    - Ta 152 C-3
-        - Focke-Wulf Ta 152 C-3 --> Ta 152 C-3 (in shop)
-        - Ta 152 C-3 --> Focke-Wulf Ta 152 C-3 (on statcard)
-    - MiG-29G
-        - MiG-29G (9.12G) Fulgrum-G --> MiG-29G (9.12G) Fulcrum-G
-- Changed the names of the following American weapons:
-    - Mk82 LDGP
-        - Mk82 500lb. Low-Drag General Purpose Ballute-Rype Air-Retarded Bombs --> Mk82 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (500lb.) (in custom loadout screen)
-        - Mk82 500lb. LDGP AIR --> Mk82 LDGP AIR (500lb.) (in HUD)
-    - Mk81 Snakeye
-        - Mk81 250lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk81 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (250lb.) (in custom loadout screen)
-        - Mk81 250lb. Snakeye --> Mk81 Snakeye (250lb.) (in HUD)
-    - Mk82 Snakeye
-        - Mk82 500lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk82 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (500lb.) (in custom loadout screen)
-        - Mk82 500lb. Snakeye --> Mk82 Snakeye (500lb.) (in HUD)
-    - Mk83 AIR
-        - Mk83 1000lb. Low-Drag General Purpose Ballute-Type Air-Retarded Bomb --> Mk83 Low-Drag General Purpose Ballute-Type Air-Retarded Bomb (1000lb.) (in custom loadout screen)
-        - Mk83 1000lb. LDGP AIR  --> Mk83 LDGP AIR (1000lb.) (in HUD)
-    - Mk84 LDGP
-        - Mk84 2000lb. Low-Drag General Purpose Bombs --> Mk84 Low-Drag General Purpose Bombs (2000lb.)
-        - Mk84 2000lb. LDGP --> Mk84 LDGP (2000lb.)
-    - Mk84 LDGP AIR
-        - Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs --> Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (2000lb.) (in custom loadout screen)
-        - Mk84 2000lb. LDGP AIR  --> Mk84 LDGP AIR (2000lb.) (in HUD)
-    - AN-M56 LCGP
-        - AN-M56 4000lb. Light-Case General Purpose Bombs --> AN-M56 Light-Case General Purpose Bombs (4000lb.) (in custom loadout screen)
-        - AN-M56 4000lb. LCGP --> AN-M56 LCGP (4000lb.) (in HUD)
