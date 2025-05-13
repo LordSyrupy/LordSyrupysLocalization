@@ -12,5 +12,3 @@ INSTALLATION INSTRUCTIONS
 2. Copy "testLocalization:b=yes" and paste it in the debug section.
 3. Open War Thunder, load into the hangar, then close War Thunder. This will generate a lang folder in your War Thunder folder.
 4. Replace your War Thunder lang folder with the Willow's Localization lang folder.
-
-Repository for the Willow's Localization UI mod for War Thunder.
