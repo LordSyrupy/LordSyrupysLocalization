@@ -1,3 +1,215 @@
+VERSION 0.1.2 CHANGELOG
+
+- Various capitalization and grammar/conventions fixes
+
+- Implemented various UI changes Gaijin made with the most recent update (battlepass name, profile border titles, etc)
+
+- All MiG-15bis variants are now accurately designated as 'Fagot-B'
+
+- Changed the names of the following American weapons:
+    - Mk82 LDGP
+        - Mk82 500lb. Low-Drag General Purpose Bombs --> Mk82 Low-Drag General Purpose Bombs (500lb.) (in custom loadout screen)
+
+    - Mk83 LDGP
+        - Mk83 1000lb. Low-Drag General Purpose Bombs --> Mk83 Low-Drag General Purpose Bombs (1000lb.) (in custom loadout screen)
+
+    - Mk84 LDGP
+        - Mk84 2000lb. Low-Drag General Purpose Bombs --> Mk84 Low-Drag General Purpose Bombs (2000lb.) (in custom loadout screen)
+
+    - M118
+        - M118 3000lb. Demolition Bombs --> M118 Low-Drag Demolition Bombs (3000lb.) (in custom loadout screen)
+        - M118 3000lb. --> M118 LDDB (3000lb.) (in HUD)
+
+    - AGM-65A/B/D/E/F/G
+        - AGM-65A/B/D/E/F/G air-to-ground missile --> AGM-65A/B/D/E/F/G/H/L Maverick Air-to-Ground Missiles (in custom loadout screen)
+        - AGM-65A/B/D/E/F/G --> AGM-65A/B/D/E/F/G/H/L Maverick (in HUD)
+
+    - AIM-54A/C
+        - AIM-54A/C --> AIM-54A/C Phoenix (in HUD)
+
+    - M61
+        - 20 mm M61 cannon --> M61 Vulcan 20mm Rotary Autocannon
+        - M61 --> M61 Vulcan
+
+    - M61A1
+        - 20 mm M61A1 cannon --> M61A1 Vulcan 20mm Rotary Autocannon
+        - M61A1 --> M61A1 Vulcan
+
+    - GAU-4
+        - 20 mm GAU-4 cannon --> GAU-4 Vulcan 20mm Rotary Autocannon
+        - GAU-4 --> GAU-4 Vulcan
+
+    - GAU-13/A
+        - 30 mm GAU-13/A cannon --> GAU-13/A 30mm Rotary Autocannon
+
+    - GAU-19
+        - 12.7 mm GAU-19 machine gun --> GAU-19/B 12.7mm Rotary Heavy Machine Gun
+        - GAU/19 --> GAU-19/B
+
+    - GAU-12/U
+        - 25 mm GAU-12/U cannon --> GAU-12/U Equalizer 25mm Rotary Autocannon
+        - GAU-12/U --> GAU-12/U Equalizer
+
+    - GAU-8/A
+        - 30 mm GAU-8/A cannon --> GAU-8/A Avenger 30mm Rotary Autocannon
+        - GAU-8/A --> GAU-8/A Avenger
+
+    - AGM-114B/C/K
+        - AGM-114B/C/K Hellfire air-to-ground missiles --> AGM-114B/C/K Hellfire Laser-Guided Air-to-Ground Missiles
+
+    - GBU-15(V)2/B
+        - GBU-15(V)2/B Television-Guided Bombs (2000lb.) --> GBU-15(V)2/B Infrared-Guided Bombs (2000lb.) (in custom loadout screen)
+        - GBU-15(V)2/B TGB (2000lb.) --> GBU-15(V)2/B IRGB (2000lb.) (in HUD)
+
+    - M39
+        - 20 mm M39 cannon --> Ford Motor Co. M39 20mm Autocannon
+        - 20 mm M39A1 cannon --> Ford Motor Co. M39A1 20mm Autocannon
+        - 20 mm M39A2 cannon --> Ford Motor Co. M39A2 20mm Autocannon
+        - 20 mm M39A3 cannon --> Ford Motor Co. M39A3 20mm Autocannon
+
+    - Colt Mk12
+        - 20 mm Browning-Colt Mk12 Mod 3 cannon --> Browning-Colt Mk12 Mod 3 20mm Autocannon
+        - 20 mm Browning-Colt Mk12 Mod 0 cannon --> Browning-Colt Mk12 Mod 0 20mm Autocannon
+
+    - M3
+        - 20 mm M3 cannon --> Hispano-Suiza AN/M3 20mm Autocannon
+
+    - FMC T-160
+        - 20 mm FMC T-160 cannon --> Ford Motor Co. T-160 20mm Autocannon
+
+    - M4
+        - 37 mm M4 cannon --> Browning M4 37mm Autocannon
+
+    - M9
+        - 37 mm M9 cannon --> Browning M9 37mm Autocannon
+
+    - AN/M2
+        - 20 mm AN/M2 cannon --> Hispano-Suiza AN/M2 20mm Autocannon
+
+    - M10
+        - 37 mm M10 cannon --> Browning M10 37mm Autocannon
+
+    - M2/M3 Browning
+        - 12.7 mm M2/M3 Browning machine gun --> Browning M2/M3 12.7mm Heavy Machine Gun
+
+    - 7.62 mm Browning
+        - 7.62 mm Browning MG4 machine gun --> Browning .30 AN/M2 7.62mm Machine Gun
+
+- Changed the names of the following British weapons:
+    - Taildog SRAAM
+        - Taildog SRAAM Short-Range Air-to-Air Missiles--> SRAAM-75 Short-Range Air-to-Air Missiles (in custom loadout screen)
+        - Taildog SRAAM --> SRAAM-75 (in HUD)
+
+- Changed the name of the following Israeli aircraft:
+    - Kfir C.1P
+        - Kfir C.1P --> Kfir C.1P Gderot (in shop)
+        - Israeli Aircraft Industries Kfir C.1P --> Israeli Aircraft Industries Kfir C.1P Gderot (on statcard)
+        - Kfir C.1P --> Kfir C.1P Gderot (at medium distance)
+        - Kfir Canard --> Kfir C.1P (at long distance)
+
+- Changed the name of the following Swedish aircraft:
+    - JAS 39C
+        - Saab AB JAS 39C Gripen A --> Saab AB JAS 39C Gripen C (on statcard)
+        - JAS 39C Gripen A --> JAS 39C Gripen C (at medium distance)
+
+- Changed the names of the following Russian aircraft:
+    - MiG-21F-13
+        - MiG-21 --> MiG-21F-13 (at long distance)
+
+    - MiG-21SMT
+        - MiG-21 --> MiG-21SMT (at long distance)
+
+    - MiG-21SM
+        - MiG-21 --> MiG-21SM (at long distance)
+
+    - MiG-21bis
+        - MiG-21 --> MiG-21bis (at long distance)
+
+    - MiG-21PFM
+        - MiG-21 --> MiG-21PFM (at long distance)
+
+    - Yak-30D
+        - Yak-30D --> Yakovlev Yak-30D (on statcard)
+        - Yak-30 --> Yak-30D (at long distance)
+
+    - Yak-23
+        - Yak-23 --> Yak-23 Flora (in shop)
+        - Yak-23 --> Yakovlev Yak-23 Flora (on statcard)
+        - Yak-23 --> Yak-23 Flora (at medium distance)
+
+    - Yak-15P
+        - Yak-15P --> Yak-15-RD10 Feather (in shop)
+        - Yak-15P --> Yakovlev Yak-15-RD10 Feather (on statcard)
+        - Yak-15P --> Yak-15-RD10 Feather (at medium distance)
+        - Yak-15P --> Yak-15-RD10 (at long distance)
+
+    - Yak-15
+        - Yak-15 --> Yak-15 Feather (in shop)
+        - Yak-15 --> Yakovlev Yak-15 Feather (on statcard)
+        - Yak-15 --> Yak-15 Feather (at medium distance)
+
+    - Yak-17
+        - Yak-17 --> Yak-17 Feather (in shop)
+        - Yak-17 --> Yakovlev Yak-17 Feather (on statcard)
+        - Yak-17 --> Yak-17 Feather (at medium distance)
+
+    - La-200
+        - La-200 --> La-200 Toriy (in shop)
+        - La-200 --> Lavochkin La-200 Toriy (on statcard)
+        - La-200 --> La-200 Toriy (at medium distance)
+
+    - La-15
+        - La-15 --> La-15 Fantail (in shop)
+        - La-15 --> La-15 Fantail (on statcard)
+        - La-15 --> La-15 Fantail (at medium distance)
+
+    - Su-9
+        - Su-9 --> Su-9 (1946) (in shop, at medium and long distance)
+        - Su-9 --> Sukhoi Su-9 "Aircraft K" (1946) (on statcard)
+
+    - Su-11
+        - Su-11 --> Su-11 (1947) (in shop, at medium and long distance)
+        - Su-11 --> Sukhoi Su-11 "Aircraft KL" (1947) (on statcard)
+
+    - MiG-15bis ISh
+        - MiG-15bis ISh --> MiG-15ISh Fagot-B (in shop)
+        - MiG-15bis ISh --> Mikoyan-Gurevich MiG-15ISh Fagot-B (on statcard)
+        - MiG-15bis ISh --> MiG-15ISh Fagot-B (at medium distance)
+        - MiG-15bis ISh --> MiG-15ISh (at long distance)
+
+- Changed the names of the following Italian aircraft:
+    - MiG-21MF
+        - MiG-21 --> MiG-21MF (at long distance)
+
+    - MiG-21bis-SAU
+        - MiG-21 --> MiG-21bis-SAU (at long distance)
+
+- Changed the names of the following German aircraft:
+    - MiG-21MF
+        - MiG-21 Fishbed-J --> MiG-21MF (at long distance)
+
+    - MiG-21SPS-K
+        - MiG-21 --> MiG-21SPS-K (at long distance)
+
+    - MiG-21bis-SAU
+        - MiG-21 --> MiG-21bis-SAU (at long distance)
+
+    - MiG-21bis-Lazur
+        - MiG-21bis --> MiG-21bis-Lazur (at long distance)
+
+- Added (and changed the name of) the following British aircraft:
+    - HAL HF-24 Marut
+        - HF-24 --> HF-24 Marut Mk.1 (in shop)
+        - HF-24 Marut --> Hindustan Aeronautics Ltd. HF-24 Marut Mk.1 (on statcard)
+        - HF-24 --> HF-24 Marut Mk.1 (at medium distance)
+        - HF-24 --> HF-24 Mk.1 (at long distance)
+
+- Added the following USSR ground vehicles:
+    - T-44 (FM)
+
+- Added the following British ammunition:
+    - 105mm L52A1 shot
+
 VERSION 0.1.1.5.13.2025 CHANGELOG (May 13, 2025)
 
 - Uploaded mod files to a GitHub repository, making keeping up with the mod much easier than it was previously
