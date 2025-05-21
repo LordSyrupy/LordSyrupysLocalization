@@ -1,5 +1,7 @@
 # WILLOW'S LOCALIZATION
-# CURRENT VERSION: 0.1.5.11.2025
+# CURRENT VERSION: 0.1.3
+
+# DISCORD LINK: https://discord.gg/zhr3XQaFsj
 
 Maintained by Willow and MaidNight.
 
