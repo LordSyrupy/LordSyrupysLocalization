@@ -1,3 +1,469 @@
+VERSION 0.1.3 CHANGELOG
+
+- The remainder of the MiG-15bis variants are now accurately designated as 'Fagot-B'
+
+- Russian and American fully-automatic cannons between are now labeled as autocannons
+
+- Added new roundels for Swedish and Saudi export aircraft
+
+- Added roundels to the American Canberra bombers
+
+- Changed the names of the following American weapons:
+    - Mk11
+        - Mk11 Mod 5 20mm Cannon --> Hughes Mk11 Mod 5 20mm Autocannon
+        - Mk11 Mod 0 20mm Cannon --> Hughes Mk11 Mod 0 20mm Autocannon
+
+- Changed the names of the following Russian weapons:
+    - NS-23K
+        - 23 mm NS-23K cannon --> Nudelman-Suranov NS-23K 23mm Autocannon
+
+    - NS-37
+        - 37 mm NS-37 cannon --> Nudelman-Suranov NS-37 37mm Autocannon
+
+    - SH-37
+        - 37 mm SH-37 cannon --> Shpitalny Sh-37 37mm Autocannon
+        - SH-37 --> Sh-37
+
+    - NS-45
+        - 45 mm NS-45 cannon --> Nudelman-Suranov NS-45 45mm Autocannon
+
+    - BT-20
+        - 20 mm BT-20 cannon --> Berezin BT-20 20mm Autocannon
+
+    - 7.62 mm ShKAS
+        - 7.62 mm ShKAS machine gun --> Shpitalny-Komaritski ShKAS 7.62mm Machine Gun
+
+- Changed the names of the following British weapons:
+    - 30 mm ADEN
+        - 30 mm ADEN --> Royal Small Arms Factory ADEN 30mm Autocannon
+
+    - 25 mm ADEN 25
+        - 25 mm ADEN 25 cannon --> Royal Small Arms Factory ADEN 25 25mm Autocannon
+
+- Changed the names of the following German weapons:
+    - 27 mm Mauser BK27
+        - 27 mm Mauser BK27 cannon --> Mauser BK27 27mm Autocannon
+
+- Changed the names of the following British aircraft:
+    - Hunter F.1
+        - Hunter F.1 --> Hawker Hunter, Fighter, Mk.1 (on statcard)
+        - Hunter F --> Hunter F.1 (at medium distance)
+        - Hunter --> Hunter F.1 (at long distance)
+
+    - Hunter F.6
+        - Hunter F.6 --> Hawker Hunter, Fighter, Mk.6 (on statcard)
+        - Hunter F --> Hunter F.6 (at medium distance)
+        - Hunter --> Hunter F.6 (at long distance)
+
+    - Hunter FGA.9
+        - Hunter FGA.9 --> Hawker Hunter, Fighter/Ground Attack, Mk.9 (on statcard)
+        - Hunter --> Hunter FGA.9 (at long distance)
+
+    - Lightning F.6
+        - Lightning F.6 --> British Aircraft Corp. Lightning, Fighter, Mk.6 (on statcard)
+        - Lightning --> Lightning F.6 (at long distance)
+
+    - Lightning F.53
+        - Lightning F.53 --> British Aircraft Corp. Lightning, Fighter, Mk.53 (on statcard)
+        - Lightning --> Lightning F.53 (at long distance)
+
+    - Javelin F.(A.W.) Mk.9
+        - Javelin F.(A.W.) Mk.9 --> Javelin FAW.9 (in shop)
+        - Javelin F.(A.W.) Mk.9 --> Gloster GA.5 Javelin, Fighter All-Weather, Mk.9 (on statcard)
+        - Javelin F.(A.W.) Mk.9 --> Javelin FAW.9 (at medium distance)
+        - Javelin F.(A.W.) Mk.9 --> Javelin FAW.9 (at long distance)
+
+    - Sea Vixen F.A.W. Mk.2
+        - Sea Vixen F.A.W. Mk.2 --> Sea Vixen FAW.2 (in shop)
+        - DH.110 Sea Vixen F.A.W. Mk.2 --> de Havilland DH.110 Sea Vixen, Fighter All-Weather, Mk.2 (on statcard)
+        - Sea Vixen F.A.W. Mk.2 --> Sea Vixen FAW.2 (at medium distance)
+        - Sea Vixen --> Sea Vixen FAW.2 (at long distance)
+
+    - F-4M Phantom FGR.2
+        - Hawker Siddeley F-4M Phantom FGR.2 --> Hawker Siddeley F-4M Phantom, Fighter/Ground Attack/Reconnaissance, Mk.2 (on statcard)
+
+    - F-4K Phantom FG.1
+        - McDonnell Douglas F-4K Phantom FG.1 --> McDonnell Douglas F-4K Phantom, Fighter/Ground Attack, Mk.1 (on statcard)
+
+    - F-4J Phantom F.3
+        - McDonnell Douglas F-4J Phantom F.3 --> McDonnell Douglas F-4J Phantom, Fighter, Mk.3 (on statcard)
+
+    - EF-2000A Typhoon FGR.4
+        - Eurofighter GmbH EF-2000A Typhoon FGR.4 --> Eurofighter GmbH EF-2000A Typhoon, Fighter/Ground Attack/Reconnaissane, Mk.4 (on statcard)
+        - EF-2000A --> EF-2000A FGR.4 (at long distance)
+
+    - Harrier GR.1
+        - Hawker Siddeley Harrier GR.1 --> Hawker Siddeley Harrier, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Harier GR.3
+        - Hawker Siddeley Harrier GR.3 --> Hawker Siddeley Harrier, Ground Attack/Reconnaissance, Mk.3 (on statcard)
+
+    - Harrier GR.7
+        - British Aerospace Harrier GR.7 --> British Aerospace Harrier, Ground Attack/Reconnaissance, Mk.7 (on statcard)
+
+    - Sea Harrier FRS.1 (1978)
+        - British Aerospace Sea Harrier FRS.1 (1978) --> British Aerospace Sea Harrier, Fighter/Reconnaissance/Strike, Mk.1 (1978) (on statcard)
+
+    - Sea Harrier FRS.1
+        - British Aerospace Sea Harrier FRS.1 --> British Aerospace Sea Harrier, Fighter/Reconnaissance/Strike, Mk.1 (on statcard)
+
+    - Sea Harrier F(A).2
+        - Changed designation to the more accurate FA.2 instead of F(A).2
+        - British Aerospace Sea Harrier F(A).2 --> British Aerospace Sea Harrier, Fighter/Attack, Mk.2 (on statcard)
+
+    - Harrier T.10
+        - Hawker Siddeley Harrier T.10 --> Hawker Siddeley Harrier, Training, Mk.10 (on statcard)
+
+    - Tornado IDS GR.4
+        - BAE Systems Tornado IDS GR.4 --> BAE Systems Tornado IDS, Ground Attack/Reconnaissance, Mk.4 (on statcard)
+
+    - Tornado IDS GR.1
+        - Panavia GmbH Tornado IDS GR.1 --> Panavia GmbH Tornado IDS, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Jaguar GR.1
+        - SEPECAT Jaguar GR.1 --> SEPECAT Jaguar, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Jaguar GR.1A
+        - SEPECAT Jaguar GR.1A --> SEPECAT Jaguar, Ground Attack/Reconnaissance, Mk.1A (on statcard)
+
+    - Scimitar F Mk.1
+        - Scimitar F Mk.1 --> Scimitar F.1 (in shop)
+        - Scimitar F Mk.1 --> Supermarine Scimitar, Fighter, Mk.1 (on statcard)
+        - Scimitar F Mk.1 --> Scimitar F.1 (at medium distance)
+        - Scimitar F --> Scimitar F.1 (at long distance)
+
+    - Buccaneer S.1
+        - Buccaneer S.1 --> Blackburn Buccaneer, Strike, Mk.1 (on statcard)
+        - Buccaneer --> Buccanneer S.1 (at long distance)
+
+    - Buccaneer S.2
+        - Buccaneer S.2 --> Blackburn Buccaneer, Strike, Mk.2 (on statcard)
+        - Buccaneer --> Buccanneer S.2 (at long distance)
+
+    - Buccaneer S.2B
+        - Buccaneer S.2B --> Blackburn Buccaneer, Strike, Mk.2B (on statcard)
+        - Buccaneer --> Buccaneer S.2B (at long distance)
+
+    - Venom FB.4
+        - Venom FB.4 --> DH.112 Venom FB.4 (in shop)
+        - Venom FB.4 --> de Havilland DH.112 Venom, Fighter-Bomber, Mk.4 (on statcard)
+        - Venom FB.4 --> DH.112 Venom FB.4 (at medium distance)
+        - Venom --> Venom FB.4 (at long distance)
+
+    - Vampire F.B.5
+        - Vampire F.B.5 --> Vampire FB.5 (in shop)
+        - Vampire F.B.5 --> de Havilland DH.100 Vampire, Fighter-Bomber, Mk.5 (on statcard)
+        - Vampire F.B.5 --> Vampire FB.5 (at medium distance)
+        - Vampire --> Vampire FB.5 (at long distance)
+
+    - Meteor F Mk 3
+        - Meteor F Mk 3 --> Meteor F.3 (in shop)
+        - Meteor F Mk 3 --> Gloster Meteor, Fighter, Mk.3 (on statcard)
+        - Meteor F --> Meteor F.3 (at medium distance)
+        - Meteor --> Meteor F.3 (at long distance)
+
+    - Sea Meteor F Mk 3
+        - Sea Meteor F Mk 3 --> Sea Meteor F.3 (in shop)
+        - Sea Meteor F Mk 3 --> Gloster Sea Meteor, Fighter, Mk.3 (on statcard)
+        - Meteor F --> Sea Meteor F.3 (at medium distance)
+        - Meteor --> Sea Meteor F.3 (at long distance)
+
+    - Meteor F Mk 4 G.41F
+        - Meteor F Mk 4 G.41F -->  G.41F Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41F --> Gloster Type G.41F Meteor, Fighter, Mk.4 (on statcard)
+        - Meteor F --> G.41F Meteor F.4 (at medium distance)
+        - Meteor --> Meteor F.4 (at long distance)
+
+    - Meteor F Mk 4 G.41G
+        - Meteor F Mk 4 G.41G --> G.41G Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41G --> Gloster Type G.41G Meteor, Fighter, Mk.4 (on statcard)
+        - Meteor F --> G.41G Meteor F.4(at medium distance)
+        - Meteor --> Meteor F.4 (at long distance)
+
+    - Meteor F Mk 8 G.41K
+        - Meteor F Mk 8 G.41K --> G.41K Meteor F.8 (in shop)
+        - Meteor F Mk 8 G.41K --> Gloster Type G.41K Meteor, Fighter, Mk.8 (on statcard)
+        - Meteor F --> G.41K Meteor F.8 (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Meteor F Mk.8 Reaper
+        - Meteor F Mk.8 Reaper --> Meteor F.8 Reaper (in shop)
+        - Meteor F Mk.8 Reaper --> Gloster Meteor, Fighter, Mk.8 Reaper (on statcard)
+        - Meteor F --> Meteor F.8 Reaper (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Sea Hawk FGA.6
+        - Sea Hawk FGA.6 --> Hawker Sea Hawk, Fighter/Ground Attack, Mk.6 (on statcard)
+        - Sea Hawk --> Sea Hawk FGA.6 (at long distance)
+
+    - Sea Venom FAW 20
+        - Sea Venom FAW 20 --> DH.112 Sea Venom FAW.20 (in shop)
+        - Sea Venom FAW 20 --> de Havilland DH.112 Sea Venom, Fighter All-Weather, Mk.20 (on statcard)
+        - Sea Venom FAW --> DH.112 Sea Venom FAW.20 (at medium distance)
+        - Sea Venom --> Sea Venom FAW.20 (at long distance)
+
+    - Swift F.1
+        - Swift F.1 --> Supermarine Swift, Fighter, Mk.1 (on statcard)
+        - Swift --> Swift F.1 (at long distance)
+
+    - Swift F.7
+        - Swift F.7 --> Supermarine Swift, Fighter, Mk.7 (on statcard)
+        - Swift --> Swift F.7 (at long distance)
+
+    - Attacker FB 1
+        - Attacker FB 1 --> Attacker FB.1 (in shop)
+        - Attacker FB 1 --> Supermarine Attacker, Fighter-Bomber, Mk.1 (on statcard)
+        - Attacker FB --> Attacker FB.1 (at medium distance)
+        - Attacker --> Attacker FB.1 (at long distance)
+
+    - Attacker FB.2
+        - Attacker FB.2 --> Supermarine Attacker, Fighter-Bomber, Mk.2 (in shop)
+        - Attacker FB --> Attacker FB.2 (at medium distance)
+        - Attacker --> Attacker FB.2 (at long distance)
+
+    - Canberra B Mk 2
+        - Canberra B Mk 2 --> Canberra B.2 (in shop)
+        - Canberra B Mk 2 --> English Electric Canberra, Bomber, Mk.2 (on statcard)
+        - Canberra B --> Canberra B.2 (at medium distance)
+        - Canberra --> Canberra B.2 (at long distance)
+
+    - Canberra B (I) Mk 6
+        - Canberra B (I) Mk 6 --> Canberra B(I).6 (in shop)
+        - Canberra B (I) Mk 6 --> English Electric Canberra, Bomber/Interdictor, Mk.6 (on statcard)
+        - Canberra B --> Canberra B(I).6 (at medium distance)
+        - Canberra --> Canberra B(I).6 (at long distance)
+
+    - Sea Fury FB 11
+        - Sea Fury FB 11 --> Sea Fury FB.11 (in shop)
+        - Sea Fury FB 11 --> Hawker Sea Fury, Fighter-Bomber, Mk.11 (on statcard)
+        - Sea Fury FB --> Sea Fury FB.11 (at medium distance)
+        - Sea Fury --> Sea Fury FB.11 (at long distance)
+
+    - Seafire F Mk XVII
+        - Seafire F Mk XVII --> Seafire F.XVII (in shop)
+        - Seafire F Mk XVII --> Supermarine Seafire, Fighter, Mk.XVII (on statcard)
+        - Seafire --> Seafire F.XVII (at medium distance)
+        - Seafire --> Seafire F.XVII (at long distance)
+
+    - Seafire LF Mk.III
+        - Seafire LF Mk.III --> Seafire L.III (in shop)
+        - Seafire LF Mk.III --> Supermarine Seafire, Low-Altitude Fighter, Mk.III (on statcard)
+        - Seafire Mk.III --> Seafire L.III (at medium distance)
+        - Seafire --> Seafire L.III (at long distance)
+
+    - Seafire FR 47
+        - Seafire FR 47 --> Seafire FR.47 (in shop)
+        - Seafire FR 47 --> Supermarine Seafire, Fighter/Reconnaissance, Mk.47 (on statcard)
+        - Seafire FR --> Seafire FR.47 (at medium distance)
+        - Seafire --> Seafire FR.47 (at long distance)
+
+    - Spitfire F Mk 22
+        - Spitfire F Mk 22 --> Spitfire F.22 (in shop)
+        - Spitfire F Mk 22 --> Supermarine Spitfire, Fighter, Mk.22 (on statcard)
+        - Spitfire F --> Spitfire F.22 (at medium distance)
+        - Spitfire --> Spitfire F.22 (at long distance)
+
+    - Spitfire F Mk 24
+        - Spitfire F Mk 24 --> Spitfire F.24 (in shop)
+        - Spitfire F Mk 24 --> Supermarine Spitfire, Fighter, Mk.24 (on statcard)
+        - Spitfire F --> Spitfire F.24 (at medium distance)
+        - Spitfire --> Spitfire F.24 (at long distance)
+
+    - Spitfire F Mk XIVe
+        - Spitfire F Mk XIVe --> Spitfire F.XIVe (in shop)
+        - Spitfire F Mk XIVe --> Supermarine Spitfire, Fighter, Mk.XIVe (on statcard)
+        - Spitfire F --> Spitfire F.XIVe (at medium distance)
+        - Spitfire --> Spitfire F.XIVe (at long distance)
+
+    - Spitfire F Mk XIVc
+        - Spitfire F Mk XIVc --> Spitfire F.XIVc (in shop)
+        - Spitfire F Mk XIVc --> Supermarine Spitfire, Fighter, Mk.XIVc (on statcard)
+        - Spitfire F --> Spitfire F.XIVc (at medium distance)
+        - Spitfire --> Spitfire F.XIVc (at long distance)
+
+    - Spitfire F Mk XVIIIe
+        - Spitfire F Mk XVIIIe --> Spitfire F.XVIIIe (in shop)
+        - Spitfire F Mk XIVc --> Supermarine Spitfire, Fighter, Mk.XVIIIe (on statcard)
+        - Spitfire F --> Spitfire F.XVIIIe (at medium distance)
+        - Spitfire --> Spitfire F.XVIIIe (at long distance)
+
+    - Spitfire LF Mk IX
+        - Spitfire LF Mk IX --> Spitfire LF.IXc (in shop)
+        - Spitfire LF Mk IX --> Supermarine Spitfire, Low-Altitude Fighter, Mk.IX (on statcard)
+        - Spitfire --> Spitfire LF.IX (at medium distance)
+        - Spitfire --> Spitfire LF.IX (at long distance)
+
+    - Spitfire FR Mk XIVe
+        - Spitfire FR Mk XIVe --> Spitfire FR.XIVe (in shop)
+        - Spitfire FR Mk XIVe --> Supermarine Spitfire, Fighter/Reconnaissance, Mk.XIVe (on statcard)
+        - Spitfire FR --> Spitfire FR.XIVe (at medium distance)
+        - Spitfire --> Spitfire FR.XIVe (at long distance)
+
+    - Tempest Mk II
+        - Tempest Mk II --> Tempest F.II (in shop)
+        - Tempest Mk II --> Hawker Tempest, Fighter, Mk.II (on statcard)
+        - Tempest --> Tempest F.II (at medium distance)
+        - Tempest --> Tempest F.II (at long distance)
+
+    - Tempest Mk V
+        - Tempest Mk V --> Tempest F.V (in shop)
+        - Tempest Mk V --> Hawker Tempest, Fighter, Mk.V Series 2 (on statcard)
+        - Tempest --> Tempest F.V (at medium distance)
+        - Tempest --> Tempest F.V (at long distance)
+
+    - Tempest Mk V (Vickers P)
+        - Tempest Mk V (Vickers P) --> Tempest F.V (PV) (in shop)
+        - Tempest Mk V (Vickers P) --> Hawker Tempest, Fighter, Mk.V Series 2 (Class P, Vickers) (on statcard)
+        - Tempest --> Tempest F.V (PV) (at medium distance)
+        - Tempest --> Tempest F.V (PV) (at long distance)
+
+    - Hornet Mk.III
+        - Hornet Mk.III --> Hornet F.3 (in shop)
+        - Hornet Mk.III --> de Havilland DH.103 Hornet, Fighter, Mk.3 (on statcard)
+        - Hornet Mk.III --> Hornet F.3 (at medium distance)
+        - Hornet --> Hornet F.3 (at long distance)
+
+    - Hornet Mk.I
+        - Hornet Mk.III --> Hornet F.1 (in shop)
+        - Hornet Mk.III --> de Havilland DH.103 Hornet, Fighter, Mk.1 (on statcard)
+        - Hornet Mk.III --> Hornet F.1 (at medium distance)
+        - Hornet --> Hornet F.1 (at long distance)
+
+    - Wyvern S4
+        - Wyvern S4 --> Wyvern S.4 (in shop)
+        - Wyvern S4 --> Westland W.35 Wyvern, Strike, Mk.4 (on statcard)
+        - Wyvern --> Wyvern S.4 (at medium distance)
+        - Wyvern --> Wyvern S.4 (at long distance)
+
+    - MB.5
+        - MB.5 --> Martin-Baker MB.5 (on statcard)
+
+- Changed the names of the following French aircraft:
+    - Hunter F.6
+        - Hunter F.6 --> Hawker Hunter, Fighter, Mk.6 (on statcard)
+        - Hunter F --> Hunter F.6 (at medium distance)
+        - Hunter --> Hunter F.6 (at long distance)
+
+    - Meteor F Mk.8
+        - Meteor F Mk.8 --> Meteor F.8 (in shop)
+        - Meteor F Mk.8 --> Gloster Meteor, Fighter, Mk.8 (on statcard)
+        - Meteor F --> Meteor F.8 (at medium distance)
+        - Meteor F --> Meteor F.8 (at long distance)
+
+    - Sea Hawk Mk.50
+        - Sea Hawk Mk.50 --> Hawker Sea Hawk Mk.50 (on statcard)
+        - Sea Hawk --> Sea Hawk Mk.50 (at long distance)
+
+    - Sea Fury FB 51
+        - Sea Fury FB 51 --> Sea Fury FB.51 (in shop)
+        - Sea Fury FB 51 --> Hawker Sea Fury, Fighter-Bomber, Mk.51 (on statcard)
+        - Sea Fury FB --> Sea Fury FB.51 (at medium distance)
+        - Sea Fury --> Sea Fury FB.51 (at long distance)
+
+    - Seafire LF Mk.III
+        - Seafire LF Mk.III --> Seafire L.III (in shop)
+        - Seafire LF Mk.III --> Supermarine Seafire, Low-Altitude Fighter, Mk.III (on statcard)
+        - Seafire Mk.III --> Seafire L.III (at medium distance)
+        - Seafire --> Seafire L.III (at long distance)
+
+- Changed the names of the following German aircraft:
+    - Hunter F.58
+        - Hunter F.58 --> Hunter Mk.58 (in shop)
+        - Hunter F.58 --> Hawker Hunter Mk.58 (on statcard)
+        - Hunter F --> Hunter Mk.58 (at medium distance)
+        - Hunter --> Hunter Mk.58 (at long distance)
+
+    - EF-2000 B.10 Typhoon (Tranche 2)
+        - EF-2000 B.10 Typhoon (Tranche 2) --> EF-2000 Tranche 2 Typhoon B.10 (in shop)
+        - Eurofighter GmbH EF-2000 Block 10 Typhoon Tranche 2 --> Eurofighter GmbH EF-2000 Tranche 2 Typhoon Block 10 (on statcard)
+        - EF-2000 B.10 Typhoon (Tranche 2) --> EF-2000 Tranche 2 Typhoon B.10 (at medium distance)
+        - EF-2000 --> EF-2000 B.10 (at long distance)
+
+    - Sea Hawk Mk.100
+        - Sea Hawk Mk.100 --> Hawker Sea Hawk Mk.100 (on statcard)
+        - Sea Hawk --> Sea Hawk Mk.100 (at long distance)
+
+- Changed the names of the following Swedish aircraft:
+    - J34
+        - J34 --> J 34 Hunter Mk.50 (in shop)
+        - J34 --> Hawker J 34 Hunter Mk.50 (on statcard)
+        - J34 --> J 34 Hunter Mk.50 (at medium distance)
+        - J34 --> J 34 (at long distance)
+
+    - Vampire FB 52A
+        - Vampire FB 52A --> Vampire FB.52A (in shop)
+        - Vampire FB 52A --> de Havilland DH.100 Vampire, Fighter-Bomber, Mk.52A (on statcard)
+        - Vampire FB 52A --> Vampire FB.52A (at medium distance)
+        - Vampire --> Vampire FB.52A (at long distance)
+
+- Changed the names of the following Italian aircraft:
+    - F-2000A B.10 Typhoon (Tranche 2)
+        - F-2000A B.10 Typhoon (Tranche 2) --> F-2000A Tranche 2 Typhoon B.10 (in shop)
+        - Eurofighter GmbH F-2000A Block 10 Typhoon Tranche 2 --> Eurofighter GmbH F-2000A Tranche 2 Typhoon Block 10 (on statcard)
+        - F-2000A B.10 Typhoon (Tranche 2) --> F-2000A Tranche 2 Typhoon B.10 (at medium distance)
+        - F-2000A --> F-2000A B.10 (at long distance)
+
+    - Vampire FB 52A
+        - Vampire FB 52A --> Vampire FB.52A (in shop)
+        - Vampire FB 52A --> de Havilland DH.100 Vampire Fighter-Bomber, Mk.52A (on statcard)
+        - Vampire FB 52A --> Vampire FB.52A (at medium distance)
+        - Vampire --> Vampire FB.52A (at long distance)
+
+- Changed the names of the following Israeli aircraft:
+    - Meteor F.8
+        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
+        - Meteor F --> Meteor F.8 (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Meteor FR.9
+        - Meteor FR Mk.9 --> Gloster Meteor Fighter, Reconnaissance, Mk.9 (on statcard)
+        - Meteor F --> Meteor FR.9 (at medium distance)
+        - Meteor --> Meteor FR.9 (at long distance)
+
+    - Meteor NF.13
+        - Meteor NF Mk.13 --> Armstrong Whitworth Meteor Night Fighter, Mk.13 (on statcard)
+        - Meteor NF --> Meteor NF.13 (at medium distance)
+        - Meteor --> Meteor NF.13 (at long distance)
+
+    - Plagis' Spitfire LF Mk IXc
+        - Plagis' Spitfire LF Mk IXc --> Spitfire LF.IXc [Plagis] (in shop)
+        - Plagis' Spitfire LF Mk IXc --> Plagis' Supermarine Spitfire, Low-Altitude Fighter, Mk.IXc (on statcard)
+        - Spitfire --> Spitfire LF.IXc [Plagis] (at medium distance)
+        - Spitfire --> Spitfire LF.IXc (at long distance)
+
+    - Weizman's Spitfire LF Mk.IXe
+        - Weizman's Spitfire LF Mk.IXe --> Spitfire LF.IXe [Weizman] (in shop)
+        - Ezer Weizman's Spitfire LF Mk.IXe --> Ezer Weizman's Supermarine Spitfire, Low-Altitude Fighter, Mk.IXe (on statcard)
+        - Spitfire --> Spitfire LF.IXe [Weizman] (at medium distance)
+        - Spitfire --> Spitfire LF.IXe (at long distance)
+
+    - Spitfire Mk.IX (CW)
+        - Spitfire Mk.IX (CW) --> Spitfire LF.IX (CW) (in shop)
+        - Spitfire Mk.IX (Clipped Wings) --> Supermarine Spitfire, Low-Altitude Fighter, Mk.IX (Clipped Wings) (on statcard)
+        - Spitfire --> Spitfire LF.IX (CW) (at medium distance)
+        - Spitfire --> Spitfire LF.IX (CW) (at long distance)
+
+    - Spitfire Mk IXc
+        - Spitfire LF Mk IXc --> Spitfire LF.IXc (in shop)
+        - Spitfire LF Mk IXc --> Supermarine Spitfire, Low-Altitude Fighter, Mk.IXc (on statcard)
+        - Spitfire --> Spitfire LF.IXc (at medium distance)
+        - Spitfire --> Spitfire LF.IXc (at long distance)
+
+- Changed the names of the following American aircraft:
+    - Spitfire LF Mk IXc
+        - Spitfire LF Mk IXc --> Spitfire LF.IXc (in shop)
+        - Spitfire LF Mk IXc --> Supermarine Spitfire, Low-Altitude Fighter, Mk.IXc (on statcard)
+        - Spitfire --> Spitfire LF.IXc (at medium distance)
+        - Spitfire --> Spitfire LF.IXc (at long distance)
+
+- Changed the following British aircraft folder names:
+    - Meteor F Mk 4 --> Meteor F.4
+    - Meteor F Mk 3 --> Meteor F.3
+    - Spitfire (Griffon) --> Spitfire F.22/24
+
+- Changed the following Russian aircraft folder names:
+    - Yak-15/17 --> Yak-15/17 Flora
+
 VERSION 0.1.2 CHANGELOG
 
 - Various capitalization and grammar/conventions fixes
@@ -28,30 +494,30 @@ VERSION 0.1.2 CHANGELOG
         - AIM-54A/C --> AIM-54A/C Phoenix (in HUD)
 
     - M61
-        - 20 mm M61 cannon --> M61 Vulcan 20mm Rotary Autocannon
+        - 20 mm M61 cannon --> General Electric M61 Vulcan 20mm Rotary Autocannon
         - M61 --> M61 Vulcan
 
     - M61A1
-        - 20 mm M61A1 cannon --> M61A1 Vulcan 20mm Rotary Autocannon
+        - 20 mm M61A1 cannon --> General Electric M61A1 Vulcan 20mm Rotary Autocannon
         - M61A1 --> M61A1 Vulcan
 
     - GAU-4
-        - 20 mm GAU-4 cannon --> GAU-4 Vulcan 20mm Rotary Autocannon
+        - 20 mm GAU-4 cannon --> General Electric GAU-4 Vulcan 20mm Rotary Autocannon
         - GAU-4 --> GAU-4 Vulcan
 
     - GAU-13/A
-        - 30 mm GAU-13/A cannon --> GAU-13/A 30mm Rotary Autocannon
+        - 30 mm GAU-13/A cannon --> General Electric GAU-13/A 30mm Rotary Autocannon
 
     - GAU-19
-        - 12.7 mm GAU-19 machine gun --> GAU-19/B 12.7mm Rotary Heavy Machine Gun
+        - 12.7 mm GAU-19 machine gun --> General Electric GAU-19/B 12.7mm Rotary Heavy Machine Gun
         - GAU/19 --> GAU-19/B
 
     - GAU-12/U
-        - 25 mm GAU-12/U cannon --> GAU-12/U Equalizer 25mm Rotary Autocannon
+        - 25 mm GAU-12/U cannon --> General Electric GAU-12/U Equalizer 25mm Rotary Autocannon
         - GAU-12/U --> GAU-12/U Equalizer
 
     - GAU-8/A
-        - 30 mm GAU-8/A cannon --> GAU-8/A Avenger 30mm Rotary Autocannon
+        - 30 mm GAU-8/A cannon --> General Electric GAU-8/A Avenger 30mm Rotary Autocannon
         - GAU-8/A --> GAU-8/A Avenger
 
     - AGM-114B/C/K
