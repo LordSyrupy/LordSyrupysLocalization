@@ -1,3 +1,32 @@
+VERSION 0.1.3.1 CHANGELOG
+
+- Fixed various aspects of the Marut displaying broken by doing the following:
+    - added the following British engines:
+        - Orpheus MK.703
+
+    - Added the following British weapons:
+        - 100-gallon Marut drop tank
+        - Nasser 240 rockets
+
+    - Added the following French weapons:
+        - SNEB Type 23 (internal launcher)
+
+    - Added the following British aircraft skins:
+        - Marut Mk.1
+            - bicolor camouflage
+
+- Added the following French naval skins:
+    - Amiens
+        - quadricolor skin
+
+- Added the following Israeli aircraft skins:
+    - Meteor FR.9
+        - Bicolor camouflage
+
+- Added the following Russian tank skins:
+    - T-44 prototype
+        - Parade camouflage
+
 VERSION 0.1.3 CHANGELOG
 
 - The remainder of the MiG-15bis variants are now accurately designated as 'Fagot-B'
