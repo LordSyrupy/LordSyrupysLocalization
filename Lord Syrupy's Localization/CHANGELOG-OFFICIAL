@@ -1,0 +1,1318 @@
+VERSION 0.2 CHANGELOG
+RELEASE DATE: 06/25/2025
+- Reorganized the file structure of the mod; all aircraft and weapons up to this point are in their own .csv files, located inside their own folder. This will make updating the mod to remain up to parity with the live version of the game easier (patches will be out quicker whenever the game updates and the mod breaks it).
+
+- Removed an extra space at the beginning of "Mauser BK27"
+
+- Redesignated all of the Frogfoots
+
+- Truncated ALL American aircraft names in ALL (or most) trees to remove the manufacturer codes at the end (e.g. -RE, -BN, -CO)
+
+- Changed all American aircraft names to include Block number identifiers on the statcard (e.g., F-16C Fighting Falcon | Block 50 instead of F-16C-50 Fighting Falcon)
+
+- Changed the names of the following Italian aircraft:
+    - F-104S Starfighter TAF
+        - F-104S Starfighter TAF --> F-104S/CB Starfighter (in shop)
+        - Aeritalia F-104S Starfighter TAF --> Aeritalia F-104S Starfighter | Caccia Bombardiere (on statcard)
+        - F-104S Starfighter TAF --> F-104S/CB Starfighter (at medium distance)
+        - F-104S TAF --> F-104S/CB (at long distance)
+    - F-104S Starfighter
+        - F-104S Starfighter --> F-104S/CI Starfighter (in shop)
+        - Aeritalia F-104S Starfighter --> Aeritalia F-104S Starfighter | Caccia Intercettore (on statcard)
+        - F-104S Starfighter --> F-104S/CI Starfighter (at medium distance)
+        - F-104S --> F-104S/CI (at long distance)
+    - F-104S.ASA Starfighter
+        - F-104S.ASA Starfighter --> F-104S-ASA Starfighter (in shop)
+        - Aeritalia F-104S.ASA Starfghter --> Aeritalia F-104S Starfighter | Aggiornamento Sistemi d'Arma (on statcard)
+        - F-104S.ASA Starfighter --> F-104S-ASA (at medium distance)
+        - F-104S.ASA --> F-104S-ASA (at long distance)
+    - F-2000A Typhoon
+        - F-2000A Tranche 2 Typhoon B.10 --> F-2000A Typhoon B.10 (in shop)
+        - Eurofighter GmbH F-2000A Tranche 2 Typhoon Block 10 --> Eurofighter GmbH F-2000A Typhoon | Tranche 2, Block 10 (on statcard)
+        - F-2000A Tranche 2 Typhoon B.10 --> F-2000A Typhoon B.10 (at medium distance)
+    - F-16A B.15 ADF
+        - F-16A B.15 Fighting Falcon ADF --> F-16A-15ADF Fighting Falcon (in shop)
+        - General Dynamics F-16A Block 15 Fighting Falcon Air Defense Fighter --> General Dynamics F-16A Fighting Falcon | Block 15, Air Defense Fighter (on statcard)
+        - F-16A B.15 ADF --> F-16A-15ADF Fighting Falcon (at medium distance)
+        - F-16A B.15 --> F-16A-15ADF (at long distance)
+    - MiG-29 (9.12B)
+        - MiG-29 (9.12B) Fulcrum-A --> MiG-29A Fulcrum-A (in shop)
+        - Mikoyan MiG-29 (Product 9.12B) Fulcrum-A --> Mikoyan MiG-29A Fulcrum-A | Product 9.12B (on statcard)
+        - MiG-29 Fulcrum-A --> MiG-29A Fulcrum-A (at medium distance)
+        - MiG-29 (9.12B) --> MiG-29A (at long distance)
+    - A-200 Tornado IDS (1982)
+        - Panavia GmbH A-200 Tornado IDS (1982) --> Panavia GmbH A-200 Tornado | Interdictor/Strike (1982) (on statcard)
+        - A-200 Tornado IDS (1995)
+        - Panavia GmbH A-200 Tornado IDS (1995) --> Panavia GmbH A-200 Tornado | Interdictor/Strike (1995) (on statcard)
+    - A-200 Tornado IDS MLU (RET8)
+        - Panavia GmbH A-200 Tornado IDS Mid-Life Update (RET8) --> Panavia GmbH A-200 Tornado | Interdictor/Strike, Mid-Life Update (Retro Enabling Task 8) (on statcard)
+        - A-200 Tornado IDS (RET8) --> A-200 Tornado IDS MLU (RET8) (at medium distance)
+        - A-200 (RET8) --> A-200 MLU (RET8) (at long distance)
+    - Tornado ADV
+        - Panavia GmbH Tornado ADV --> Panavia GmbH Tornado | Air Defense Variant (on statcard)
+    - DH.100 Vampire FB.52A
+        - DH.100 Vampire FB.52A --> Vampire FB.52A (in shop)
+        - de Havilland DH.100 Vampire, Fighter-Bomber, Mk.52A --> de Havilland DH.100 Vampire | Fighter-Bomber, Mk.52A (on statcard)
+        - DH.100 Vampire FB.52A --> Vampire FB.52A (at medium distance)
+    - Bf 109 G-14/AS
+        - Bf 109 G-14/AS --> Bf 109 G-14/AS Messer (in shop)
+        - Bf 109 G-14/AS --> Messerschmitt Bf 109 G-14/AS Messer (on statcard)
+        - Bf 109 G --> Bf 109 G-14/AS Messer (at medium distance)
+        - Bf 109 --> Bf 109 G-14/AS (at long distance)
+    - Bf 109 G-2
+        - Bf 109 G-2 --> Bf 109 G-2 Messer (in shop)
+        - Bf 109 G-2 --> Messerschmitt Bf 109 G-2 Messer (on statcard)
+        - Bf 109 G --> Bf 109 G-2 Messer (at medium distance)
+        - Bf 109 --> Bf 109 G-2 (at long distance)
+
+- Changed the names of the following German aircraft:
+    - Bf 109 F-4/trop
+        - Bf 109 F-4/trop --> Bf 109 F-4/trop Messer (in shop)
+        - Bf 109 F-4/trop --> Messerschmitt Bf 109 F-4 Messer (Tropicalized) (on statcard)
+        - Bf 109 F --> Bf 109 F-4/trop Messer (at medium distance)
+        - Bf 109 --> Bf 109 F-4/trop (at long distance)
+    - Fw 190 A-5/U14
+        - Fw 190 A-5/U14 --> Fw 190 A-5/U14 Würger (in shop)
+        - Fw 190 A-5/U14 --> Focke-Wulf Fw 190 A-5 Würger | Umrüstbausatz 14 (on statcard)
+        - Fw 190 A --> Fw 190 A-5/U14 Würger (at medium distance)
+        - Fw 190 --> Fw 190 A-5/U14 (at long distance)
+    - Fw 190 A-5/U12
+        - Focke-Wulf Fw 190 A-5/U12 Würger --> Focke-Wulf Fw 190 A-5 Würger | Umrüstbausatz 12 (on statcard)
+        - Fw 190 A-5/U2
+        - Focke-Wulf Fw 190 A-5/U2 Würger Jagdbomber Reichweite --> Focke-Wulf Fw 190 A-5  Würger | Jagdbomber mit vergrösserter Reichweite, Umrüstbausatz 2
+    - Fw 190 C
+        - Fw 190 C --> Fw 190 C Würger (in shop)
+        - Fw 190 C --> Focke-Wulf Fw 190 C Würger (on statcard)
+        - Fw 190 C --> Fw 190 C Würger (at medium distance)
+        - Fw 190 --> Fw 190 C (at long distance)
+    - Fw 190 F-8/R3
+        - Focke-Wulf Fw 190 F-8/R3 Würger --> Focke-Wulf Fw 190 F-8 Würger | Rüstsatz 3 (on statcard)
+    - Fw 190 D-13
+        - Fw 190 D-13 --> Fw 190 D-13 Würger (in shop)
+        - Fw 190 D-13 --> Focke-Wulf Fw 190 D-13 Würger (on statcard)
+        - Fw 190 D --> Fw 190 D-13 Würger (at medium distance)
+        - Fw 190 --> Fw 190 D-13 (at long distance)
+    - Me 262A-1a/U4
+        - Messerschmitt Me 262A-1a/U4 Pulkzerstörer --> Messerschmitt Me 262 A-1a Scwhalbe | Umrüstbausatz 4 "Pulkzerstörer" (on statcard)
+    - Me 262A-1a/U4
+        - Messerschmitt Me 262A-1a/U1 Schwalbe --> Messerschmitt Me 262 A-1a Schwalbe | Umrüstbausatz 1 (on statcard)
+    - Me 262 C-1a
+        - Me 262 C-1a --> Me 262 C-1a Heimatschützer I (in shop)
+        - Me 262 C-1a Heimatschützer I --> Messerschmitt Me 262 C-1a Heimatschützer I (on statcard)
+        - Me 262 C --> Me 262 C-1a Heimatschützer I (at medium distance)
+        - Me 262 --> Me 262 C-1a (at long distance)
+    - Me 262A-1a/Jabo Schwalbe
+        - Me 262A-1a Jabo Schwalbe --> Me 262 A-1a/R6 Schwalbe Jabo (in shop)
+        - Messerschmitt Me 262A-1a Jagdbomber Schwalbe --> Messerschmitt Me 262 A-1a Schwalbe | Jagdbomber, Rüstsatz 6 (on statcard)
+        - Me 262A-1a/Jabo Schwalbe --> Me 262 A-1a/R6 Schwalbe Jabo (at medium distance)
+        - Me 262A-1a/Jabo --> Me 262 A-1a/R6 (at long distance)
+    - G.91 R/3
+        - G.91 R/3 --> G.91R/3 Gina (in shop)
+        - G.91 R/3 --> Fiat G.91R/3 Gina (on statcard)
+        - G.91 R/3 --> G.91R/3 Gina (at medium distance)
+        - G.91 --> G.91R/3 (at long distance)
+    - G.91 R/4
+        - G.91 R/4 --> G.91R/4 Gina (in shop)
+        - G.91 R/4 --> Fiat G.91R/4 Gina (on statcard)
+        - G.91 R/4 --> G.91R/4 Gina (at medium distance)
+        - G.91 --> G.91R/4 (at long distance)
+    - F-4F KWS-LV
+        - McDonnell Douglas F-4F Phantom II Kampfwertseigerung Luftverteidigung (Improved Combat Efficiency, 1986) --> McDonnell Douglas F-4F Phantom II | Kampfwertsteigerung Luftverteidigung (on statcard)
+        - F-4F Phantom II KWS-LV (ICE) --> F-4F Phantom II KWS-LV (at medium distance)
+    - MiG-29 Fulcrum-A
+        - MiG-29 (9.12A) Fulcrum-A --> MiG-29A Fulcrum-A (in shop)
+        - Mikoyan MiG-29 (Product 9.12A) Fulcrum-A --> Mikoyan MiG-29A Fulcrum-A | Product 9.12A (on statcard)
+        - MiG-29 Fulcrum-A --> MiG-29A Fulcrum-A (at medium distance)
+        - MiG-29 (9.12A) --> MiG-29A (at long distance)
+    - MiG-29 Fulcrum-G
+        - MiG-29G (9.12G) Fulcrum-G --> MiG-29G Fulcrum-G (in shop)
+        - Mikoyan MiG-29 (Product 9.12G) Fulcrum-G --> Mikoyan MiG-29G Fulcrum-G | Product 9.12A (on statcard)
+        - MiG-29G Fulcrum-G --> MiG-29G Fulcrum-G (at medium distance)
+        - MiG-29 (9.12G) --> MiG-29G  (at long distance)
+    - EF-2000 Typhoon
+        - EF-2000 Tranche 2 Typhoon B.10 --> EF-2000 Typhoon B.10 (in shop)
+        - Eurofighter GmbH EF-2000 Tranche 2 Typhoon Block 10 --> Eurofighter GmbH EF-2000 Typhoon | Tranche 2, Block 10 (on statcard)
+        - EF-2000 Tranche 2 Typhoon B.10 --> EF-2000 Typhoon B.10 (at medium distance)
+
+- Changed the names of the following American aircraft:
+    - F-16A B.10
+        - F-16A B.10 Fighting Falcon --> F-16A-15OCU Fighting Falcon (in shop)
+        - General Dynamics F-16A B.10 Fighting Falcon --> General Dynamics F-16A Fighting Falcon | Block 15, Operational Capability Upgrade (on statcard)
+        - F-16A B.10 Fighting Falcon --> F-16A-15OCU Fighting Falcon (at medium distance)
+        - F-16A B.10 --> F-16A-15OCU (at long distance)
+    - F-16A B.15 ADF
+        - F-16A B.15 Fighting Falcon ADF --> F-16A-15ADF Fighting Falcon (in shop)
+        - General Dynamics F-16A Block 15 Fighting Falcon Air Defense Fighter --> General Dynamics F-16A Fighting Falcon | Block 15, Air Defense Fighter (on statcard)
+        - F-16A B.15 ADF --> F-16A-15ADF Fighting Falcon (at medium distance)
+        - F-16A B.15 --> F-16A-15ADF (at long distance)
+    - F-16C B.50
+        - F-16C B.50 Fighting Falcon --> F-16C-50 Fighting Falcon (in shop)
+        - General Dynamics F-16C Block 50 Fighting Falcon --> General Dynamics F-16C Fighting Falcon | Block 50 (on statcard)
+        - F-16C B.50 Fighting Falcon --> F-16C-50 Fighting Falcon (at medium distance)
+        - F-16C B.50 --> F-16C-50 (at long distance)
+    - F-14A (1970)
+        - F-14A Tomcat (1970) --> F-14A-110 Tomcat (in shop)
+        - Grumman F-14A Tomcat (1970) --> Grumman F-14A Tomcat | Block 110 (on statcard)
+        - F-14A Tomcat (1970) --> F-14A-110 Tomcat (at medium distance)
+        - F-14A (1970) --> F-14A-110 (at long distance)
+    - F-14A (2017)
+        - F-14A Tomcat (2017) --> F-14A-90/1995 Tomcat (in shop)
+        - Grumman F-14A Tomcat (2017) --> Grumman F-14A Tomcat | Block 90, Mod. 1995 (on statcard)
+        - F-14A Tomcat (2017) --> F-14A-90/1995 Tomcat (at medium distance)
+        - F-14A (2017) --> F-14A-90/1995 (at long distance)
+    - F/A-18C (1987)
+        - F/A-18C Hornet (1987) --> F/A-18C-23 Hornet (in shop)
+        - McDonnell Douglas F/A-18C Hornet (1987) --> McDonnell Douglas F/A-18C Hornet | Block 23, Lot 10 (1987) (on statcard)
+        - F/A-18C Hornet (1987) --> F/A-18C-23 Hornet (at medium distance)
+        - F/A-18C (1987) --> F/A-18C-23 (at long distance)
+    - F/A-18C (1992)
+        - F/A-18C Hornet (1992) --> F/A-18C-52 Hornet (in shop)
+        - McDonnell Douglas F/A-18C Hornet (1992) --> Boeing F/A-18C Hornet | Block 52, Lot 20 (1992) (on statcard)
+        - F/A-18C Hornet (1992) --> F/A-18C-52 Hornet (at medium distance)
+        - F/A-18C --> F/A-18C-52 (at long distance)
+    - B-17E (1941)
+        - Boeing B-17E Flying Fortress (1941) --> Boeing B-17E Flying Fortress | Sperry Ball Turrets (1941) (on statcard)
+    - B-17E (1942)
+        - Boeing B-17E Flying Fortress (1942) --> Boeing B-17E Flying Fortress | Bendix Ball Turrets (1942) (on statcard)
+    - F-15A Eagle
+        - F-15A Eagle --> F-15A-20 Eagle (in shop)
+        - McDonnell Douglas F-15A Eagle --> McDonnell Douglas F-15A Eagle | Block 20 (on statcard)
+        - F-15A Eagle --> F-15A-20 Eagle (at medium distance)
+        - F-15A --> F-15A-20 (at long distance)
+    - F-15C MSIP II
+        - F-15C MSIP II Eagle --> F-15C-40 MSIP II Eagle (in shop)
+        - Boeing F-15C MSIP II Eagle --> Boeing F-15C Eagle | Block 40, Multi-Stage Improvement Program II (on statcard)
+        - F-15C MSIP II Eagle --> F-15C-40 MSIP II Eagle (at medium distance)
+        - F-15C --> F-15C-40 (at long distance)
+    - F-15E Strike Eagle
+        - F-15E Strike Eagle --> F-15E-43 Strike Eagle (in shop)
+        - McDonnell Douglas F-15E Strike Eagle --> McDonnell Douglas F-15E Strike Eagle | Block 43 (on statcard)
+        - F-15E Strike Eagle --> F-15E-43 Strike Eagle (at medium distance)
+        - F-15E --> F-15E-43 (at long distance)
+    - F/A-18A Hornet
+        - F/A-18A Hornet --> F/A-18A-18 Hornet (in shop)
+        - McDonnell Douglas F/A-18A Hornet --> McDonnell Douglas F/A-18A Hornet | Block 18, Lot 8 (on statcard)
+        - F/A-18A Hornet --> F/A-18A-18 Hornet (at medium distance)
+        - F/A-18A --> F/A-18A-18 (at long distance)
+
+- Changed the names of the following Chinese aircraft:
+    - F-16A B.20 MLU
+        - F-16A B.20 MLU Fighting Falcon --> F-16A-20MLU Fighting Falcon (in shop)
+        - General Dynamics F-16A Block 20 Mid-Life Update Fighting Falcon --> General Dynamics F-16A Fighting Falcon | Block 20, Mid-Life Update (on statcard)
+        - F-16A B.20 MLU --> F-16A-20MLU Fighting Falcon (at medium distance)
+        - F-16A B.20 --> F-16A-20MLU (at long distance)
+
+- Changed the names of the following French aircraft:
+    - F-16A B.15
+        - F-16A B.15 Fighting Falcon --> F-16A-15 Fighting Falcon (in shop)
+        - General Dynamics F-16A Block 15 Fighting Falcon --> General Dynamics F-16A Fighting Falcon | Block 15 (on statcard)
+        - F-16A B.15 --> F-16A-15 Fighting Falcon (at medium distance)
+        - F-16A B.15 --> F-16A-15 (at long distance)
+    - F-16AM B.15 MLU
+        - F-16AM B.15 MLU Fighting Falcon --> F-16AM-15MLU Fighting Falcon (in shop)
+        - General Dynamics F-16AM Block 15 Mid-Life Update Fighting Falcon --> General Dynamics F-16AM Fighting Falcon | Block 15, Mid-Life Update (on statcard)
+        - F-16AM B.15 MLU --> F-16AM-15MLU Fighting Falcon (at medium distance)
+        - F-16AM B.15 MLU --> F-16AM-15MLU (at long distance)
+    - AD-4
+        - AD-4 --> AD-4 Skyraider (in shop)
+        - AD-4 Skyraider --> Douglas AD-4 Skyraider (on statcard)
+        - AD-4 --> AD-4 Skyraider (at medium distance)
+    - AD-4NA
+        - AD-4NA --> AD-4NA Skyraider (in shop)
+        - AD-4NA --> Douglas AD-4NA Skyraider (on statcard)
+        - AD-4NA --> AD-4NA SKyraider (at medium distance)
+        - AD-4 --> AD-4NA (at long distance)
+    - P-63C-5
+        - P-63C-5 --> P-63C-5 Kingcobra (in shop)
+        - P-63C-5 Kingcobra --> Bell P-63C Kingcobra | Block 5 (on statcard)
+        - P-63C --> P-63C-5 Kingcobra (at medium distance)
+        - P-63 --> P-63C-5 (at long distance)
+
+- Changed the names of the following Israeli aircraft:
+    - F-16A B.10 Netz
+        - F-16A B.10 Netz --> F-16A-10 Netz (in shop)
+        - General Dynamics F-16A Block 10 Netz --> General Dynamics F-16A Netz | Block 10 (on statcard)
+        - F-16A B.10 Netz --> F-16A-10 Netz (at medium distance)
+        - F-16A B.10 --> F-16A-10 (at long distance)
+    - F-16A B.10 Netz (Mod)
+        - F-16A B.10 Netz (Mod) --> F-16A-10 Netz (Mod.) (in shop)
+        - General Dynamics F-16A Block 10 Netz (Mod.) --> General Dynamics F-16A Netz | Block 10 (Modified) (on statcard)
+        - F-16A B.10 Netz (Mod) --> F-16A-10 Netz (Mod.) (at medium distance)
+        - F-16A B.10 --> F-16A-10 (at long distance)
+    - F-16D B.40 Barak II
+        - F-16D B.40 Barak II --> F-16D-40 Barak II (in shop)
+        - General Dynamics F-16D Block 40 Barak II --> General Dynamics F-16D Barak II | Block 40 (on statcard)
+        - F-16D B.40 Barak II --> F-16D-40 Barak II (at medium distance)
+        - F-16D B.40 --> F-16D-40 (at long distance)
+    - F-16C B.40 Barak II
+        - F-16C B.40 Barak II --> F-16C-40 Barak II (in shop)
+        - General Dynamics F-16C Block 40 Barak II --> General Dynamics F-16C Barak II | Block 40 (on statcard)
+        - F-16C B.40 Barak II --> F-16C-40 Barak II (at medium distance)
+        - F-16C B.40 --> F-16C-40 (at long distance)
+    - F-15C Baz Meshupar
+        - F-15C Baz Meshupar --> F-15A-2000 Baz Meshupar (in shop)
+        - McDonnell Douglas F-15C Baz Meshupar --> McDonnell Douglas F-15A Baz-2000 | Block 18, Meshupar (Improved) (on statcard)
+        - F-15C Baz Meshupar --> F-15A-2000 Baz Meshupar (at medium distance)
+        - F-15C --> F-15A-2000 (at long distance)
+    - F-15A Baz
+        - F-15A Baz --> F-15A-18 Baz (in shop)
+        - McDonnell Douglas F-15A Baz --> McDonnell Douglas F-15A Baz | Block 18 (on statcard)
+        - F-15A Baz --> F-15A-18 Baz (at medium distance)
+        - F-15A --> F-15A-18 (at long distance)
+    - F-4E Kurnass
+        - F-4E Kurnass --> F-4E (at long distance)
+    - M.D.460 Sambad
+        - M.D.460 Sambad --> Super Mystere B2 Sambad (in shop)
+        - M.D.460 Super Mystere B2 Sambad --> Super Mystere B2 Sambad (at medium distance)
+        - M.D.460 Sambad --> SMB2 Sambad (at long distance)
+    - M.D.460 Sa'ar
+        - M.D.460 Sa'ar --> Super Mystere B2 Sa'ar (in shop)
+        - Dassault Super Mystere B2 Sa'ar --> Dassault M.D.460 Super Mystere B2 Sa'ar (on statcard)
+        - M.D.460 Super Mystere B2 Sa'ar --> Super Mystere B2 Sa'ar (at medium distance)
+        - M.D.460 Sa'ar --> SMB2 Sa'ar (at long distance)
+    - M.D.454 Mystere IVA
+        - M.D.454 Mystère IVA --> Mystère IVA (in shop)
+        - M.D.454 Mystère IVA --> Mystère IVA (at medium distance)
+        - M.D.454 IVA --> Mystère IVA (at long distance)
+    - S.O.4050 Vautour IIA
+        - S.O.4050 Vautour IIA --> Vautour IIA (in shop)
+        - S.O.4050 Vautour IIA --> Vautour IIA (at medium distance)
+        - S.O.4050 IIA --> Vautour IIA (at long distance)
+    - S.O.4050 Vautour IIN
+        - S.O.4050 Vautour IIN --> Vautour IIN (in shop)
+        - S.O.4050 Vautour IIN --> Vautour IIN (at medium distance)
+        - S.O.4050 IIN --> Vautour IIN (at long distance)
+    - B-17G Flying Fortress
+        - B-17G Flying Fortress --> B-17G-60 Flying Fortress (in shop)
+        - Boeing B-17G Flying Fortress --> Boeing B-17G Flying Fortress | Block 60 (on statcard)
+        - B-17G Flying Fortress --> B-17G-60 Flying Fortress (at medium distance)
+        - B-17G --> B-17G-60 (at long distance)
+
+- Changed the names of the following Japanese aircraft:
+    - B.Kh.18B Tigris (1988)
+        - B.Kh.18B Tigris (1988) --> B.Kh.18B Tigris FCU (in shop)
+        - Northrop B.Kh.18B Tigris (First Capability Upgrade, 1988) --> Northrop B.Kh.18B Tigris | F-5E First Capability Upgrade, 1988 (on statcard)
+        - B.Kh.18B Tigris (1988) --> B.Kh.18B Tigris FCU (at medium distance)
+        - B.Kh.18B (1988) --> B.Kh.18B FCU (at long distance)
+    - B.Kh.18B Tigris (2003)
+        - B.Kh.18B Tigris (2003) --> B.Kh.18B Tigris SCU (in shop)
+        - Northrop B.Kh.18B Tigris (Second Capability Upgrade, 2003) --> Northrop B.Kh.18B Tigris | F-5E Second Capability Upgrade, 2003 (on statcard)
+        - B.Kh.18B Tigris (2003) --> B.Kh.18B Tigris SCU (at medium distance)
+        - B.Kh.18B (2003) --> B.Kh.18B SCU (at long distance)
+    - B.Kh.19 Fighting Falcon
+        - General Dynamics B.Kh.19 Fighting Falcon --> General Dynamics B.Kh.19 Fighting Falcon | F-16A-15, Operational Capability Upgrade (on statcard)
+    - B.KhL.1 (1973)
+        - Hawker Siddeley B.KhL.1 Matador (1973) --> Hawker Siddeley B.KhL.1 Matador (1973) | AV-8S (on statcard)
+    - B.KhL.1 (1998)
+        - Hawker Siddeley B.KhL.1 Matador (1998) --> Hawker Siddeley B.KhL.1 Matador (1998) | AV-8S (on statcard)
+    - B.J.7 (1999)
+        - B.J.7 (1999) --> B.J.7 Alpha Jet (1999) (in shop)
+        - Dassault/Dornier B.J.7 (1999) --> Dassault/Dornier B.J.7 Alpha Jet (1999) | Alpha Jet A (on statcard)
+        - B.J.7 (1999) --> B.J.7 Alpha Jet (1999) (at medium distance)
+        - B.J.7 --> B.J.7 (1999) (at long distance)
+    - B.J.7 (2004)
+        - B.J.7 (2004) --> B.J.7 Alpha Jet (2004) (in shop)
+        - Dassault/Dornier B.J.7 (2004) --> Dassault/Dornier B.J.7 Alpha Jet (2004) | Alpha Jet TH, Phase 1 (on statcard)
+        - B.J.7 (2004) --> B.J.7 Alpha Jet (2004) (at medium distance)
+        - B.J.7 --> B.J.7 (2004) (at long distance)
+    - B.Kh.18 Freedom Fighter
+        - Northrop B.Kh.18 Freedom Fighter --> Northrop B.Kh.18 Freedom Fighter | F-5A (on statcard)
+    - B.Kh.20
+        - Saab AB B.Kh.20 Gripen C --> Saab AB B.Kh.20 Gripen C | JAS 39C (on statcard)
+    - F-84G-21-RE
+        - F-84G-21-RE Thunderjet --> B.Kh.16 Thunderjet (in shop)
+        - Republic F-84G-21-RE Thunderjet --> Republic B.Kh.16 Thunderjet | F-84G-21 (on statcard)
+        - F-84G-21-RE Thunderjet --> B.Kh.16 Thunderjet (at medium distance)
+        - F-84G-21-RE --> B.Kh.16 (at long distance)
+    - F-86F-40 (JASDF)
+        - F-86F-40 Sabre (JASDF) --> F-86F-40 Sabre (6 SQN) (in shop)
+        - North American F-86F-40 Sabre (JASDF) --> North American F-86F Sabre | Block 40, 6 Squadron 8th Air Wing (on statcard)
+        - F-86F-40 Sabre (JASDF) --> F-86F-40 Sabre (6 SQN) (at medium distance)
+        - F-86F-40 (JASDF) --> F-86F-40 (6 SQN) (at long distance)
+    - SB2C-5 Helldiver
+        - SB2C-5 --> B.J.3 Helldiver (in shop)
+        - SB2C-5 Helldiver --> Curtiss B.J.3 Helldiver | SB2C-5 (on statcard)
+        - SB2C-5 --> B.J.3 Helldiver (at medium distance)
+        - SB2C --> B.J.3 (at long distance)
+    - B.HT.1
+        - Ling-Temco-Vought B.HT.1 Corsair II --> Ling-Temco-Vought B.HT.1 Corsair II | A-7E (on statcard)
+
+- Changed the names of the following British aircraft:
+    - G.41F Meteor F.4
+        - Gloster Type G.41F Meteor, Fighter, Mk.4 --> Gloster Meteor | Fighter, Mk.4, Type G.41F (on statcard)
+        - Meteor F.4 --> G.41F Meteor F.4 (at long distance)
+    - G.41G Meteor F.4
+        - Gloster Type G.41G Meteor, Fighter, Mk.4 --> Gloster Meteor | Fighter, Mk.4, Type G.41G (on statcard)
+        - Meteor F.4 --> G.41G Meteor F.4 (at long distance)
+    - G.41K Meteor F.8
+        - Gloster Type G.41K Meteor, Fighter, Mk.8 --> Gloster Meteor | Fighter, Mk.8, Type G.41K (on statcard)
+        - Meteor F.8 --> G.41K Meteor F.8 (at long distance)
+    - P-47D-22-RE Thunderbolt Mk.1
+        - Republic P-47D-22-RE Thunderbolt Mk.1 --> Republic P-47D Thunderbolt | Block 22, Mk.1 (on statcard)
+
+- Changed the names of the following Swedish Aircraft:
+    - JA 37DI Viggen F21
+        - JA 37DI Viggen F21 --> JA 37DI Viggen (F 21 Luleå) (in shop)
+        - Saab AB JA 37DI Viggen F21 --> Saab AB JA 37DI Viggen | Norrbotten Wing, F 21 Luleå (on statcard)
+        - JA 37DI Viggen F21 --> JA 37DI Viggen (F 21 Luleå) (at medium distance)
+        - JA 37DI F21 --> JA 37DI (F 21) (at long distance)
+
+- Changed the names of the following German weapons:
+    - Mauser BK27
+        - Mauser BK27 27mm Autocannon --> Mauser Bordkanone 27 27mm Autocannon (long name)
+
+- Changed the names of the following British aircraft folders:
+    - Spitfire F --> Spitfire (1943-1947)
+    - Spitfire (e) --> Spitfire (1938-1939)
+    - Wellington (l) --> Wellington (1942)
+
+
+
+
+VERSION 0.1.3 CHANGELOG
+
+- The remainder of the MiG-15bis variants are now accurately designated as 'Fagot-B'
+
+- Russian and American fully-automatic cannons between are now labeled as autocannons
+
+- Added new roundels for Swedish and Saudi export aircraft
+
+- Added roundels to the American Canberra bombers
+
+- Changed the names of the following American weapons:
+    - Mk11
+        - Mk11 Mod 5 20mm Cannon --> Hughes Mk11 Mod 5 20mm Autocannon
+        - Mk11 Mod 0 20mm Cannon --> Hughes Mk11 Mod 0 20mm Autocannon
+
+- Changed the names of the following Russian weapons:
+    - NS-23K
+        - 23 mm NS-23K cannon --> Nudelman-Suranov NS-23K 23mm Autocannon
+
+    - NS-37
+        - 37 mm NS-37 cannon --> Nudelman-Suranov NS-37 37mm Autocannon
+
+    - SH-37
+        - 37 mm SH-37 cannon --> Shpitalny Sh-37 37mm Autocannon
+        - SH-37 --> Sh-37
+
+    - NS-45
+        - 45 mm NS-45 cannon --> Nudelman-Suranov NS-45 45mm Autocannon
+
+    - BT-20
+        - 20 mm BT-20 cannon --> Berezin BT-20 20mm Autocannon
+
+    - 7.62 mm ShKAS
+        - 7.62 mm ShKAS machine gun --> Shpitalny-Komaritski ShKAS 7.62mm Machine Gun
+
+- Changed the names of the following British aircraft:
+    - Hunter F.1
+        - Hunter F.1 --> Hawker Hunter, Fighter, Mk.1 (on statcard)
+        - Hunter F --> Hunter F.1 (at medium distance)
+        - Hunter --> Hunter F.1 (at long distance)
+
+    - Hunter F.6
+        - Hunter F.6 --> Hawker Hunter, Fighter, Mk.6 (on statcard)
+        - Hunter F --> Hunter F.6 (at medium distance)
+        - Hunter --> Hunter F.6 (at long distance)
+
+    - Hunter FGA.9
+        - Hunter FGA.9 --> Hawker Hunter, Fighter/Ground Attack, Mk.9 (on statcard)
+        - Hunter --> Hunter FGA.9 (at long distance)
+
+    - Lightning F.6
+        - Lightning F.6 --> British Aircraft Corp. Lightning, Fighter, Mk.6 (on statcard)
+        - Lightning --> Lightning F.6 (at long distance)
+
+    - Lightning F.53
+        - Lightning F.53 --> British Aircraft Corp. Lightning, Fighter, Mk.53 (on statcard)
+        - Lightning --> Lightning F.53 (at long distance)
+
+    - Javelin F.(A.W.) Mk.9
+        - Javelin F.(A.W.) Mk.9 --> GA.5 Javelin FAW.9 (in shop)
+        - Javelin F.(A.W.) Mk.9 --> Gloster GA.5 Javelin, Fighter All-Weather, Mk.9 (on statcard)
+        - Javelin F.(A.W.) Mk.9 --> GA.5 Javelin FAW.9 (at medium distance)
+        - Javelin F.(A.W.) Mk.9 --> Javelin FAW.9 (at long distance)
+
+    - Sea Vixen F.A.W. Mk.2
+        - Sea Vixen F.A.W. Mk.2 --> DH.110 Sea Vixen FAW.2 (in shop)
+        - DH.110 Sea Vixen F.A.W. Mk.2 --> de Havilland DH.110 Sea Vixen, Fighter All-Weather, Mk.2 (on statcard)
+        - Sea Vixen F.A.W. Mk.2 --> DH.110 Sea Vixen FAW.2 (at medium distance)
+        - Sea Vixen --> Sea Vixen FAW.2 (at long distance)
+
+    - F-4M Phantom FGR.2
+        - Hawker Siddeley F-4M Phantom FGR.2 --> Hawker Siddeley F-4M Phantom, Fighter/Ground Attack/Reconnaissance, Mk.2 (on statcard)
+
+    - F-4K Phantom FG.1
+        - McDonnell Douglas F-4K Phantom FG.1 --> McDonnell Douglas F-4K Phantom, Fighter/Ground Attack, Mk.1 (on statcard)
+
+    - F-4J Phantom F.3
+        - McDonnell Douglas F-4J Phantom F.3 --> McDonnell Douglas F-4J Phantom, Fighter, Mk.3 (on statcard)
+
+    - EF-2000A Typhoon FGR.4
+        - Eurofighter GmbH EF-2000A Typhoon FGR.4 --> Eurofighter GmbH EF-2000A Typhoon, Fighter/Ground Attack/Reconnaissane, Mk.4 (on statcard)
+        - EF-2000A --> EF-2000A FGR.4 (at long distance)
+
+    - Harrier GR.1
+        - Hawker Siddeley Harrier GR.1 --> Hawker Siddeley Harrier, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Harier GR.3
+        - Hawker Siddeley Harrier GR.3 --> Hawker Siddeley Harrier, Ground Attack/Reconnaissance, Mk.3 (on statcard)
+
+    - Harrier GR.7
+        - British Aerospace Harrier GR.7 --> British Aerospace Harrier, Ground Attack/Reconnaissance, Mk.7 (on statcard)
+
+    - Sea Harrier FRS.1 (1978)
+        - British Aerospace Sea Harrier FRS.1 (1978) --> British Aerospace Sea Harrier, Fighter/Reconnaissance/Strike, Mk.1 (1978) (on statcard)
+
+    - Sea Harrier FRS.1
+        - British Aerospace Sea Harrier FRS.1 --> British Aerospace Sea Harrier, Fighter/Reconnaissance/Strike, Mk.1 (on statcard)
+
+    - Sea Harrier F(A).2
+        - Changed designation to the more accurate FA.2 instead of F(A).2
+        - British Aerospace Sea Harrier F(A).2 --> British Aerospace Sea Harrier, Fighter/Attack, Mk.2 (on statcard)
+
+    - Harrier T.10
+        - Hawker Siddeley Harrier T.10 --> Hawker Siddeley Harrier, Training, Mk.10 (on statcard)
+
+    - Tornado IDS GR.4
+        - BAE Systems Tornado IDS GR.4 --> BAE Systems Tornado IDS, Ground Attack/Reconnaissance, Mk.4 (on statcard)
+
+    - Tornado IDS GR.1
+        - Panavia GmbH Tornado IDS GR.1 --> Panavia GmbH Tornado IDS, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Jaguar GR.1
+        - SEPECAT Jaguar GR.1 --> SEPECAT Jaguar, Ground Attack/Reconnaissance, Mk.1 (on statcard)
+
+    - Jaguar GR.1A
+        - SEPECAT Jaguar GR.1A --> SEPECAT Jaguar, Ground Attack/Reconnaissance, Mk.1A (on statcard)
+
+    - Scimitar F Mk.1
+        - Scimitar F Mk.1 --> Scimitar F.1 (in shop)
+        - Scimitar F Mk.1 --> Supermarine Scimitar, Fighter, Mk.1 (on statcard)
+        - Scimitar F Mk.1 --> Scimitar F.1 (at medium distance)
+        - Scimitar F --> Scimitar F.1 (at long distance)
+
+    - Buccaneer S.1
+        - Buccaneer S.1 --> Blackburn Buccaneer, Strike, Mk.1 (on statcard)
+        - Buccaneer --> Buccanneer S.1 (at long distance)
+
+    - Buccaneer S.2
+        - Buccaneer S.2 --> Blackburn Buccaneer, Strike, Mk.2 (on statcard)
+        - Buccaneer --> Buccanneer S.2 (at long distance)
+
+    - Buccaneer S.2B
+        - Buccaneer S.2B --> Blackburn Buccaneer, Strike, Mk.2B (on statcard)
+        - Buccaneer --> Buccaneer S.2B (at long distance)
+
+    - Venom FB.4
+        - Venom FB.4 --> DH.112 Venom FB.4 (in shop)
+        - Venom FB.4 --> de Havilland DH.112 Venom, Fighter-Bomber, Mk.4 (on statcard)
+        - Venom FB.4 --> DH.112 Venom FB.4 (at medium distance)
+        - Venom --> Venom FB.4 (at long distance)
+
+    - Vampire F.B.5
+        - Vampire F.B.5 --> DH.100 Vampire FB.5 (in shop)
+        - Vampire F.B.5 --> de Havilland DH.100 Vampire, Fighter-Bomber, Mk.5 (on statcard)
+        - Vampire F.B.5 --> DH.100 Vampire FB.5 (at medium distance)
+        - Vampire --> Vampire FB.5 (at long distance)
+
+    - Meteor F Mk 3
+        - Meteor F Mk 3 --> Meteor F.3 (in shop)
+        - Meteor F Mk 3 --> Gloster Meteor, Fighter, Mk.3 (on statcard)
+        - Meteor F --> Meteor F.3 (at medium distance)
+        - Meteor --> Meteor F.3 (at long distance)
+
+    - Sea Meteor F Mk 3
+        - Sea Meteor F Mk 3 --> Sea Meteor F.3 (in shop)
+        - Sea Meteor F Mk 3 --> Gloster Sea Meteor, Fighter, Mk.3 (on statcard)
+        - Meteor F --> Sea Meteor F.3 (at medium distance)
+        - Meteor --> Sea Meteor F.3 (at long distance)
+
+    - Meteor F Mk 4 G.41F
+        - Meteor F Mk 4 G.41F -->  G.41F Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41F --> Gloster Type G.41F Meteor, Fighter, Mk.4 (on statcard)
+        - Meteor F --> G.41F Meteor F.4 (at medium distance)
+        - Meteor --> Meteor F.4 (at long distance)
+
+    - Meteor F Mk 4 G.41G
+        - Meteor F Mk 4 G.41G --> G.41G Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41G --> Gloster Type G.41G Meteor, Fighter, Mk.4 (on statcard)
+        - Meteor F --> G.41G Meteor F.4(at medium distance)
+        - Meteor --> Meteor F.4 (at long distance)
+
+    - Meteor F Mk 8 G.41K
+        - Meteor F Mk 8 G.41K --> G.41K Meteor F.8 (in shop)
+        - Meteor F Mk 8 G.41K --> Gloster Type G.41K Meteor, Fighter, Mk.8 (on statcard)
+        - Meteor F --> G.41K Meteor F.8 (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Meteor F Mk.8 Reaper
+        - Meteor F Mk.8 Reaper --> Meteor F.8 Reaper (in shop)
+        - Meteor F Mk.8 Reaper --> Gloster Meteor, Fighter, Mk.8 Reaper (on statcard)
+        - Meteor F --> Meteor F.8 Reaper (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Sea Hawk FGA.6
+        - Sea Hawk FGA.6 --> Hawker Sea Hawk, Fighter/Ground Attack, Mk.6 (on statcard)
+        - Sea Hawk --> Sea Hawk FGA.6 (at long distance)
+
+    - Sea Venom FAW 20
+        - Sea Venom FAW 20 --> DH.112 Sea Venom FAW.20 (in shop)
+        - Sea Venom FAW 20 --> de Havilland DH.112 Sea Venom, Fighter All-Weather, Mk.20 (on statcard)
+        - Sea Venom FAW --> DH.112 Sea Venom FAW.20 (at medium distance)
+        - Sea Venom --> Sea Venom FAW.20 (at long distance)
+
+    - Swift F.1
+        - Swift F.1 --> Supermarine Swift, Fighter, Mk.1 (on statcard)
+        - Swift --> Swift F.1 (at long distance)
+
+    - Swift F.7
+        - Swift F.7 --> Supermarine Swift, Fighter, Mk.7 (on statcard)
+        - Swift --> Swift F.7 (at long distance)
+
+    - Attacker FB 1
+        - Attacker FB 1 --> Attacker FB.1 (in shop)
+        - Attacker FB 1 --> Supermarine Attacker, Fighter-Bomber, Mk.1 (on statcard)
+        - Attacker FB --> Attacker FB.1 (at medium distance)
+        - Attacker --> Attacker FB.1 (at long distance)
+
+    - Attacker FB.2
+        - Attacker FB.2 --> Supermarine Attacker, Fighter-Bomber, Mk.2 (in shop)
+        - Attacker FB --> Attacker FB.2 (at medium distance)
+        - Attacker --> Attacker FB.2 (at long distance)
+
+    - Canberra B Mk 2
+        - Canberra B Mk 2 --> Canberra B.2 (in shop)
+        - Canberra B Mk 2 --> English Electric Canberra, Bomber, Mk.2 (on statcard)
+        - Canberra B --> Canberra B.2 (at medium distance)
+        - Canberra --> Canberra B.2 (at long distance)
+
+    - Canberra B (I) Mk 6
+        - Canberra B (I) Mk 6 --> Canberra B(I).6 (in shop)
+        - Canberra B (I) Mk 6 --> English Electric Canberra, Bomber/Interdictor, Mk.6 (on statcard)
+        - Canberra B --> Canberra B(I).6 (at medium distance)
+        - Canberra --> Canberra B(I).6 (at long distance)
+
+- Changed the names of the following French aircraft:
+    - Hunter F.6
+        - Hunter F.6 --> Hawker Hunter Fighter, Mk.6 (on statcard)
+        - Hunter F --> Hunter F.6 (at medium distance)
+        - Hunter --> Hunter F.6 (at long distance)
+
+    - Meteor F Mk.8
+        - Meteor F Mk.8 --> Meteor F.8 (in shop)
+        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
+        - Meteor F --> Meteor F.8 (at medium distance)
+        - Meteor F --> Meteor F.8 (at long distance)
+
+    - Sea Hawk Mk.50
+        - Sea Hawk Mk.50 --> Hawker Sea Hawk Mk.50 (on statcard)
+        - Sea Hawk --> Sea Hawk Mk.50 (at long distance)
+
+- Changed the names of the following German aircraft:
+    - Hunter F.58
+        - Hunter F.58 --> Hunter Mk.58 (in shop)
+        - Hunter F.58 --> Hawker Hunter Mk.58 (on statcard)
+        - Hunter F --> Hunter Mk.58 (at medium distance)
+        - Hunter --> Hunter Mk.58 (at long distance)
+
+    - EF-2000 B.10 Typhoon (Tranche 2)
+        - EF-2000 B.10 Typhoon (Tranche 2) --> EF-2000 Tranche 2 Typhoon B.10 (in shop)
+        - Eurofighter GmbH EF-2000 Block 10 Typhoon Tranche 2 --> Eurofighter GmbH EF-2000 Tranche 2 Typhoon Block 10 (on statcard)
+        - EF-2000 B.10 Typhoon (Tranche 2) --> EF-2000 Tranche 2 Typhoon B.10 (at medium distance)
+        - EF-2000 --> EF-2000 B.10 (at long distance)
+
+    - Sea Hawk Mk.100
+        - Sea Hawk Mk.100 --> Hawker Sea Hawk Mk.100 (on statcard)
+        - Sea Hawk --> Sea Hawk Mk.100 (at long distance)
+
+- Changed the names of the following Swedish aircraft:
+    - J34
+        - J34 --> J 34 Hunter Mk.50 (in shop)
+        - J34 --> Hawker J 34 Hunter Mk.50 (on statcard)
+        - J34 --> J 34 Hunter Mk.50 (at medium distance)
+        - J34 --> J 34 (at long distance)
+
+    - Vampire FB 52A
+        - Vampire FB 52A --> DH.100 Vampire FB.52A (in shop)
+        - Vampire FB 52A --> de Havilland DH.100 Vampire, Fighter-Bomber, Mk.52A (on statcard)
+        - Vampire FB 52A --> DH.100 Vampire FB.52A (at medium distance)
+        - Vampire --> Vampire FB.52A (at long distance)
+
+- Changed the names of the following Italian aircraft:
+    - F-2000A B.10 Typhoon (Tranche 2)
+        - F-2000A B.10 Typhoon (Tranche 2) --> F-2000A Tranche 2 Typhoon B.10 (in shop)
+        - Eurofighter GmbH F-2000A Block 10 Typhoon Tranche 2 --> Eurofighter GmbH F-2000A Tranche 2 Typhoon Block 10 (on statcard)
+        - F-2000A B.10 Typhoon (Tranche 2) --> F-2000A Tranche 2 Typhoon B.10 (at medium distance)
+        - F-2000A --> F-2000A B.10 (at long distance)
+
+    - Vampire FB 52A
+        - Vampire FB 52A --> DH.100 Vampire FB.52A (in shop)
+        - Vampire FB 52A --> de Havilland DH.100 Vampire Fighter-Bomber, Mk.52A (on statcard)
+        - Vampire FB 52A --> DH.100 Vampire FB.52A (at medium distance)
+        - Vampire --> Vampire FB.52A (at long distance)
+
+- Changed the names of the following Israeli aircraft:
+    - Meteor F.8
+        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
+        - Meteor F --> Meteor F.8 (at medium distance)
+        - Meteor --> Meteor F.8 (at long distance)
+
+    - Meteor FR.9
+        - Meteor FR Mk.9 --> Gloster Meteor Fighter, Reconnaissance, Mk.9 (on statcard)
+        - Meteor F --> Meteor FR.9 (at medium distance)
+        - Meteor --> Meteor FR.9 (at long distance)
+
+    - Meteor NF.13
+        - Meteor NF Mk.13 --> Armstrong Whitworth Meteor Night Fighter, Mk.13 (on statcard)
+        - Meteor NF --> Meteor NF.13 (at medium distance)
+        - Meteor --> Meteor NF.13 (at long distance)
+
+- Changed the following British aircraft folder names:
+    - Meteor F Mk 4 --> Meteor F.4
+    - Meteor F Mk 3 --> Meteor F.3
+
+VERSION 0.1.2 CHANGELOG
+
+- Various capitalization and grammar/conventions fixes
+
+- Implemented various UI changes Gaijin made with the most recent update (battlepass name, profile border titles, etc)
+
+- All MiG-15bis variants are now accurately designated as 'Fagot-B'
+
+- Changed the names of the following American weapons:
+    - Mk82 LDGP
+        - Mk82 500lb. Low-Drag General Purpose Bombs --> Mk82 Low-Drag General Purpose Bombs (500lb.) (in custom loadout screen)
+
+    - Mk83 LDGP
+        - Mk83 1000lb. Low-Drag General Purpose Bombs --> Mk83 Low-Drag General Purpose Bombs (1000lb.) (in custom loadout screen)
+
+    - Mk84 LDGP
+        - Mk84 2000lb. Low-Drag General Purpose Bombs --> Mk84 Low-Drag General Purpose Bombs (2000lb.) (in custom loadout screen)
+
+    - M118
+        - M118 3000lb. Demolition Bombs --> M118 Low-Drag Demolition Bombs (3000lb.) (in custom loadout screen)
+        - M118 3000lb. --> M118 LDDB (3000lb.) (in HUD)
+
+    - AGM-65A/B/D/E/F/G
+        - AGM-65A/B/D/E/F/G air-to-ground missile --> AGM-65A/B/D/E/F/G/H/L Maverick Air-to-Ground Missiles (in custom loadout screen)
+        - AGM-65A/B/D/E/F/G --> AGM-65A/B/D/E/F/G/H/L Maverick (in HUD)
+
+    - AIM-54A/C
+        - AIM-54A/C --> AIM-54A/C Phoenix (in HUD)
+
+    - M61
+        - 20 mm M61 cannon --> General Electric M61 Vulcan 20mm Rotary Autocannon
+        - M61 --> M61 Vulcan
+
+    - M61A1
+        - 20 mm M61A1 cannon --> General Electric M61A1 Vulcan 20mm Rotary Autocannon
+        - M61A1 --> M61A1 Vulcan
+
+    - GAU-4
+        - 20 mm GAU-4 cannon --> General Electric GAU-4 Vulcan 20mm Rotary Autocannon
+        - GAU-4 --> GAU-4 Vulcan
+
+    - GAU-13/A
+        - 30 mm GAU-13/A cannon --> General Electric GAU-13/A 30mm Rotary Autocannon
+
+    - GAU-19
+        - 12.7 mm GAU-19 machine gun --> General Electric GAU-19/B 12.7mm Rotary Heavy Machine Gun
+        - GAU/19 --> GAU-19/B
+
+    - GAU-12/U
+        - 25 mm GAU-12/U cannon --> General Electric GAU-12/U Equalizer 25mm Rotary Autocannon
+        - GAU-12/U --> GAU-12/U Equalizer
+
+    - GAU-8/A
+        - 30 mm GAU-8/A cannon --> General Electric GAU-8/A Avenger 30mm Rotary Autocannon
+        - GAU-8/A --> GAU-8/A Avenger
+
+    - AGM-114B/C/K
+        - AGM-114B/C/K Hellfire air-to-ground missiles --> AGM-114B/C/K Hellfire Laser-Guided Air-to-Ground Missiles
+
+    - GBU-15(V)2/B
+        - GBU-15(V)2/B Television-Guided Bombs (2000lb.) --> GBU-15(V)2/B Infrared-Guided Bombs (2000lb.) (in custom loadout screen)
+        - GBU-15(V)2/B TGB (2000lb.) --> GBU-15(V)2/B IRGB (2000lb.) (in HUD)
+
+    - M39
+        - 20 mm M39 cannon --> Ford Motor Co. M39 20mm Autocannon
+        - 20 mm M39A1 cannon --> Ford Motor Co. M39A1 20mm Autocannon
+        - 20 mm M39A2 cannon --> Ford Motor Co. M39A2 20mm Autocannon
+        - 20 mm M39A3 cannon --> Ford Motor Co. M39A3 20mm Autocannon
+
+    - Colt Mk12
+        - 20 mm Browning-Colt Mk12 Mod 3 cannon --> Browning-Colt Mk12 Mod 3 20mm Autocannon
+        - 20 mm Browning-Colt Mk12 Mod 0 cannon --> Browning-Colt Mk12 Mod 0 20mm Autocannon
+
+    - M3
+        - 20 mm M3 cannon --> Hispano-Suiza AN/M3 20mm Autocannon
+
+    - FMC T-160
+        - 20 mm FMC T-160 cannon --> Ford Motor Co. T-160 20mm Autocannon
+
+    - M4
+        - 37 mm M4 cannon --> Browning M4 37mm Autocannon
+
+    - M9
+        - 37 mm M9 cannon --> Browning M9 37mm Autocannon
+
+    - AN/M2
+        - 20 mm AN/M2 cannon --> Hispano-Suiza AN/M2 20mm Autocannon
+
+    - M10
+        - 37 mm M10 cannon --> Browning M10 37mm Autocannon
+
+    - M2/M3 Browning
+        - 12.7 mm M2/M3 Browning machine gun --> Browning M2/M3 12.7mm Heavy Machine Gun
+
+    - 7.62 mm Browning
+        - 7.62 mm Browning MG4 machine gun --> Browning .30 AN/M2 7.62mm Machine Gun
+
+- Changed the names of the following British weapons:
+    - Taildog SRAAM
+        - Taildog SRAAM Short-Range Air-to-Air Missiles--> SRAAM-75 Short-Range Air-to-Air Missiles (in custom loadout screen)
+        - Taildog SRAAM --> SRAAM-75 (in HUD)
+
+- Changed the name of the following Israeli aircraft:
+    - Kfir C.1P
+        - Kfir C.1P --> Kfir C.1P Gderot (in shop)
+        - Israeli Aircraft Industries Kfir C.1P --> Israeli Aircraft Industries Kfir C.1P Gderot (on statcard)
+        - Kfir C.1P --> Kfir C.1P Gderot (at medium distance)
+        - Kfir Canard --> Kfir C.1P (at long distance)
+
+- Changed the name of the following Swedish aircraft:
+    - JAS 39C
+        - Saab AB JAS 39C Gripen A --> Saab AB JAS 39C Gripen C (on statcard)
+        - JAS 39C Gripen A --> JAS 39C Gripen C (at medium distance)
+
+- Changed the names of the following Russian aircraft:
+    - MiG-21F-13
+        - MiG-21 --> MiG-21F-13 (at long distance)
+
+    - MiG-21SMT
+        - MiG-21 --> MiG-21SMT (at long distance)
+
+    - MiG-21SM
+        - MiG-21 --> MiG-21SM (at long distance)
+
+    - MiG-21bis
+        - MiG-21 --> MiG-21bis (at long distance)
+
+    - MiG-21PFM
+        - MiG-21 --> MiG-21PFM (at long distance)
+
+    - Yak-30D
+        - Yak-30D --> Yakovlev Yak-30D (on statcard)
+        - Yak-30 --> Yak-30D (at long distance)
+
+    - Yak-23
+        - Yak-23 --> Yak-23 Flora (in shop)
+        - Yak-23 --> Yakovlev Yak-23 Flora (on statcard)
+        - Yak-23 --> Yak-23 Flora (at medium distance)
+
+    - Yak-15P
+        - Yak-15P --> Yak-15-RD10 Feather (in shop)
+        - Yak-15P --> Yakovlev Yak-15-RD10 Feather (on statcard)
+        - Yak-15P --> Yak-15-RD10 Feather (at medium distance)
+        - Yak-15P --> Yak-15-RD10 (at long distance)
+
+    - Yak-15
+        - Yak-15 --> Yak-15 Feather (in shop)
+        - Yak-15 --> Yakovlev Yak-15 Feather (on statcard)
+        - Yak-15 --> Yak-15 Feather (at medium distance)
+
+    - Yak-17
+        - Yak-17 --> Yak-17 Feather (in shop)
+        - Yak-17 --> Yakovlev Yak-17 Feather (on statcard)
+        - Yak-17 --> Yak-17 Feather (at medium distance)
+
+    - La-200
+        - La-200 --> La-200 Toriy (in shop)
+        - La-200 --> Lavochkin La-200 Toriy (on statcard)
+        - La-200 --> La-200 Toriy (at medium distance)
+
+    - La-15
+        - La-15 --> La-15 Fantail (in shop)
+        - La-15 --> La-15 Fantail (on statcard)
+        - La-15 --> La-15 Fantail (at medium distance)
+
+    - Su-9
+        - Su-9 --> Su-9 (1946) (in shop, at medium and long distance)
+        - Su-9 --> Sukhoi Su-9 "Aircraft K" (1946) (on statcard)
+
+    - Su-11
+        - Su-11 --> Su-11 (1947) (in shop, at medium and long distance)
+        - Su-11 --> Sukhoi Su-11 "Aircraft KL" (1947) (on statcard)
+
+    - MiG-15bis ISh
+        - MiG-15bis ISh --> MiG-15ISh Fagot-B (in shop)
+        - MiG-15bis ISh --> Mikoyan-Gurevich MiG-15ISh Fagot-B (on statcard)
+        - MiG-15bis ISh --> MiG-15ISh Fagot-B (at medium distance)
+        - MiG-15bis ISh --> MiG-15ISh (at long distance)
+
+- Changed the names of the following Italian aircraft:
+    - MiG-21MF
+        - MiG-21 --> MiG-21MF (at long distance)
+
+    - MiG-21bis-SAU
+        - MiG-21 --> MiG-21bis-SAU (at long distance)
+
+- Changed the names of the following German aircraft:
+    - MiG-21MF
+        - MiG-21 Fishbed-J --> MiG-21MF (at long distance)
+
+    - MiG-21SPS-K
+        - MiG-21 --> MiG-21SPS-K (at long distance)
+
+    - MiG-21bis-SAU
+        - MiG-21 --> MiG-21bis-SAU (at long distance)
+
+    - MiG-21bis-Lazur
+        - MiG-21bis --> MiG-21bis-Lazur (at long distance)
+
+- Added (and changed the name of) the following British aircraft:
+    - HAL HF-24 Marut
+        - HF-24 --> HF-24 Marut Mk.1 (in shop)
+        - HF-24 Marut --> Hindustan Aeronautics Ltd. HF-24 Marut Mk.1 (on statcard)
+        - HF-24 --> HF-24 Marut Mk.1 (at medium distance)
+        - HF-24 --> HF-24 Mk.1 (at long distance)
+
+- Added the following USSR ground vehicles:
+    - T-44 (FM)
+
+- Added the following British ammunition:
+    - 105mm L52A1 shot
+
+VERSION 0.1.1.5.13.2025 CHANGELOG (May 13, 2025)
+
+- Uploaded mod files to a GitHub repository, making keeping up with the mod much easier than it was previously
+
+- UI elements which were previously broken (titles, battlepass, achievement headers) now display correctly
+
+- Various capitalization fixes
+
+- Changed the names of the following German aircraft:
+    - Ta 152 C-3
+        - Focke-Wulf Ta 152 C-3 --> Ta 152 C-3 (in shop)
+        - Ta 152 C-3 --> Focke-Wulf Ta 152 C-3 (on statcard)
+    - MiG-29G
+        - MiG-29G (9.12G) Fulgrum-G --> MiG-29G (9.12G) Fulcrum-G
+
+- Changed the names of the following American weapons:
+    - Mk82 LDGP
+        - Mk82 500lb. Low-Drag General Purpose Ballute-Rype Air-Retarded Bombs --> Mk82 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (500lb.) (in custom loadout screen)
+        - Mk82 500lb. LDGP AIR --> Mk82 LDGP AIR (500lb.) (in HUD)
+
+    - Mk81 Snakeye
+        - Mk81 250lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk81 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (250lb.) (in custom loadout screen)
+        - Mk81 250lb. Snakeye --> Mk81 Snakeye (250lb.) (in HUD)
+
+    - Mk82 Snakeye
+        - Mk82 500lb. Snakeye High-Drag General Purpose Tail Fin Air-Retarded Bombs --> Mk82 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (500lb.) (in custom loadout screen)
+        - Mk82 500lb. Snakeye --> Mk82 Snakeye (500lb.) (in HUD)
+
+    - Mk83 AIR
+        - Mk83 1000lb. Low-Drag General Purpose Ballute-Type Air-Retarded Bomb --> Mk83 Low-Drag General Purpose Ballute-Type Air-Retarded Bomb (1000lb.) (in custom loadout screen)
+        - Mk83 1000lb. LDGP AIR  --> Mk83 LDGP AIR (1000lb.) (in HUD)
+
+    - Mk84 LDGP
+        - Mk84 2000lb. Low-Drag General Purpose Bombs --> Mk84 Low-Drag General Purpose Bombs (2000lb.)
+        - Mk84 2000lb. LDGP --> Mk84 LDGP (2000lb.)
+
+    - Mk84 LDGP AIR
+        - Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs --> Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (2000lb.) (in custom loadout screen)
+        - Mk84 2000lb. LDGP AIR  --> Mk84 LDGP AIR (2000lb.) (in HUD)
+
+    - AN-M56 LCGP
+        - AN-M56 4000lb. Light-Case General Purpose Bombs --> AN-M56 Light-Case General Purpose Bombs (4000lb.) (in custom loadout screen)
+        - AN-M56 4000lb. LCGP --> AN-M56 LCGP (4000lb.) (in HUD)
+
+    - M117 cone 45 bomb
+        - 750 lb M117 cone 45 bomb --> M117 Low-Drag Demolition Bombs, Cone 45 (750lb.) (in custom loadout screen)
+        - M117 750 lb --> M117 LDDB (750lb.) (in HUD)
+
+    - Nuclear bomb Mark 6
+        - Nuclear bomb Mark 6 --> Mark 6 Nuclear Bomb (in custom loadout screen)
+
+    - Nuclear bomb Mark 7
+        - Nuclear bomb Mark 7 --> Mark 7 Nuclear Bomb (in custom loadout screen)
+
+    - BLU-27/B incendiary bomb
+        - BLU-27/B incendiary bomb --> BLU-27/B Forced-Ejection Incendiary Napalm Bombs (750lb.) (in custom loadout scren)
+        - BLU-27/B --> BLU-27/B INC (750lb.) (in HUD)
+
+    - BLU-1/B
+        - BLU-1 incendiary bomb --> BLU-1/B Forced-Ejection Incendiary Napalm Bombs (750lb.)
+        - BLU-1 --> BLU-1/B INC (750lb.)
+
+    - Mk 77 mod 2
+        - Mk 77 mod 2 incendiary bomb --> Mk77 Mod 2 Incendiary Napalm Bombs (750lb.) (in custom loadout screen)
+        - Mk 77 --> Mk77 INC (750lb.)
+
+    - Mk 77 mod 4
+        - Mk 77 mod 4 incendiary bomb --> Mk77 Mod 4 Incendiary Bombs (750lb.)
+        - Mk 77 --> Mk77 INC (750lb.)
+
+    - BLU-10/B
+        - BLU-10/B incendiary bomb --> BLU-10/B Forced-Ejection Incendiary Napalm Bombs (250lb.) (in custom loadout screen)
+        - BLU-10/B --> BLU-10/B INC (250lb.)
+
+    - BLU-23/B
+        - BLU-23/B incendiary bomb --> BLU-23/B Forced-Ejection Incendiary Napalm Bombs (500lb.) (in custom loadout screen)
+        - BLU-23/B --> BLU-23/B INC (500lb.) (in HUD)
+
+    - M116A2
+        - M116A2 incendiary bomb --> M116A2 Incendiary Bombs (750lb.) (in custom loadout scren)
+        - M116A2 --> M116A2 INC (750lb.) (in HUD)
+
+    - Mk 78
+        - Mk 78 incendiary bomb --> Mk78 Mod 2 Incendiary Bombs (750lb.) (in custom loadout screen)
+        - Mk 78 --> Mk78 INC (750lb.) (in HUD)
+
+    - Mk 77 Mod 0
+        - Mk 77 Mod 0 incendiary bomb --> Mk77 Mod 0 Incendiary Napalm Bombs (750lb.) (in custom loadout screen)
+        - Mk 77 --> Mk77 INC (750lb.) (in HUD)
+
+    - Mk 79 Mod 1
+        - 1000 lb Mk 79 Mod 1 incendiary bomb --> Mk79 Mod 1 Incendiary Napalm Bombs (1000lb.) (in custom loadout screen)
+        - Mk 79 --> Mk79 INC (1000lb.) (in HUD)
+
+    - AGM-130A
+        - AGM-130A 2000lb. Infrared-Guided Air-to-Ground Missile --> AGM-130A Infrared-Guided Air-to-Ground Missile (2000lb.) (in custom loadout screen)
+
+    - AGM-130A-12
+        - AGM-130A-12 2000lb. Infrared-Guided Air-to-Ground Missile --> AGM-130A-12 Infrared-Guided Air-to-Ground Missile (2000lb.) (in custom loadout screen)
+
+    - GBU-12
+        - GBU-12 Paveway II 500lb. Laser-Guided Bombs --> GBU-12 Paveway II Laser-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-49
+        - GBU-49 Enhanced Paveway II 500lb. Dual-Mode Laser-Guided Bombs --> EGBU-12 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - GBU-49 (E)Paveway II DMLGB (500lb.) --> EGBU-12 Paveway II DMLGB (500lb.) (in HUD)
+
+    - GBU-48
+        - GBU-48 Enhanced Paveway II 1000lb. Dual-Mode Laser-Guided Bombs --> EGBU-16 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (1000lb.) (in custom loadout screen)
+        - GBU-48 (E)Paveway II DMLGB (1000lb.) --> EGBU-16 Paveway II DMLGB (1000lb.) (in HUD)
+
+    - GBU-50
+        - GBU-50 Enhanced Paveway II 2000lb. Dual-Mode Laser-Guided Bombs --> EGBU-10 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+        - GBU-50 (E)Paveway II DMLGB (2000lb.) --> EGBU-10 Paveway II DMLGB (2000lb.) (in HUD)
+
+    - GBU-16
+        - GBU-16 Paveway II 1000lb. Laser-Guided Bombs --> GBU-16 Paveway II Laser-Guided Bombs (1000lb.) (in custom loadout screen)
+
+    - GBU-10
+        - GBU-10 Paveway II 2000lb. Laser-Guided Bombs --> GBU-10 Paveway II Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-24
+        - GBU-24 Paveway III 2000lb. Laser-Guided Bombs --> GBU-24 Paveway III Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-27
+        - GBU-27 Paveway III 2000lb. Laser-Guided Bombs --> GBU-27 Paveway III Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-22
+        - GBU-22 Paveway III 500lb. Laser-Guided Bombs --> GBU-22 Paveway III Laser-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-39
+        - GBU-39/B 250lb. GPS-Guided Small-Diameter Bombs I --> GBU-39/B Small-Diameter Bomb I GPS-Guided Bombs (250lb.) (in custom loadout screen)
+        - GBU-39 SDB I (250lb) --> GBU-39/B SDB I (250lb) (in HUD)
+
+    - AGM-123
+        - AGM-123 Skipper 1000lb. Laser-Guided Air-to-Ground Missiles --> AGM-123 Skipper Laser-Guided Air-to-Ground Missiles (1000lb.) (in custom loadout screen)
+
+    - EGBU-24
+        - EGBU-24B Enhanced Paveway III 2000lb. Dual-Mode Laser-Guided Bombs --> EGBU-24B Enhanced Paveway III Dual-Mode Laser-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-15(V)1/B
+        - GBU-15(V)1/B 2000lb. Television-Guided Bombs --> GBU-15(V)1/B Television-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-15(V)2/B
+        - GBU-15(V)2/B 2000lb. Television-Guided Bombs --> GBU-15(V)2/B Television-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-38
+        - GBU-38 500lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-38 Joint Direct Attack Munition GPS-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-38(V)2/B
+        - GBU-38(V)2/B Joint Direct Attack Munition GPS-Guided Bombs --> GBU-38(V)2/B Joint Direct Attack Munition GPS-Guided Bombs (500lb.) (in custom loadout screen)
+
+    - GBU-54B
+        - GBU-54B Laser Joint Direct Attack Munition Laser-Guided Bombs --> GBU-54B Laser Joint Direct Attack Munition Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - GBU-54B LJDAM (2000lb.) --> GBU-54B LJDAM (500lb.) (in HUD)
+
+    - GBU-31
+        - GBU-31 2000lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-31 Joint Direct Attack Munition GPS-Guided Bombs (2000lb.) (in custom loadout screen)
+
+    - GBU-32
+        - GBU-32 1000lb. Joint Direct Attack Munition GPS-Guided Bombs --> GBU-32 Joint Direct Attack Munition GPS-Guided Bombs (1000lb.) (in custom loadout screen)
+
+    - AGM-62A ER
+        - AGM-62A Walleye I Extended-Range Television-Guided Bombs --> AGM-62A Walleye I Extended-Range Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AGM-62A
+        - AGM-62A 825lb. Walleye I Television-Guided Bombs --> AGM-62A Walleye I Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AGM-62A ER/DL
+        - AGM-62A 825lb. Walleye II Extended-Range Datalink Television-Guided Bombs --> AGM-62A Walleye II Extended-Range Datalink Television-Guided Bombs (825lb.) (in custom loadout screen)
+
+    - AN-M65A1
+        - 1000 lb AN-M65A1 Fin M129 bomb --> AN-M65A1 General-Purpose High-Explosive Bombs, Fin M129 (1000lb.) (in custom loadout screen)
+
+    - AN-M66A2
+        - 2000 lb AN-M66A2 bomb --> AN-M66A2 General-Purpose High-Explosive Bombs (2000lb.) (in custom loadout screen)
+        - AM-M66 2000 lb --> AN-M66A2 GPHE (2000lb.) (in HUD)
+
+    - AN-Mk 1
+        - 1600 lb AN-Mk 1 armor-piercing bomb --> AN-Mk1 Armor-Piercing High-Explosive Bombs (1600lb.) (in custom loadout screen)
+        - AN-Mk 1 --> AN-Mk1 APHE (1600lb.) (in HUD)
+
+    - AN-M65A1
+        - AN-M65A1 1000lb. General Purpose High-Explosive Bombs --> AN-M65A1 General Purpose High-Explosive Bombs (1000lb.) (in custom loadout screen)
+
+    - AN-M30A1
+        - AN-M30A1 100lb. General Purpose High-Explosive Bombs --> AN-M30A1 General Purpose High-Explosive Bombs (100lb.) (in custom loadout screen)
+
+    - AN-M64A1
+        - AN-M64A1 500lb. General Purpose High Explosve Bombs --> AN-M64A1 General Purpose High Explosve Bombs (500lb.) (in custom loadout screen)
+
+    - FFAR Mighty Mouse
+        - FFAR Mighty Mouse rockets --> Mk4 "Mighty Mouse" Folding-Fin Aerial Rockets (in custom loadout screen)
+        - FFAR Mighty Mouse --> Mk4 FFAR (in HUD)
+
+    - AGM-12B/C
+        - AGM-12B/C Bullpup air-to-ground missiles --> AGM-12B/C Bullpup Air-to-Ground Missiles (in custom loadout screen)
+        - AGM-12B/C Bullpup --> AGM-12B/C Bullpup AGM (in HUD)
+
+- Changed the names of the following British weapons:
+    - Paveway IV
+        - Paveway IV guided bomb --> Paveway IV Dual-Mode Laser-Guided Bombs (500lb.) (in custom loadout screen)
+        - Paveway IV --> Paveway IV DMLGB (500lb.) (in HUD)
+
+- Changed the names of the following Japanese weapons:
+    - JM117 cone 45 bomb
+        - 750 lb JM117 cone 45 bomb --> JM117 Low-Drag Demolition Bombs, Cone 45 (750lb.) (in custom loadout screen)
+        - JM117 750 lb --> JM117 LDDB (750lb.) (in HUD)
+
+- Changed the names of the following Russian aircraft:
+    - MiG-219SMT (9.19) Fulcrum-E
+        - MiG-29SMT (9.19) Fulcrum-E --> MiG-29SMT Fulcrum-E (in shop)
+        - Mikoyan MiG-29SMT (Product 9.19) Fulcrum-E --> Mikoyan MiG-29SMT Fulcrum-E (at short distance)
+
+VERSION O.1.5.11.2025 CHANGELOG (May 11, 2025)
+
+- Changed the names of the following Russian guns:
+    - NR-23
+    - NR-30
+    - NS-23
+    - NS-37
+    - NS-45
+    - N-37/D
+    - B-20/S/M/E
+    - ShVAK
+    - ShVAKS
+    - UB/K/T
+    - VYa-23
+    - all GSh variants
+
+- Added roundels for the following Chinese aircraft:
+    - Shenyang F-5/J-2/J-4/J-6
+    - Shenyang J-7 family
+    - Shenyang J-11 family
+
+- Added new roundels for French, Italian, Iranian, Pakistani, and Taiwanese aircraft
+    - Namely, the F-14A Tomcat (2017) and A-5C Fantan got unique roundels for Iran and Pakistan, respectively
+
+- Reverted Taiwanese roundels back to their original format (the same used for British and French aircraft)
+
+- Added roundels to the following Israeli aircraft:
+    - Mirage IIICJ "Shahak"
+    - Mirage 5F "Nesher"
+    - F-4E Kurnass
+    - Kfir C.7
+    - Kfir C.1P
+    - Kfir C.2
+    - F-4E Kurnass 2000
+
+- Added roundels to the following Japanese aircraft:
+    - F-4EJ Phantom II
+    - F-4EJ Kai Phantom II
+    - F-15J Eagle
+    - F-15J-MSIP Eagle
+    - F-16AJ/YF-16AJ Fighting Falcon
+
+- Changed the names of the following Japanese aircraft:
+    - F-16AJ Fighting Falcon
+        - F-16AJ Fighting Falcon --> YF-16AJ Fighting Falcon (in shop)
+        - General Dynamics F-16AJ Fighting Falcon (1975 FX Proposal) --> General Dynamics YF-16AJ Fighting Falcon (1975 Proposal) (on statcard)
+        - F-16AJ Fighting Falcon --> YF-16AJ Fighting Falcon (at medium distance)
+        - F-16AJ --> YF-16AJ (at long distance)
+
+- Changed the names of the following Israeli aircraft:
+    - F-4E Kurnass 2000
+        - F-4E Kurnass 2000 --> F-4E-2000 Kurnass (in shop)
+        - Israeli Aircraft Industries F-4E Kurnass 2000 --> Israeli Aircraft Industries F-4E-2000 Kurnass (on statcard)
+        - F-4E Kurnass 2000 --> F-4E-2000 Kurnass (at medium distance)
+        - F-4E Kurnass 2000 --> F-4E-2000 (at long distance)
+
+- Changed the names of the following Chinese aircraft:
+    - MiG-9 (1948) Fargo
+        - MiG-9 (1948) Fargo --> MiG-9 Fargo (1948) (in shop)
+        - Mikoyan-Gurevich MiG-9 (1948) Fargo --> Mikoyan-Gurevich MiG-9 Fargo (1948) (on statcard)
+        - MiG-9 (1948) Fargo --> MiG-9 Fargo (1948) (at medium distance)
+
+- Changed names of the following Japanese planes:
+    - J7W1
+        - J7W1 --> J7W1 Shinden (in shop)
+        - J7W1 --> Kyushu J7W1 Shinden (on statcard)
+        - J7W1 --> J7W1 Shinden (at medium range)
+        - J7W --> J7W1 (at long range)
+
+    - G8N1
+        - G8N1 --> G8N1 Renzan (in shop)
+        - G8N1 --> Nakajima G8N1 Renzan
+        - G8N1 --> G8N1 Renzan
+        - G8N --> G8N1
+
+    - A7M2
+        - A7M2 --> A7M2 Reppū
+        - A7M2 --> Mitsubishi A7M2 Reppū
+        - A7M2 --> A7M2 Reppū
+        - A7M --> A7M2
+
+    - J2M2
+        - J2M2 --> J2M2 Raiden
+        - J2M2 --> Mitsubishi J2M2 Raiden Mod. 11
+        - J2M2 --> J2M2 Raiden
+        - J2M --> J2M2
+
+    - Tada's Ki-61-I hei
+        - Tada's Ki-61-I hei --> Ki-61-I-Hei Hien (Tada) (in shop)
+        - Tada's Ki-61-I hei Hien --> Takeichi Tada's Kawasaki Ki-61-I-Hei Hien (78th Sentai) (on statcard)
+        - Ki-61-I --> Ki-61-I-Hei Hien (Tada) (at medium range)
+        - Ki-60 --> Ki-61-I-Hei (at long range)
+
+    - B7A2
+        - B7A2 --> B7A2 Ryusei (in shop)
+        - B7A2 --> Aichi B7A Ryusei (on statcard)
+        - B7A2 --> B7A2 Ryusei (at medium distance)
+        - B7A --> B7A2 (at long distance)
+
+    - G4M1
+        - G4M1 --> G4M1 Hamaki (in shop)
+        - G4M1 --> Mitsubishi G4M1 Hamaki (on statcard)
+        - G4M1 --> G4M1 Hamaki (at medium range)
+
+- Changed the names of the following French aircraft:
+    - NC.900
+        - NC.900 --> SNCAC NC.900 Würger (on statcard)
+
+- Changed the names of the following German aircraft:
+    - Bf 109 G-14
+        - Bf 109 G-14 --> Bf 109 G-14 Messer (in shop)
+        - Bf 109 G-14 --> Messerschimitt Bf 109 G-14 Messer (on statcard)
+        - Bf 109 G --> Bf 109 G-14 Messer (at medium distance)
+        - Bf 109 --> Bf 109 G-14 (at long distance)
+
+    - Ta 152 H-1
+        - Ta 152 H-1 --> Focke-Wulf Ta 152 H-1 (on statcard)
+        - Ta 152 H --> Ta 152 H-1 (at medium distance)
+        - Ta 152 --> Ta 152 H-1 (at long distance)
+
+    - Ta 152 C-3
+        - Ta 152 C-3 --> Focke-Wulf Ta 152 C-3 (on statcard)
+        - Ta 152 --> Ta 152 C-3 (at long distance)
+
+    - Ho 229 V3
+        - Ho 229 V3 --> Horten Ho 229 V3 (on statcard)
+        - Ho 229 --> Ho 229 V3 (at medium distance)
+        - Ho 229 --> Ho 229 V3 (at long distance)
+
+    - Fw 190 A-5/U12
+        - Fw 190 A-5/U12 --> Fw 190 A-5/U12 Würger (in shop)
+        - Fw 190 A-5/U12 --> Focke-Wulf Fw 190 A-5/U12 Würger (on statcard)
+        - Fw 190 A --> Fw 190 A-5/U12 Würger (at medium distance)
+        - Fw 190 --> F1 190 A-5/U12 (at long distance)
+
+    - F1 190 A-5/U2
+        - Fw 190 A-5/U2 --> Fw 190 A-5/U2 Würger JaBo-Rei (in shop)
+        - Fw 190 A-5/U2 --> Focke-Wulf Fw 190 A-5/U2 Würger Jagdbomber Reichweite (on statcard)
+        - Fw 190 A --> Fw 190 A-5/U2 Würger JaBo-Rei (at medium distance)
+        - Fw 190 --> Fw 190 A-5/U2 (at long distance)
+
+    - Fw 190 D-12
+        - Fw 190 D-12 --> Fw 190 D-12 Würger (in shop)
+        - Fw 190 D-12 --> Focke-Wulf Fw 190 D-12 Würger (on statcard)
+        - Fw 190 D --> Fw 190 D-12 Würger (at medium range)
+        - Fw 190 --> Fw 190 D-12 (at long range)
+
+    - Fw 190 A-5
+        - Fw 190 A-5 --> Fw 190 A-5 Würger (in shop)
+        - Fw 190 A-5 --> Focke-Wulf Fw 190 A-5 Würger (on statcard)
+        - Fw 190 A --> Fw 190 A-5 Würger (at medium distance)
+        - Fw 190 --> Fw 190 A-5 (at long distance)
+
+    - Fw 190 A-8
+        - Fw 190 A-8 --> Fw 190 A-8 Würger (in shop)
+        - Fw 190 A-8 --> Focke-Wulf Fw 190 A-8 Würger (on statcard)
+        - Fw 190 A --> Fw 190 A-8 Würger (at medium distance)
+        - Fw 190 --> Fw 190 A-8 (at long distance)
+
+    - Fw 190 F-8
+        - Fw 190 F-8 --> Fw 190 F-8/R3 Würger
+        - Fw 190 F-8 --> Focke-Wulf Fw 190 F-8/R3 Würger
+        - Fw 190 F --> Fw 190 F-8/R3 Würger
+        - Fw 190 --> Fw 190 F-8/R3
+
+    - Fw 190 D-9
+        - Fw 190 D-9 --> Fw 190 D-9 Würger (in shop)
+        - Fw 190 D-9 --> Focke-Wulf Fw 190 D-9 Würger (on statcard)
+        - Fw 190 D --> Fw 190 D-9 Würger (at medium distance)
+        - Fw 190 --> Fw 190 D-9 (at long distance)
+
+    - Fw 190 A-4
+        - Fw 190 A-4 --> Fw 190 A-4 Würger (in shop)
+        - Fw 190 A-4 --> Focke-Wulf Fw 190 A-4 Würger (on statcard)
+        - Fw 190 A --> Fw 190 A-4 Würger (at medium distance)
+        - Fw 190 --> Fw 190 A-4 (at long distance)
+
+    - Fw 190 A-1
+        - Fw 190 A-1 --> Fw 190 A-1 Würger (in shop)
+        - Fw 190 A-1 --> Focke-Wulf Fw 190 A-1 Würger (on statcard)
+        - Fw 190 A --> Fw 190 A-1 Würger (at medium distance)
+        - Fw 190 --> Fw 190 A-1 (at long distance)
+
+    - F-4F Phantom II KWS LV
+        - McDonnell Douglas F-4F KWS LV (ICE) Phantom II --> McDonnell Douglas F-4F Phantom II Kampfwertsteigerung Luftverteidigung (Improved Combat Efficiency, 1986) (on statcard)
+        - F-4F Phantom II ICE --> F-4F Phantom II KWS LV (ICE) (at medium distance)
+        - F-4F ICE --> F-4F KWS LV (at long distance)
+
+    - Tornado IDS Marineflieger
+        - Tornado IDS MFG --> Tornado IDS (Marineflieger) (in shop)
+        - Panavia GmbH Tornado IDS Marineflieger --> Panavia GmbH Tornado IDS (Marineflieger) (on statcard)
+        - Tornado IDS MFG --> Tornado IDS (Marineflieger) (at medium distance)
+        - Tornado IDS MFG --> Tornado IDS (MFG) (at long distance)
+
+- Changed the names of the following British aircraft:
+    - Sea Harrier FA 2
+        - Sea Harrier FA 2 --> Sea Harrier F(A).2 (in shop)
+        - British Aerospace Sea Harrier FA 2 --> British Aerospace Sea Harrier F(A).2 (on statcard)
+        - Sea Harrier FA 2 --> Sea Harrier F(A).2 (at medium distance)
+        - Sea Harrier FA.2 --> Sea Harrier F(A).2 (at long distance)
+
+    - F-4J(UK) Phantom F.3
+        - F-4J(UK) Phantom F.3 --> F-4J Phantom F.3
+        - McDonnell Douglas F-4J(UK) Phantom F.3 --> McDonnell Douglas F-4J Phantom F.3
+        - F-4J(UK) Phantom F.3 --> F-4J Phantom F.3
+        - F-4J(UK) --> F-4J F.3
+
+- Changed the names of the following German aircraft folders:
+    - Bf 109 G --> Bf 109G Messer
+    - Bf 109G (e) --> Bf 109G Messer (Early)
+    - Bf 109 E --> Bf 109E Messer
+    - Bf 109 F Messer --> Bf 109F Messer
+    - Bf 109 F Messer (1937) --> Bf 109F Messer (1937)
+    - Fw 190 D --> Fw 190D Würger
+    - Fw 190 A/F-8 --> Fw 190A/F-8 Würger
+    - Fw 190 A4/A5 --> Fw 190 A-4/A-5 Würger
+    - Fw 190 A-5/U12 --> Fw 190 A-5/U12 Würger
+    - Fw 190 A-5 --> Fw 190 A-5 Würger

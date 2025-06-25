@@ -1,0 +1,928 @@
+"<ID|readonly|
+noverify>";"<English>";
+
+"p-26a_33_shop";"P-26A-33 Peashooter";;
+"p-26a_33_0";"Boeing P-26A Peashooter | Block 33";;
+"p-26a_33_1";"P-26A-33 Peashooter";;
+"p-26a_33_2";"P-26A-33";;
+
+"p-26a_34_shop";"P-26A-34 Peashooter";;
+"p-26a_34_0";"Boeing P-26A Peashooter | Block 34";;
+"p-26a_34_1";"P-26A-34 Peashooter";;
+"p-26a_34_2";"P-26A-34";;
+
+"p-26a_34_m2_shop";"P-26A-34 M2 Peashooter";;
+"p-26a_34_m2_0";"Boeing P-26A Peashooter | Block 34, M2 Browning Modification";;
+"p-26a_34_m2_1";"P-26A-34-M2 Peashooter";;
+"p-26a_34_m2_2";"P-26A-34-M2";;
+
+"p-26a_35_shop";"P-26A-35 Peashooter";;
+"p-26a_35_0";"Boeing P-26A Peashooter | Block 35";;
+"p-26a_35_1";"P-26A-35 Peashooter";;
+"p-26a_35_2";"P-26A-35";
+
+"p-26b_35_shop";"P-26B-35 Peashooter";;
+"p-26b_35_0";"Boeing P-26B Peashooter | Block 35";;
+"p-26b_35_1";"P-26B-35 Peashooter";;
+"p-26b_35_2";"P-26B-35";;
+
+"p-36a_shop";"P-36A Hawk";;
+"p-36a_0";"Curtiss P-36A Hawk";;
+"p-36a_1";"P-36A Hawk";;
+"p-36a_2";"P-36A";;
+
+"p-36a_rasmussen_shop";"P-36A Hawk [Rasmussen]";;
+"p-36a_rasmussen_0";"Rasmussen's Curtiss P-36A Hawk";;
+"p-36a_rasmussen_1";"P-36A Hawk [Rasmussen]";;
+"p-36a_rasmussen_2";"P-36A";;
+
+"p-36a_brown_shop";"P-36A Hawk [Brown]";;
+"p-36a_brown_0";"Brown's Curtiss P-36A Hawk";;
+"p-36a_brown_1";"P-36A Hawk [Brown]";;
+"p-36a_brown_2";"P-36A";;
+
+"p-36c_shop";"P-36C Hawk";;
+"p-36c_0";"Curtiss P-36C Hawk";;
+"p-36c_1";"P-36C Hawk";;
+"p-36c_2";"P-36C";;
+
+"p-36c_rb_shop";"○P-36C Hawk";;
+"p-36c_rb_0";"○TheRussianBadger's Curtiss P-36C Hawk";;
+"p-36c_rb_1";"○P-36C Hawk";;
+"p-36c_rb_2";"○P-36C";;
+
+"bf2c_1_shop";"BF2C-1 Goshawk";;
+"bf2c_1_0";"Curtiss BF2C-1 Goshawk";;
+"bf2c_1_1";"BF2C-1 Goshawk";;
+"bf2c_1_2";"BF2C-1";;
+
+"f3f-2_shop";"F3F-2 Gulfhawk";;
+"f3f-2_0";"Grumman F3F-2 Gulfhawk";;
+"f3f-2_1";"F3F-2 Gulfhawk";;
+"f3f-2_2";"F3F-2";;
+
+"f3f-2_galer_shop";"F3F-2 Gulfhawk [Galer]";;
+"f3f-2_galer_0";"Galer's Grumman F3F-2 Gulfhawk";;
+"f3f-2_galer_1";"F3F-2 Gulfhawk [Galer]";;
+"f3f-2_galer_2";"F3F-2";;
+
+"f2a-1_shop";"F2A-1 Buffalo";;
+"f2a-1_0";"Brewster F2A-1 Buffalo";;
+"f2a-1_1";"F2A-1 Buffalo";;
+"f2a-1_2";"F2A-1";;
+
+"f2a-1_thach_shop";"F2A-1 Buffalo [Thach]";;
+"f2a-1_thach_0";"John Thach's Brewster F2A-1 Buffalo";;
+"f2a-1_thach_1";"F2A-1 Buffalo [Thach]";;
+"f2a-1_thach_2";"F2A-1";;
+
+"b_10b_shop";"B-10B (Model 139)";;
+"b_10b_0";"Martin B-10B (Model 139)";;
+"b_10b_1";"B-10B (Model 139)";;
+"b_10b_2";"B-10B";;
+
+"os2u_1_shop";"OS2U-1 Kingfisher";;
+"os2u_1_0";"Vought OS2U-1 Kingfisher";;
+"os2u_1_1";"OS2U-1 Kingfisher";;
+"os2u_1_2";"OS2U-1";;
+
+"os2u_1_naval_shop";"OS2U-1 Kingfisher";;
+"os2u_1_naval_0";"Vought OS2U-1 Kingfisher";;
+"os2u_1_naval_1";"OS2U-1 Kingfisher";;
+"os2u_1_naval_2";"OS2U-1";;
+
+"os2u_3_shop";"OS2U-3 Kingfisher";;
+"os2u_3_0";"Vought OS2U-3 Kingfisher";;
+"os2u_3_1";"OS2U-3 Kingfisher";;
+"os2u_3_2";"OS2U-3";;
+
+"sb2u-3_shop";"SB2U-3 Vindicator";;
+"sb2u-3_0";"Vought SB2U-3 Vindicator";;
+"sb2u-3_1";"SB2U-3 Vindicator";;
+"sb2u-3_2";"SB2U-3";;
+
+"sb2u-2_shop";"SB2U-2 Vindicator";;
+"sb2u-2_0";"Vought SB2U-2 Vindicator";;
+"sb2u-2_1";"SB2U-2 Vindicator";;
+"sb2u-2_2";"SB2U-2";;
+
+"tbf-1c_shop";"TBF-1C Avenger";;
+"tbf-1c_0";"Grumman TBF-1C Avenger";;
+"tbf-1c_1";"TBF-1C Avenger";;
+"tbf-1c_2";"TBF-1C";;
+
+"sbd-3_shop";"SBD-3 Dauntless";;
+"sbd-3_0";"Douglas SBD-3 Dauntless";;
+"sbd-3_1";"SBD-3 Dauntless";;
+"sbd-3_2";"SBD-3";;
+
+"tbd-1_1938_shop";"TBD-1 Devastator";;
+"tbd-1_1938_0";"Douglas TBD-1 Devastator";;
+"tbd-1_1938_1";"TBD-1 Devastator";;
+"tbd-1_1938_2";"TBD-1";;
+
+"b_18a_shop";"B-18A Bolo";;
+"b_18a_0";"Douglas B-18A Bolo";;
+"b_18a_1";"B-18A Bolo";;
+"b_18a_2";"B-18A";;
+
+"pby-5_shop";"PBY-5 Catalina";;
+"pby-5_0";"Consolidated PBY-5 Catalina";;
+"pby-5_1";"PBY-5 Catalina";;
+"pby-5_2";"PBY-5";;
+
+"pby-5a_shop";"PBY-5A Catalina";;
+"pby-5a_0";"Consolidated PBY-5A Catalina";;
+"pby-5a_1";"PBY-5A Catalina";;
+"pby-5a_2";"PBY-5A";;
+
+"pbm_1_shop";"PBM-1 Mariner";;
+"pbm_1_0";"Martin PBM-1 Mariner";;
+"pbm_1_1";"PBM-1 Mariner";;
+"pbm_1_2";"PBM-1";;
+
+"pbm_3_shop";"PBM-3 Mariner";;
+"pbm_3_0";"Martin PBM-3 Mariner";;
+"pbm_3_1";"PBM-3 Mariner";;
+"pbm_3_2";"PBM-3";;
+
+"p-400_shop";"P-400 Airacobra";;
+"p-400_0";"Bell P-400 Airacobra";;
+"p-400_1";"P-400 Airacobra";;
+"p-400_2";"P-400";;
+
+"p-38e_shop";"P-38E Lightning";;
+"p-38e_0";"Lockheed P-38E Lightning";;
+"p-38e_1";"P-38E Lightning";;
+"p-38e_2";"P-38E";;
+
+"yp-38_shop";"YP-38 Lightning";;
+"yp-38_0";"Lockheed YP-38 Lightning";;
+"yp-38_1";"YP-38 Lightning";;
+"yp-38_2";"YP-38";;
+
+"p-38g_shop";"P-38G-1 Lightning";;
+"p-38g_0";"Lockheed P-38G Lightning | Block 1";;
+"p-38g_1";"P-38G-1 Lightning";;
+"p-38g_2";"P-38G-1";;
+
+"p-39n_shop";"P-39N-0 Airacobra";;
+"p-39n_0";"Bell P-39N Airacobra | Block 0";;
+"p-39n_1";"P-39N-0 Airacobra";;
+"p-39n_2";"P-39N-0";;
+
+"p-39q_5_shop";"P-39Q-5 Airacobra";;
+"p-39q_5_0";"Bell P-39Q Airacobra | Block 5";;
+"p-39q_5_1";"P-39Q-5 Airacobra";;
+"p-39q_5_2";"P-39Q-5";;
+
+"p-36g_shop";"P-36G Hawk";;
+"p-36g_0";"Curtiss P-36G Hawk";;
+"p-36g_1";"P-36G Hawk";;
+"p-36g_2";"P-36G";;
+
+"p-40e_shop";"P-40E-1 Warhawk";;
+"p-40e_0";"Curtiss P-40E Warhawk | Block 1";;
+"p-40e_1";"P-40E-1 Warhawk";;
+"p-40e_2";"P-40E-1";;
+
+"p-40e_td_shop";"P-40E-1 Warhawk [TD]";;
+"p-40e_td_0";"Curtiss P-40E Warhawk | Block 1 [Twitch Drop]";;
+"p-40e_td_1";"P-40E-1 Warhawk [TD]";;
+"p-40e_td_2";"P-40E-1 [TD]";;
+
+"p-40f_10_shop";"P-40F-10 Warhawk";;
+"p-40f_10_0";"Curtiss P-40F Warhawk | Block 10";;
+"p-40f_10_1";"P-40F-10 Warhawk";;
+"p-40f_10_2";"P-40F-10";;
+
+"p-51c-10-nt_shop";"P-51C-10 Mustang";;
+"p-51c-10-nt_0";"North American P-51C Mustang | Block 10";;
+"p-51c-10-nt_1";"P-51C-10 Mustang";;
+"p-51c-10-nt_2";"P-51C-10";;
+
+"f2a-3_shop";"F2A-3 Buffalo";;
+"f2a-3_0";"Brewster F2A-3 Buffalo";;
+"f2a-3_1";"F2A-3 Buffalo";;
+"f2a-3_2";"F2A-3";;
+
+"f4f-3_shop";"F4F-3 Wildcat";;
+"f4f-3_0";"Grumman F4F-3 Wildcat";;
+"f4f-3_1";"F4F-3 Wildcat";;
+"f4f-3_2";"F4F-3";;
+
+"f4f-4_shop";"F4F-4 Wildcat";;
+"f4f-4_0";"Grumman F4F-4 Wildcat";;
+"f4f-4_1";"F4F-4 Wildcat";;
+"f4f-4_2";"F4F-4";;
+
+"f6f-3_shop";"F6F-5 Hellcat";;
+"f6f-3_0";"Grumman F6F-5 Hellcat";;
+"f6f-3_1";"F6F-5 Hellcat";;
+"f6f-3_2";"F6F-5";;
+
+"f4u-1a_shop";"F4U-1A Corsair";;
+"f4u-1a_0";"Vought F4U-1A Corsair";;
+"f4u-1a_1";"F4U-1A Corsair";;
+"f4u-1a_2";"F4U-1A";;
+
+"f4u-1a_usmc_shop";"F4U-1A Corsair (USMC)";;
+"f4u-1a_usmc_0";"Vought F4U-1A Corsair (USMC)";;
+"f4u-1a_usmc_1";"F4U-1A Corsair (USMC)";;
+"f4u-1a_usmc_2";"F4U-1A (USMC)";;
+
+"f4u-1d_shop";"F4U-1D Corsair";;
+"f4u-1d_0";"Vought F4U-1D Corsair";;
+"f4u-1d_1";"F4U-1D Corsair";;
+"f4u-1d_2";"F4U-1D";;
+
+"p-51_a-36_shop";"A-36 Apache";;
+"p-51_a-36_0";"North American A-36 Apache";;
+"p-51_a-36_1";"A-36 Apache";;
+"p-51_a-36_2";"A-36";;
+
+"a-20g_shop";"A-20G-25 Havoc";;
+"a-20g_0";"Douglas A-20G Havoc | Block 25";;
+"a-20g_1";"A-20G-25 Havoc";;
+"a-20g_2";"A-20G-25";;
+
+"sb2c_1c_shop";"SB2C-1C Helldiver";;
+"sb2c_1c_0";"Curtiss SB2C-1C Helldiver";;
+"sb2c_1c_1";"SB2C-1 Helldiver";;
+"sb2c_1c_2";"SB2C-1";;
+
+"sb2c_4_shop";"SB2C-4 Helldiver";;
+"sb2c_4_0";"Curtiss SB2C-4 Helldiver";;
+"sb2c_4_1";"SB2C-4 Helldiver";;
+"sb2c_4_2";"SB2C-4";;
+
+"b_34_shop";"B-34 Lexington";;
+"b_34_0";"Lockheed B-34 Lexington";;
+"b_34_1";"B-34 Lexington";;
+"b_34_2";"B-34";;
+
+"b_25j_1_shop";"B-25J-1 Mitchell";;
+"b_25j_1_0";"North American B-25J Mitchell | Block 1";;
+"b_25j_1_1";"B-25J-1 Mitchell";;
+"b_25j_1_2";"B-25J-1";;
+
+"b_25j_20_shop";"B-25J-20 Mitchell";;
+"b_25j_20_0";"North American B-25J Mitchell | Block 20";;
+"b_25j_20_1";"B-25J-20 Mitchell";;
+"b_25j_20_2";"B-25J-20";;
+
+"p-43a-1_shop";"P-43A-1 Lancer";;
+"p-43a-1_0";"Republic P-43A Lancer | Block 1";;
+"p-43a-1_1";"P-43A-1 Lancer";;
+"p-43a-1_2";"P-43A-1";;
+
+"b_26_shop";"B-26 Marauder";;
+"b_26_0";"Martin B-26 Marauder";;
+"b_26_1";"B-26 Marauder";;
+"b_26_2";"B-26";;
+
+"a-26c-45-dt_shop";"A-26C-45 Invader";;
+"a-26c-45-dt_0";"Douglas A-26C Invader | Block 45";;
+"a-26c-45-dt_1";"A-26C-45 Invader";;
+"a-26c-45-dt_2";"A-26C-45";;
+
+"a_26c_shop";"A-26C Invader";;
+"a_26c_0";"Douglas A-26C Invader";;
+"a_26c_1";"A-26C Invader";;
+"a_26c_2";"A-26C";;
+
+"b_26b_c_shop";"B-26B Marauder";;
+"b_26b_c_0";"Martin B-26B Marauder";;
+"b_26b_c_1";"B-26B Marauder";;
+"b_26b_c_2";"B-26B";;
+
+"p-63a-10_shop";"P-63A-10 Kingcobra";;
+"p-63a-10_0";"Bell P-63A Kingcobra | Block 10";;
+"p-63a-10_1";"P-63A-10 Kingcobra";;
+"p-63a-10_2";"P-63A-10";;
+
+"p-63a-5_shop";"P-63A-5 Kingcobra";;
+"p-63a-5_0";"Bell P-63A Kingcobra | Block 5";;
+"p-63a-5_1";"P-63A-5 Kingcobra";;
+"p-63a-5_2";"P-63A-5";;
+
+"p-63c-5_shop";"P-63C-5 Kingcobra";;
+"p-63c-5_0";"Bell P-63C Kingcobra | Block 5";;
+"p-63c-5_1";"P-63C-5 Kingcobra";;
+"p-63c-5_2";"P-63C-5";;
+
+"p-63c-5_kingcobra_animal_version_shop";"␠P-63C-5 Kingcobra";;
+"p-63c-5_kingcobra_animal_version_0";"␠Bell P-63C Kingcobra | Block 5";;
+"p-63c-5_kingcobra_animal_version_1";"␠P-63C-5 Kingcobra";;
+"p-63c-5_kingcobra_animal_version_2";"␠P-63C-5";;
+
+"p-38j_shop";"P-38J-15 Lightning";;
+"p-38j_0";"Lockheed P-38J Lightning | Block 15";;
+"p-38j_1";"P-38J-15 Lightning";;
+"p-38j_2";"P-38J-15";;
+
+"p-38l_shop";"P-38L-5 Lightning";;
+"p-38l_0";"Lockheed P-38L Lightning | Block 5";;
+"p-38l_1";"P-38L-5 Lightning";;
+"p-38l_2";"P-38L-5";;
+
+"p-51d-5_shop";"P-51D-5 Mustang";;
+"p-51d-5_0";"North American P-51D Mustang | Block 5";;
+"p-51d-5_1";"P-51D-5 Mustang";;
+"p-51d-5_2";"P-51D-5";;
+
+"p-51_mk1_shop";"P-51 Mustang Mk.1";;
+"p-51_mk1_0";"North American P-51 Mustang Mk.1";;
+"p-51_mk1_1";"P-51 Mustang Mk.1";;
+"p-51_mk1_2";"P-51 Mk.1";;
+
+"p-47d_22_re_shop";"P-47D-22 Thunderbolt";;
+"p-47d_22_re_0";"Republic P-47D Thunderbolt | Block 22";;
+"p-47d_22_re_1";"P-47D-22 Thunderbolt";;
+"p-47d_22_re_2";"P-47D-22";;
+
+"p-47d_shop";"P-47D-25 Thunderbolt";;
+"p-47d_0";"Republic P-47D Thunderbolt | Block 25";;
+"p-47d_1";"P-47D-25 Thunderbolt";;
+"p-47d_2";"P-47D-25";;
+
+"f4u-4_shop";"F4U-4 Corsair";;
+"f4u-4_0";"Vought F4U-4 Corsair";;
+"f4u-4_1";"F4U-4 Corsair";;
+"f4u-4_2";"F4U-4";;
+
+"f8f1_shop";"F8F-1 Bearcat";;
+"f8f1_0";"Grumman F8F-1 Bearcat";;
+"f8f1_1";"F8F-1 Bearcat";;
+"f8f1_2";"F8F-1";;
+
+"f6f-5n_shop";"F6F-5N Hellcat";;
+"f6f-5n_0";"Grumman F6F-5N Hellcat";;
+"f6f-5n_1";"F6F-5N Hellcat";;
+"f6f-5n_2";"F6F-5N";;
+
+"pbj_1h_shop";"PBJ-1H Mitchell";;
+"pbj_1h_0";"North American PBJ-1H Mitchell";;
+"pbj_1h_1";"PBJ-1H Mitchell";;
+"pbj_1h_2";"PBJ-1H";;
+
+"pbj_1j_shop";"PBJ-1J Mitchell";;
+"pbj_1j_0";"North American PBJ-1J Mitchell";;
+"pbj_1j_1";"PBJ-1J Mitchell";;
+"pbj_1j_2";"PBJ-1J";;
+
+"pbj_1j_1_shop";"PBJ-1J-1 Mitchell";;
+"pbj_1j_1_0";"North American PBJ-1J Mitchell | Block 1";;
+"pbj_1j_1_1";"PBJ-1J-1 Mitchell";;
+"pbj_1j_1_2";"PBJ-1J-1";;
+
+"p-61c_1_shop";"P-61C-1 Black Widow";;
+"p-61c_1_0";"Northrop P-61C Black Widow | Block 1";;
+"p-61c_1_1";"P-61C-1 Black Widow";;
+"p-61c_1_2";"P-61C-1";;
+
+"p-61a_1_shop";"P-61A-11 Black Widow";;
+"p-61a_1_0";"Northrop P-61A Black Widow | Block 11";;
+"p-61a_1_1";"P-61A-11 Black Widow";;
+"p-61a_1_2";"P-61A-11 Black Widow";;
+
+"b-17e_shop";"B-17E Flying Fortress (1941)";;
+"b-17e_0";"Boeing B-17E Flying Fortress | Sperry Ball Turrets (1941)";;
+"b-17e_1";"B-17E Flying Fortress (1941)";;
+"b-17e_2";"B-17E (1941)";;
+
+"b-17e_late_shop";"B-17E Flying Fortress (1942)";;
+"b-17e_late_0";"Boeing B-17E Flying Fortress | Bendix Ball Turrets (1942)";;
+"b-17e_late_1";"B-17E Flying Fortress (1942)";;
+"b-17e_late_2";"B-17E (1942)";;
+
+"pb4y-2_shop";"PB4Y-2 Privateer";;
+"pb4y-2_0";"Consolidated PB4Y-2 Privateer";;
+"pb4y-2_1";"PB4Y-2 Privateer";;
+"pb4y-2_2";"PB4Y-2";;
+
+"btd-1_shop";"BTD-1 Destroyer";;
+"btd-1_0";"Douglas BTD-1 Destroyer";;
+"btd-1_1";"BTD-1 Destroyer";;
+"btd-1_2";"BTD-1";;
+
+"xf5f_shop";"XF5F Skyrocket";;
+"xf5f_0";"Grumman XF5F Skyrocket";;
+"xf5f_1";"XF5F Skyrocket";;
+"xf5f_2";"XF5F";;
+
+"xp-50_shop";"XP-50 Skyrocket";;
+"xp-50_0";"Grumman XP-50 Skyrocket";;
+"xp-50_1";"XP-50 Skyrocket";;
+"xp-50_2";"XP-50";;
+
+"xp-55_shop";"XP-55 Ascender";;
+"xp-55_0";"Curtiss-Wright XP-55 Ascender";;
+"xp-55_1";"XP-55 Ascender";;
+"xp-55_2";"XP-55";;
+
+"pv_2d_shop";"PV-2D Harpoon";;
+"pv_2d_0";"Lockheed PV-2D Harpoon";;
+"pv_2d_1";"PV-2D Harpoon";;
+"pv_2d_2";"PV-2D";;
+
+"pbm_3_shop";"PBM-3 Mariner";;
+"pbm_3_0";"Martin PBM-3 Mariner";;
+"pbm_3_1";"PBM-3 Mariner";;
+"pbm_3_2";"PBM-3";;
+
+"pbm_5a_shop";"PBM-5A Mariner";;
+"pbm_5a_0";"Martin PBM-5A Mariner";;
+"pbm_5a_1";"PBM-5A Mariner";;
+"pbm_5a_2";"PBM-5A";;
+
+"f-82e_shop";"F-82E Twin Mustang";;
+"f-82e_0";"North American F-82E Twin Mustang";;
+"f-82e_1";"F-82E Twin Mustang";;
+"f-82e_2";"F-82E";;
+
+"f-82g_0";"North American F-82G Twin Mustang";;
+"f-82g_1";"F-82G Twin Mustang";;
+"f-82g_2";"F-82G";;
+
+"p-51d-30_usaaf_korea_shop";"P-51D-30 Mustang";;
+"p-51d-30_usaaf_korea_0";"North American P-51D Mustang | Block 30";;
+"p-51d-30_usaaf_korea_1";"P-51D-30 Mustang";;
+"p-51d-30_usaaf_korea_2";"P-51D-30";;
+
+"p-51h-5_na_shop";"P-51H-5 Mustang";;
+"p-51h-5_na_0";"North American P-51H Mustang | Block 5";;
+"p-51h-5_na_1";"P-51H-5 Mustang";;
+"p-51h-5_na_2";"P-51H-5";;
+
+"f4u-1c_shop";"F4U-1C Corsair";;
+"f4u-1c_0";"Vought F4U-1C Corsair";;
+"f4u-1c_1";"F4U-1C Corsair";;
+"f4u-1c_2";"F4U-1C";;
+
+"f4u-4b_shop";"F4U-4B Corsair";;
+"f4u-4b_0";"Vought F4U-4B Corsair";;
+"f4u-4b_1";"F4U-4B Corsair";;
+"f4u-4b_2";"F4U-4B";;
+
+"f4u-4b_vmf_214_shop";"F4U-4B Corsair (VMF-214)";;
+"f4u-4b_vmf_214_0";"Vought F4U-4B Corsair (VMF-214)";;
+"f4u-4b_vmf_214_1";"F4U-4B Corsair (VMF-214)";;
+"f4u-4b_vmf_214_2";"F4U-4B (VMF-214)";;
+
+"f8f1b_shop";"F8F-1B Bearcat";;
+"f8f1b_0";"Grumman F8F-1B Bearcat";;
+"f8f1b_1";"F8F-1B Bearcat";;
+"f8f1b_2";"F8F-1B";;
+
+"f7f1_shop";"F7F-1 Tigercat";;
+"f7f1_0";"Grumman F7F-1 Tigercat";;
+"f7f1_1";"F7F-1 Tigercat";;
+"f7f1_2";"F7F-1";;
+
+"a-26b_shop";"A-26B-50 Invader";;
+"a-26b_0";"Douglas A-26B-50 Invader";;
+"a-26b_1";"A-26B-50 Invader";;
+"a-26b_2";"A-26B-50";;
+
+"a-26b_10_shop";"A-26B-10 Invader";;
+"a-26b_10_0";"Douglas A-26B Invader | Block 10";;
+"a-26b_10_1";"A-26B-10 Invader";;
+"a-26b_10_2";"A-26B-10";;
+
+"spitfire_ix_usa_shop";"▃Spitfire LF.IXc";;
+"spitfire_ix_usa_0";"▃Supermarine Spitfire | Low-Altitude Fighter, Mk.IXc";;
+"spitfire_ix_usa_1";"▃Spitfire LF.IXc";;
+"spitfire_ix_usa_2";"▃Spitfire LF.IXc";;
+
+"douglas_ad_2_shop";"AD-2 Skyraider";;
+"douglas_ad_2_0";"Douglas AD-2 Skyraider";;
+"douglas_ad_2_1";"AD-2 Skyraider";;
+"douglas_ad_2_2";"AD-2";;
+
+"douglas_ad_4_shop";"AD-4 Skyraider";;
+"douglas_ad_4_0";"Douglas AD-4 Skyraider";;
+"douglas_ad_4_1";"AD-4 Skyraider";;
+"douglas_ad_4_2";"AD-4";;
+
+"am_1_mauler_shop";"AM-1 Mauler";;
+"am_1_mauler_0";"Martin AM-1 Mauler";;
+"am_1_mauler_1";"AM-1 Mauler";;
+"am_1_mauler_2";"AM-1";;
+
+"douglas_a_1h_shop";"A-1H Skyraider";;
+"douglas_a_1h_0";"Douglas A-1H Skyraider";;
+"douglas_a_1h_1";"A-1H Skyraider";;
+"douglas_a_1h_2";"A-1H";;
+
+"b-17g_shop";"B-17G-60 Flying Fortress";;
+"b-17g_0";"Boeing B-17G Flying Fortress | Block 60";;
+"b-17g_1";"B-17G-60 Flying Fortress";;
+"b-17g_2";"B-17G-60";;
+
+"b_24d_shop";"B-24D-25 Liberator";;
+"b_24d_0";"Consolidated B-24D Liberator | Block 25";;
+"b_24d_1";"B-24D-25 Liberator";;
+"b_24d_2";"B-24D-25";;
+
+"b-29_shop";"B-29A Superfortress";;
+"b-29_0";"Boeing B-29A Superfortress";;
+"b-29_1";"B-29A Superfortress";;
+"b-29_2";"B-29A";;
+
+"p-51d-20-na_shop";"P-51D-20 Mustang";;
+"p-51d-20-na_0";"North American P-51D  Mustang | Block 20";;
+"p-51d-20-na_1";"P-51D-20 Mustang";;
+"p-51d-20-na_2";"P-51D-20";;
+
+"xa_38_shop";"XA-38 Grizzly";;
+"xa_38_0";"Beechcraft XA-38 Grizzly";;
+"xa_38_1";"XA-38 Grizzly";;
+"xa_38_2";"XA-38";;
+
+"p-38j_marge_shop";"P-38J-15 Lightning [Bong]";;
+"p-38j_marge_0";"Richard Bong's Lockheed P-38J Lightning | Block 15";;
+"p-38j_marge_1";"P-38J-15 Lightning [Bong]";;
+"p-38j_marge_2";"P-38J-15";;
+
+"p-59a_shop";"P-59A Airacomet";;
+"p-59a_0";"Bell P-59A Airacomet";;
+"p-59a_1";"P-59A Airacomet";;
+"p-59a_2";"P-59A";;
+
+"f4u-6_au-1_shop";"AU-1 Corsair";;
+"f4u-6_au-1_0";"Vought AU-1 Corsair";;
+"f4u-6_au-1_1";"AU-1 Corsair";;
+"f4u-6_au-1_2";"AU-1";;
+
+"f2g-1_shop";"F2G-1 Super Corsair";;
+"f2g-1_0";"Goodyear Aircraft Company F2G-1 Super Corsair";;
+"f2g-1_1";"F2G-1 Super Corsair";;
+"f2g-1_2";"F2G-1";;
+
+"f7f3_shop";"F7F-3 Tigercat";;
+"f7f3_0";"Grumman F7F-3 Tigercat";;
+"f7f3_1";"F7F-3 Tigercat";;
+"f7f3_2";"F7F-3";;
+
+"f-80a_shop";"F-80A-5 Shooting Star";;
+"f-80a_0";"Lockheed F-80A Shooting Star | Block 5";;
+"f-80a_1";"F-80A-5 Shooting Star";;
+"f-80a_2";"F-80A-5";;
+
+"f-80_shop";"F-80C-10 Shooting Star";;
+"f-80_0";"Lockheed F-80C Shooting Star | Block 10";;
+"f-80_1";"F-80C-10 Shooting Star";;
+"f-80_2";"F-80C-10";;
+
+"f-84b_shop";"F-84B-26 Thunderjet";;
+"f-84b_0";"Republic F-84B Thunderjet | Block 26";;
+"f-84b_1";"F-84B-26 Thunderjet";;
+"f-84b_2";"F-84B-26";;
+
+"f-84g_shop";"F-84G-21 Thunderjet";;
+"f-84g_0";"Republic F-84G Thunderjet | Block 21";;
+"f-84g_1";"F-84G-21 Thunderjet";;
+"f-84g_2";"F-84G-21";;
+
+"f-86a-5_shop";"F-86A-5 Sabre";;
+"f-86a-5_0";"North American F-86A Sabre | Block 5";;
+"f-86a-5_1";"F-86A-5 Sabre";;
+"f-86a-5_2";"F-86A-5";;
+
+"f-86f-25_shop";"F-86F-25 Sabre";;
+"f-86f-25_0";"North American F-86F Sabre | Block 25";;
+"f-86f-25_1";"F-86F-25 Sabre";;
+"f-86f-25_2";"F-86F-25";;
+
+"f2h-2_shop";"F2H-2 Banshee";;
+"f2h-2_0";"McDonnell F2H-2 Banshee";;
+"f2h-2_1";"F2H-2 Banshee";;
+"f2h-2_2";"F2H-2";;
+
+"f9f-2_shop";"F9F-2 Panther";;
+"f9f-2_0";"Grumman F9F-2 Panther";;
+"f9f-2_1";"F9F-2 Panther";;
+"f9f-2_2";"F9F-2";;
+
+"f9f-5_shop";"F9F-5 Panther";;
+"f9f-5_0";"Grumman F9F-5 Panther";;
+"f9f-5_1";"F9F-5 Panther";;
+"f9f-5_2";"F9F-5";;
+
+"f9f-8_shop";"F9F-8 Cougar";;
+"f9f-8_0";"Grumman F9F-8 Cougar";;
+"f9f-8_1";"F9F-8 Cougar";;
+"f9f-8_2";"F9F-8";;
+
+"f3d_1_shop";"F3D-1 Skyknight";;
+"f3d_1_0";"Douglas F3D-1 Skyknight";;
+"f3d_1_1";"F3D-1 Skyknight";;
+"f3d_1_2";"F3D-1";;
+
+"f-84f_shop";"F-84F Thunderstreak";;
+"f-84f_0";"Republic F-84F Thunderstreak";;
+"f-84f_1";"F-84F Thunderstreak";;
+"f-84f_2";"F-84F";;
+
+"b-57_shop";"▃B-57A Canberra";;
+"b-57_0";"▃Martin B-57A Canberra";;
+"b-57_1";"▃B-57A Canberra";;
+"b-57_2";"▃B-57A";;
+
+"b-57b_shop";"▃B-57B Canberra";;
+"b-57b_0";"▃Martin B-57B Canberra";;
+"b-57b_1";"▃B-57B Canberra";;
+"b-57b_2";"▃B-57B";;
+
+"f-89d_shop";"F-89D Scorpion";;
+"f-89d_0";"Northrop F-89D Scorpion";;
+"f-89d_1";"F-89D Scorpion";;
+"f-89d_2";"F-89D";;
+
+"f-89b_shop";"F-89B Scorpion";;
+"f-89b_0";"Northrop F-89B Scorpion";;
+"f-89b_1";"F-89B Scorpion";;
+"f-89b_2";"F-89B";;
+
+"a2d_shop";"A2D-1 Skyshark";;
+"a2d_0";"Douglas A2D-1 Skyshark";;
+"a2d_1";"A2D-1 Skyshark";;
+"a2d_2";"A2D-1";;
+
+"f-104a_shop";"F-104A Starfighter";;
+"f-104a_0";"Lockheed F-104A Starfighter";;
+"f-104a_1";"F-104A Starfighter";;
+"f-104a_2";"F-104A";;
+
+"f-104c_shop";"F-104C Starfighter";;
+"f-104c_0";"Lockheed F-104C Starfighter";;
+"f-104c_1";"F-104C Starfighter";;
+"f-104c_2";"F-104C";;
+
+"f-86f-2_shop";"F-86F-2 Sabre";;
+"f-86f-2_0";"North American F-86F Sabre | Block 2";;
+"f-86f-2_1";"F-86F-2 Sabre";;
+"f-86f-2_2";"F-86F-2";;
+
+"f-100d_shop";"F-100D Super Sabre";;
+"f-100d_0";"North American F-100D Super Sabre";;
+"f-100d_1";"F-100D Super Sabre";;
+"f-100d_2";"F-100D";;
+
+"f3h-2_shop";"F3H-2 Demon";;
+"f3h-2_0";"McDonnell F3H-2 Demon";;
+"f3h-2_1";"F3H-2 Demon";;
+"f3h-2_2";"F3H-2";;
+
+"f8u-2_shop";"F8U-2 Crusader II";;
+"f8u-2_0";"Vought F8U-2 Crusader II";;
+"f8u-2_1";"F8U-2 Crusader II";;
+"f8u-2_2";"F8U-2";;
+
+"a_4b_shop";"A-4B Skyhawk";;
+"a_4b_0";"Douglas A-4B Skyhawk";;
+"a_4b_1";"A-4B Skyhawk";;
+"a_4b_2";"A-4B";;
+
+"a_4e_early_shop";"A-4E Skyhawk (1956)";;
+"a_4e_early_0";"Douglas A-4E Skyhawk (1956)";;
+"a_4e_early_1";"A-4E Skyhawk (1956)";;
+"a_4e_early_2";"A-4E (1956)";;
+
+"fj_4b_shop";"FJ-4B Fury";;
+"fj_4b_0";"North American FJ-4B Fury";;
+"fj_4b_1";"FJ-4B Fury";;
+"fj_4b_2";"FJ-4B";;
+
+"fj_4b_agm_12b_shop";"FJ-4B Fury ""VMF-232""";;
+"fj_4b_agm_12b_0";"North American FJ-4B Fury ""VMF-232""";;
+"fj_4b_agm_12b_1";"FJ-4B Fury ""VMF-232""";;
+"fj_4b_agm_12b_2";"FJ-4B ""VMF-232""";;
+
+"av_8a_shop";"▃AV-8A Harrier";;
+"av_8a_0";"▃Hawker Siddeley AV-8A Harrier";;
+"av_8a_1";"▃AV-8A Harrier";;
+"av_8a_2";"▃AV-8A";;
+
+"av_8c_shop";"▃AV-8C Harrier";;
+"av_8c_0";"▃Hawker Siddeley AV-8C Harrier";;
+"av_8c_1";"▃AV-8C Harrier";;
+"av_8c_2";"▃AV-8C";"AV-8";;
+
+"f_117_shop";"F-117A Nighthawk";;
+"f_117_0";"Lockheed F-117A Nighthawk";;
+"f_117_1";"F-117A Nighthawk";;
+"f_117_2";"F-117A";;
+
+"a_10a_early_shop";"A-10A Warthog (1976)";;
+"a_10a_early_0";"Fairchild Republic A-10A Warthog (1976)";;
+"a_10a_early_1";"A-10A Warthog (1976)";;
+"a_10a_early_2";"A-10A (1976)";;
+
+"f11f_1_late_shop";"F11F-1 Tiger";;
+"f11f_1_late_0";"Grumman F11F-1 Tiger";;
+"f11f_1_late_1";"F11F-1 Tiger";;
+"f11f_1_late_2";"F11F-1";;
+
+"f4d_1_shop";"F4D-1 Skyray";;
+"f4d_1_0";"Douglas F4D-1 Skyray";;
+"f4d_1_1";"F4D-1 Skyray";;
+"f4d_1_2";"F4D-1";;
+
+"f-5c_shop";"F-5C Skoshi Tiger";;
+"f-5c_0";"Northrop F-5C Skoshi Tiger";;
+"f-5c_1";"F-5C Skoshi Tiger";;
+"f-5c_2";"F-5C";;
+
+"f-5e_shop";"F-5E Tiger II";;
+"f-5e_0";" Northrop F-5E Tiger II";;
+"f-5e_1";"F-5E Tiger II";;
+"f-5e_2";"F-5E";;
+
+"f-4c_shop";"F-4C Phantom II";;
+"f-4c_0";"McDonnell Douglas F-4C Phantom II";;
+"f-4c_1";"F-4C Phantom II";;
+"f-4c_2";"F-4C";;
+
+"f-4e_shop";"F-4E Phantom II";;
+"f-4e_0";"McDonnell Douglas F-4E Phantom II";;
+"f-4e_1";"F-4E Phantom II";;
+"f-4e_2";"F-4E";;
+
+"f-8e_shop";"F-8E Crusader";;
+"f-8e_0";"Vought F-8E Crusader";;
+"f-8e_1";"F-8E Crusader";;
+"f-8e_2";"F-8E";;
+
+"f-4j_shop";"F-4J Phantom II";;
+"f-4j_0";"McDonnell Douglas F-4J Phantom II";;
+"f-4j_1";"F-4J Phantom II";;
+"f-4j_2";"F-4J";;
+
+"f-4s_shop";"F-4S Phantom II";;
+"f-4s_0";"McDonnell Douglas F-4S Phantom II";;
+"f-4s_1";"F-4S Phantom II";;
+"f-4s_2";"F-4S";;
+
+"a_10a_late_shop";"A-10A Warthog (1978)";;
+"a_10a_late_0";"Fairchild Republic A-10A Warthog (1978)";;
+"a_10a_late_1";"A-10A Warthog (1978)";;
+"a_10a_late_2";"A-10A (1978)";;
+
+"a_10c_shop";"A-10C Warthog";;
+"a_10c_0";"Northrop Grumman A-10C Warthog";;
+"a_10c_1";"A-10C Warthog";;
+"a_10c_2";"A-10C";;
+
+"a_7d_shop";"A-7D Corsair II";;
+"a_7d_0";"Ling-Temco-Vought A-7D Corsair II";;
+"a_7d_1";"A-7D Corsair II";;
+"a_7d_2";"A-7D";;
+
+"a_7e_shop";"A-7E Corsair II";;
+"a_7e_0";"Ling-Temco-Vought A-7E Corsair II";;
+"a_7e_1";"A-7E Corsair II";;
+"a_7e_2";"A-7E";;
+
+"f-105d_shop";"F-105D Thunderchief";;
+"f-105d_0";"Republic F-105D Thunderchief";;
+"f-105d_1";"F-105D Thunderchief";;
+"f-105d_2";"F-105D";;
+
+"f_111a_shop";"F-111A Aardvark";;
+"f_111a_0";"General Dynamics F-111A Aardvark";;
+"f_111a_1";"F-111A Aardvark";;
+"f_111a_2";"F-111A";;
+
+"f_111f_shop";"F-111F Aardvark";;
+"f_111f_0";"General Dynamics F-111F Aardvark";;
+"f_111f_1";"F-111F Aardvark";;
+"f_111f_2";"F-111F";;
+
+"f-5a_shop";"F-5A Freedom Fighter";;
+"f-5a_0";"Northrop F-5A Freedom Fighter";;
+"f-5a_1";"F-5A Freedom Fighter";;
+"f-5a_2";"F-5A";;
+
+"a_7k_shop";"A-7K Corsair II";;
+"a_7k_0";"Ling-Temco-Vought A-7K Corsair II";;
+"a_7k_1";"A-7K Corsair II";;
+"a_7k_2";"A-7K";;
+
+"a_6e_tram_shop";"A-6E TRAM Intruder";;
+"a_6e_tram_0";"Grumman A-6E TRAM Intruder";;
+"a_6e_tram_1";"A-6E TRAM Intruder";;
+"a_6e_tram_2";"A-6E";;
+
+"av_8b_na_shop";"AV-8B Night Attack Harrier II";;
+"av_8b_na_0";"McDonnell Douglas AV-8B Night Attack Harrier II";;
+"av_8b_na_1";"AV-8B Night Attack Harrier II";;
+"av_8b_na_2";"AV-8B (NA)";;
+
+"f_15c_msip2_shop";"F-15C-40 MSIP II Eagle";;
+"f_15c_msip2_0";"Boeing F-15C Eagle | Block 40, Multi-Stage Improvement Program II";;
+"f_15c_msip2_1";"F-15C-40 MSIP II Eagle";;
+"f_15c_msip2_2";"F-15C-40";;
+
+"f_15e_shop";"F-15E-43 Strike Eagle";;
+"f_15e_0";"McDonnell Douglas F-15E Strike Eagle | Block 43";;
+"f_15e_1";"F-15E-43 Strike Eagle";;
+"f_15e_2";"F-15E-43";;
+
+"fa_18a_shop";"F/A-18A-18 Hornet";;
+"fa_18a_0";"McDonnell Douglas F/A-18A Hornet | Block 18, Lot 8";;
+"fa_18a_1";"F/A-18A-18 Hornet";;
+"fa_18a_2";"F/A-18A-18";;
+
+"fa_18c_early_shop";"F/A-18C-23 Hornet";;
+"fa_18c_early_0";"McDonnell Douglas F/A-18C Hornet | Block 23, Lot 10 (1987)";;
+"fa_18c_early_1";"F/A-18C-23 Hornet";;
+"fa_18c_early_2";"F/A-18C-23";;
+
+"fa_18c_late_shop";"F/A-18C-52 Hornet";;
+"fa_18c_late_0";"Boeing F/A-18C Hornet | Block 52, Lot 20 (1992)";;
+"fa_18c_late_1";"F/A-18C-52 Hornet";;
+"fa_18c_late_2";"F/A-18C-52";;
+
+"f_16a_block_10_shop";"F-16A-15OCU Fighting Falcon";;
+"f_16a_block_10_0";"General Dynamics F-16A Fighting Falcon | Block 15, Operational Capability Upgrade";;
+"f_16a_block_10_1";"F-16A-15OCU Fighting Falcon";;
+"f_16a_block_10_2";"F-16A-15OCU";;
+
+"f_16a_block_15_adf_shop";"F-16A-15ADF Fighting Falcon";;
+"f_16a_block_15_adf_0";"General Dynamics F-16A Fighting Falcon | Block 15, Air Defense Fighter";;
+"f_16a_block_15_adf_1";"F-16A-15ADF Fighting Falcon";;
+"f_16a_block_15_adf_2";"F-16A-15ADF";;
+
+"f_16c_block_50_shop";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_0";"General Dynamics F-16C Fighting Falcon | Block 50";;
+"f_16c_block_50_1";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_2";"F-16C-50";;
+
+"f_16c_block_50_missile_test_shop";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_missile_test_0";"General Dynamics F-16C Fighting Falcon | Block 50";;
+"f_16c_block_50_missile_test_1";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_missile_test_2";"F-16C-50";;
+
+"f_14a_early_shop";"F-14A-110 Tomcat";;
+"f_14a_early_0";"Grumman F-14A Tomcat | Block 110";;
+"f_14a_early_1";"F-14A-110 Tomcat";;
+"f_14a_early_2";"F-14A-110";;
+
+"f_14a_iriaf_shop";"☫F-14A-90/1995 Tomcat";;
+"f_14a_iriaf_0";"☫Grumman F-14A Tomcat | Block 90, Mod. 1995";;
+"f_14a_iriaf_1";"☫F-14A-90/1995 Tomcat";;
+"f_14a_iriaf_2";"☫F-14A-90/1995";;
+
+"f_14b_shop";"F-14B Tomcat";;
+"f_14b_0";"Grumman F-14B Tomcat";;
+"f_14b_1";"F-14B Tomcat";;
+"f_14b_2";"F-14B";;
+
+"f_15a_shop";"F-15A-20 Eagle";;
+"f_15a_0";"McDonnell Douglas F-15A Eagle | Block 20";;
+"f_15a_1";"F-15A-20 Eagle";;
+"f_15a_2";"F-15A-20";;
+
+"av_8b_plus_shop";"AV-8B+ Harrier II";;
+"av_8b_plus_0";"McDonnell Douglas AV-8B+ Harrier II";;
+"av_8b_plus_1";"AV-8B+ Harrier II";;
+"av_8b_plus_2";"AV-8B+";;
+
+"f_20a_shop";"F-20A Tigershark";;
+"f_20a_0";"Northrop F-20A Tigershark";;
+"f_20a_1";"F-20A Tigershark";;
+"f_20a_2";"F-20A";;
+
+"shop/group/p-26_group";"P-26 Peashooter";;
+"shop/group/p-36_group";"P-36 Hawk";;
+"shop/group/f2a_group";"F2A Buffalo";;
+"shop/group/os2u_group";"OS2U Kingfisher";;
+"shop/group/pby_group";"PBY-5 Catalina";;
+"shop/group/b-17_group";"B-17E Flying Fortress";;
+"shop/group/sb2u_group";"SB2U Vindicator";;
+"shop/group/tbf_group";"TBF/SBD";;
+"shop/group/tbd_group";"TBD/B-18";;
+"shop/group/p-51_early_group";"P-51 Mustang (Early)";;
+"shop/group/p-47_ealy_group";"P-47 Thunderbolt (Early)";;
+"shop/group/f4u_late_group";"F4U Corsair (Late)";;
+"shop/group/b-17_late_group";"B-17/B-24";;
+"shop/group/b_57_group";"▃B-57 Canberra";;
+"shop/group/f-104_group";"F-104 Starfighter";;
+"shop/group/a_4b_group";"A-4B/FJ-4B";;
+"shop/group/a_7_group";"A-7 Corsair";;
+"shop/group/f_16_group";"F-16A Block 10/15";;
+"shop/group/p-38_group";"P-38 Lightning (Early)";;
+"shop/group/p-38_late_group";"P-38 Lightning (Late)";;
+"shop/group/p-40_group";"P-40 Warhawk";;
+"shop/group/f4f_group";"F4F/F6F";;
+"shop/group/f6f_group";"F6F Bearcat";;
+"shop/group/f4u-1a_group";"F4U-1A Corsair";;
+"shop/group/sb2c_group";"SB2C Helldiver";
+"shop/group/a-26b_group";"A-26B Invader";;
+"shop/group/p-63_group";"P-63 Kingcobra";;
+"shop/group/p-47_group";"P-47D Thunderbolt";
+"shop/group/pbj_group";"PBJ-1 Mitchell";;
+"shop/group/f8f1_group";"F8F/F7F";;
+"shop/group/f_14_group";"F-14 Tomcat";;
