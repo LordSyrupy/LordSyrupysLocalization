@@ -1,6 +1,7 @@
 "<ID|readonly|
 noverify>";"<English>";
 
+//Aircraft
 "p-26a_33_shop";"P-26A-33 Peashooter";;
 "p-26a_33_0";"Boeing P-26A Peashooter | Block 33";;
 "p-26a_33_1";"P-26A-33 Peashooter";;
@@ -926,3 +927,22 @@ noverify>";"<English>";
 "shop/group/pbj_group";"PBJ-1 Mitchell";;
 "shop/group/f8f1_group";"F8F/F7F";;
 "shop/group/f_14_group";"F-14 Tomcat";;
+
+//Ground Units
+"us_sl_amraam_fcs_shop";"CLAWS (M1097A2 IFCS)";;
+"us_sl_amraam_fcs_0";"Complementary Low-Altitude Weapon System | M1097A2 Integrated Fire Control Station";;
+"us_sl_amraam_fcs_1";"CLAWS (M1097A2 IFCS)";;
+"us_sl_amraam_fcs_2";"CLAWS (M1097A2 IFCS)";;
+
+"us_sl_amraam_launcher_shop";"CLAWS (M1097A2 HML)";;
+"us_sl_amraam_launcher_0";"Complementary Low-Altitude Weapon System | M1097A2 High-Mobility Launcher";;
+"us_sl_amraam_launcher_1";"CLAWS (M1097A2 HML)";;
+"us_sl_amraam_launcher_2";"CLAWS (M1097A2 HML)";;
+
+"shop/group/us_sl_amraam_fcs_group";"CLAWS (M1097A2)";;
+
+//Helicopters
+"rah_66_shop";"RAH-66 Comanche";;
+"rah_66_0";"Boeing-Sikorsky RAH-66 Comanche | 2002 LHX Prototype";;
+"rah_66_1";"RAH-66 Comanche";;
+"rah_66_2";"RAH-66";;

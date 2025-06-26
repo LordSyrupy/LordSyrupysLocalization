@@ -111,10 +111,10 @@ noverify>";"<English>";
 "f-4ej_1";"▅F-4EJ Phantom II";;
 "f-4ej_2";"▅F-4EJ";;
 
-"f-4ej_adtw_shop";"▅F-4EJ Phantom II ADTW";;
+"f-4ej_adtw_shop";"▅F-4EJ Phantom II (ADTW)";;
 "f-4ej_adtw_0";"▅Mitsubishi F-4EJ Phantom II | Air Development and Test Wing";;
-"f-4ej_adtw_1";"▅F-4EJ Phantom II ADTW";;
-"f-4ej_adtw_2";"▅F-4EJ ADTW";;
+"f-4ej_adtw_1";"▅F-4EJ Phantom II (ADTW)";;
+"f-4ej_adtw_2";"▅F-4EJ (ADTW)";;
 
 "f_16a_block_15_ocu_thailand_shop";"▄B.Kh.19 Fighting Falcon";;
 "f_16a_block_15_ocu_thailand_0";"▄General Dynamics B.Kh.19 Fighting Falcon | F-16A-15, Operational Capability Upgrade";;
@@ -146,4 +146,32 @@ noverify>";"<English>";
 "f_15j_kai_1";"▅F-15J-MSIP Eagle";;
 "f_15j_kai_2";"▅F-15J-MSIP";;
 
+"f_2a_shop";"F-2A Viper Zero";;
+"f_2a_0";"Mitsubishi F-2A Viper Zero";;
+"f_2a_1";"F-2A Viper Zero";;
+"f_2a_2";"F-2A";;
+
+"f_2a_adtw_shop";"XF-2A Viper Zero";;
+"f_2a_adtw_0";"Mitsubishi XF-2A Viper Zero | Air Development and Test Wing";;
+"f_2a_adtw_1";"XF-2A Viper Zero";;
+"f_2a_adtw_2";"XF-2A";;
+
 "shop/group/f-86_japan_group";"▅F-86F";;
+
+//Ground Units
+"jp_type_81_tansam_fcs_shop";"Type 81 Tan-SAM Kai (IFCS)";;
+"jp_type_81_tansam_fcs_0";"Toshiba Type 81 Tan-SAM Kai | Isuzu Type 73 Integrated Fire Control Station";;
+"jp_type_81_tansam_fcs_1";"Type 81 Tan-SAM Kai (IFCS)";;
+"jp_type_81_tansam_fcs_2";"Type 81 Tan-SAM Kai (IFCS)";;
+
+"jp_type_81_tansam_launcher_shop";"Type 81 Tan-SAM Kai (HML)";;
+"jp_type_81_tansam_launcher_0";"Toshiba Type 81 Tan-SAM Kai | Isuzu Type 73 High-Mobility Launcher";;
+"jp_type_81_tansam_launcher_1";"Type 81 Tan-SAM Kai (HML)";;
+"jp_type_81_tansam_launcher_2";"Type 81 Tan-SAM Kai (HML)";;
+
+"jp_type_81_tansam_shop";"Type 81 Tan-SAM";;
+"jp_type_81_tansam_0";"Toshiba Type 81 Tan-SAM";;
+"jp_type_81_tansam_1";"Type 81 Tan-SAM";;
+"jp_type_81_tansam_2";"Type 81 Tan-SAM";;
+
+"shop/group/jp_type_81_tansam_fcs_group";"Type 81 Tan-SAM Kai";;

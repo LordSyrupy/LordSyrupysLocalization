@@ -376,4 +376,40 @@ noverify>";"<English>";
 "mig_29_9_12g_1";"◄MiG-29G Fulcrum-G";;
 "mig_29_9_12g_2";"◄MiG-29G";;
 
+"hunter_f58a_1971_switzerland_shop";"◌Hunter Mk.58A (1971)";;
+"hunter_f58a_1971_switzerland_0";"◌Hawker Hunter Mk.58A (1971)";;
+"hunter_f58a_1971_switzerland_1";"◌Hunter Mk.58A (1971)";;
+"hunter_f58a_1971_switzerland_2";"◌Hunter Mk.58A (1971)";;
+
+"mirage_3s_c70_switzerland_shop";"◌Mirage III S C.70";;
+"mirage_3s_c70_switzerland_0";"◌Dassault Mirage III S | FW C.70 Canard";;
+"mirage_3s_c70_switzerland_1";"◌Mirage III S C.70";;
+"mirage_3s_c70_switzerland_2";"◌Mirage III S";;
+
+"f-5e_switzerland_shop";"◌F-5E Tiger II";;
+"f-5e_switzerland_0";"◌Northrop F-5E Tiger II";;
+"f-5e_switzerland_1";"◌F-5E Tiger II";;
+"f-5e_switzerland_2";"◌F-5E";;
+
+"fa_18c_switzerland_shop";"◌F/A-18C Hornet";;
+"fa_18c_switzerland_0";"◌RUAG F/A-18C Hornet";;
+"fa_18c_switzerland_1";"◌F/A-18C Hornet";;
+"fa_18c_switzerland_2";"◌F/A-18C";;
+
+"fa_18c_late_switzerland_shop";"◌F/A-18C Hornet (UG21)";;
+"fa_18c_late_switzerland_0";"◌RUAG F/A-18C Hornet | Upgrade 21 Program";;
+"fa_18c_late_switzerland_1";"◌F/A-18C Hornet (UG21)";;
+"fa_18c_late_switzerland_2";"◌F/A-18C (UG21)";;
+
 "shop/group/f-86_german_group";"◄CL-13 Sabre";;
+
+//Ground Units
+"germ_iris_slm_launcher_shop";"IRIS-T SLM (MAN SX45 TEL)";;
+"germ_iris_slm_launcher_0";"Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Transporter Erector Launcher";;
+"germ_iris_slm_launcher_1";"IRIS-T SLM (MAN SX45 TEL)";;
+"germ_iris_slm_launcher_2";"IRIS-T SLM (MAN SX45 TEL)";;
+
+"germ_iris_slm_fcs_shop";"IRIS-T SLM (MAN SX45 IFCS)";;
+"germ_iris_slm_fcs_0";"Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Integrated Fire Control Station";;
+"germ_iris_slm_fcs_1";"IRIS-T SLM (MAN SX45 IFCS)";;
+"germ_iris_slm_fcs_2";"IRIS-T SLM (MAN SX45 IFCS)";;
