@@ -1,3 +1,214 @@
+VERSION 0.2.1 CHANGELOG
+RELEASE DATE: 06/26/2025
+- Added a roundel to the MiG-29 Sniper
+
+- Readded the IAR-93B
+
+- Readded the M117/JM117, AIM-9B FGW.2, AIM-9P-4, R.550 Magic/Magic 2, R.530/R.530E, and MICA-EM
+
+- Fixed a bug in syrup_weapons.csv which caused modded names to display incorrectly
+
+- Changed the names of the following Japanese aircraft:
+    - F-2A
+        - F-2A --> F-2A Viper Zero (in shop)
+        - F-2A --> Mitsubishi F-2A Viper Zero (on statcard)
+        - F-2A --> F-2A Viper Zero (at medium distance)
+    - F-2A ADTW
+        - F-2A ADTW --> XF-2A Viper Zero (in shop)
+        - F-2A ADTW --> Mitsubishi XF-2A Viper Zero | Air Development and Test Wing (on statcard)
+        - F-2A --> XF-2A Viper Zero (at medium distance)
+        - F-2A --> XF-2A (at long distance)
+
+- Changed the names of the following German aircraft:
+    - Hunter F.58A (1971)
+        - Hunter F.58A (1971) --> Hunter Mk.58A (1971) (in shop)
+        - Hunter F.58A (1971) --> Hawker Hunter Mk.58A (1971) (on statcard)
+        - Hunter F --> Hunter Mk.58A (1971) (at medium distance)
+        - Hunter --> Hunter Mk.58A (1971) (at long distance)
+    - Mirage IIIS C.70
+        - Mirage IIIS C.70 --> Dassault Mirage III S | FW C.70 Canard (on statcard)
+        - Mirage IIIS --> Mirage III S C.70 (at medium distance)
+        - Mirage --> Mirage III S (at long distance)
+    - F-5E
+        - F-5E --> F-5E Tiger II (in shop)
+        - F-5E Tiger II --> Northrop F-5E Tiger II (on statcard)
+        - F-5E --> F-5E Tiger II (at medium distance)
+        - F-5 --> F-5E (at long distance)
+    - F/A-18C Hornet
+        - F/A-18C --> F/A-18C Hornet (in shop)
+        - F/A-18C Hornet --> RUAG F/A-18C Hornet (on statcard)
+        - F/A-18C --> F/A-18C Hornet (at medium distance)
+    - F/A-18C Hornet (Late)
+        - F/A-18C Late --> F/A-18C Hornet (UG21) (in shop)
+        - F/A-18C (Late) Hornet --> RUAG F/A-18C Hornet | Upgrade 21 Program (on statcard)
+        - F/A-18C Late --> F/A-18C Hornet (UG21) (at medium distance)
+        - F/A-18C --> F/A-18C (UG21) (at long distance)
+
+- Changed the names of the following French aircraft:
+    - NF-5A
+        - NF-5A --> NF-5A Freedom Fighter (in shop)
+        - NF-5A Freedom Fighter --> Canadair NF-5A Freedom Fighter (on statcard)
+        - NF-5A --> NF-5A Freedom Fighter (at medium distance)
+        - NF-5 --> NF-5A (at long distance)
+
+- Changed the names of the following Russian aircraft:
+    - L-39ZA
+        - L-39ZA Albatros --> Aero L-39ZA Albatros (on statcard)
+        - L-39ZA --> L-39ZA Albatros (at medium distance)
+        - L-39 --> L-39ZA (at long distance)
+
+- Changed the names of the following Italian aircraft:
+    - MiG-29 Sniper
+        - MiG-29 Sniper --> MiG-29A Sniper (in shop)
+        - MiG-29 Sniper --> Aerostar MiG-29A Fulcrum-A | DASA/Elbit Sniper Modernization Program (1997) (on statcard)
+        - MiG-29 --> MiG-29A Sniper (at medium distance)
+        - MiG-29 --> MiG-29A Sniper (at long distance)
+
+- Changed the names of the following Swedish aircraft:
+    - F-35 Draken
+        - Saab F-35 --> F-35 Draken (WDNS) (in shop)
+        - Saab F-35 Draken --> Saab AB F-35 Draken | Weapon Delivery and Navigation System (on statcard)
+        - Saab F-35 --> F-35 Draken (WDNS) (at medium distance)
+        - F-35 --> F-35 (WDNS) (at long distance)
+    - F/A-18C MLU 2
+        - F/A-18C MLU 2 --> F/A-18C Hornet MLU 2 (in shop)
+        - F/A-18C MLU 2 Hornet --> Patria F/A-18C Hornet | Mid-Life Upgrade 2 (on statcard)
+        - F/A-18C --> F/A-18C Hornet MLU 2 (at medium distance)
+        - F/A-18C --> F/A-18C MLU 2 (at long distance)
+    - F-18C
+        - McDonnell Douglas F-18C Hornet --> Patria F-18C Hornet
+
+- Changed the names of the following American ground vehicles:
+    - CLAWS (TADS)
+        - CLAWS (TADS) -->  CLAWS (M1097A2 IFCS) (in shop)
+        - M1097A2 CLAWS Target acquisition and designation system --> Complementary Low-Altitude Weapon System | M1097A2 Integrated Fire Control Station (on statcard)
+        - CLAWS (TADS) --> CLAWS (M1097A2 IFCS) (at medium distance)
+        - TADS --> CLAWS (M1097A2 IFCS) (at long distance)
+    - CLAWS (TEL)
+        - CLAWS (TEL) --> CLAWS (M1097A2 HML) (in shop)
+        - M1097A2 CLAWS Transporter erector launcher --> Complementary Low-Altitude Weapon System | M1097A2 High-Mobility Launcher (on statcard)
+        - CLAWS (TEL) --> CLAWS (M1097A2 HML) (at medium distance)
+        - TEL --> CLAWS (M1097A2 HML) (at long distance)
+
+- Changed the names of the following German ground vehicles:
+    - IRIS-T SLM (TEL)
+        - IRIS-T SLM (TEL) --> IRIS-T SLM (MAN SX45 TEL) (in shop)
+        - IRIS-T SLM, Transporter erector launcher --> Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Transporter Erector Launcher (on statcard)
+        - IRIS-T SLM (TEL) --> IRIS-T SLM (MAN SX45 TEL) (at medium distance)
+        - TEL --> IRIS-T SLM (MAN SX45 TEL) (at long distance)
+    - IRIS-T SLM (TADS)
+        - IRIS-T SLM (TADS) --> IRIS-T SLM (MAN SX45 IFCS) (in shop)
+        - IRIS-T SLM, Target acquisition and designation system --> Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Integrated Fire Control Station (on statcard)
+        - IRIS-T SLM (TADS) --> IRIS-T SLM (MAN SX45 IFCS) (at medium distance)
+        - TADS --> IRIS-T SLM (MAN SX45 IFCS) (at long distance)
+
+- Changed the names of the following Japanese ground vehicles:
+    - Tan-SAM Kai (TADS)
+        - Tan-SAM Kai (TADS) --> Type 81 Tan-SAM Kai (IFCS) (in shop)
+        - Tan-SAM Kai, Target acquisition and designation system --> Toshiba Type 81 Tan-SAM Kai | Isuzu Type 73 Integrated Fire Control Station (on statcard)
+        - Tan-SAM Kai (TADS) --> Type 81 Tan-SAM Kai (IFCS) (at medium distance)
+        - TADS --> Type 81 Tan-SAM-1C Kai (IFCS) (at long distance)
+    - Tan-SAM Kai (TEL)
+        - Tan-SAM Kai (TEL) --> Type 81 Tan-SAM Kai (HML) (in shop)
+        - Tan-SAM Kai, Transporter erector launcher --> Toshiba Type 81 Tan-SAM Kai | Isuzu Type 73 High-Mobility Launcher (on statcard)
+        - Tan-SAM Kai (TEL) --> Type 81 Tan-SAM Kai (HML) (at medium distance)
+        - TEL --> Type 81 Tan-SAM Kai (HML) (at long distance)
+    - Type 81 (C)
+        - Type 81 (C) --> Type 81 Tan-SAM (in shop)
+        - Type 81 (C) Tan-SAM Kai --> Toshiba Type 81 Tan-SAM (on statcard)
+        - Type 81 (C) --> Type 81 Tan-SAM (at medium distance)
+        - SPAA --> Type 81 Tan-SAM (at long distance)
+
+- Changed the names of the following Swedish ground vehicles:
+    - EldE 98
+        - EldE 98 --> Eldenhet 98 (in shop)
+        - EldEnhet 98 --> Eldenhet 98 (on statcard)
+        - EldE 98 --> Eldenhet 98 (at medium distance)
+        - SPAA --> Elde 98 (at long distance)
+
+- Changed the names of the following Israeli ground vehicles:
+    - SPYDER AIO
+        - SPYDER --> SPYDER AiO (in shop)
+        - SPYDER AIO --> Rafael Advanced Defense Systems Ltd. Surface-to-air Python and Derby | All-in-One (on statcard)
+        - SPYDER --> SPYDER AiO (at medium distance)
+        - SPAA --> SPYDER AiO (at long distance)
+
+- Changed the names of the following American helicopters:
+    - RAH-66 Comanche
+        - RAH-66 --> RAH-66 Comanche (in shop)
+        - RAH-66 Comanche --> Boeing-Sikorsky RAH-66 Comanche | 2002 LHX Prototype (on statcard)
+        - RAH-66 --> RAH-66 Comanche (at medium distance)
+
+- Changed the names of the following American weapons:
+    - GBU-62 JDAM-ER
+        - GBU-62 JDAM-ER guided bomb --> GBU-62 Joint Direct Attack Munition (Extended Range) GPS-Guided Bomb (500lb.) (in custom loadout screen)
+        - GBU-62 JDAM-ER --> GBU-62 JDAM-ER (500lb.) (in HUD)
+    - GBU-62 LJDAM-ER
+        - GBU-62 LJDAM-ER guided bomb --> GBU-62 Laser Joint Direct Attack Munition (Extended Range) Dual-Mode Laser-Guided Bomb (500lb.) (in custom loadout screen)
+        - GBU-62 LJDAM-ER --> GBU-62 LJDAM-ER (500lb.) (in HUD)
+    - GBU-64 JDAM-ER
+        - GBU-64 JDAM-ER guided bomb --> GBU-64 Joint Direct Attack Munition (Extended Range) GPS-Guided Bomb (2000lb.) (in custom loadout screen)
+        - GBU-64 JDAM-ER --> GBU-64 JDAM-ER (2000lb.) (in HUD)
+    - AIM-120C-5
+        - AIM-120C-5 air-to-air missiles --> AIM-120C-5 Advanced Medium-Range Air-to-Air Missiles (in custom loadout screen)
+        - AIM-120C-5 --> AIM-120C-5 AMRAAM (in HUD)
+    - AIM-120C-7
+        - AIM-120C-7 air-to-air missiles --> AIM-120C-7 Advanced Medium-Range Air-to-Air Missiles (in custom loadout screen)
+        - AIM-120C-7 --> AIM-120C-7 AMRAAM (in HUD)
+    - AIM-120C-7 SAM
+        - AIM-120C-7 surface-to-air missiles --> AIM-120C-7 Surface-Launched AMRAAM Surface-to-Air Missiles (long name)
+        - AIM-120C-7 --> AIM-120C-7 SLAMRAAM (short name)
+    - AIM-9N
+        - AIM-9N --> AIM-9N Sidewinder (short name)
+    - AIM-9X
+        - AIM-9X --> AIM-9X Sidewinder (short name)
+    - AIM-9X Block 2
+        - AIM-9X Block 2 --> AIM-9X Block II Sidewinder (short name)
+
+- Changed the names of the following Japanese weapons:
+    - Type 81C --> Type 81 Short-Range Surface-to-Air Missile, Model C (IR) (long name)
+    - Type 81C ARH --> Type 81 Short-Range Surface-to-Air Missile, Model C (ARH) (long name)
+    - Type 81C --> SAM-1C (short name for both IR and ARH versions)
+
+- Changed the names of the following German weapons:
+    - IRIS-T SL --> IRIS-T (Surface-Launched, Medium-Range) (long name)
+    - IRIS-T SLM --> IRIS-T SLM (short name)
+
+- Changed the names of the following Swedish weapons:
+    - RBS 98 --> Lvrb 98 (short/"long" name)
+    - Rbs98 SAM --> Luftvärnsrobot 98 (on statcard)
+
+- Changed the names of the following American sensors:
+    - Sniper targeting pod
+        - Sniper targeting pod --> AN/AAQ-33 Sniper Advanced Targeting Pod (in custom loadout screen)
+        - AN/AAQ-33 --> AN/AAQ-33 Sniper ATP (in HUD)
+    - AN/AAS-38
+        - AN/AAS-38 optical pod --> AN/AAS-38 Nite Hawk Forward-Looking Infrared (FLIR) Pod (in custom loadout screen)
+        - AN/AAS-38 --> AN/AAS-38 Nite Hawk (in HUD)
+    - AN/AAS-38A
+        - AN/AAS-38A targeting pod --> AN/AAS-38A Nite Hawk Targeting Pod (in custom loadout screen)
+        - AN/AAS-38A --> AN/AAS-38A Nite Hawk (in HUD)
+    - AN/AAS-38B
+        - AN/AAS-38B targeting pod --> AN/AAS-38B Nite Hawk Targeting Pod (in custom loadout screen)
+        - AN/AAS-38B --> AN/AAS-38B Nite Hawk (in HUD)
+    - LANTIRN
+        - LANTIRN targeting pod --> AN/AAQ-25 LANTIRN Targeting Pod (in custom loadout screen)
+        - LANTIRN --> AN/AAQ-25 LANTIRN (in HUD)
+
+- Changed the names of the following German sensors:
+    - LITENING II
+        - LITENING II targeting pod --> AN/AAQ-28 LITENING II Targeting Pod (in custom loadout screen)
+        - LITENING II --> AN/AAQ-28 LITENING II (in HUD)
+    - LITENING III
+        - LITENING III targeting pod --> AN/AAQ-28 LITENING III Targeting Pod (in custom loadout screen)
+        - LITENING III --> AN/AAQ-28 LITENING III (in HUD)
+
+- Changed the names of the following American ground vehicle folders:
+    - CLAWS --> CLAWS (M1097A2)
+
+- Changed the names of the following Japanese ground vehicle folders:
+        - Tan-SAM Kai --> Type 81 Tan-SAM Kai
+
 VERSION 0.2 CHANGELOG
 RELEASE DATE: 06/25/2025
 - Reorganized the file structure of the mod; all aircraft and weapons up to this point are in their own .csv files, located inside their own folder. This will make updating the mod to remain up to parity with the live version of the game easier (patches will be out quicker whenever the game updates and the mod breaks it).

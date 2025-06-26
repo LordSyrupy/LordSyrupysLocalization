@@ -86,6 +86,11 @@ noverify>";"<English>";
 "ariete_1";"Ariete";;
 "ariete_2";"Ariete";;
 
+"iar_93b_shop";"IAR-93B Vultur";;
+"iar_93b_0";"Avioane Craiova IAR-93B Vultur";;
+"iar_93b_1";"IAR-93B Vultur";;
+"iar_93b_2";"IAR-93B";;
+
 "fiat_g91_y_shop";"G.91Y Yankee";;
 "fiat_g91_y_0";"Fiat Aviazone G.91Y Yankee";;
 "fiat_g91_y_1";"G.91Y Yankee";;
@@ -180,6 +185,11 @@ noverify>";"<English>";
 "ef_2000a_0";"⛨Eurofighter GmbH F-2000A Typhoon | Tranche 2, Block 10";;
 "ef_2000a_1";"⛨F-2000A Typhoon B.10";;
 "ef_2000a_2";"⛨F-2000A B.10";;
+
+"mig_29_9_12_sniper_shop";"▄MiG-29A Sniper";;
+"mig_29_9_12_sniper_0";"▄Aerostar MiG-29A Fulcrum-A | DASA/Elbit Sniper Modernization Program (1997)";;
+"mig_29_9_12_sniper_1";"▄MiG-29A Sniper";;
+"mig_29_9_12_sniper_2";"▄MiG-29A Sniper";;
 
 "shop/group/mig-21_hungary_group";"◔MiG-21 Fishbed";;
 "shop/group/fiat_g91_group";"G.91 Gina";;
