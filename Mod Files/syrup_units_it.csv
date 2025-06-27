@@ -141,6 +141,11 @@ noverify>";"<English>";
 "mig-21_bis_sau_hungary_1";"◔MiG-21bis-SAU Fishbed-N";;
 "mig-21_bis_sau_hungary_2";"◔MiG-21bis-SAU";;
 
+"mig_23mf_hungary_shop";"◔MiG-23MF Flogger-B";;
+"mig_23mf_hungary_0";"◔Mikoyan-Gurevich MiG-23MF Flogger-B";;
+"mig_23mf_hungary_1";"◔MiG-23MF Flogger-B";;
+"mig_23mf_hungary_2";"◔MiG-23MF";;
+
 "f-104s_asa_shop";"⛨F-104S-ASA Starfighter";;
 "f-104s_asa_0";"⛨Aeritalia F-104S Starfighter | Aggiornamento Sistemi d'Arma";;
 "f-104s_asa_1";"⛨F-104S-ASA Starfighter";;
@@ -185,6 +190,11 @@ noverify>";"<English>";
 "ef_2000a_0";"⛨Eurofighter GmbH F-2000A Typhoon | Tranche 2, Block 10";;
 "ef_2000a_1";"⛨F-2000A Typhoon B.10";;
 "ef_2000a_2";"⛨F-2000A B.10";;
+
+"saab_jas39c_hungary_shop";"◔JAS 39EBS Gripen C";;
+"saab_jas39c_hungary_0";"◔Saab AB JAS 39EBS Gripen C";;
+"saab_jas39c_hungary_1";"◔JAS 39EBS Gripen C";;
+"saab_jas39c_hungary_2";"◔JAS 39EBS";;
 
 "mig_29_9_12_sniper_shop";"▄MiG-29A Sniper";;
 "mig_29_9_12_sniper_0";"▄Aerostar MiG-29A Fulcrum-A | DASA/Elbit Sniper Modernization Program (1997)";;
