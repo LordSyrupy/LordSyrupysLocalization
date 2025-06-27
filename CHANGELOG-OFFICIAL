@@ -1,3 +1,26 @@
+VERSION 0.2.2 CHANGELOG
+RELEASE DATE: 06/27/2025
+- Readded the MiG-23MF (HU) and JAS 39EBS
+
+- Fixed some errors with the F-84G-26 (FR)
+
+- Readded the Mk83 LDGP AIR, Mk77 Mod 0/Mod 2/Mod 4, BLU-27, BLU-1, BLU-10, BLU-23, M116A2, Mk78 Mod 2, Mk79 Mod 1, and the short names for AN-M57, AN-M64A1, AN-M65A1, and AN-M66A2
+
+- Changed the names of the following Japanese missiles:
+    - AAM-3
+        - AAM-3 air-to-air missiles --> Type 90 Air-to-Air Guided Missiles (long name)
+    - AAM-4
+        - AAM-4 air-to-air missiles --> Type 99 Air-to-Air Guided Missiles (long name)
+
+- Changed the names of the following French missiles:
+    - R.550 Magic
+        - R.550 Magic Air-to-Air Missiles --> Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 1 Air-to-Air Missiles (long name)
+        - R.550 Magic --> R550 MAGIC I (short name)
+    - R.550 Magic 2
+        - R.550 Magic 2 Air-to-Air Missiles --> Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 2 Air-to-Air Missiles (long name)
+        - R.550 Magic 2 --> R550 MAGIC II (short name)
+
+
 VERSION 0.2.1 CHANGELOG
 RELEASE DATE: 06/26/2025
 - Added a roundel to the MiG-29 Sniper
