@@ -76,6 +76,11 @@ noverify>";"<English>";
 "a_4e_early_iaf_1";"A-4E(M) Skyhawk (1973)";;
 "a_4e_early_iaf_2";"A-4E(M) (1973)";;
 
+"a_4n_shop";"A-4N Skyhawk II ""Ayit""";;
+"a_4n_0";"Douglas A-4N Skyhawk II ""Ayit""";;
+"a_4n_1";"A-4N Skyhawk II ""Ayit""";;
+"a_4n_2";"A-4N";;
+
 "md_454_mystere_4a_iaf_shop";"Mystère IVA";;
 "md_454_mystere_4a_iaf_0";"Dassault M.D.454 Mystère IVA";;
 "md_454_mystere_4a_iaf_1";"Mystère IVA";;

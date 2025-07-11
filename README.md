@@ -1,10 +1,12 @@
-# SYRUPY LOCALIZATION
-# CURRENT VERSION: v0.2.2
-# RELEASE DATE: 06/27/2025
+# LORD SYRUPY'S LOCALIZATION MOD
+# CURRENT VERSION: v0.3
+# RELEASE DATE: 07/11/2025
 
-Maintained by Willow and MaidNight.
+Maintained by Maple Syrupy.
 
-This mod aims to provide a fresh user experience for War Thunder by altering the names of vehicles and weaponry to be more accurate to real-life, with some stylistic liberties taken here and there.
+This mod aims to provide a fresh user experience for War Thunder by altering the names of vehicles and weaponry to be more consistent with each other and more accurate to real-life, with pure 100% accuracy taking a backseat in favor of stylistic liberties here and there. The changes made are generally short and to-the-point, with an emphasis on readability and recognizability.
+
+Most aircraft and weaponry go by their NATO designations. Aircraft and weapons which don't have NATO designations are given designations which are fictional, yet within the realm of believability (such as the Su-25 Frogfoot-A, Su-25BM Frogfoot-B, PL-2 Atoll-C, PL-5B Atoll-D, R-77 Adder-A, R-77-1 Adder-B, etc.).
 
 This mod also makes a host of fixes to grammar and conventions, primarily in the form of correcting capitalization errors.
 

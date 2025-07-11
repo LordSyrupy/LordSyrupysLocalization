@@ -1,3 +1,625 @@
+VERSION 0.3 CHANGELOG
+RELEASE DATE: 07/11/2025
+- Changed the name of the Typhoon from "EF-2000 Typhoon B.10" to "EF-2000-10 Typhoon" because it looks cleaner
+
+- Added Izdeliye (Product) numbers to all MiG-21 Fishbeds and MiG-23 Floggers. These are the same type of numbers as are present on the MiG-29s currently
+
+- Gave manufacturer names to the Su-24 and Su-34
+
+- Fixed a spelling mistake with the J-11 and J-11A
+
+- Fixed a bug which caused the killfeed to display the long name for the R-73 Archer
+- Readded the names of various aircraft which were forgotten in the switch to the new file structure:
+    - MiG-21UPG Bison
+    - Me 262 A-1a Schwalbe
+    - Fw 190 A-4 Würger
+    - Fw 190 A-1 Würger
+    - MiG-27M Flogger-J
+    - MiG-27K Flogger-J2
+    - Bf 109 G-14 Messer
+    - A-4N Skyhawk II "Ayit"
+
+- Readded the names of various folders which were forgotten in the switch to the new file structure:
+    - Me 163 Komet
+    - MiG-21 Fishbed [DEU]
+    - F-84 Thunderjet [USA]
+    - Fw 190 A-4/A-5 Würger
+    - Bf 109E Messer
+    - Bf 109F Messer (1937)
+    - Bf 109F Messer
+    - Bf 109G Messer (Early)
+    - Bf 109G Messer
+    - Fw 190D Würger
+    - Me 262A Schwalbe
+    - Me 262C Schwalbe
+    - Fw 190 A-5 Würger
+    - F-86 Sabre [USA]
+    - F9F Panther/Cougar
+    - MiG-9 Fargo [CN]
+
+- Changed the names of the following German aircraft manufacturers:
+    - Messerschmitt --> Messerschmitt AG
+    - Focke-Wulf --> Focke-Wulf Flugzeugbau AG
+    - Heinkel --> Heinkel Flugzeugwerke
+
+- Changed the names of the following Swiss aircraft manufacturers:
+    - RUAG --> RUAG Defence
+
+- Changed the names of the following Chinese aircraft manufacturers:
+    - Chengdu --> Chengdu Aircraft Corp.
+    - Xi'an --> Xi'an Aircraft Industrial Corp.
+    - Shenyang --> Shenyang Aircraft Corp.
+    - Nanchang --> Nanchang Aircraft Manufacturing Corp.
+    - Harbin --> Harbin Aircraft Manufacturing Corp.
+
+- Changed the names of the following Taiwanese aircraft manufacturers:
+    - AIDC --> Aerospace Industrial Development Corp.
+
+- Changed the names of the following German aircraft:
+   - Fw 190 F-8/R3
+     - Fw 190 F-8/R3 --> Fw 190 F-8/R3 Würger (in shop)
+   - Me 410 B-6/R3
+     - Me 410 B-6/R3 --> Me 410 B-6/R3 Hornisse (in shop)
+     - Me 410 B-6/R3 --> Messerschmitt Me 410 B-6 Hornisse | Rüstsatz 3 (on statcard)
+     - Me 410 B --> Me 410 B-6/R3 Hornisse (at medium distance)
+     - Me 410 --> Me 410 B-6/R3 (at long distance)
+   - Ar 234 B-2
+     - Ar 234 B-2 --> Ar 234 B-2 Blitz (in shop)
+     - Ar 234 B-2 --> Arado Flugzeugwerke Ar 234 B-2 Blitz (on statcard)
+     - Ar 234 B --> Ar 234 B-2 Blitz (at medium distance)
+     - Ar 234 --> Ar 234 B-2 (at long distance)
+   - Ar 234 C-3
+     - Ar 234 C-3 --> Ar 234 C-3 Blitz (in shop)
+     - Ar 234 C-3 --> Arado Flugzeugwerke Ar 234 C-3 Blitz (on statcard)
+     - Ar 234 C --> Ar 234 C-3 Blitz (at medium distance)
+     - Ar 234 --> Ar 234 C-3 (at long distance)
+   - He 177 A-5
+     - He 177 A-5 --> He 177 A-5 Greif (in shop)
+     - He 177 A-5 --> Heinkel Flugzeugwerke He 177 A-5 Greif (on statcard)
+     - He 177 A-5 --> He 177 A-5 Greif (at medium distance)
+   - He 177 A-3
+     - He 177 A-3 --> He 177 A-3/R3 Greif (in shop)
+     - He 177 A-3/R3 Greif --> Heinkel Flugzeugwerke He 177 A-3 Greif | Rüstsatz 3 (on statcard)
+     - He 177 A-3 --> He 177 A-3/R3 Greif (at medium distance)
+     - He 177 A-3 --> He 177 A-3/R3 (at long distance)
+   - Ju 188 A-2
+     - Ju 188 A-2 --> Ju 188 A-2 Rächer (in shop)
+     - Ju 188 A-2 --> Junkers Flugzeug- und Motorenwerke AG Ju 188 A-2 Rächer (on statcard)
+     - Ju 188 A-2 --> Ju 188 A-2 Rächer (at medium distance)
+     - Ju 188 A --> Ju 188 A-2 (at long distance)
+   - Do 217 E-2
+     - Do 217 E-2 --> Do 217 E-2 (in shop)
+     - Do 217 E-2 --> Dornier Flugzeugwerke Do 217 E-2 (on statcard)
+     - Do 217 E --> Do 217 E-2 (at medium distance)
+     - Do 217 --> Do 217 E-2 (at long distance)
+   - Do 217 E-4
+     - Do 217 E-4 --> Do 217 E-4 (in shop)
+     - Do 217 E-4 --> Dornier Flugzeugwerke Do 217 E-4 (on statcard)
+     - Do 217 E --> Do 217 E-4 (at medium distance)
+     - Do 217 --> Do 217 E-4 (at long distance)
+   - Do 217 J-1
+     - Do 217 J-1 --> Do 217 J-1 (in shop)
+     - Do 217 J-1 --> Dornier Flugzeugwerke Do 217 J-1 (on statcard)
+     - Do 217 J --> Do 217 J-1 (at medium distance)
+     - Do 217 --> Do 217 J-1 (at long distance)
+   - Do 217 J-2
+     - Do 217 J-2 --> Do 217 J-2 (in shop)
+     - Do 217 J-2 --> Dornier Flugzeugwerke Do 217 J-2 (on statcard)
+     - Do 217 J --> Do 217 J-2 (at medium distance)
+     - Do 217 --> Do 217 J-2 (at long distance)
+   - Do 217 K-1
+     - Do 217 K-1 --> Do 217 K-1 (in shop)
+     - Do 217 K-1 --> Dornier Flugzeugwerke Do 217 K-1 (on statcard)
+     - Do 217 K --> Do 217 K-1 (at medium distance)
+     - Do 217 --> Do 217 K-1 (at long distance)
+   - Do 217 M-1
+     - Do 217 M-1 --> Do 217 M-1 (in shop)
+     - Do 217 M-1 --> Dornier Flugzeugwerke Do 217 M-1 (on statcard)
+     - Do 217 M --> Do 217 M-1 (at medium distance)
+     - Do 217 --> Do 217 M-1 (at long distance)
+   - Do 217 N-1
+     - Do 217 N-1 --> Do 217 N-1 Nachtjäger (in shop)
+     - Do 217 N-1 --> Dornier Flugzeugwerke Do 217 N-1 Nachtjäger (on statcard)
+     - Do 217 N --> Do 217 N-1 Nachtjäger (at medium distance)
+     - Do 217 --> Do 217 N-1 (at long distance)
+   - Do 217 N-2
+     - Do 217 N-1 --> Do 217 N-2 Nachtjäger (in shop)
+     - Do 217 N-1 --> Dornier Flugzeugwerke Do 217 N-2 Nachtjäger (on statcard)
+     - Do 217 N --> Do 217 N-2 Nachtjäger (at medium distance)
+     - Do 217 --> Do 217 N-2 (at long distance)
+   - Ta 152 H-1
+     - Ta 152 H-1 --> Ta 152 H-1 Höhenjäger (in shop)
+     - Focke-Wulf Ta 152 H-1 --> Focke-Wulf Ta 152 H-1 Höhenjäger (on statcard)
+     - Ta 152 H-1 --> Ta 152 H-1 Höhenjäger (at medium distance)
+   - Ju 288 C
+     - Ju 288 C --> Ju 288 C-1 Bomber B (in shop)
+     - Ju 288 C --> Junkers Flugzeug- und Motorenwerke AG Ju 288 C-1 Bomber B (on statcard)
+     - Ju 288 C --> Ju 288 C-1 Bomber B (at medium distance)
+     - Ju 288 C --> Ju 288 C-1 (at long distance)
+   - Do 335 A-0
+     - Do 335 A-0 --> Do 335 A-0 Pfeil (in shop)
+     - Do 335 A-0 --> Dornier Flugzeugwerke Do 335 A-0 Pfiel (on statcard)
+     - Do 335 A --> Do 335 A-0 Pfeil (at medium distance)
+     - Do 335 --> Do 335 A-0 (at long distance)
+   - Do 335 A-1
+     - Do 335 A-1 --> Do 335 A-1 Pfeil (in shop)
+     - Do 335 A-1 --> Dornier Flugzeugwerke Do 335 A-1 Pfiel (on statcard)
+     - Do 335 A --> Do 335 A-1 Pfeil (at medium distance)
+     - Do 335 --> Do 335 A-1 (at long distance)
+   - Do 335 B-2
+     - Do 335 B-2 --> Do 335 B-2 Pfeil (in shop)
+     - Do 335 B-2 --> Dornier Flugzeugwerke Do 335 B-2 Pfiel (on statcard)
+     - Do 335 B --> Do 335 B-2 Pfeil (at medium distance)
+     - Do 335 --> Do 335 B-2 (at long distance)
+   - Ju 388 J
+     - Ju 388 J --> Ju 388 J-1 Störtebeker (in shop)
+     - Ju 388 J --> Junkers Flugzeug- und Motorenwerke AG Ju 388 J-1 Störtebeker (on statcard)
+     - Ju 388 J --> Ju 388 J-1 Störtebeker (at medium distance)
+     - Ju 388 J --> Ju 388 J-1 (at long distance)
+   - Me 410 A-1
+     - Me 410 A-1 --> Me 410 A-1 Hornisse (in shop)
+     - Me 410 A-1 --> Messerschmitt AG Me 410 A-1 Hornisse (on statcard)
+     - Me 410 A --> Me 410 A-1 Hornisse (at medium distance)
+     - Me 410 --> Me 410 A-1 (at long distance)
+   - Me 410 A-1/U2
+     - Me 410 A-1/U2 --> Me 410 A-1/U2 Hornisse (in shop)
+     - Me 410 A-1/U2 --> Messerschmitt AG Me 410 A-1 Hornisse | Umrüstbausatz 2 (on statcard)
+     - Me 410 A --> Me 410 A-1/U2 Hornisse (at medium distance)
+     - Me 410 --> Me 410 A-1/U2 (at long distance)
+   - Me 410 A-1/U4
+     - Me 410 A-1/U4 --> Me 410 A-1/U4 Hornisse (in shop)
+     - Me 410 A-1/U4 --> Messerschmitt AG Me 410 A-1 Hornisse | Umrüstbausatz 4 (on statcard)
+     - Me 410 A --> Me 410 A-1/U4 Hornisse (at medium distance)
+     - Me 410 --> Me 410 A-1/U4 (at long distance)
+   - Me 410 B-1
+     - Me 410 B-1 --> Me 410 B-1 Hornisse (in shop)
+     - Me 410 B-1 --> Messerschmitt AG Me 410 B-1 Hornisse (on statcard)
+     - Me 410 B --> Me 410 B-1 Hornisse (at medium distance)
+     - Me 410 --> Me 410 B-1 (at long distance)
+   - Me 410 B-1/U2
+     - Me 410 B-1/U2 --> Me 410 B-1/U2 Hornisse (in shop)
+     - Me 410 B-1/U2 --> Messerschmitt AG Me 410 B-1 Hornisse | Umrüstbausatz 2 (on statcard)
+     - Me 410 B --> Me 410 B-1/U2 Hornisse (at medium distance)
+     - Me 410 --> Me 410 B-1/U2 (at long distance)
+   - Me 410 B-2/U4
+     - Me 410 B-2/U4 --> Me 410 B-2/U4 Hornisse (in shop)
+     - Me 410 B-2/U4 --> Messerschmitt AG Me 410 B-2 Hornisse | Umrüstbausatz 4 (on statcard)
+     - Me 410 B --> Me 410 B-2/U4 Hornisse (at medium distance)
+     - Me 410 --> Me 410 B-2/U4 (at long distance)
+   - Bf 110 C-7
+     - Bf 110 C-7 --> Bf 110 C-7 Jagdbomber (in shop)
+     - Bf 110 C-7--> Messerschmitt AG Bf 110 C-7 Jagdbomber (on statcard)
+     - Bf 110 C --> Bf 110 C-7 Jagdbomber (at medium distance)
+     - Bf 110 --> Bf 110 C-7 (at long distance)
+   - Bf 110 C-6
+     - Bf 110 C-6 --> Bf 110 C-6 Zerstörer (in shop)
+     - Bf 110 C-6 --> Messerschmitt AG Bf 110 C-6 Zerstörer (on statcard)
+     - Bf 110 C --> Bf 110 C-6 Zerstörer (at medium distance)
+     - Bf 110 --> Bf 110 C-6 (at long distance)
+   - Bf 110 F-2
+     - Bf 110 F-2 --> Bf 110 F-2 Zerstörer (in shop)
+     - Bf 110 F-2 --> Messerschmitt AG Bf 110 F-2 Zerstörer (on statcard)
+     - Bf 110 F --> Bf 110 F-2 Zerstörer (at medium distance)
+     - Bf 110 --> Bf 110 F-2 (at long distance)
+   - Bf 110 G-4
+     - Bf 110 G-4 --> Bf 110 G-4 Nachtjäger (in shop)
+     - Bf 110 G-4 --> Messerschmitt AG Bf 110 G-4 Nachtjäger (on statcard)
+     - Bf 110 G --> Bf 110 G-4 Nachtjäger (at medium distance)
+     - Bf 110 --> Bf 110 G-4 (at long distance)
+   - Me 264
+     - Me 264 --> Me 264 Amerikabomber (in shop)
+     - Me 264 --> Messerschmitt AG Me 264 Amerikabomber (on statcard)
+     - Me 264 --> Me 264 Amerikabomber (at medium distance)
+   - Ta 154 A-1
+     - Ta 154 A-1 --> Ta 154 A-1 Moskito (in shop)
+     - Ta 154 A-1 --> Focke-Wulf Flugzeugbau AG Ta 154 A-1 Moskito (on statcard)
+     - Ta 154 A --> Ta 154 A-1 Moskito (at medium distance)
+     - Ta 154 --> Ta 154 A-1 (at long distance)
+   - BV 155 B-1
+     - BV 155 B-1 --> Abteilung Flugzeugbau der Schiffswerft Blohm & Voss BV 155 B-1 | Prototype V2 (on statcard)
+     - BV 155 --> BV 155 B-1 (at long distance)
+   - BV 238
+     - BV 238 --> BV 238 V1 (in shop)
+     - BV 238 --> Abteilung Flugzeugbau der Schiffswerft Blohm & Voss BV 238 | Prototype V1 (on statcard)
+     - BV 238--> BV 238 V1 (at medium distance)
+     - BV 238 --> BV 238 V1 (at long distance)
+   - Yak-1B
+     - Yak-1B --> Yak-1 (1942) (in shop)
+     - Yak-1B --> Yakovlev Yak-1 (1942) (on statcard)
+     - Yak-1 --> Yak-1 (1942) (at medium distance)
+     - Yak-1 --> Yak-1 (1942)  (at long distance)
+   - Hawk H-75A-2
+     - Hawk H-75A-2 --> H-75A-2 (in shop)
+     - Hawk H-75A-2 --> Curtiss Hawk 75A-2 (on statcard)
+     - H-75A --> H-75A-2 (at medium distance)
+     - H-75 --> H-75A-2 (at long distance)
+   - He 112 B-2/U2
+     - He 112 B-2/U2 --> Heinkel Flugzeugwerke He 112 B-2 | Umrüstbausatz 2 (on statcard)
+     - He 112 B --> He 112 B-2/U2 (at medium distance)
+     - He 112 --> He 112 B-2/U2 (at long distance)
+   - IL-2 (1942)
+     - IL-2 (1942) --> Il-2 Sturmovik (1942) (in shop)
+     - IL-2 (1942) --> Ilyushin Il-2 Sturmovik (1942) (on statcard)
+     - IL-2 --> Il-2 Sturmovik (1942) (at medium distance)
+     - IL-2 --> Il-2 (1942) (at long distance)
+   - He 112 B-0
+     - He 112 B-0 --> Heinkel Flugzeugwerke He 112 B-0 (on statcard)
+     - He 112 B --> He 112 B-0 (at medium distance)
+     - He 112 --> He 112 B-0 (at long distance)
+   - C-3604
+     - С-3604 --> Eidgenössische Konstruktionswerkstätte C-3604 (on statcard)
+   - Ju 88 A-1
+     - Ju 88 A-1 --> Ju 88 A-1 Schnellbomber (in shop)
+     - Ju 88 A-1 --> Junkers Flugzeug- und Motorenwerke AG Ju 88 A-1 Schnellbomber (on statcard)
+     - Ju 88 A --> Ju 88 A-1 Schnellbomber (at medium dsitance)
+     - Ju 88 --> Ju 88 A-1 (at long distance)
+   - Ju 88 A-4
+     - Ju 88 A-4 --> Ju 88 A-4 Schnellbomber (in shop)
+     - Ju 88 A-4 --> Junkers Flugzeug- und Motorenwerke AG Ju 88 A-4 Schnellbomber (on statcard)
+     - Ju 88 A --> Ju 88 A-4 Schnellbomber (at medium dsitance)
+     - Ju 88 --> Ju 88 A-4 (at long distance)
+   - Ju 88 C-6
+     - Ju 88 C-6 --> Ju 88 C-6 (in shop)
+     - Ju 88 C-6 --> Junkers Flugzeug- und Motorenwerke AG Ju 88 C-6 (on statcard)
+     - Ju 88 C --> Ju 88 C-6 (at medium dsitance)
+     - Ju 88 --> Ju 88 C-6 (at long distance)
+   - Hs 129 B-3
+     - Hs 129 B-3 --> Henschel Flugzeugwerke Hs 129 B-3 (on statcard)
+     - Hs 129 B --> Hs 129 B-3 (at medium distance)
+     - Hs 129 --> Hs 129 B-3 (at long distance)
+   - Hs 129 B-2
+     - Hs 129 B-2 --> Henschel Flugzeugwerke Hs 129 B-2 (on statcard)
+     - Hs 129 B --> Hs 129 B-2 (at medium distance)
+     - Hs 129 --> Hs 129 B-2 (at long distance)
+   - Fw 200 C-1
+     - Fw 200 C-1 --> Fw 200 C-1 Condor
+     - Fw 200 C-1 --> Focke-Wulf Flugzeugbau AG Fw 200 C-1 Condor
+     - Fw 200 C --> Fw 200 C-1 Condor
+     - Fw 200 --> Fw 200 C-1
+   - Ju 87 D-3
+     - Ju 87 D-3 --> Ju 87 D-3 Stuka (in shop)
+     - Ju 87 D-3 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 D-3 Stuka (on statcard)
+     - Ju 87 D --> Ju 87 D-3 Stuka (at medium distance)
+     - Ju 87 --> Ju 87 D-3 (at long distance)
+   - Ju 87 D-5
+     - Ju 87 D-5 --> Ju 87 D-5 Stuka (in shop)
+     - Ju 87 D-5 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 D-5 Stuka (on statcard)
+     - Ju 87 D --> Ju 87 D-5 Stuka (at medium distance)
+     - Ju 87 --> Ju 87 D-5 (at long distance)
+   - He 111 H-6
+     - He 111 H-6 --> Heinkel Flugzeugwerke He 111 H-6 (on statcard)
+     - He 111 H --> He 111 H-6 (at medium distance)
+     - He 111 H --> He 111 H-6 (at long distance)
+   - He 111 H-16
+     - He 111 H-16 --> Heinkel Flugzeugwerke He 111 H-16 (on statcard)
+     - He 111 H --> He 111 H-16 (at medium distance)
+     - He 111 H --> He 111 H-16 (at long distance)
+   - He 111 H-3
+     - He 111 H-3--> Heinkel Flugzeugwerke He 111 H-3 (on statcard)
+     - He 111 H --> He 111 H-3 (at medium distance)
+     - He 111 H --> He 111 H-3 (at long distance)
+   - Ju 87 R-2 Libya
+     - Ju 87 R-2 Libya --> Ju 87 R-2 Stuka (Libya) (in shop)
+     - Ju 87 R-2 Libya --> Junkers Flugzeug- und Motorenwerke AG Ju 87 R-2 Stuka (Libya) (on statcard)
+     - Ju 87 R --> Ju 87 R-2 Stuka (Libya) (at medium distance)
+     - Ju 87  --> Ju 87 R-2 (at long distance)
+   - Ju 87 G-2
+     - Ju 87 G-2 --> Ju 87 G-2 Stuka (in shop)
+     - Ju 87 G-2 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 G-2 Stuka (on statcard)
+     - Ju 87 G --> Ju 87 G-2 Stuka (at medium distance)
+     - Ju 87 --> Ju 87 G-2 (at long distance)
+   - Ju 87 B-2
+     - Ju 87 B-2 --> Ju 87 B-2 Stuka (in shop)
+     - Ju 87 B-2 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 B-2 Stuka (on statcard)
+     - Ju 87 B --> Ju 87 B-2 Stuka (at medium distance)
+     - Ju 87 --> Ju 87 B-2 (at long distance)
+   - Ju 87 R-2
+     - Ju 87 R-2 --> Ju 87 R-2 Stuka (in shop)
+     - Ju 87 R-2 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 R-2 Stuka (on statcard)
+     - Ju 87 R --> Ju 87 R-2 Stuka (at medium distance)
+     - Ju 87 --> Ju 87 R-2 (at long distance)
+   - Hs 123 A-1
+     - Hs 123 A-1 --> Henschel Flugzeugwerke Hs 123 A-1 (on statcard)
+     - Hs 123 A--> Hs 123 A-1 (at medium distance)
+     - Hs 123 --> Hs 123 A-1 (at long distance)
+   - He 115 C-1
+     - He 115 C-1 --> Heinkel Flugzeugwerke He 115 C-1 (on statcard)
+     - He 115 C --> He 115 C-1 (at medium distance)
+     - He 115 --> He 115 C-1 (at long distance)
+   - BV 138 C-1
+     - BV 138 C-1 --> Abteilung Flugzeugbau der Schiffswerft Blohm & Voss BV 138 C-1 (on statcard)
+   - Do 17 E-1
+     - Do 17 E-1 --> Do 17 E-1 Schnellbomber (in shop)
+     - Do 17 E-1 --> Dornier Flugzeugwerke Do 17 E-1 Schnellbomber (on statcard)
+     - Do 17 E --> Do 17 E-1 Schnellbomber (at medium distance)
+     - Do 17 --> Do 17 E-1 (at long distance)
+   - Do 17 Z-2
+     - Do 17 Z-2 --> Do 17 Z-2 Schnellbomber (in shop)
+     - Do 17 Z-2 --> Dornier Flugzeugwerke Do 17 Z-2 Schnellbomber (on statcard)
+     - Do 17 Z --> Do 17 Z-2 Schnellbomber (at medium distance)
+     - Do 17 --> Do 17 Z-2 (at long distance)
+   - Do 17 Z-7
+     - Do 17 Z-7 --> Do 17 Z-7 Kauz I (in shop)
+     - Do 17 Z-7 --> Dornier Flugzeugwerke Do 17 Z-7 Kauz I (on statcard)
+     - Do 17 Z-7 --> Do 17 Z-7 Kauz I (at medium distance)
+     - Do 17 Z-7--> Do 17 Z-7 (at long distance)
+    - He 100 D-1
+     - He 100 D-1 --> Heinkel Flugzeugwerke He 100 D-1 (on statcard)
+     - He 100 --> He 100 D-1 (at long distance)
+   - He 112 A-0
+     - He 112 A-0 --> He 112 A-0 V4 Kanonenvogel (in shop)
+     - He 112 A-0 --> Heinkel Flugzeugwerke He 112 A-0 | Prototype V4 "Kanonenvogel" (on statcard)
+     - He 112 A --> He 112 A-0 V4 Kanonenvogel (at medium distance)
+     - He 112 --> He 112 A-0 V4 (at long distance)
+   - He 112 V-5
+     - He 112 V-5 --> He 112 A-0 V5 (in shop)
+     - He 112 V-5 --> Heinkel Flugzeugwerke He 112 A-0 | Prototype V5 (on statcard)
+     - He 112 V --> He 112 A-0 V5 (at medium distance)
+     - He 112 --> He 112 A-0 V5 (at long distance)
+   - He 51 A-1
+     - He 51 A-1 --> Heinkel Flugzeugwerke He 51 A-1 (on statcard)
+     - He 51 A --> He 51 A-1 (at medium distance)
+     - He 51 --> He 51 A-1 (at long distance)
+   - He 51 B-1
+     - He 51 B-1 --> Heinkel Flugzeugwerke He 51 B-1 (on statcard)
+     - He 51 B --> He 51 B-1 (at medium distance)
+     - He 51 --> He 51 B-1 (at long distance)
+   - He 51 C-1
+     - He 51 C-1 --> Heinkel Flugzeugwerke He 51 C-1 (on statcard)
+     - He 51 C --> He 51 C-1 (at medium distance)
+     - He 51 --> He 51 C-1 (at long distance)
+   - He 151 B-2/H
+     - He 51 B-2/H --> He 51 B-2 (in shop)
+     - He 51 B-2 /Hydroplane --> Heinkel Flugzeugwerke He 51 B-2 (on statcard)
+     - He 51 B --> He 51 B-2 (at medium distance)
+     - He 51 --> He 51 B-2 (at long distance)
+   - Fw 189 A-1
+     - Fw 189 A-1 --> Fw 189 A-1 Uhu (in shop)
+     - Fw 189 A-1 --> Focke-Wulf Flugzeugbau AG Fw 189 A-1 Uhu (on statcard)
+     - Fw 189 A --> Fw 189 A-1 Uhu (at medium distance)
+     - Fw 189 --> Fw 189 A-1 (at long distance)
+   - FFA P-16
+     - FFA P-16 --> P-16 Mk.III (in shop)
+     - FFA P-16 --> Flug- und Fahrzeugwerke Altenrhein AG P-16 Mk.III (on statcard)
+     - P-16 --> P-16 Mk.III (at medium distance)
+     - P-16 --> P-16 Mk.III (at long distance)
+   - Me 163 B Komet
+     - Me 163 B Komet --> Me 163 B-1 Komet
+     - Messershmitt Me 163 B Komet --> Messerschmitt AG Me 163 B-1 Komet
+     - Me 163 B Komet --> Me 163 B-1 Komet
+     - Me 163 B --> Me 163 B-1
+   - Su-22M4 Fitter-K WTD61
+     - Su-22M4 Fitter-K WTD61 --> Su-22M4 Fitter-K (WTD 61) (in shop)
+     - Sukhoi Su-22M4 Fitter-K WTD61 --> Sukhoi Su-22M4 Fitter-K | Wehrtechnische Dienststelle 61 (on statcard)
+     - Su-22M4 Fitter-K --> Su-22M4 Fitter-K (WTD 61) (at medium distance)
+     - Su-22M4 --> Su-22M4 (WTD 61) (at long distance)
+   - Tornado IDS WTD61
+     - Tornado IDS WTD61 --> Tornado IDS (WTD 61) (in shop)
+     - Panavia GmbH Tornado IDS WTD61 --> Panavia GmbH Tornado | Interdictor/Strike, Wehrtechnische Dienststelle 61 (on statcard)
+     - Tornado IDS WTD61 --> Tornado IDS (WTD 61) (at medium distance)
+     - Tornado IDS --> Tornado IDS (WTD 61) (at long distance)
+   - Tornado IDS ASSTA1
+     - Tornado IDS ASSTA1 --> Tornado IDS (ASSTA 1) (in shop)
+     - Panavia GmbH Tornado IDS ASSTA1 --> Panavia GmbH Tornado | Interdictor/Strike, Avionics System Software Tornado in Ada, Version 1 (on statcard)
+     - Tornado IDS ASSTA1 --> Tornado IDS (ASSTA 1) (at medium distance)
+     - Tornado IDS --> Tornado IDS (ASSTA 1) (at long distance)
+   - Tornado IDS (Marineflieger)
+     - Panavia GmbH Tornado IDS (Marineflieger) --> Panavia GmbH Tornado | Interdictor/Strike (Marineflieger) (on statcard)
+   - EF-2000 B.10
+     - EF-2000 Typhoon B.10 --> EF-2000-10 Typhoon (in shop)
+     - EF-2000 Typhoon B.10 --> EF-2000-10 Typhoon (at medium distance)
+     - EF-2000 B.10 --> EF-2000-10 (at long distance)
+   - Ju 87 G-1
+     - Ju 87 G-1 --> Ju 87 G-1 Stuka (in shop)
+     - Ju 87 G-1 --> Junkers Flugzeug- und Motorenwerke AG Ju 87 G-1 Stuka (on statcard)
+     - Ju 87 G --> Ju 87 G-1 Stuka (at medium distance)
+     - Ju 87  --> Ju 87 G-1 (at long distance)
+   - Bf 110 G-2
+     - Bf 110 G-2 --> Bf 110 G-2 Jagdbomber (in shop)
+     - Bf 110 G-2--> Messerschmitt AG Bf 110 G-2 Jagdbomber (on statcard)
+     - Bf 110 G --> Bf 110 G-2 Jagdbomber (at medium distance)
+     - Bf 110 --> Bf 110 G-2 (at long distance)
+
+- Changed the names of the following Swedish aircraft:
+   - JA 37D Viggen
+     - JA 37D Viggen --> JA 37D Jaktviggen (in shop)
+     - Saab AB JA 37D Viggen --> Saab AB JA 37D Jaktviggen (on statcard)
+     - JA 37D Viggen --> JA 37D Jaktviggen (at medium distance)
+   - JA 37DI Viggen
+     - JA 37DI Viggen --> JA 37DI Jaktviggen (in shop)
+     - Saab AB JA 37DI Viggen --> Saab AB JA 37DI Jaktviggen (on statcard)
+     - JA 37DI Viggen --> JA 37DI Jaktviggen (at medium distance)
+   - JA 37D (F 21)
+     - JA 37DI Viggen (F 21 Luleå) --> JA 37DI Jaktviggen (F 21 Luleå) (in shop)
+     - Saab AB JA 37DI Viggen | Norrbotten Wing, F 21 Luleå --> Saab AB JA 37DI Jaktviggen | Norrbotten Wing, F 21 Luleå (on statcard)
+     - JA 37DI Viggen (F 21 Luleå) --> JA 37DI Jaktviggen (F 21 Luleå) (at medium distance)
+   - A28B
+     - A28B --> J 28B Vampire Mk.50
+     - A28B --> de Havilland J 28B Vampire Mk.50
+     - A28B --> J 28B Vampire Mk.50
+     - A28 --> J 28B
+   - Vampire FB 52A
+     - Vampire FB 52A --> Vampire Mk.52A
+     - Vampire FB 52A --> de Havilland DH.100 Vampire Mk.52A
+     - Vampire FB 52A --> Vampire Mk.52A
+     - Vampire --> Vampire Mk.52A
+   - J35A
+     - J35A --> J 35A Draken (in shop)
+     - J35A Draken --> Saab AB J 35A Draken (on statcard)
+     - J35A --> J 35A Draken (at medium distance)
+     - J35A --> J 35A (at long distance)
+   - MiG-21bis Fishbed-N
+     - MiG-21bis Fishbed-N --> MiG-21bis Fishbed-L (in shop)
+     - Mikoyan-Gurevich MiG-21bis Fishbed-N --> Mikoyan-Gurevich MiG-21bis Fishbed-L (on statcard)
+     - MiG-21bis Fishbed-N --> MiG-21bis Fishbed-L (at medium distance)
+
+- Changed the names of the following Italian aircraft:
+   - Vampire FB.52A
+     - Vampire FB.52A --> Vampire Mk.52A (in shop)
+     - de Havilland DH.100 Vampire | Fighter-Bomber, Mk.52A --> de Havilland DH.100 Vampire Mk.52A (on statcard)
+     - Vampire FB.52A --> Vampire Mk.52A (at medium distance)
+     - Vampire FB.52A --> Vampire Mk.52A (at long distance)
+   - MiG-21bis-SAU
+     - MiG-21bis-SAU Fishbed-N --> MiG-21bis Fishbed-N (in shop)
+     - Mikoyan-Gurevich MiG-21bis-SAU Fishbed-N --> Mikoyan-Gurevich MiG-21bis Fishbed-N (on statcard)
+     - MiG-21bis-SAU Fishbed-N --> MiG-21bis Fishbed-N (at medium distance)
+     - MiG-21bis-SAU --> MiG-21bis (at long distance)
+   - F-2000A B.10
+     - F-2000A Typhoon B.10 --> F-2000A-10 Typhoon (in shop)
+     - F-2000A Typhoon B.10 --> F-2000A-10 Typhoon (at medium distance)
+     - F-2000A B.10 --> F-2000A-10 (at long distance)
+
+- Changed the names of the following American aircraft:
+   - F-86F-35
+     - F-86F-35 --> F-86F-35 Sabre (in shop)
+     - F-86F-35 Sabre --> North American F-86F Sabre | Block 35 (on statcard)
+     - F-86F-35 --> F-86F-35 Sabre (at medium distance)
+     - F-86F --> F-86F-35 (at long distance)
+   - P-38K
+     - P-38K --> P-38K Lightning (in shop)
+     - P-38K Lightning --> Lockheed P-38K Lightning (on statcard)
+     - P-38K --> P-38K Lightning (at medium distance)
+     - P-38 --> P-38K (at long distance)
+   - F-14B Tomcat (thank you WarTinder for saving me the hours this would've taken otherwise)
+     - F-14B Tomcat --> F-14B-150 Tomcat (in shop)
+     - Grumman F-14B Tomcat --> Grumman F-14B Tomcat | Block 150 (on statcard)
+     - F-14B Tomcat --> F-14B-150 Tomcat (at medium distance)
+     - F-14B --> F-14B-150 (at long distance)
+
+- Changed the names of the following British aircraft:
+   - MiG-21UPG Bison
+     - Mikoyan-Gurevich MiG-21UPG Bison --> Hindustan Aeronautics Ltd. MiG-21UPG Bison (on statcard)
+
+- Changed the names of the following Chinese aircraft:
+   - JF-17 Thunder
+     - JF-17 Thunder --> JF-17A-1 Thunder (in shop)
+     - CAC/PAC JF-17 Thunder --> Chengdu Aircraft Corp./Pakistan Aeronautical Complex JF-17A Thunder | Block 1 (on statcard)
+     - JF-17 Thunder --> JF-17A-1 Thunder (at medium distance)
+     - JF-17 --> JF-17A-1 (at long distance)
+
+- Changed the names of the following Swedish ground vehicles:
+   - Eldenhet 98
+     - Eldenhet 98 --> Eldenhet 98 IRIS-T SLS (in shop)
+     - Eldenhet 98 --> Saab AB Eldenhet 98 IRIS-T SLS (on statcard)
+     - Eldenhet 98 --> Eldenhet 98 IRIS-T SLS (at medium distance)
+
+- Changed the names of the following German aircraft folders:
+   - Ar 234 --> Ar 234 Blitz
+   - Do 217 --> Do 217K/M
+   - Do 217 E --> Do 217E
+   - Do 217 N --> Do 217N Nachtjäger
+   - Ta 152 --> Ta 152H/C
+   - Do 335 --> Do 335A Pfeil
+   - Me 410 A --> Me 410A/B Hornisse (U4)
+   - Me 410 --> Me 410A/B Hornisse
+   - Me 410 (U2) --> Me 410A/B Hornisse (U2)
+   - Bf 110 C/F --> Bf 110C/F Zerstörer/Jabo
+   - Bf 110 G --> Bf 110G Jabo/Nachtjäger
+   - Ju 87 D --> Ju 87D Stuka
+   - Hs 129 B --> Hs 129B
+   - He 111 H --> He 111H
+   - Ju 88 A --> Ju 88A Schnellbomber
+   - Do 17 --> Do 17E/Z Schnellbomber
+   - Do 217 J --> Do 217J
+   - He 112 --> He 112 A-0
+   - Me 163 Komet --> Me 163B Komet
+   - Ju 87 G --> Ju 87G Stuka
+   - Ju 87 B/R --> Ju 87B/R Stuka
+
+- Changed the names of the following Swedish aircraft folders:
+   - JA 37D/DI Viggen --> JA 37D/DI Jaktviggen
+   - Vampire --> Vampire Mk.50/52A
+
+- Changed the names of the following Japanese guns:
+   - M61A2
+     - 20 mm M61A2 cannon --> General Electric JM61A2 20mm Vulcan Rotary Autocannon (long name)
+     - 20 mm M61A2 cannon --> JM61A2 Vulcan (short name)
+
+- Changed the names of the following American guns:
+   - M61A2
+     - 20 mm M61A2 cannon --> General Electric M61A2 Vulcan 20mm Rotary Autocannon (long name)
+     - M61A2 --> M61A2 Vulcan (short name)
+   - M24A1
+     - 20 mm M24A1 cannon --> Hispano-Suiza M24A1 20mm Autocannon (long name)
+
+- Changed the names of the following German guns:
+   - Flz Kan 92
+     - 20 mm Flz Kan 92 cannon --> Flugzeug Kanone 92 20mm Rotary Autocannon (long name)
+   - Flz Kan 76
+     - 20 mm Flz Kan 76 cannon --> Flugzeug Kanone 76 20mm Autocannon (long name)
+   - Flz Kan 65
+     - 30 mm Flz Kan 65 cannon --> Flugzeug Kanone 65 30mm Autocannon (long name)
+
+- Changed the names of the following Swedish guns:
+   - Akan m/55
+     - 30 mm Akan m/55 cannon --> Automatkanon m/55 30mm Autocannon (long name)
+   - Akan m/75
+     - 30 mm Akan m/75 cannon --> Automatkanon m/75 30mm Autocannon (long name)
+   - Akan m/85
+     - 27 mm Akan m/85 cannon --> Automatkanon m/85 27mm Autocannon (long name)
+   - Akan m/49
+     - 20 mm Akan m/49 cannon --> Automatkanon m/49 20mm Autocannon (long name)
+   - Akan m/47C
+     - 20 mm Akan m/47C cannon --> Automatkanon m/47C 20mm Autocannon (long name)
+   - Akan m/45
+     - 12.7 mm Akan m/45 machine gun --> Automatkanon m/45 12.7mm Heavy Machine Gun (long name)
+   - Akan m/41A
+     - 20 mm Akan m/41A cannon --> Automatkanon m/41A 20mm Autocannon (long name)
+   - Akan m/45
+     - 20 mm Akan m/45 cannon --> Automatkanon m/45 20mm Autocannon (long name)
+   - Akan m/47B
+     - 20 mm Akan m/47B cannon --> Automatkanon m/47B 20mm Autocannon (long name)
+   - Akan m/47
+     - 57 mm Akan m/47 cannon --> Automatkanon m/47 57mm Autocannon (long name)
+   - Akan m/39
+     - 13.2 mm Akan m/39 machine gun --> Automatkanon m/39 13.2mm Heavy Machine Gun (long name)
+   - Akan m/39A
+     - 12.7 mm Akan m/39A machine gun --> Automatkanon m/39A 12.7mm Heavy Machine Gun (long name)
+   - Akan m/40
+     - 12.7 mm Akan m/40 machine gun --> Automatkanon m/40 12.7mm Heavy Machine Gun (long name)
+
+- Changed the names of the following German missiles:
+   - Flz Lwf 63/80
+     - Flz Lwf 63/80 air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 63/80 Air-to-Air Missiles (long name)
+   - Flz Lwf 63/75 SIWA
+     - Flz Lwf LL 63/75 SIWA air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 63/75 SIWA Air-to-Air Missiles (long name)
+     - Flz Lwf LL 63/75 --> Flz Lwf LL 63/75 SIWA (short name)
+   - Flz Lwf 63
+     - Flz Lwf 63 air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 63 Air-to-Air Missiles (long name)
+   - Flz Lwf LL 64/79
+     - Flz Lwf LL 64/79 FALCO air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 64/79 FALCO Air-to-Air Missiles (long name)
+     - Flz Lwf LL 64/79 --> Flz Lwf LL 64/79 FALCO (short name)
+   - Flz Lwf LL 97 AMRAAM
+     - Flz Lwl LL 97 AMRAAM air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM Air-to-Air Missiles (long name)
+   - Flz Lwl LL 97 AMRAAM 120C-5
+     - Flz Lwl LL 97 AMRAAM 120C-5 air-to-air missiles --> Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM 120 C-5 Air-to-Air Missiles (long name)
+
+- Changed the names of the following Swedish missiles:
+   - RB24
+     - RB24 air-to-air missiles --> Luftmålsrobot 24B Air-to-Air Missiles (long name)
+     - RB24 --> Rb 24B (short name)
+   - RB24J
+     - RB24J air-to-air missiles --> Luftmålsrobot 24J Air-to-Air Missiles (long name)
+     - RB24J --> Rb 24J (long name)
+   - RB 74
+     - RB 74 air-to-air missiles --> Luftmålsrobot 74 Air-to-Air Missiles (long name)
+     - RB 74 --> Rb 74 (short name)
+   - RB 74(M)
+     - RB 74(M) air-to-air missiles --> Luftmålsrobot 74(M) Air-to-Air Missiles (long name)
+     - RB 74(M) --> Rb 74(M) (short name)
+   - RB 99
+     - RB 99 air-to-air missiles --> Luftmålsrobot 99 Air-to-Air Missiles (long name)
+     - RB 99 --> Rb 99 (short name)
+   - RB 71 (DF)
+     - RB71 (Dogfight) air-to-air missiles --> Luftmålsrobot 71 Air-to-Air Missiles (long name)
+     - RB71 (DF) --> Rb 71 (short name)
+   - RB 75
+     - RB 75 air-to-ground missile --> Markmålsrobot 75 Air-to-Ground Missile (long name)
+     - RB 75 --> Rb 75 (short name)
+   - RB 75T
+     - RB 75T air-to-ground missile --> Markmålsrobot 75T Air-to-Ground Missile (long name)
+     - RB 75T --> Rb 75T (short name)
+
 VERSION 0.2.2 CHANGELOG
 RELEASE DATE: 06/27/2025
 - Readded the MiG-23MF (HU) and JAS 39EBS
@@ -757,32 +1379,32 @@ VERSION 0.1.3 CHANGELOG
         - Meteor --> Meteor F.3 (at long distance)
 
     - Sea Meteor F Mk 3
-        - Sea Meteor F Mk 3 --> Sea Meteor F.3 (in shop)
-        - Sea Meteor F Mk 3 --> Gloster Sea Meteor, Fighter, Mk.3 (on statcard)
+        - Sea Meteor F Mk 3 --> Sea Meteor F.3 (in shop)
+        - Sea Meteor F Mk 3 --> Gloster Sea Meteor, Fighter, Mk.3 (on statcard)
         - Meteor F --> Sea Meteor F.3 (at medium distance)
         - Meteor --> Sea Meteor F.3 (at long distance)
 
-    - Meteor F Mk 4 G.41F
-        - Meteor F Mk 4 G.41F -->  G.41F Meteor F.4 (in shop)
-        - Meteor F Mk 4 type G.41F --> Gloster Type G.41F Meteor, Fighter, Mk.4 (on statcard)
+    - Meteor F Mk 4 G.41F
+        - Meteor F Mk 4 G.41F -->  G.41F Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41F --> Gloster Type G.41F Meteor, Fighter, Mk.4 (on statcard)
         - Meteor F --> G.41F Meteor F.4 (at medium distance)
         - Meteor --> Meteor F.4 (at long distance)
 
-    - Meteor F Mk 4 G.41G
-        - Meteor F Mk 4 G.41G --> G.41G Meteor F.4 (in shop)
-        - Meteor F Mk 4 type G.41G --> Gloster Type G.41G Meteor, Fighter, Mk.4 (on statcard)
+    - Meteor F Mk 4 G.41G
+        - Meteor F Mk 4 G.41G --> G.41G Meteor F.4 (in shop)
+        - Meteor F Mk 4 type G.41G --> Gloster Type G.41G Meteor, Fighter, Mk.4 (on statcard)
         - Meteor F --> G.41G Meteor F.4(at medium distance)
         - Meteor --> Meteor F.4 (at long distance)
 
-    - Meteor F Mk 8 G.41K
-        - Meteor F Mk 8 G.41K --> G.41K Meteor F.8 (in shop)
-        - Meteor F Mk 8 G.41K --> Gloster Type G.41K Meteor, Fighter, Mk.8 (on statcard)
-        - Meteor F --> G.41K Meteor F.8 (at medium distance)
+    - Meteor F Mk 8 G.41K
+        - Meteor F Mk 8 G.41K --> G.41K Meteor F.8 (in shop)
+        - Meteor F Mk 8 G.41K --> Gloster Type G.41K Meteor, Fighter, Mk.8 (on statcard)
+        - Meteor F --> G.41K Meteor F.8 (at medium distance)
         - Meteor --> Meteor F.8 (at long distance)
 
     - Meteor F Mk.8 Reaper
-        - Meteor F Mk.8 Reaper --> Meteor F.8 Reaper (in shop)
-        - Meteor F Mk.8 Reaper --> Gloster Meteor, Fighter, Mk.8 Reaper (on statcard)
+        - Meteor F Mk.8 Reaper --> Meteor F.8 Reaper (in shop)
+        - Meteor F Mk.8 Reaper --> Gloster Meteor, Fighter, Mk.8 Reaper (on statcard)
         - Meteor F --> Meteor F.8 Reaper (at medium distance)
         - Meteor --> Meteor F.8 (at long distance)
 
@@ -834,8 +1456,8 @@ VERSION 0.1.3 CHANGELOG
         - Hunter --> Hunter F.6 (at long distance)
 
     - Meteor F Mk.8
-        - Meteor F Mk.8 --> Meteor F.8 (in shop)
-        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
+        - Meteor F Mk.8 --> Meteor F.8 (in shop)
+        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
         - Meteor F --> Meteor F.8 (at medium distance)
         - Meteor F --> Meteor F.8 (at long distance)
 
@@ -887,18 +1509,18 @@ VERSION 0.1.3 CHANGELOG
         - Vampire --> Vampire FB.52A (at long distance)
 
 - Changed the names of the following Israeli aircraft:
-    - Meteor F.8
-        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
-        - Meteor F --> Meteor F.8 (at medium distance)
+    - Meteor F.8
+        - Meteor F Mk.8 --> Gloster Meteor Fighter, Mk.8 (on statcard)
+        - Meteor F --> Meteor F.8 (at medium distance)
         - Meteor --> Meteor F.8 (at long distance)
 
     - Meteor FR.9
-        - Meteor FR Mk.9 --> Gloster Meteor Fighter, Reconnaissance, Mk.9 (on statcard)
+        - Meteor FR Mk.9 --> Gloster Meteor Fighter, Reconnaissance, Mk.9 (on statcard)
         - Meteor F --> Meteor FR.9 (at medium distance)
         - Meteor --> Meteor FR.9 (at long distance)
 
     - Meteor NF.13
-        - Meteor NF Mk.13 --> Armstrong Whitworth Meteor Night Fighter, Mk.13 (on statcard)
+        - Meteor NF Mk.13 --> Armstrong Whitworth Meteor Night Fighter, Mk.13 (on statcard)
         - Meteor NF --> Meteor NF.13 (at medium distance)
         - Meteor --> Meteor NF.13 (at long distance)
 

@@ -22,12 +22,12 @@ noverify>";"<English>";
 "su_33_2";"Su-33";;
 
 "mig_23mld_shop";"MiG-23MLD Flogger-K";;
-"mig_23mld_0";"Mikoyan-Gurevich MiG-23MLD Flogger-K";;
+"mig_23mld_0";"Mikoyan-Gurevich MiG-23MLD Flogger-K | Product 23-18";;
 "mig_23mld_1";"MiG-23MLD Flogger-K";;
 "mig_23mld_2";"MiG-23MLD";;
 
 "mig_23ml_shop";"MiG-23MLA Flogger-G";;
-"mig_23ml_0";"Mikoyan-Gurevich MiG-23MLA Flogger-G";;
+"mig_23ml_0";"Mikoyan-Gurevich MiG-23MLA Flogger-G | Product 23-12A";;
 "mig_23ml_1";"MiG-23MLA Flogger-G";;
 "mig_23ml_2";"MiG-23MLA";;
 
@@ -77,27 +77,27 @@ noverify>";"<English>";
 "su_25sm3_2";"Su-25SM3";;
 
 "mig_23m_shop";"MiG-23M Flogger-B";;
-"mig_23m_0";"Mikoyan-Gurevich MiG-23M Flogger-B";;
+"mig_23m_0";"Mikoyan-Gurevich MiG-23M Flogger-B | Product 23-11M";;
 "mig_23m_1";"MiG-23M Flogger-B";;
 "mig_23m_2";"MiG-23M";;
 
 "mig-21_smt_shop";"MiG-21SMT Fishbed-K";;
-"mig-21_smt_0";"Mikoyan-Gurevich MiG-21SMT Fishbed-K";;
+"mig-21_smt_0";"Mikoyan-Gurevich MiG-21SMT Fishbed-K | Product 50";;
 "mig-21_smt_1";"MiG-21SMT Fishbed-K";;
 "mig-21_smt_2";"MiG-21SMT";;
 
 "mig-21_s_shop";"MiG-21SM Fishbed-J";;
-"mig-21_s_0";"Mikoyan-Gurevich MiG-21SM Fishbed-J";;
+"mig-21_s_0";"Mikoyan-Gurevich MiG-21SM Fishbed-J | Product 95M";;
 "mig-21_s_1";"MiG-21SM Fishbed-J";;
 "mig-21_s_2";"MiG-21SM";;
 
 "mig-21_bis_shop";"MiG-21bis Fishbed-L";;
-"mig-21_bis_0";"Mikyoan-Gurevich MiG-21bis Fishbed-L";;
+"mig-21_bis_0";"Mikyoan-Gurevich MiG-21bis Fishbed-L | Product 75A";;
 "mig-21_bis_1";"MiG-21bis Fishbed-L";;
 "mig-21_bis_2";"MiG-21bis";;
 
 "mig-21_pfm_shop";"MiG-21PFM Fishbed-D";;
-"mig-21_pfm_0";"Mikyoan-Gurevich MiG-21PFM Fishbed-D";;
+"mig-21_pfm_0";"Mikyoan-Gurevich MiG-21PFM Fishbed-D | Product 94";;
 "mig-21_pfm_1";"MiG-21PFM Fishbed-D";;
 "mig-21_pfm_2";"MiG-21PFM";;
 
@@ -132,12 +132,12 @@ noverify>";"<English>";
 "su_22m3_2";"Su-22M3";;
 
 "su_24m_shop";"Su-24M Fencer-D";;
-"su_24m_0";"Su-24M Fencer-D";;
+"su_24m_0";"Sukhoi Su-24M Fencer-D";;
 "su_24m_1";"Su-24M Fencer-D";;
 "su_24m_2";"Su-24M";;
 
 "su_34_shop";"Su-34 Fullback";;
-"su_34_0";"Su-34 Fullback";;
+"su_34_0";"Sukhoi Su-34 Fullback";;
 "su_34_1";"Su-34 Fullback";;
 "su_34_2";"Su-34";;
 
@@ -147,7 +147,7 @@ noverify>";"<English>";
 "mig-19pt_2";"MiG-19PT";;
 
 "mig-21_f13_shop";"MiG-21F-13 Fishbed-C";;
-"mig-21_f13_0";"Mikoyan-Gurevich MiG-21F-13 Fishbed-C";;
+"mig-21_f13_0";"Mikoyan-Gurevich MiG-21F-13 Fishbed-C | Product 74";;
 "mig-21_f13_1";"MiG-21F-13 Fishbed-C";;
 "mig-21_f13_2";"MiG-21F-13";;
 
@@ -270,6 +270,16 @@ noverify>";"<English>";
 "l_39za_0";"▂Aero L-39ZA Albatros";;
 "l_39za_1";"▂L-39ZA Albatros";;
 "l_39za_2";"▂L-39ZA";;
+
+"mig_27m_shop";"MiG-27M Flogger-J";;
+"mig_27m_0";"Mikoyan-Gurevich MiG-27M Flogger-J";;
+"mig_27m_1";"MiG-27M Flogger-J";;
+"mig_27m_2";"MiG-27M";;
+
+"mig_27k_shop";"MiG-27K Flogger-J2";;
+"mig_27k_0";"Mikoyan-Gurevich MiG-27K Flogger-J2";;
+"mig_27k_1";"MiG-27K Flogger-J2";;
+"mig_27k_2";"MiG-27K";;
 
 "shop/group/ar_group";"Ar-2/SB 2";;
 "shop/group/db_3_group";"DB-3/IL-4";;

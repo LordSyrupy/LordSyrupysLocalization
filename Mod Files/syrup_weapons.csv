@@ -47,41 +47,32 @@ noverify>";"<English>";
 "weapons/cannonM39";"Ford Motor Co. M39 20mm Autocannon";;
 
 "weapons/cannonM61";"General Electric M61 Vulcan 20mm Rotary Cannon";;
-
 "weapons/cannonM61/short";"M61 Vulcan";;
 
 "weapons/cannonM61A1";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonM61A1/short";"M61A1 Vulcan";;
 
 "weapons/cannonM61A1_default";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonM61A1_default/short";"M61A1 Vulcan";;
 
 "weapons/cannonM61A1_pgu_28";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonM61A1_pgu_28/short";"M61A1 Vulcan";;
 
 "weapons/cannonM61A1_pgu_28_f15";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonM61A1_pgu_28_f15/short";"M61A1 Vulcan";;
 
 "weapons/cannonGAU4";"General Electric GAU-4 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonGAU4/short";"GAU-4 Vulcan";;
 
 "weapons/cannonGAU4_default";"General Electric GAU-4 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonGAU4_default/short";"GAU-4 Vulcan";;
 
 "weapons/cannonM39A1";"Ford Motor Co. M39A1 20mm Autocannon";;
 
 "weapons/cannonM39A2";"Ford Motor Co. M39A2 20mm Autocannon";;
-
-"weapons/cannonM39A3";"Ford Motor Co. M39A3 20mm Autocannon";;
-
 "weapons/cannonM39A2/short";"M39A2";;
 
+"weapons/cannonM39A3";"Ford Motor Co. M39A3 20mm Autocannon";;
 "weapons/cannonM39A3/short";"M39A3";;
 
 "weapons/cannonBrowning-Colt_Mk12_Mod3";"Browning-Colt Mk12 Mod 3 20mm Autocannon";;
@@ -89,33 +80,40 @@ noverify>";"<English>";
 "weapons/cannonBrowning-Colt_Mk12_Mod0";"Browning-Colt Mk12 Mod 0 20mm Autocannon";;
 
 "weapons/cannonGAU_13A";"General Electric GAU-13/A 30mm Rotary Autocannon";;
-
 "weapons/cannonGAU_13A/short";"GAU-13/A";;
 
 "weapons/gunGAU_19";"General Electric GAU-19/B 12.7mm Rotary Heavy Machine Gun";;
-
 "weapons/gunGAU_19/short";"GAU-19/B";;
 
 "weapons/cannonGAU_12U";"General Electric GAU-12/U Equalizer 25mm Rotary Autocannon";;
-
 "weapons/cannonGAU_12U/short";"GAU-12/U Equalizer";;
 
 "weapons/cannonGAU_8A";"General Electric GAU-8/A Avenger 30mm Rotary Autocannon";;
-
 "weapons/cannonGAU_8A/short";"GAU-8/A Avenger";;
 
 "weapons/cannonHughesMk11Mod0";"Hughes Mk11 Mod 0 20mm Autocannon";;
-
 "weapons/cannonHughesMk11Mod0/short";"Mk11 Mod 0";;
 
 "weapons/cannonMK11_mod5";"Hughes Mk11 Mod 5 20mm Autocannon";;
-
 "weapons/cannonMK11_mod5/short";"Mk11 Mod 5";;
+
+"weapons/cannonM61A2";"General Electric M61A2 Vulcan 20mm Rotary Autocannon";;
+"weapons/cannonM61A2/short";"M61A2 Vulcan";;
+
+"weapons/cannonM24A1";"Hispano-Suiza M24A1 20mm Autocannon";;
 
 //Guns, Ger
 "weapons/cannon_mauser_bk_27";"Mauser Bordkanone 27 27mm Autocannon";;
-
 "weapons/cannon_mauser_bk_27/short";"BK27";;
+
+"weapons/cannonM61A2_switzerland";"Flugzeug Kanone 92 20mm Rotary Autocannon";;
+"weapons/cannonM61A2_switzerland/short";"Flz Kan 92";;
+
+"weapons/cannonFlzKan_76";"20 mm Flz Kan 76 cannon";;
+"weapons/cannonFlzKan_76/short";"Flz Kan 76";;
+
+"weapons/cannonDEFA552A_switzerland";"Flugzeug Kanone 65 30mm Autocannon";;
+"weapons/cannonDEFA552A_switzerland/short";"Flz Kan 65";;
 
 //Guns, USSR
 "weapons/cannonNR23";"Nudelman-Richter NR-23 23mm Autocannon";;
@@ -214,8 +212,10 @@ noverify>";"<English>";
 
 //Guns, JP
 "weapons/cannonJM61A1";"General Electric JM61A1 Vulcan 20mm Rotary Autocannon";;
-
 "weapons/cannonJM61A1_pgu_28";"General Electric JM61A1 Vulcan 20mm Rotary Autocannon";;
+
+"weapons/cannonJM61A2";"General Electric JM61A2 20mm Vulcan Rotary Autocannon";;
+"weapons/cannonJM61A2/short";"JM61A2 Vulcan";;
 
 //Guns, CN
 
@@ -224,6 +224,53 @@ noverify>";"<English>";
 //Guns, FR
 
 //Guns, SWE
+"weapons/cannonAkan_m55";"Automatkanon m/55 30mm Autocannon";;
+"weapons/cannonAkan_m55/short";"Akan m/55";;
+
+"weapons/cannonAkan_m55_underwing";"Automatkanon m/55 30mm Autocannon";;
+"weapons/cannonAkan_m55_underwing/short";"Akan m/55";;
+
+"weapons/cannonAkan_m75";"Automatkanon m/75 30mm Autocannon";;
+"weapons/cannonAkan_m75/short";"Akan m/75";;
+
+"weapons/cannonAkan_m85";"Automatkanon m/85 27mm Autocannon";;
+"weapons/cannonAkan_m85/short";"Akan m/85";;
+
+"weapons/cannonAkan_m49";"Automatkanon m/49 20mm Autocannon";;
+"weapons/cannonAkan_m49/short";"Akan m/49";;
+
+"weapons/cannonAkan_m47c";"Automatkanon m/47C 20mm Autocannon";;
+"weapons/cannonAkan_m47c/short";"Akan m/47C";;
+
+"weapons/gunAkan_12_7_m45";"Automatkanon m/45 12.7mm Heavy Machine Gun";;
+"weapons/gunAkan_12_7_m45/short";"Akan m/45";;
+
+"weapons/cannonAkan_m41a";"Automatkanon m/41A 20mm Autocannon";;
+"weapons/cannonAkan_m41a/short";"Akan m/41A";;
+
+"weapons/cannonAkan_m45";"Automatkanon m/45 20mm Autocannon";;
+"weapons/cannonAkan_m45/short";"Akan m/45";;
+
+"weapons/cannonAkan_m47b";"Automatkanon m/47B 20mm Autocannon";;
+"weapons/cannonAkan_m47b/short";"Akan m/47B";;
+
+"weapons/cannonAkan_m47";"Automatkanon m/47 57mm Autocannon";;
+"weapons/cannonAkan_m47/short";"Akan m/47";;
+
+"weapons/gunAkan_m39";"Automatkanon m/39 13.2mm Heavy Machine Gun";;
+"weapons/gunAkan_m39/short";"Akan m/39";;
+
+"weapons/gunAkan_m39a";"Automatkanon m/39A 12.7mm Heavy Machine Gun";;
+"weapons/gunAkan_m39a/short";"Akan m/39A";;
+
+"weapons/gunAkan_12_7_m39a";"Automatkanon m/39A 12.7mm Heavy Machine Gun";;
+"weapons/gunAkan_12_7_m39a/short";"Akan m/39A";;
+
+"weapons/gunAkan_m39_turret";"Automatkanon m/39 13.2mm Heavy Machine Gun";;
+"weapons/gunAkan_m39_turret/short";"Akan m/39";;
+
+"weapons/gunAkan_m40";"Automatkanon m/40 12.7mm Heavy Machine Gun";;
+"weapons/gunAkan_m40/short";"Akan m/40";;
 
 //Guns, ISR
 
@@ -484,7 +531,7 @@ noverify>";"<English>";
 "weapons/us_aim_120c_5_default/short";"AIM-120C-5 AMRAAM";;
 
 "weapons/us_aim_120c_7_sam";"AIM-120C-7 Surface-Launched AMRAAM Surface-to-Air Missiles";;
-"weapons/us_aim_120c_7_sam/short";"AIM-120C-7 SLAMRAAM";;
+"weapons/us_aim_120c_7_sam/short";"AIM-120C-7 SL-AMRAAM";;
 
 "weapons/us_aim9n_sidewinder";"AIM-9N Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9n_sidewinder/short";"AIM-9N Sidewinder";;
@@ -495,7 +542,7 @@ noverify>";"<English>";
 "weapons/us_aim_9x_block_2";"AIM-9X Block II Air-to-Air Missiles";;
 "weapons/us_aim_9x_block_2/short";"AIM-9X Block II Sidewinder";;
 
-"weapons/178mm_sl_amraam_user_cannon";"AIM-120C-7 SLAMRAAM";;
+"weapons/178mm_sl_amraam_user_cannon";"AIM-120C-7 SL-AMRAAM";;
 "weapons/127mm_aim_9x_user_cannon";"AIM-9X Block II Sidewinder";;
 
 //Missiles, Ger
@@ -506,6 +553,30 @@ noverify>";"<English>";
 "weapons/us_iris_t_sl/short";"IRIS-T SLM";;
 
 "weapons/180mm_IRIS_T_SL_user_cannon";"IRIS-T SLM";;
+
+"weapons/sws_flz_lwf_63_80";"Flugzeug Lenkwaffe Luft-Luft 63/80 Air-to-Air Missiles";;
+"weapons/sws_flz_lwf_63_80/short";"Flz Lwf 63/80";;
+
+"weapons/sws_flz_lwf_63_75";"Flugzeug Lenkwaffe Luft-Luft 63/75 SIWA Air-to-Air Missiles";;
+"weapons/sws_flz_lwf_63_75/short";"Flz Lwf LL 63/75 SIWA";;
+
+"weapons/sws_flz_lwf_63";"Flugzeug Lenkwaffe Luft-Luft 63 Air-to-Air Missiles";;
+"weapons/sws_flz_lwf_63/short";"Flz Lwf 63";;
+
+"weapons/sws_flz_lwf_ll_64";"Flugzeug Lenkwaffe Luft-Luft 64/79 FALCO Air-to-Air Missiles";;
+"weapons/sws_flz_lwf_ll_64/short";"Flz Lwf LL 64/79 FALCO";;
+
+"weapons/us_aim_120b_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM Air-to-Air Missiles";;
+"weapons/us_aim_120b_switzerland/short";"Flz Lwl LL 97 AMRAAM";;
+
+"weapons/us_aim_120b_default_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM Air-to-Air Missiles";;
+"weapons/us_aim_120b_default_switzerland/short";"Flz Lwl LL 97 AMRAAM";;
+
+"weapons/us_aim_120c_5_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM 120 C-5 Air-to-Air Missiles";;
+"weapons/us_aim_120c_5_switzerland/short";"Flz Lwl LL 97 AMRAAM 120 C-5";;
+
+"weapons/us_aim_120c_5_default_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM 120 C-5 Air-to-Air Missiles";;
+"weapons/us_aim_120c_5_default_switzerland/short";"Flz Lwl LL 97 AMRAAM 120 C-5";;
 
 //Missiles, USSR
 "weapons/su_r_3s";"R-3S Atoll-A air-to-air missiles";;
@@ -544,7 +615,7 @@ noverify>";"<English>";
 "su_r_73";"R-73 Archer";;
 "su_r_73/short";"R-73 Archer";;
 
-"su_r_73_default";"R-73 Archer Air-to-Air Missiles";;
+"su_r_73_default";"R-73 Archer";;
 "su_r_73_default/short";"R-73 Archer";;
 
 "weapons/su_r_60mk";"R-60MK Aphid-C Air-to-Air Missiles";;
@@ -592,17 +663,17 @@ noverify>";"<English>";
 "weapons/su_r_77_default";"R-77 Adder-A Air-to-Air Missiles";;
 "weapons/su_r_77_default/short";"R-77 Adder-A";;
 
-"weapons/su_rvv_ae";"RVV-AE Adder-B Air-to-Air Missiles";;
-"weapons/su_rvv_ae/short";"RVV-AE Adder-B";;
+"weapons/su_rvv_ae";"RVV-AE Adder-A Air-to-Air Missiles";;
+"weapons/su_rvv_ae/short";"RVV-AE Adder-A";;
 
-"weapons/su_rvv_ae_default";"RVV-AE Adder-B Air-to-Air Missiles";;
-"weapons/su_rvv_ae_default/short";"RVV-AE Adder-B";;
+"weapons/su_rvv_ae_default";"RVV-AE Adder-A Air-to-Air Missiles";;
+"weapons/su_rvv_ae_default/short";"RVV-AE Adder-A";;
 
-"weapons/su_r_77_1";"R-77-1 Adder-C Air-to-Air Missiles";;
-"weapons/su_r_77_1/short";"R-77-1 Adder-C";;
+"weapons/su_r_77_1";"R-77-1 Adder-B Air-to-Air Missiles";;
+"weapons/su_r_77_1/short";"R-77-1 Adder-B";;
 
-"weapons/su_r_77_1_default";"R-77-1 Adder-C Air-to-Air Missiles";;
-"weapons/su_r_77_1_default/short";"R-77-1 Adder-C";;
+"weapons/su_r_77_1_default";"R-77-1 Adder-B Air-to-Air Missiles";;
+"weapons/su_r_77_1_default/short";"R-77-1 Adder-B";;
 
 "weapons/su_r_27er";"R-27ER Alamo-C Air-to-Air Missiles";;
 "weapons/su_r_27er/short";"R-27ER Alamo-C";;
@@ -745,6 +816,54 @@ noverify>";"<English>";
 
 "weapons/127mm_IRIS_T_user_cannon";"Luftvärnsrobot 98";;
 
+"weapons/swd_rb24";"Luftmålsrobot 24B Air-to-Air Missiles";;
+"weapons/swd_rb24/short";"Rb 24B";;
+
+"weapons/swd_rb24_default";"Luftmålsrobot 24B Air-to-Air Missiles";;
+"weapons/swd_rb24_default/short";"Rb 24B";;
+
+"weapons/swd_rb24j";"Luftmålsrobot 24J Air-to-Air Missiles";;
+"weapons/swd_rb24j/short";"Rb 24J";;
+
+"weapons/swd_rb24j_default";"Luftmålsrobot 24J Air-to-Air Missiles";;
+"weapons/swd_rb24j_default/short";"Rb 24J";;
+
+"weapons/swd_rb74";"Luftmålsrobot 74 Air-to-Air Missiles";;
+"weapons/swd_rb74/short";"Rb 74";;
+
+"weapons/swd_rb74_default";"Luftmålsrobot 74 Air-to-Air Missiles";;
+"weapons/swd_rb74_default/short";"Rb 74";;
+
+"weapons/swd_rb74_bol_pod";"Luftmålsrobot 74 Air-to-Air Missiles";;
+"weapons/swd_rb74_bol_pod/short";"Rb 74";;
+
+"weapons/swd_rb74m";"Luftmålsrobot 74(M) Air-to-Air Missiles";;
+"weapons/swd_rb74m/short";"Rb 74(M)";;
+
+"weapons/swd_rb74m_default";"Luftmålsrobot 74(M) Air-to-Air Missiles";;
+"weapons/swd_rb74m_default/short";"Rb 74(M)";;
+
+"weapons/swd_rb74m_bol_pod";"Luftmålsrobot 74(M) Air-to-Air Missiles";;
+"weapons/swd_rb74m_bol_pod/short";"Rb 74(M)";;
+
+"weapons/swd_rb99";"Luftmålsrobot 99 Air-to-Air Missiles";;
+"weapons/swd_rb99/short";"Rb 99";;
+
+"weapons/swd_rb99_default";"Luftmålsrobot 99 Air-to-Air Missiles";;
+"weapons/swd_rb99_default/short";"Rb 99";;
+
+"weapons/swd_rb71";"Luftmålsrobot 71 Air-to-Air Missiles";;
+"weapons/swd_rb71/short";"Rb 71";;
+
+"weapons/swd_rb71_default";"Luftmålsrobot 71 Air-to-Air Missiles";;
+"weapons/swd_rb71_default/short";"Rb 71";;
+
+"weapons/swd_rb75";"Markmålsrobot 75 Air-to-Ground Missile";;
+"weapons/swd_rb75/short";"Rb 75";;
+
+"weapons/swd_rb75t";"Markmålsrobot 75T Air-to-Ground Missile";;
+"weapons/swd_rb75t/short";"Rb 75T";;
+
 //Missiles, ISR
 
 //Bombs, USA
@@ -799,7 +918,7 @@ noverify>";"<English>";
 "weapons/us_500lb_gbu_54b";"GBU-54B Laser Joint Direct Attack Munition Dual-Mode Laser-Guided Bombs (500lb.)";;
 "weapons/us_500lb_gbu_54b/short";"GBU-54B LJDAM (500lb.)";;
 
-"weapons/us_500lb_gbu_54b_navy";"GBU-54B Laser Joint Direct Attack Munition Dual-Mode Laser-Guided Bombss (500lb.)";;
+"weapons/us_500lb_gbu_54b_navy";"GBU-54B Laser Joint Direct Attack Munition Dual-Mode Laser-Guided Bombs (500lb.)";;
 "weapons/us_500lb_gbu_54b_navy/short";"GBU-54B LJDAM (500lb.)";;
 
 "weapons/us_2000lb_gbu31_usaf";"GBU-31 Joint Direct Attack Munition GPS-Guided Bombs (2000lb.)";;

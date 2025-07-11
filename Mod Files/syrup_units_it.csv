@@ -36,10 +36,10 @@ noverify>";"<English>";
 "il_28_hungary_1";"◔Il-28 Beagle";;
 "il_28_hungary_2";"◔Il-28";;
 
-"vampire_fb52a_italy_shop";"⛨Vampire FB.52A";;
-"vampire_fb52a_italy_0";"⛨de Havilland DH.100 Vampire | Fighter-Bomber, Mk.52A";;
-"vampire_fb52a_italy_1";"⛨Vampire FB.52A";;
-"vampire_fb52a_italy_2";"⛨Vampire FB.52A";;
+"vampire_fb52a_italy_shop";"⛨Vampire Mk.52A";;
+"vampire_fb52a_italy_0";"⛨de Havilland DH.100 Vampire Mk.52A";;
+"vampire_fb52a_italy_1";"⛨Vampire Mk.52A";;
+"vampire_fb52a_italy_2";"⛨Vampire Mk.52A";;
 
 "mig-15bis_nr23_hungary_shop";"◔MiG-15bis Fagot-B";;
 "mig-15bis_nr23_hungary_0";"◔Mikoyan-Gurevich MiG-15bis Fagot-B";;
@@ -132,17 +132,17 @@ noverify>";"<English>";
 "su_22m3_hungary_2";"◔Su-22M3";;
 
 "mig-21_mf_hungary_shop";"◔MiG-21MF Fishbed-J";;
-"mig-21_mf_hungary_0";"◔Mikyoan-Gurevich MiG-21MF Fishbed-J";;
+"mig-21_mf_hungary_0";"◔Mikyoan-Gurevich MiG-21MF Fishbed-J | Product 96F";;
 "mig-21_mf_hungary_1";"◔MiG-21MF Fishbed-J";;
 "mig-21_mf_hungary_2";"◔MiG-21MF";;
 
-"mig-21_bis_sau_hungary_shop";"◔MiG-21bis-SAU Fishbed-N";;
-"mig-21_bis_sau_hungary_0";"◔Mikoyan-Gurevich MiG-21bis-SAU Fishbed-N";;
-"mig-21_bis_sau_hungary_1";"◔MiG-21bis-SAU Fishbed-N";;
-"mig-21_bis_sau_hungary_2";"◔MiG-21bis-SAU";;
+"mig-21_bis_sau_hungary_shop";"◔MiG-21bis Fishbed-N";;
+"mig-21_bis_sau_hungary_0";"◔Mikoyan-Gurevich MiG-21bis Fishbed-N | Product 75B";;
+"mig-21_bis_sau_hungary_1";"◔MiG-21bis Fishbed-N";;
+"mig-21_bis_sau_hungary_2";"◔MiG-21bis";;
 
 "mig_23mf_hungary_shop";"◔MiG-23MF Flogger-B";;
-"mig_23mf_hungary_0";"◔Mikoyan-Gurevich MiG-23MF Flogger-B";;
+"mig_23mf_hungary_0";"◔Mikoyan-Gurevich MiG-23MF Flogger-B | Product 23-11M";;
 "mig_23mf_hungary_1";"◔MiG-23MF Flogger-B";;
 "mig_23mf_hungary_2";"◔MiG-23MF";;
 
@@ -186,10 +186,10 @@ noverify>";"<English>";
 "tornado_adv_1";"⛨Tornado ADV";;
 "tornado_adv_2";"⛨Tornado ADV";;
 
-"ef_2000a_shop";"⛨F-2000A Typhoon B.10";;
+"ef_2000a_shop";"⛨F-2000A-10 Typhoon";;
 "ef_2000a_0";"⛨Eurofighter GmbH F-2000A Typhoon | Tranche 2, Block 10";;
-"ef_2000a_1";"⛨F-2000A Typhoon B.10";;
-"ef_2000a_2";"⛨F-2000A B.10";;
+"ef_2000a_1";"⛨F-2000A-10 Typhoon";;
+"ef_2000a_2";"⛨F-2000A-10";;
 
 "saab_jas39c_hungary_shop";"◔JAS 39EBS Gripen C";;
 "saab_jas39c_hungary_0";"◔Saab AB JAS 39EBS Gripen C";;

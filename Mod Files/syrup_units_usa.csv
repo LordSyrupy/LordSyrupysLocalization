@@ -876,10 +876,10 @@ noverify>";"<English>";
 "f_14a_iriaf_1";"☫F-14A-90/1995 Tomcat";;
 "f_14a_iriaf_2";"☫F-14A-90/1995";;
 
-"f_14b_shop";"F-14B Tomcat";;
-"f_14b_0";"Grumman F-14B Tomcat";;
-"f_14b_1";"F-14B Tomcat";;
-"f_14b_2";"F-14B";;
+"f_14b_shop";"F-14B-150 Tomcat";;
+"f_14b_0";"Grumman F-14B Tomcat | Block 150";;
+"f_14b_1";"F-14B-150 Tomcat";;
+"f_14b_2";"F-14B-150";;
 
 "f_15a_shop";"F-15A-20 Eagle";;
 "f_15a_0";"McDonnell Douglas F-15A Eagle | Block 20";;
@@ -895,6 +895,16 @@ noverify>";"<English>";
 "f_20a_0";"Northrop F-20A Tigershark";;
 "f_20a_1";"F-20A Tigershark";;
 "f_20a_2";"F-20A";;
+
+"f-86f-35_shop";"F-86F-35 Sabre";;
+"f-86f-35_0";"North American F-86F Sabre | Block 35";;
+"f-86f-35_1";"F-86F-35 Sabre";;
+"f-86f-35_2";"F-86F-35";;
+
+"p-38k_shop";"P-38K Lightning";;
+"p-38k_0";"Lockheed P-38K Lightning";;
+"p-38k_1";"P-38K Lightning";;
+"p-38k_2";"P-38K";;
 
 "shop/group/p-26_group";"P-26 Peashooter";;
 "shop/group/p-36_group";"P-36 Hawk";;
@@ -927,6 +937,9 @@ noverify>";"<English>";
 "shop/group/pbj_group";"PBJ-1 Mitchell";;
 "shop/group/f8f1_group";"F8F/F7F";;
 "shop/group/f_14_group";"F-14 Tomcat";;
+"shop/group/f9f_group";"F9F Panther/Cougar";;
+"shop/group/f-84_group";"F-84 Thunderjet";;
+"shop/group/f_86_group";"F-86 Sabre";;
 
 //Ground Units
 "us_sl_amraam_fcs_shop";"CLAWS (M1097A2 IFCS)";;

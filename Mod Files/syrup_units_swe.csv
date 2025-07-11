@@ -76,9 +76,9 @@ noverify>";"<English>";
 "saab_ajs37_1";"AJS 37 Viggen";;
 "saab_ajs37_2";"AJS 37";;
 
-"mig_21_bis_finland_shop";"▄MiG-21bis Fishbed-N";;
-"mig_21_bis_finland_0";"▄Mikoyan-Gurevich MiG-21bis Fishbed-N";;
-"mig_21_bis_finland_1";"▄MiG-21bis Fishbed-N";;
+"mig_21_bis_finland_shop";"▄MiG-21bis Fishbed-L";;
+"mig_21_bis_finland_0";"▄Mikoyan-Gurevich MiG-21bis Fishbed-L | Product 75A";;
+"mig_21_bis_finland_1";"▄MiG-21bis Fishbed-L";;
 "mig_21_bis_finland_2";"▄MiG-21bis";;
 
 "f-5ag_norway_shop";"◢F-5A(G) Tiger-PAWS";;
@@ -91,19 +91,19 @@ noverify>";"<English>";
 "saab_ja37_1";"JA 37C Jaktviggen";;
 "saab_ja37_2";"JA 37C";;
 
-"saab_ja37d_shop";"JA 37D Viggen";;
-"saab_ja37d_0";"Saab AB JA 37D Viggen";;
-"saab_ja37d_1";"JA 37D Viggen";;
+"saab_ja37d_shop";"JA 37D Jaktviggen";;
+"saab_ja37d_0";"Saab AB JA 37D Jaktviggen";;
+"saab_ja37d_1";"JA 37D Jaktviggen";;
 "saab_ja37d_2";"JA 37D";;
 
-"saab_ja37di_shop";"JA 37DI Viggen";;
-"saab_ja37di_0";"Saab AB JA 37DI Viggen";;
-"saab_ja37di_1";"JA 37DI Viggen";;
+"saab_ja37di_shop";"JA 37DI Jaktviggen";;
+"saab_ja37di_0";"Saab AB JA 37DI Jaktviggen";;
+"saab_ja37di_1";"JA 37DI Jaktviggen";;
 "saab_ja37di_2";"JA 37DI";;
 
-"saab_ja37di_f21_shop";"JA 37DI Viggen (F 21 Luleå)";;
-"saab_ja37di_f21_0";"Saab AB JA 37DI Viggen | Norrbotten Wing, F 21 Luleå";;
-"saab_ja37di_f21_1";"JA 37DI Viggen (F 21 Luleå)";;
+"saab_ja37di_f21_shop";"JA 37DI Jaktviggen (F 21 Luleå)";;
+"saab_ja37di_f21_0";"Saab AB JA 37DI Jaktviggen | Norrbotten Wing, F 21 Luleå";;
+"saab_ja37di_f21_1";"JA 37DI Jaktviggen (F 21 Luleå)";;
 "saab_ja37di_f21_2";"JA 37DI (F 21)";;
 
 "saab_jas39a_shop";"JAS 39A Gripen A";;
@@ -126,11 +126,27 @@ noverify>";"<English>";
 "fa_18c_mlu_2_finland_1";"▄F/A-18C Hornet MLU 2";;
 "fa_18c_mlu_2_finland_2";"▄F/A-18C MLU 2";;
 
+"vampire_fb5_j28b_shop";"♛J 28B Vampire Mk.50";;
+"vampire_fb5_j28b_0";"♛de Havilland J 28B Vampire Mk.50";;
+"vampire_fb5_j28b_1";"♛J 28B Vampire Mk.50";;
+"vampire_fb5_j28b_2";"♛J 28B";;
+
+"vampire_fb52_finland_shop";"▄Vampire Mk.52A";;
+"vampire_fb52_finland_0";"▄de Havilland DH.100 Vampire Mk.52A";;
+"vampire_fb52_finland_1";"▄Vampire Mk.52A";;
+"vampire_fb52_finland_2";"▄Vampire Mk.52A";;
+
+"saab_j35a_shop";"J 35A Draken";;
+"saab_j35a_0";"Saab AB J 35A Draken";;
+"saab_j35a_1";"J 35A Draken";;
+"saab_j35a_2";"J 35A";;
+
 "shop/group/bf_109g_sweden_group";"▄Bf 109G Messer";;
-"shop/group/saab_ja37d_group";"JA37D/DI Viggen";;
+"shop/group/saab_ja37d_group";"JA37D/DI Jaktviggen";;
+"shop/group/vampire_fb_group";"Vampire Mk.50/52A";;
 
 //Ground Vehicles
-"sw_eldenhet_98_shop";"Eldenhet 98";;
-"sw_eldenhet_98_0";"Eldenhet 98";;
-"sw_eldenhet_98_1";"Eldenhet 98";;
+"sw_eldenhet_98_shop";"Eldenhet 98 IRIS-T SLS";;
+"sw_eldenhet_98_0";"Saab AB Eldenhet 98 IRIS-T SLS";;
+"sw_eldenhet_98_1";"Eldenhet 98 IRIS-T SLS";;
 "sw_eldenhet_98_2";"Elde 98";;
