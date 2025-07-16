@@ -301,6 +301,12 @@ noverify>";"<English>";
 "weapons/us_aim9b_sidewinder_cwp";"AIM-9B Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9b_sidewinder_cwp/short";"AIM-9B Sidewinder";;
 
+"weapons/us_aim9e_sidewinder";"AIM-9E Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9e_sidewinder/short";"AIM-9E Sidewinder";;
+
+"weapons/us_aim9e_sidewinder_default";"AIM-9E Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9e_sidewinder_default/short";"AIM-9E Sidewinder";;
+
 "weapons/us_aim9p_sidewinder";"AIM-9P Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9p_sidewinder/short";"AIM-9P Sidewinder";;
 
@@ -416,8 +422,8 @@ noverify>";"<English>";
 "weapons/us_aim7e_sparrow";"AIM-7E Sparrow Air-to-Air Missiles";;
 "weapons/us_aim7e_sparrow/short";"AIM-7E Sparrow";;
 
-"weapons/us_aim7e2_sparrow";"AIM-7E-2 Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7e2_sparrow/short";"AIM-7E-2 Sparrow";;
+"weapons/us_aim7e2_sparrow";"AIM-7E-4 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7e2_sparrow/short";"AIM-7E-4 Sparrow";;
 
 "weapons/us_aim7f_sparrow";"AIM-7F Sparrow Air-to-Air Missiles";;
 "weapons/us_aim7f_sparrow/short";"AIM-7F Sparrow";;
@@ -449,11 +455,11 @@ noverify>";"<English>";
 "weapons/us_aim7m_sparrow_f_16_default";"AIM-7M Sparrow Air-to-Air Missiles";;
 "weapons/us_aim7m_sparrow_f_16_default/short";"AIM-7M Sparrow";;
 
-"weapons/us_aim7p_sparrow_fa_18";"AIM-7P Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7p_sparrow_fa_18/short";"AIM-7P Sparrow";;
+"weapons/us_aim7p_sparrow_fa_18";"AIM-7P Block II Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7p_sparrow_fa_18/short";"AIM-7P Block II Sparrow";;
 
-"weapons/us_aim7p_sparrow_fa_18_default";"AIM-7P Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7p_sparrow_fa_18_default/short";"AIM-7P Sparrow";;
+"weapons/us_aim7p_sparrow_fa_18_default";"AIM-7P Block II Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7p_sparrow_fa_18_default/short";"AIM-7P Block II Sparrow";;
 
 "weapons/us_agm_65a";"AGM-65A Maverick Air-to-Ground Missiles";;
 "weapons/us_agm_65a/short";"AGM-65A Maverick";;
@@ -579,37 +585,37 @@ noverify>";"<English>";
 "weapons/us_aim_120c_5_default_switzerland/short";"Flz Lwl LL 97 AMRAAM 120 C-5";;
 
 //Missiles, USSR
-"weapons/su_r_3s";"R-3S Atoll-A air-to-air missiles";;
+"weapons/su_r_3s";"R-3S Atoll-A Air-to-Air Missiles";;
 "weapons/su_r_3s/short";"R-3S Atoll-A";;
 
-"weapons/su_r_3r";"R-3R Atoll-B air-to-air missiles";;
+"weapons/su_r_3r";"R-3R Atoll-B Air-to-Air Missiles";;
 "weapons/su_r_3r/short";"R-3R Atoll-B";;
 
-"weapons/su_r_3r_default";"R-3R Atoll-B air-to-air missiles";;
+"weapons/su_r_3r_default";"R-3R Atoll-B Air-to-Air Missiles";;
 "weapons/su_r_3r_default/short";"R-3R Atoll-B";;
 
-"weapons/su_r_3s_default";"R-3S Atoll-A air-to-air missiles";;
+"weapons/su_r_3s_default";"R-3S Atoll-A Air-to-Air Missiles";;
 "weapons/su_r_3s_default/short";"R-3S Atoll-A";;
 
-"weapons/su_r_13m";"R-13M Advanced Atoll air-to-air missiles";;
+"weapons/su_r_13m";"R-13M Advanced Atoll Air-to-Air Missiles";;
 "weapons/su_r_13m/short";"R-13M Advanced Atoll";;
 
-"weapons/su_r_13m1";"R-13M1 Advanced Atoll air-to-air missiles";;
+"weapons/su_r_13m1";"R-13M1 Advanced Atoll Air-to-Air Missiles";;
 "weapons/su_r_13m1/short";"R-13M1 Advanced Atoll";;
 
-"weapons/su_r_13m1_default";"R-13M1 Advanced Atoll air-to-air missiles";;
+"weapons/su_r_13m1_default";"R-13M1 Advanced Atoll Air-to-Air Missiles";;
 "weapons/su_r_13m1_default/short";"R-13M1 Advanced Atoll";;
 
-"weapons/su_r_23r";"R-23R Apex-A air-to-air missiles";;
+"weapons/su_r_23r";"R-23R Apex-A Air-to-Air Missiles";;
 "weapons/su_r_23r/short";"R-23R Apex-A";;
 
-"weapons/su_r_23t";"R-23T Apex-B air-to-air missiles";;
+"weapons/su_r_23t";"R-23T Apex-B Air-to-Air Missiles";;
 "weapons/su_r_23t/short";"R-23T Apex-B ";;
 
-"weapons/su_r_24t";"R-24T Apex-D air-to-air missiles";;
+"weapons/su_r_24t";"R-24T Apex-D Air-to-Air Missiles";;
 "weapons/su_r_24t/short";"R-24T Apex-D";;
 
-"weapons/su_r_24r";"R-24R Apex-C air-to-air missiles";;
+"weapons/su_r_24r";"R-24R Apex-C Air-to-Air Missiles";;
 "weapons/su_r_24r/short";"R-24R Apex-C";;
 
 "su_r_73";"R-73 Archer";;
@@ -753,38 +759,46 @@ noverify>";"<English>";
 "weapons/jp_aam4_default";"Type 99 Air-to-Air Guided Missiles";;
 "weapons/jp_aam4_default/short";"AAM-4";;
 
+"weapons/jp_asm1";"Type 80 Air-to-Ship Guided Missiles";;
+"weapons/jp_asm1/short";"ASM-1";;
+
+"weapons/jp_asm2";"Type 93 Air-to-Ship Guided Missiles";;
+"weapons/jp_asm2/short";"ASM-2";;
+
 //Missiles, CN
-"weapons/cn_pl12";"PL-12 Adze air-to-air missiles";;
+"weapons/cn_pl12";"PL-12 Adze Air-to-Air Missiles";;
 "weapons/cn_pl12/short";"PL-12 Adze";;
 
-"weapons/cn_pl12_default";"PL-12 Adze air-to-air missiles";;
+"weapons/cn_pl12_default";"PL-12 Adze Air-to-Air Missiles";;
 "weapons/cn_pl12_default/short";"PL-12 Adze";;
 
-"weapons/su_pl2";"PL-2 Atoll-C air-to-air missiles";;
+"weapons/su_pl2";"PL-2 Atoll-C Air-to-Air Missiles";;
 "weapons/su_pl2/short";"PL-2 Atoll-C";;
 
-"weapons/su_pl2_default";"PL-2 Atoll-C air-to-air missiles";;
+"weapons/su_pl2_default";"PL-2 Atoll-C Air-to-Air Missiles";;
 "weapons/su_pl2_default/short";"PL-2 Atoll-C";;
 
-"weapons/su_pl5b";"PL-5B Atoll-D air-to-air missiles";;
+"weapons/su_pl5b";"PL-5B Atoll-D Air-to-Air Missiles";;
 "weapons/su_pl5b/short";"PL-5B Atoll-D";;
 
-"weapons/su_pl5b_default";"PL-5B Atoll-D air-to-air missiles";;
+"weapons/su_pl5b_default";"PL-5B Atoll-D Air-to-Air Missiles";;
 "weapons/su_pl5b_default/short";"PL-5B Atoll-D";;
 
-"weapons/su_pl5c";"PL-5C Atoll-E air-to-air missiles";;
+"weapons/su_pl5c";"PL-5C Atoll-E Air-to-Air Missiles";;
 "weapons/su_pl5c/short";"PL-5C Atoll-E";;
 
-"weapons/su_pl5c_default";"PL-5C Atoll-E air-to-air missiles";;
+"weapons/su_pl5c_default";"PL-5C Atoll-E Air-to-Air Missiles";;
 "weapons/su_pl5c_default/short";"PL-5C Atoll-E";;
 
-"weapons/su_pl5e2";"PL-5EII Atoll-F air-to-air missiles";;
+"weapons/su_pl5e2";"PL-5EII Atoll-F Air-to-Air Missiles";;
 "weapons/su_pl5e2/short";"PL-5EII Atoll-F";;
 
-"weapons/su_pl5e2_default";"PL-5EII Atoll-F air-to-air missiles";;
+"weapons/su_pl5e2_default";"PL-5EII Atoll-F Air-to-Air Missiles";;
 "weapons/su_pl5e2_default/short";"PL-5EII Atoll-F";;
 
 //Missiles, IT
+"weapons/it_aspide_1a";"Aspide-1A Air-to-Air Missiles";;
+"weapons/it_aspide_1a/short";"Aspide-1A";;
 
 //Missiles, FR
 "weapons/fr_r_550_magic";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 1 Air-to-Air Missiles";;
@@ -1102,20 +1116,31 @@ noverify>";"<English>";
 
 //Rockets, USA
 "weapons/us_2_75_in_ffar_mighty_mouse";"Mk4 ""Mighty Mouse"" Folding-Fin Aerial Rockets";;
-
 "weapons/us_2_75_in_ffar_mighty_mouse/short";"Mk4 FFAR";;
 
 "weapons/us_2_75_in_ffar_mighty_mouse_fn_m3p";"Mk4 ""Mighty Mouse"" Folding-Fin Aerial Rockets";;
-
 "weapons/us_2_75_in_ffar_mighty_mouse_fn_m3p/short";"Mk4 FFAR";;
 
 "weapons/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp";"Mk4 ""Mighty Mouse"" Folding-Fin Aerial Rockets";;
-
 "weapons/us_2_75_in_ffar_mighty_mouse_fn_m3p_cwp/short";"Mk4 FFAR";;
 
 "weapons/us_2_75_in_ffar_mighty_mouse_default";"Mk4 ""Mighty Mouse"" Folding-Fin Aerial Rockets";;
-
 "weapons/us_2_75_in_ffar_mighty_mouse_default/short";"Mk4 FFAR";;
+
+"weapons/us_zuni_wafar_mk32";"Mk32 Mod 0 ""Zuni"" Anti-Tank/Anti-Personnel Rockets";;
+"weapons/us_zuni_wafar_mk32/short";"Mk32 Mod 0 ATAP";;
+
+"weapons/us_zuni_wafar_mk32_cwp";"Mk32 Mod 0 ""Zuni"" Anti-Tank/Anti-Personnel Rockets";;
+"weapons/us_zuni_wafar_mk32_cwp/short";"Mk32 Mod 0 ATAP";;
+
+"weapons/us_zuni_wafar_mk32_left";"Mk32 Mod 0 ""Zuni"" Anti-Tank/Anti-Personnel Rockets";;
+"weapons/us_zuni_wafar_mk32_left/short";"Mk32 Mod 0 ATAP";;
+
+"weapons/us_zuni_wafar_mk32_right";"Mk32 Mod 0 ""Zuni"" Anti-Tank/Anti-Personnel Rockets";;
+"weapons/us_zuni_wafar_mk32_right/short";"Mk32 Mod 0 ATAP";;
+
+"weapons/us_zuni_wafar_mk34";"Mk34 ""Zuni"" Smoke Rockets";;
+"weapons/us_zuni_wafar_mk34/short";"Mk34 [SMOKE]";;
 
 //Rockets, GER
 
@@ -1137,45 +1162,72 @@ noverify>";"<English>";
 
 //Sensors, USA
 "weapons/us_sniper_atp_targeting_pod";"AN/AAQ-33 Sniper Advanced Targeting Pod";;
-
 "weapons/us_sniper_atp_targeting_pod/short";"AN/AAQ-33 Sniper ATP";;
 
 "weapons/an_aas_38";"AN/AAS-38 Nite Hawk Forward-Looking Infrared (FLIR) Pod";;
-
 "weapons/an_aas_38/short";"AN/AAS-38 Nite Hawk";;
 
 "weapons/an_aas_38a";"AN/AAS-38A Nite Hawk Targeting Pod";;
-
 "weapons/an_aas_38a/short";"AN/AAS-38A Nite Hawk";;
 
 "weapons/an_aas_38b";"AN/AAS-38B Nite Hawk Targeting Pod";;
-
 "weapons/an_aas_38b/short";"AN/AAS-38B Nite Hawk";;
 
 "weapons/an_aaq_25_lantirn";"AN/AAQ-25 LANTIRN Targeting Pod";;
-
 "weapons/an_aaq_25_lantirn/short";"AN/AAQ-25 LANTIRN";;
+
+"weapons/an_asq_228_pod";"AN/ASQ-228 Advanced Targeting Forward-Looking Infrared Pod";;
+"weapons/an_asq_228_pod/short";"AN/ASQ-228 ATFLIR";;
+
+"weapons/us_pave_tack_targeting_pod";"AN/AVQ-26 Pave Tack Targeting Pod";;
+"weapons/us_pave_tack_targeting_pod/short";"AN/AVQ-26 Pave Tack";;
+
+"weapons/us_pave_spike_targeting_pod";"AN/AVQ-23 Pave Spike Targeting Pod";;
+"weapons/us_pave_spike_targeting_pod/short";"AN/AVQ-23 Pave Spike";;
 
 //Sensors, GER
 "weapons/gr_litening_pod_targeting_pod";"AN/AAQ-28 LITENING II Targeting Pod";;
-
 "weapons/gr_litening_pod_targeting_pod/short";"AN/AAQ-28 LITENING II";;
 
 "weapons/gr_litening_iii_targeting_pod";"AN/AAQ-28 LITENING III Targeting Pod";;
-
 "weapons/gr_litening_iii_targeting_pod/short";"AN/AAQ-28 LITENING III";;
 
 //Sensors, USSR
+"weapons/ntps_mercury";"Merkuriy Targeting Pod";;
+"weapons/ntps_mercury/short";"Merkuriy";;
+
+"weapons/su_projector_1";"Projektor-1 Targeting Pod";;
+"weapons/su_projector_1/short";"Projektor-1";;
+
+"weapons/su_delta_ng_station";"Delta-NG Targeting Pod";;
+"weapons/su_delta_ng_station/short";"Delta-NG";;
+
+"weapons/su_t_220_targeting_pod";"T-220 Targeting Pod";;
+"weapons/su_t_220_targeting_pod/short";"T-220";;
 
 //Sensors, GB
+"weapons/uk_tiald_targeting_pod";"Thermal Imaging Airborne Laser Designator (TIALD) Pod";;
+"weapons/uk_tiald_targeting_pod/short";"TIALD";;
 
 //Sensors, JP
+"weapons/jp_i_aaq2_targeting_pod";"J/AAQ-2 Forward-Looking Infrared (FLIR) Pod";;
+"weapons/jp_i_aaq2_targeting_pod/short";"J/AAQ-2";;
 
 //Sensors, CN
 
 //Sensors, IT
+"weapons/it_pdlct_s_pod_targeting_pod";"Pod de Désignation Laser a Caméra Thermique (PDLCT) Targeting Pod";;
+"weapons/it_pdlct_s_pod_targeting_pod/short";"PDLCT";;
+
+"weapons/it_aspide_control_station";"Aspide Aim Block";;
+"weapons/it_aspide_control_station/short";"Aspide Aim Block";;
 
 //Sensors, FR
+"weapons/uk_atlis2_targeting_pod";"Automatic Tracking and Laser Integration System (ATLIS) Targeting Pod";;
+"weapons/uk_atlis2_targeting_pod/short";"ATLIS II";;
+
+"weapons/fr_damocles_pod_targeting_pod";"Damocles Targeting Pod";;
+"weapons/fr_damocles_pod_targeting_pod/short";"Damocles";;
 
 //Sensors, SWE
 

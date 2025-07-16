@@ -1,3 +1,82 @@
+VERSION 0.3.1 CHANGELOG
+RELEASE DATE: 07/15/2025
+- Readded the names of various aircraft which were forgotten in the switch to the new file structure:
+   - P-51 Mustang Mk.1A
+   - P-47N-15 Thunderbolt
+   - P-47D-28 Thunderbolt
+   - P-40C Warhawk
+
+- Readded the names of various aircraft folders which were forgotten in the switch to the new file structure:
+   - P-39 Airacobra
+   - F4U Corsair
+
+- Readded the names of various weapons which were forgotten in the switch to the new file structure:
+   - AIM-9E Sidewinder
+
+- Changed the names of the following Chinese aircraft:
+   - F-5E Tiger II
+     - F-5E Tiger II --> F-5E Chung Cheng (in shop)
+     - Aerospace Industrial Development Corp.  F-5E Tiger II --> Aerospace Industrial Development Corp.  F-5E Chung Cheng (on statcard)
+     - F-5E Tiger II --> F-5E Chung Cheng (at medium distance)
+
+- Changed the names of the following German ground vehicles:
+   - IRIS-T SLM (MAN SX45 IFCS)
+     - IRIS-T SLM (MAN SX45 IFCS) --> IRIS-T SLM (MAN SX45 TOC) (in shop)
+     - Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Integrated Fire Control System --> Diehl Defence GmbH IRIS-T SLM | Rheinmetall MAN SX45 Tactical Operations Center (on statcard)
+     - IRIS-T SLM (MAN SX45 IFCS) --> IRIS-T SLM (MAN SX45 TOC) (at medium distance)
+     - IRIS-T SLM (MAN SX45 IFCS) --> IRIS-T SLM (TOC) (at long distance)
+
+- Changed the names of the following American weapons:
+   - Zuni Mk32 Mod 0 ATAP
+     - Zuni Mk32 Mod 0 ATAP rockets --> Mk32 Mod 0 "Zuni" Anti-Tank/Anti-Personnel Rockets (long name)
+     - Zuni Mk32 --> Mk32 Mod 0 ATAP (short name)
+   - Zuni Mk34
+     - Zuni Mk34 (Smoke) rockets --> Mk34 "Zuni" Smoke Rockets (long name)
+     - Zuni Mk34 (Smoke) --> Mk34 [SMOKE] (short name)
+   - AIM-7P
+     - AIM-7P Sparrow Air-to-Air Missiles --> AIM-7P Block II Sparrow Air-to-Air Missiles (long name)
+     - AIM-7P Sparrow --> AIM-7P Block II Sparrow (short name)
+
+- Changed the names of the following Japanese weapons:
+   - ASM-1
+     - ASM-1 anti-ship missile --> Type 80 Air-to-Ship Guided Missiles (long name)
+   - ASM-2
+     - ASM-2 anti-ship missile --> Type 93 Air-to-Ship Guided Missiles (long name)
+
+- Changed the names of the following American sensor units:
+   - ATFLIR
+     - ATFLIR targeting pod --> AN/ASQ-228 Advanced Targeting Forward-Looking Infrared Pod (long name)
+     - ATFLIR --> AN/ASQ-228 ATFLIR (short name)
+
+   - Pave Tack
+     - Pave Tack targeting pod --> AN/AVQ-26 Pave Tack Targeting Pod (long name)
+     - Pave Tack --> AN/AVQ-26 Pave Tack (short name)
+   - Pave Spike
+     - Pave Spike targeting pod --> AN/AVQ-23 Pave Spike Targeting Pod (long name)
+     - Pave Spike --> AN/AVQ-23 Pave Spike (short name)
+
+- Changed the names of the following Italian sensor units:
+   - CLDP
+     - CLDP targeting pod --> Pod de Désignation Laser a Caméra Thermique (PDLCT) Targeting Pod (long name)
+     - CLDP --> PDLCT (short name)
+
+- Changed the names of the following French sensor units:
+   - ATLIS II
+     - ATLIS II targeting pod --> Automatic Tracking and Laser Integration System (ATLIS) Targeting Pod (long name)
+
+- Changed the names of the following Soviet/Russian sensor units:
+   - Mercury
+     - Mercury targeting pod --> Merkuriy Targeting Pod (long name)
+     - Mercury --> Merkuriy (short name)
+
+- Changed the names of the following Japanese sensor units:
+   - J/AAQ-2
+     - J/AAQ-2 targeting pod --> J/AAQ-2 Forward-Looking Infrared (FLIR) Pod (long name)
+
+- Changed the names of the following British sensor units:
+   - TIALD
+     - TIALD targeting pod --> Thermal Imaging Airborne Laser Designator (TIALD) Pod (long name)
+
 VERSION 0.3 CHANGELOG
 RELEASE DATE: 07/11/2025
 - Changed the name of the Typhoon from "EF-2000 Typhoon B.10" to "EF-2000-10 Typhoon" because it looks cleaner
@@ -9,6 +88,7 @@ RELEASE DATE: 07/11/2025
 - Fixed a spelling mistake with the J-11 and J-11A
 
 - Fixed a bug which caused the killfeed to display the long name for the R-73 Archer
+
 - Readded the names of various aircraft which were forgotten in the switch to the new file structure:
     - MiG-21UPG Bison
     - Me 262 A-1a Schwalbe

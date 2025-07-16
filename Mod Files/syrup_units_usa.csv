@@ -906,6 +906,26 @@ noverify>";"<English>";
 "p-38k_1";"P-38K Lightning";;
 "p-38k_2";"P-38K";;
 
+"p-51_mk1a_usaaf_shop";"P-51 Mustang Mk.1A";;
+"p-51_mk1a_usaaf_0";"North American P-51 Mustang Mk.1A";;
+"p-51_mk1a_usaaf_1";"P-51 Mustang Mk.1A";;
+"p-51_mk1a_usaaf_2";"P-51 Mk.1A";;
+
+"p-47n-15_shop";"P-47N-15 Thunderbolt";;
+"p-47n-15_0";"Republic P-47N-15 Thunderbolt";;
+"p-47n-15_1";"P-47N-15 Thunderbolt";;
+"p-47n-15_2";"P-47N-15";;
+
+"p-47d-28_shop";"P-47D-28 Thunderbolt";;
+"p-47d-28_0";"Republic P-47D-28 Thunderbolt";;
+"p-47d-28_1";"P-47D-28 Thunderbolt";;
+"p-47d-28_2";"P-47D-28";;
+
+"p-40c_shop";"P-40C Warhawk";;
+"p-40c_0";"Curtiss P-40C Warhawk";;
+"p-40c_1";"P-40C Warhawk";;
+"p-40c_2";"P-40C";;
+
 "shop/group/p-26_group";"P-26 Peashooter";;
 "shop/group/p-36_group";"P-36 Hawk";;
 "shop/group/f2a_group";"F2A Buffalo";;
@@ -940,6 +960,8 @@ noverify>";"<English>";
 "shop/group/f9f_group";"F9F Panther/Cougar";;
 "shop/group/f-84_group";"F-84 Thunderjet";;
 "shop/group/f_86_group";"F-86 Sabre";;
+"shop/group/p-39_group";"P-39 Airacobra";;
+"shop/group/f4u_group";"F4U Corsair";;
 
 //Ground Units
 "us_sl_amraam_fcs_shop";"CLAWS (M1097A2 IFCS)";;
