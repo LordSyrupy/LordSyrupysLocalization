@@ -79,7 +79,8 @@ locTable{
   file:t="%lang/modded/syrup_weapons.csv"
   file:t="%lang/modded/syrup_notifs.csv"
   file:t="%lang/modded/syrup_menu_texts.csv"
-  file:t="%lang/modded/syrup_version.csv"
+  file:t="%lang/modded/syrup_mods.csv"
+  file:t="%lang/modded/syrup_version_dev.csv"
 
 }
 

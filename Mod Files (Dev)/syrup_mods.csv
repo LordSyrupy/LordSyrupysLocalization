@@ -1,0 +1,394 @@
+"<ID|readonly|
+noverify>";"<English>";
+
+//MOD CATEGORIES
+"modification/category/lth";"Flight Performance";;
+
+"modification/category/armor";"Survivability";;
+
+"modification/category/weapon";"Weaponry";;
+
+"modification/category/mobility";"Mobility";;
+
+"modification/category/protection";"Protection";;
+
+"modification/category/firepower";"Firepower";;
+
+"modification/category/primaryWeapon";"Primary Weapons";;
+
+"modification/category/secondaryWeapon";"Secondary Weapons";;
+
+"modification/category/premiumMods";"Special";;
+
+"modification/category/expendables";"Supplies";;
+
+"modification/category/seakeeping";"Seakeeping";;
+
+"modification/category/unsinkability";"Unsinkability";;
+
+"modification/category/bonus";"Tier Bonus";;
+
+//MOD TOOLTIPS
+"modification/category/bonus/tooltip";"When researching all modifications at each tier, you will receive bonus RP for the vehicle being researched in the amount of {bonus}% of the sum of RP spent on researching all modifications of that tier.";;
+
+"modification/tierBonus";"Bonus:";;
+
+"modification/bonusReceived";"Bonus Received";;
+
+"modification/progressModsText";"Research of all modifications: {earnedExp} / {reqExp}";;
+
+"modification/progressModsAllResearchedText";"◕ All Mods Researched";;
+
+//MISC MODS
+"modification/hydravlic_power";"New Boosters";;
+"modification/hydravlic_power/desc";"New hydraulic boosters improve plane's controllability";;
+
+"modification/new_compressor_r";"Compressor";;
+"modification/new_compressor_r/desc";"Checking and tweaking of compressor provides maximum engine power.";;
+
+"modification/new_radiator_r";"Radiator";;
+"modification/new_radiator_r/desc";"Cleaning of radiator and cooling system makes engine cooling more effective.";;
+
+"modification/hp_105_r";"Engine";;
+"modification/hp_105_r/desc";"Rebuilding and tuning of the engine, replacement of worn engine with a new one.";;
+
+"modification/structure_str_r";"Airframe";;
+"modification/structure_str_r/desc";"Replacement of damaged airframe elements increases overall plane's durability and flight performance due to weight reduction. For some planes it means that you get a new plane with undamaged airframe.";;
+
+"modification/new_cover_r";"Cover";;
+"modification/new_cover_r/desc";"Regular maintaining of cover and replacement of damaged cover parts increases overall plane's durability and flight performance, due to weight reduction.";;
+
+"modification/CdMin_Fuse_r";"Fuselage Repair";;
+"modification/CdMin_Fuse_r/desc";"Replacement of damaged elements of fuselage skinning, removal of openings, and surface finish to reduce air drag.";;
+
+"modification/cd_98_r";"Wings Repair";;
+"modification/cd_98_r/desc";"Replacement of damaged elements of wing skin, removal of openings, and surface finish to reduce air drag.";;
+
+"modification/g_suit";"G-Suit";;
+"modification/g_suit/desc";"G-Suit makes it easier to carry overload";;
+
+"modification/f_4c_g_suit";"G-Suit";;
+"modification/f_4c_g_suit/desc";"G-Suit makes it easier to carry overload";;
+
+"modification/countermeasures_belt_pack_unchecked";"Flares/Chaff";;
+"modification/countermeasures_belt_pack_unchecked/desc";"Set of Countermeasures";;
+
+"modification/countermeasures_launcher_chaff_priority_unchecked";"Flares";;
+"modification/countermeasures_launcher_flare_priority_unchecked";"Flares";;
+
+"modification/countermeasures_launcher_flare_only_unchecked";"Flares";;
+"modification/countermeasures_launcher_chaff_only_unchecked";"Flares";;
+
+"modification/_countermeasures";"Countermeasures";;
+
+"modification/countermeasures_launcher_chaff_priority";"Flares";;
+"modification/countermeasures_launcher_flare_priority";"Flares";;
+
+"modification/countermeasures_launcher_flare_only";"Flares";;
+"modification/ountermeasures_launcher_chaff_only";"Flares";;
+
+"modification/countermeasures_belt_pack";"Flares/Chaff";;
+"modification/countermeasures_belt_pack/desc";"Set of Countermeasures";;
+
+"countermeasuresBol_default/name";"Countermeasures (BOL)";;
+
+"countermeasuresMAW_default/name";"Countermeasures";;
+
+"countermeasures_launcher_chaff_large/name";"Countermeasures";;
+
+"countermeasures_launcher_chaff_bol_pod/name";"Countermeasures (BOL)";;
+
+"countermeasures_launcher_chaff_add_pod/name";"Countermeasures";;
+
+"countermeasures_launcher_chaff/name";"Countermeasures";;
+
+"maw_countermeasures_launcher_chaff/name";"Countermeasures";;
+
+"maw_countermeasures_launcher_chaff_large/name";"Countermeasures";;
+
+"countermeasures_launcher_chaff_large_add_pod/name";"Countermeasures";;
+
+"modification/_belt_pack";"Offensive %smm Belts";;
+"modification/_belt_pack/desc";"Set of %smm belts for offensive weapons.";;
+"modification/_belt_pack/short";"Offensive %smm";;
+
+"modification/_turret_belt_pack";"Turret %smm Belts";;
+"modification/_turret_belt_pack/desc";"Set of %smm belts for turret weapons.";;
+"modification/_turret_belt_pack/short";"Turret %smm";;
+
+"modification/_new_gun/cannon";"New %smm Cannons";;
+"modification/_new_gun/cannon/desc";"The %smm cannons' worn barrels, trigger and striking mechanisms are replaced with new ones, to improve fire density and to decrease the chance of seizure.";;
+
+"modification/_turret_new_gun";"New %smm MGs (turret)";;
+"modification/_turret_new_gun/desc";"The %smm turret machine guns' worn barrels, trigger and striking mechanisms are replaced with new ones, to improve fire density and to decrease the chance of seizure.";;
+
+"modification/_turret_new_gun/cannon";"New %smm Cannons (Turret)";;
+"modification/_turret_new_gun/cannon/desc";"The %smm turret cannons' worn barrels, trigger and striking mechanisms are replaced with new ones, to improve fire density and to decrease the chance of seizure.";;
+
+//MISSILES, US
+"modification/us_aim_7d/desc";"Allows the installation of AIM-7D Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7d";"AIM-7D Sparrow";;
+
+"modification/us_aim_7c/desc";"Allows the installation of AIM-7С Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7c";"AIM-7С Sparrow";;
+
+"modification/us_aim_7e/desc";"Allows the installation of AIM-7E Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7e";"AIM-7E Sparrow";;
+
+"modification/us_aim_7e2/desc";"Allows the installation of AIM-7E-2 Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7e2";"AIM-7E-2 Sparrow";;
+
+"modification/us_aim_7f/desc";"Allows the installation of AIM-7F Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7f";"AIM-7F Sparrow";;
+
+"modification/us_aim_7m/desc";"Allows the installation of AIM-7M Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7m";"AIM-7M Sparrow";;
+
+"modification/us_aim_7p/desc";"Allows the installation of AIM-7P Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7p";"AIM-7P Sparrow";;
+
+"modification/us_aim_54a/desc";"Allows the installation of AIM-54A Phoenix Air-to-Air Missiles.";;
+"modification/us_aim_54a";"AIM-54A Phoenix";;
+
+"modification/us_aim_54c/desc";"Allows the installation of AIM-54C Phoenix Air-to-Air Missiles.";;
+"modification/us_aim_54c";"AIM-54C Phoenix";;
+
+"modification/us_aim_120a/desc";"Allows the installation of AIM-120A Advanced Medium-Range Air-to-Air Missiles.";;
+"modification/us_aim_120a";"AIM-120A AMRAAM";;
+
+"modification/us_aim_120b/desc";"Allows the installation of AIM-120B Advanced Medium-Range Air-to-Air Missiles.";;
+"modification/us_aim_120b";"AIM-120B AMRAAM";;
+
+"modification/us_aim_120c/desc";"Allows the installation of AIM-120C Advanced Medium-Range Air-to-Air Missiles.";;
+"modification/us_aim_120c";"AIM-120C AMRAAM";;
+
+"modification/us_aim_9b/desc";"Allows the installation of AIM-9B Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9b";"AIM-9B Sidewinder";;
+
+"modification/us_aim_9d/desc";"Allows the installation of AIM-9D Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9d";"AIM-9D Sidewinder";;
+
+"modification/us_aim_9g/desc";"Allows the installation of AIM-9G Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9g";"AIM-9G Sidewinder";;
+
+"modification/us_aim_9h/desc";"Allows the installation of AIM-9H Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9h";"AIM-9H Sidewinder";;
+
+"modification/us_aim_9l/desc";"Allows the installation of AIM-9L Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9l";"AIM-9L Sidewinder";;
+
+"modification/us_aim_9l_i/desc";"Allows the installation of AIM-9L/I Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9l_i";"AIM-9L/I-1 Sidewinder";;
+
+"modification/us_aim_9l_i_1/desc";"Allows the installation of AIM-9L/I-1 Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9l_i_1";"AIM-9L/I-1 Sidewinder";;
+
+"modification/us_aim_9m/desc";"Allows the installation of AIM-9M Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9m";"AIM-9M Sidewinder";;
+
+"modification/us_aim_9n/desc";"Allows the installation of AIM-9N Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9n";"AIM-9N Sidewinder";;
+
+"modification/us_aim_9p/desc";"Allows the installation of AIM-9P Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9p";"AIM-9P Sidewinder";;
+
+"modification/us_aim_9p4/desc";"Allows the installation of AIM-9P-4 Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9p4";"AIM-9P-4 Sidwinder";;
+
+"modification/f5_us_aim_9b/desc";"Allows the installation of AIM-9B Sidewinder Air-to-Air Missiles and Flares/Chaff.";;
+"modification/f5_us_aim_9b";"AIM-9B Sidewinder (CM)";;
+
+"modification/f5_us_aim_9e/desc";"Allows the installation of AIM-9E Sidewinder Air-to-Air Missiles and Flares/Chaff.";;
+"modification/f5_us_aim_9e";"AIM-9E Sidewinder (CM)";;
+
+//MISSILES, GER
+"modification/us_aim_9b_fgw_2/desc";"Allows the installation of AIM-9B FGW.2 Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9b_fgw_2";"AIM-9B FGW.2 Sidewinder";;
+
+//MISSILES, JP
+"modification/jp_aam3/desc";"Allows the installation of Type 90 Air-to-Air Guided Missiles.";;
+"modification/jp_aam3";"AAM-3";;
+
+"modification/jp_aam4/desc";"Allows the installation of Type 99 Air-to-Air Guided Missiles.";;
+"modification/jp_aam4";"AAM-4";;
+
+"modification/jp_asm1";"ASM-1";;
+"modification/jp_asm1/desc";"Allows the installation of Type 80 Air-to-Ship Guided Missiles.";;
+
+"modification/jp_asm2";"ASM-2";;
+"modification/jp_asm2/desc";"Allows the installation of Type 93 Air-to-Ship Guided Missiles.";;
+
+//MISSILES, SWE
+"modification/swd_rb74/desc";"Allows the installation of Luftmålsrobot 74 Air-to-Air Missiles.";;
+"modification/swd_rb74";"Rb 74";;
+
+"modification/swd_rb74m/desc";"Allows the installation of Luftmålsrobot 74(M) Air-to-Air Missiles.";;
+"modification/swd_rb74m";"Rb 74(M)";;
+
+"modification/swe_rb24/desc";"Allows the installation of Luftmålsrobot 24 Air-to-Air Missiles.";;
+
+"modification/swe_rb24j/desc";"Allows the installation of Luftmålsrobot 24J Air-to-Air Missiles.";;
+"modification/swe_rb24j";"Rb 24J";;
+
+"modification/swe_rb71/desc";"Allows the installation of Luftmålsrobot 71 Air-to-Air Missiles.";;
+"modification/swe_rb71";"Rb 71";;
+
+"modification/swd_rb99/desc";"Allows the installation of Luftmålsrobot 99 Air-to-Air Missiles.";;
+"modification/swd_rb99";"Rb 99";;
+
+//ROCKETS, US
+"modification/f4c_zuni/desc";"Allows the installation of LAU-10/A Rocket Pods for launching Mk32 Mod 0 ""Zuni"" Anti-Tank/Anti-Personnel Rockets.";;
+"modification/f4c_zuni";"LAU-10/A / Mk32 Mod 0 ATAP";;
+
+//ROCKETS, JP
+"modification/jp_jlau_3a/desc";"Allows the installation of JLAU-3/A Rocket Pods for launching Mk4 ""Mighty Mouse"" Folding-Fin Aerial Rockets.";;
+"modification/jp_jlau_3a";"JLAU-3/A / Mk4 FFAR";;
+
+//BOMBS, US
+"modification/us_agm_62/desc";"Allows the installation of AGM-62A Walleye I Television-Guided Bombs.";;
+"modification/us_agm_62";"AGM-62A Walleye I";;
+
+"modification/us_agm_62_2_erdl/desc";"Allows the installation of AGM-62 Walleye II Extended-Range Datalink Television-Guided Bombs.";;
+"modification/us_agm_62_2_erdl";"AGM-62 Walleye II ER/DL";;
+
+"modification/us_gbu_15v1/desc";"Allows the installation of GBU-15(V)1/B Television-Guided Bombs.";;
+"modification/us_gbu_15v1";"GBU-15(V)1/B";;
+
+"modification/us_gbu_8_15/desc";"Allows the installation of the GBU-8 Homing Bomb System and GBU-15(V)1/B Television-Guided Bombs.";;
+"modification/us_gbu_8_15";"GBU-8 HOBOS / GBU-15(V)1/B";;
+
+"modification/us_500lb_mk82_gbu38_jdam/desc";"Allows the installation of Mk82 LDGP Low-Drag General_Purpose Bombs and GBU-38 JDAM GPS-Guided Bombs.";;
+"modification/us_500lb_mk82_gbu38_jdam";"Mk82 LDGP / GBU-38 JDAM";;
+
+"modification/us_500lb_mk82_gbu38_gbu62_jdam/desc";"Allows the installation of Mk82 Low-Drag General-Purpose Bombs, GBU-38 JDAM and GBU-62 JDAM GPS-Guided Bombs.";;
+"modification/us_500lb_mk82_gbu38_gbu62_jdam";"Mk82 LDGP / GBU-38/62 JDAM";;
+
+"modification/us_500lb_mk82_gbu54b/desc";"Allows the installation of GBU-54B LJDAM Dual-Mode Laser-Guided Bombs.";;
+"modification/us_500lb_mk82_gbu54b";"GBU-54B LJDAM";;
+
+"modification/us_gbu54b/desc";"Allows the installation of GBU-54B LJDAM and GBU-62 LJDAM Dual-Mode Laser-Guided Bombs.";;
+"modification/us_gbu54b";"GBU-54B/62 LJDAM";;
+
+"modification/us_gbu55b/desc";"Allows the installation of GBU-55B LJDAM Dual-Mode Laser-Guided Bombs.";;
+"modification/us_gbu55b";"GBU-55B LJDAM";;
+
+"modification/us_1000lb_mk83_gbu31_jdam/desc";"Allows the installation of Mk83 Low-Drag General-Purpose Bombs, GBU-31 JDAM and GBU-62 JDAM GPS-Guided Bombs.";;
+"modification/us_1000lb_mk83_gbu31_jdam";"Mk83 LDGP / GBU-31/64 JDAM";;
+
+"modification/us_1000lb_mk83_us_2000lb_mk84/desc";"Allows the installation of Mk83 and Mk84 Low-Drag General-Purpose Bombs.";;
+"modification/us_1000lb_mk83_us_2000lb_mk84";"Mk83/84 LDGP";;
+
+"modification/us_2000lb_mk84_gbu31_jdam/desc";"Allows the installation of Mk84 Low-Drag General-Purpose Bombs and GBU-31 JDAM GPS-Guided Bombs.";;
+"modification/us_2000lb_mk84_gbu31_jdam";"Mk84 LDGP / GBU-31 JDAM";;
+
+"modification/us_2000lb_mk84_gbu31_gbu64_jdam/desc";"Allows the installation of Mk84 Low-Drag General-Purpose Bombs, GBU-31 JDAM and GBU-64 JDAM GPS-Guided Bombs.";;
+"modification/us_2000lb_mk84_gbu31_gbu64_jdam";"Mk84 LDGP / GBU-31/64 JDAM";;
+
+"modification/us_gbu_12/desc";"Allows the installation of GBU-12 Paveway II Laser-Guided Bombs.";;
+"modification/us_gbu_12";"GBU-12 Paveway II";;
+
+"modification/us_gbu_12_22/desc";"Allows the installation of GBU-12 Paveway II and GBU-22 Paveway III Laser-Guided Bombs.";;
+"modification/us_gbu_12_22";"GBU-12/22 Paveway II/III";;
+
+"modification/us_gbu_laser/desc";"Allows the installation of GBU-10 Paveway II, GBU-12 Paveway II, and GBU-24 Paveway III Laser-Guided Bombs.";;
+"modification/us_gbu_laser";"GBU-10/12/24 Paveway II/III";;
+
+"modification/us_gbu_12_49/desc";"Allows the installation of GBU-12 Paveway II Laser-Guided Bombs and EGBU-12 Enhanced Paveway II Dual-Mode Laser-Guided Bombs.";;
+"modification/us_gbu_12_49";"E/GBU-12 Paveway II";;
+
+"modification/us_gbu_16/desc";"Allows the installation of GBU-16 Paveway II Laser-Guided Bombs.";;
+"modification/us_gbu_16";"GBU-16 Paveway II";;
+
+"modification/us_gbu_48/desc";"Allows the installation of EGBU-16 Enhanced Paveway II Dual-Mode Laser-Guided Bombs.";;
+"modification/us_gbu_48";"EGBU-16 Paveway II";;
+
+"modification/us_gbu_24/desc";"Allows the installation of GBU-24 Paveway III Laser-Guided Bombs.";;
+"modification/us_gbu_24";"GBU-24 Paveway III";;
+
+"modification/us_gbu_24_gbu_50/desc";"Allows the installation of GBU-24 Paveway III Laser-Guided Bombs and EGBU-10 Enhanced Paveway II Dual-Mode Laser-Guided Bombs.";;
+"modification/us_gbu_24_gbu_50";"GBU-24 Paveway III / EGBU-10 Paveway II";;
+
+"modification/us_egbu_24/desc";"Allows the installation of EGBU-24 Enhanced Paveway III Dual-Mode Laser-Guided Bombs.";;
+"modification/us_egbu_24";"EGBU-24 Paveway III";;
+
+"modification/us_gbu_10/desc";"Allows the installation of GBU-10 Paveway II Laser-Guided Bombs.";;
+"modification/us_gbu_10";"GBU-10 Paveway II";;
+
+"modification/us_gbu_27/desc";"Allows the installation of GBU-27 Paveway III Laser-Guided Bombs.";;
+"modification/us_gbu_27";"GBU-27 Paveway III";;
+
+"modification/us_gbu_10_gbu_24/desc";"Allows the installation of GBU-10 Paveway II and GBU-24 Paveway III Laser-Guided Bombs.";;
+"modification/us_gbu_10_gbu_24";"GBU-10/24 Paveway II/III";;
+
+"modification/us_gbu_8/desc";"Allows the installation of the GBU-8 Hombing Bomb System.";;
+"modification/us_gbu_8";"GBU-8 HOBOS";;
+
+"modification/us_agm_123/desc";"Allows the installation of AGM-123 Skipper Laser-Guided Air-to-Ground Missiles.";;
+"modification/us_agm_123";"AGM-123 Skipper";;
+
+"modification/us_agm_119a/desc";"Allows the installation of AGM-119A Penguin Anti-Ship Missiles.";;
+"modification/us_agm_119a";"AGM-119A Penguin";;
+
+"modification/us_gbu_38/desc";"Allows the installation of GBU-38 JDAM GPS-Guided Bombs.";;
+"modification/us_gbu_38";"GBU-38 JDAM";;
+
+"modification/us_gbu_32/desc";"Allows the installation of GBU-32 JDAM GPS-Guided Bombs.";;
+"modification/us_gbu_32";"GBU-32 JDAM";;
+
+"modification/us_gbu_31/desc";"Allows the installation of GBU-31 JDAM GPS-Guided Bombs.";;
+"modification/us_gbu_31";"GBU-31 JDAM";;
+
+"modification/us_gbu_32_31/desc";"Allows the installation of GBU-31 JDAM, GBU-32 JDAM, and GBU-64 JDAM GPS-Guided Bombs.";;
+"modification/us_gbu_32_31";"GBU-31/32/64 JDAM";;
+
+"modification/us_gbu39/desc";"Allows the installation of GBU-39 GPS-Guided Small Diameter Bombs.";;
+"modification/us_gbu39";"GBU-39 SDB I";;
+
+"modification/us_mk82_gbu39/desc";"Allows the installation of Mk82 Low-Drag General-Purpose Bombs and GBU-39 GPS-Guided Small Diameter Bombs.";;
+"modification/us_mk82_gbu39";"Mk82 LDGP / GBU-39 SDB I";;
+
+"modification/us_mk82_gbu38_gbu39/desc";"Allows the installation of Mk82 Low-Drag General Purpose Bombs, GBU-38 JDAM and GBU-62 JDAM GPS-Guided Bombs, and GBU-39 GPS-Guided Small Diameter Bombs.";;
+"modification/us_mk82_gbu38_gbu39";"Mk82 LDGP / GBU-38/62 JDAM / GBU-39 SDB I";;
+
+"modification/us_blu27_gbu39/desc";"Allows the installation of GBU-39 GPS-Guided Small-Diameter Bombs and BLU-27/B Incendiary Napalm Bombs.";;
+"modification/us_blu27_gbu39";"GBU-39 SDB I / BLU-27/B INC";;
+
+//BOMBS, JP
+"modification/jp_gbu38_jdam/desc";"Allows the installation of GBU-38 JDAM GPS-Guided Bombs.";;
+"modification/jp_gbu38_jdam";"GBU-38 JDAM";;
+
+//SENSORS, US
+"modification/us_sniper_pod/desc";"Allows the installation of the AN/AAQ-33 Sniper ATP laser/electro-optical targeting pod.";;
+"modification/us_sniper_pod";"AN/AAQ-33 Sniper ATP";;
+
+"modification/us_an_aas_38_pod/desc";"Allows the installation of the AN/AAS-38 Nite Hawk electro-optical targeting pod.";;
+"modification/us_an_aas_38_pod";"AN/AAS-38 Nite Hawk";;
+
+"modification/us_an_aas_38a_pod/desc";"Allows the installation of an AN/AAS-38A Nite Hawk laser/electro-optical targeting pod.";;
+"modification/us_an_aas_38a_pod";"AN/AAS-38A Nite Hawk";;
+
+"modification/us_an_aas_38b_pod/desc";"Allows the installation of an AN/AAS-38B Nite Hawk laser/electro-optical targeting pod.";;
+"modification/us_an_aas_38b_pod";"AN/AAS-38B Nite Hawk";;
+
+"modification/us_an_asq_228_pod/desc";"Allows the installation of the AN/ASQ-228 ATFLIR laser/electro-optical targeting pod.";;
+"modification/us_an_asq_228_pod";"AN/ASQ-228 ATFLIR";;
+
+"modification/us_lantirn_pod/desc";"Allows the installation of the AN/AAQ-25 LANTIRN laser/electro-optical targeting pod.";;
+"modification/us_lantirn_pod";"AN/AAQ-25 LANTIRN";;
+
+"modification/us_pave_tack_pod/desc";"Allows the installation of the AN/AVQ-26 Pave Tack laser/electro-optical targeting pod.";;
+"modification/us_pave_tack_pod";"AN/AVQ-26 Pave Tack";;
+
+//SENSORS, GER
+"modification/gr_litening_pod/desc";"Allows the installation of the AN/AAQ-28 LITENING II laser/electro-optical targeting pod.";;
+"modification/gr_litening_pod";"AN/AAQ-28 LITENING II";;
+
+"modification/gr_litening_iii_pod/desc";"Allows the installation of the AN/AAQ-28 LITENING III laser/electro-optical targeting pod.";;
+"modification/gr_litening_iii_pod";"AN/AAQ-28 LITENING III";;
+
+//SENSORS, JP
+"modification/j_aaq_2_pod/desc";"Allows the installation of the J/AAQ-2 Forward-Looking Infrared laser/electro-optical targeting pod.";;
+"modification/j_aaq_2_pod";"J/AAQ-2";;
+
+"modification/sniper_atp_pod/desc";"Allows the installation of the AN/AAQ-33 Sniper ATP laser/electro-optical targeting pod.";;
+"modification/sniper_atp_pod";"AN/AAQ-33 Sniper ATP";;
