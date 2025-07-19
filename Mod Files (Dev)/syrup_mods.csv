@@ -138,14 +138,14 @@ noverify>";"<English>";
 "modification/us_aim_7e2/desc";"Allows the installation of AIM-7E-2 Sparrow Air-to-Air Missiles.";;
 "modification/us_aim_7e2";"AIM-7E-2 Sparrow";;
 
-"modification/us_aim_7f/desc";"Allows the installation of AIM-7F Sparrow Air-to-Air Missiles.";;
-"modification/us_aim_7f";"AIM-7F Sparrow";;
+"modification/us_aim_7f/desc";"Allows the installation of AIM-7F-11 Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7f";"AIM-7F-11 Sparrow";;
 
-"modification/us_aim_7m/desc";"Allows the installation of AIM-7M Sparrow Air-to-Air Missiles.";;
-"modification/us_aim_7m";"AIM-7M Sparrow";;
+"modification/us_aim_7m/desc";"Allows the installation of AIM-7MF-1 Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7m";"AIM-7MF-1 Sparrow";;
 
-"modification/us_aim_7p/desc";"Allows the installation of AIM-7P Sparrow Air-to-Air Missiles.";;
-"modification/us_aim_7p";"AIM-7P Sparrow";;
+"modification/us_aim_7p/desc";"Allows the installation of AIM-7P-2 Sparrow Air-to-Air Missiles.";;
+"modification/us_aim_7p";"AIM-7P-2 Sparrow";;
 
 "modification/us_aim_54a/desc";"Allows the installation of AIM-54A Phoenix Air-to-Air Missiles.";;
 "modification/us_aim_54a";"AIM-54A Phoenix";;
@@ -183,14 +183,14 @@ noverify>";"<English>";
 "modification/us_aim_9l_i_1/desc";"Allows the installation of AIM-9L/I-1 Sidewinder Air-to-Air Missiles.";;
 "modification/us_aim_9l_i_1";"AIM-9L/I-1 Sidewinder";;
 
-"modification/us_aim_9m/desc";"Allows the installation of AIM-9M Sidewinder Air-to-Air Missiles.";;
-"modification/us_aim_9m";"AIM-9M Sidewinder";;
+"modification/us_aim_9m/desc";"Allows the installation of AIM-9M-4 Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9m";"AIM-9M-4 Sidewinder";;
 
 "modification/us_aim_9n/desc";"Allows the installation of AIM-9N Sidewinder Air-to-Air Missiles.";;
 "modification/us_aim_9n";"AIM-9N Sidewinder";;
 
-"modification/us_aim_9p/desc";"Allows the installation of AIM-9P Sidewinder Air-to-Air Missiles.";;
-"modification/us_aim_9p";"AIM-9P Sidewinder";;
+"modification/us_aim_9p/desc";"Allows the installation of AIM-9P-3 Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9p";"AIM-9P-3 Sidewinder";;
 
 "modification/us_aim_9p4/desc";"Allows the installation of AIM-9P-4 Sidewinder Air-to-Air Missiles.";;
 "modification/us_aim_9p4";"AIM-9P-4 Sidwinder";;
@@ -202,8 +202,8 @@ noverify>";"<English>";
 "modification/f5_us_aim_9e";"AIM-9E Sidewinder (CM)";;
 
 //MISSILES, GER
-"modification/us_aim_9b_fgw_2/desc";"Allows the installation of AIM-9B FGW.2 Sidewinder Air-to-Air Missiles.";;
-"modification/us_aim_9b_fgw_2";"AIM-9B FGW.2 Sidewinder";;
+"modification/us_aim_9b_fgw_2/desc";"Allows the installation of AIM-9F Sidewinder Air-to-Air Missiles.";;
+"modification/us_aim_9b_fgw_2";"AIM-9F Sidewinder";;
 
 //MISSILES, JP
 "modification/jp_aam3/desc";"Allows the installation of Type 90 Air-to-Air Guided Missiles.";;

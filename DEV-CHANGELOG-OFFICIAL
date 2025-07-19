@@ -1,3 +1,205 @@
+VERSION 0.3.2dev CHANGELOG
+RELEASE DATE: 07/19/2025
+- Changed the name of American aircraft manufacturer "Boeing" to "Boeing Airplane Co." for pre-1961 aircraft, and "Boeing Co." for post-1961 aircraft
+- Changed the name of American aircraft manufacturer "McDonnell Douglas" to "McDonnell Douglas Corp."
+- Changed the name of American aircraft manufacturer "General Dynamics" to "General Dynamics Corp."
+- Changed the name of American aircraft manufacturer "Curtiss" to "Curtiss Aeroplane and Motor Co." for pre-1929 aircraft, and "Curtiss-Wright Corp." for post-1929 aircraft
+- Changed the name of American aircraft manufacturer "Grumman" to "Grumman Aircraft Engineering Corp." for pre-1969 aircraft, and "Grumman Aerospace Corp." for post-1969 aircraft
+- Changed the name of American aircraft manufacturer "Northrop" to "Northrop Corp."
+- Changed the name of American aircraft manufacturer "Northrop Grumman" to "Northrop Grumman Corp."
+- Changed the name of American aircraft manufacturer "Republic" to "Republic Aviation Corp."
+- Changed the name of American aircraft manufacturer "North American" to "North American Aviation"
+- Changed the name of American aircraft manufacturer "Lockheed" to "Lockheed Corp."
+- Changed the name of American aircraft manufacturer "Douglas" to "Douglas Aircraft Co."
+- Changed the name of American aircraft manufacturer "Consolidated" to "Consolidated Aircraft Corp."
+- Changed the name of American aircraft manufacturer "Bell" to "Bell Aircraft Corp."
+- Changed the name of American aircraft manufacturer "Beechcraft" to "Beechcraft Aircraft Corp."
+- Changed the name of American aircraft manufacturer "Martin" to "Martin Co."
+- Changed the name of American aircraft manufacturer "Vought" to "Chance Vought Corp."
+- Changed the name of American aircraft manufacturer "Ling-Temco-Vought" to "Ling-Temco-Vought Aerospace Corp."
+- Changed the name of American aircraft manufacturer "Brewster" to "Brewster Aeronautical Corp."
+
+- Changed the names of the following American aircraft:
+   - F-14B-150
+     - Grumman F-14B Tomcat | Block 150 --> Grumman F-14B Tomcat | Block 150, Operational Flight Program 321 (2001) (on statcard)
+   - F-14A-110
+     - Grumman F-14A Tomcat | Block 110 --> Grumman F-14A Tomcat | Block 110 (1980) (on statcard)
+   - F-15C-40 MSIP II
+     - Boeing Co. F-15C Eagle | Block 40, Multi-Stage Improvement Program II --> Boeing Defense, Space & Security | F-15C Eagle | Block 40 | Multi-Stage Improvement Program Configuration II (2000) (on statcard)
+   - F-15A-20 Eagle
+     - F-15A-20 Eagle --> F-15A-20 MSIP I Eagle (in shop)
+     - McDonnell Douglas Corp. F-15A Eagle | Block 20 --> McDonnell Douglas Corporation | F-15A Eagle | Block 20 | Multi-Stage Improvement Program Configuration I (1983) (on statcard)
+     - F-15A-20 Eagle --> F-15A-20 MSIP I Eagle (at medium distance)
+     - F-15A-20 Eagle --> F-15A-20 MSIP I (at long distance)
+
+- Changed the names of the following Soviet aircraft:
+   - Tu-14T
+     - Tu-14T --> Tu-14T Bosun (in shop)
+     - Tu-14T --> Tupolev OKB Tu-14T Bosun (on statcard)
+     - Tu-14T --> Tu-14T Bosun (at medium distance)
+   - BI
+     - BI --> BI-1 (in shop)
+     - BI --> Bereznyak-Isayev BI-1 (on statcard)
+     - BI --> BI-1 (at medium distance)
+     - BI --> BI-1 (at long distance)
+   - Yak-3 (VK-107)
+     - Yak-3 (VK-107) --> Yak-3 Ostronosyi (1945) (in shop)
+     - Yak-3 (VK-107) --> Yakovlev OKB Yak-3 "Ostronosyi" (1945) (on statcard)
+     - Yak-3 --> Yak-3 Ostronosyi (1945) (at medium distance)
+     - Yak-3 --> Yak-3 (1945) (at long distance)
+   - Tu-2S
+     - Tu-2S --> Tu-2S Bat (in shop)
+     - Tu-2S --> Tupolev OKB Tu-2S Bat (on statcard)
+     - Tu-2S --> Tu-2S Bat (at medium distance)
+     - Tu-2 --> Tu-2S (at long distance)
+   - Tu-2
+     - Tu-2 --> Tu-2 Bat (in shop)
+     - Tu-2 --> Tupolev OKB Tu-2 Bat (on statcard)
+     - Tu-2 --> Tu-2 Bat (at medium distance)
+   - Tu-2S-44
+     - Tu-2S-44 --> Tu-2S-44 Bat (in shop)
+     - Tu-2S-44 --> Tupolev OKB Tu-2S-44 Bat (on statcard)
+     - Tu-2S --> Tu-2S-44 Bat (at medium distance)
+     - Tu-2 --> Tu-2S-44 (at long distance)
+   - Tu-2S-59
+     - Tu-2S-59 --> Tu-2S-59 Bat (in shop)
+     - Tu-2S-59 --> Tupolev OKB Tu-2S-59 Bat (on statcard)
+     - Tu-2S --> Tu-2S-59 Bat (at medium distance)
+     - Tu-2 --> Tu-2S-59 (at long distance)
+   - IL-10
+     - IL-10 --> Il-10 Beast (in shop)
+     - IL-10 --> Ilyushin OKB Il-10 Beast (on statcard)
+     - IL-10 --> Il-10 Beast (at medium distance)
+     - IL-10 --> Il-10 (at long distance)
+   - IL-10 (1946)
+     - IL-10 (1946) --> Il-10 Beast (1946) (in shop)
+     - IL-10 (1946) --> Ilyushin OKB Il-10 Beast (1946) (on statcard)
+     - IL-10 (1946) --> Il-10 Beast (1946) (at medium distance)
+     - IL-10 (1946) --> Il-10 (1946) (at long distance)
+   - Su-6 (AM-42)
+     - Su-6 (AM-42) --> Su-6 (1944) (in shop)
+     - Su-6 (AM-42) --> Sukhoi OKB Su-6 | Third Prototype, 1944 (on statcard)
+     - Su-6 (AM-42) --> Su-6 (1944) (at medium distance)
+     - Su-6 --> Su-6 (1944) (at long distance)
+   - Su-6
+     - Su-6 --> Su-6 (1942) (in shop)
+     - Su-6 --> Sukhoi OKB Su-6 | Second Prototype, 1942 (on statcard)
+     - Su-6 --> Su-6 (1942) (at medium distance)
+     - Su-6 --> Su-6 (1942) (at long distance)
+   - Su-6 (M-71F)
+     - Su-6 (M-71F) --> Su-6 (1943) (in shop)
+     - Su-6 (M-71F) --> Sukhoi OKB Su-6 | Third Prototype, 1943 (on statcard)
+     - Su-6 (M-71F) --> Su-6 (1943) (at medium distance)
+     - Su-6  --> Su-6 (1943) (at long distance)
+   - La-7B-20
+     - La-7B-20 --> La-7 Fin (1945) (in shop)
+     - La-7B-20 --> Lavochkin OKB La-7 Fin | 1945 Production Standard (on statcard)
+     - La-7B --> La-7 Fin (1945) (at medium distance)
+     - La-7 --> La-7 (1945) (at long distance)
+   - La-7
+     - La-7 --> La-7 Fin (1944) (in shop)
+     - La-7 --> Lavochkin OKB La-7 Fin | 1944 Production Standard (on statcard)
+     - La-7 --> La-7 Fin (1944) (at medium distance)
+     - La-7 --> La-7 (1944) (at long distance)
+   - La-9
+     - La-9 --> La-9 Fang (in shop)
+     - La-9 --> Lavochkin OKB La-9 Fang (on statcard)
+     - La-9 --> La-9 Fang (at medium distance)
+   - I-225
+     - I-225 --> Mikoyan-Gurevich OKB I-225 (on statcard)
+   - Yak-3P
+     - Yak-3P --> Yak-3P Ostronosyi (in shop)
+     - Yak-3P --> Yakovlev OKB Yak-3P "Ostronosyi" (on statcard)
+     - Yak-3 --> Yak-3P Ostronosyi (at medium distance)
+     - Yak-3 --> Yak-3P (at long distance)
+   - Yak-9UT
+     - Yak-9UT --> Yak-9UT Ostronosyi (in shop)
+     - Yak-9UT --> Yakovlev OKB Yak-9UT "Ostronosyi" (on statcard)
+     - Yak-9 --> Yak-9UT Ostronosyi (at medium distance)
+     - Yak-9 --> Yak-9UT (at long distance)
+   - Yak-3U
+     - Yak-3U --> Yak-3U Ostronosyi (in shop)
+     - Yak-3U --> Yakovlev OKB Yak-3U "Ostronosyi" (on statcard)
+     - Yak-3 --> Yak-3U Ostronosyi (at medium distance)
+     - Yak-3 --> Yak-3U (at long distance)
+   - Yak-9P
+     - Yak-9P --> Yak-9P Ostronosyi (in shop)
+     - Yak-9P --> Yakovlev OKB Yak-9P "Ostronosyi" (on statcard)
+     - Yak-9 --> Yak-9P Ostronosyi (at medium distance)
+     - Yak-9 --> Yak-9P (at long distance)
+   - Yak-9U
+     - Yak-9U --> Yak-9U Ostronosyi (in shop)
+     - Yak-9U --> Yakovlev OKB Yak-9U "Ostronosyi" (on statcard)
+     - Yak-9 --> Yak-9U Ostronosyi (at medium distance)
+     - Yak-9 --> Yak-9U (at long distance)
+   - Yak-3
+     - Yak-3 --> Yak-3 Ostronosyi (1944) (in shop)
+     - Yak-3 --> Yakovlev OKB Yak-3 "Ostronosyi" (1944) (on statcard)
+     - Yak-3 --> Yak-3 Ostronosyi (1944) (at medium distance)
+     - Yak-3--> Yak-3 (1944) (at long distance)
+   - Yak-9T
+     - Yak-9T --> Yak-9T Ostronosyi (in shop)
+     - Yak-9T --> Yakovlev OKB Yak-9T "Ostronosyi" (on statcard)
+     - Yak-9T --> Yak-9T Ostronosyi (at medium distance)
+     - Yak-9 --> Yak-9T (at long distance)
+   - Yak-9K
+     - Yak-9K --> Yak-9K Ostronosyi (in shop)
+     - Yak-9K --> Yakovlev OKB Yak-9K "Ostronosyi" (on statcard)
+     - Yak-9K --> Yak-9K Ostronosyi (at medium distance)
+     - Yak-9 --> Yak-9K (at long distance)
+   - Be-6
+     - Be-6 --> Be-6 Madge (in shop)
+     - Be-6 --> Beriev OKB Be-6 Madge (on statcard)
+     - Be-6 --> Be-6 Madge (at medium distance)
+   - Su-8
+     - Su-8 --> Su-8 DDBSh (in shop)
+     - Su-8 --> Sukhoi OKB Su-8 | Dvukhmotornyy Dvukhmestnyy Bronirovannyy Shturmovik (on statcard)
+     - Su-8 --> Su-8 DDBSh (at medium distance)
+
+- Changed the names of the following Japanese aircraft:
+   - F-15J-MSIP
+     - F-15J-MSIP Eagle --> F-15MJ Īguru (in shop)
+     - Mitsubishi F-15J-MSIP Eagle --> Mitsubishi Heavy Industries, Ltd. | F-15MJ Īguru "J-MSIP" | Japan-Multi-Stage Improvement Program | Mid-Term Defense Program (2004) (on statcard)
+     - F-15J-MSIP Eagle --> F-15MJ Īguru (at medium distance)
+     - F-15J-MSIP --> F-15MJ (at long distance)
+   - F-15J
+     - F-15J Eagle --> F-15J Īguru (in shop)
+     - Mitsubishi F-15J Eagle --> Mitsubishi Heavy Industries, Ltd. | F-15J Īguru | Peace Eagle Program (on statcard)
+     - F-15J Eagle --> F-15J Īguru (at medium distance)
+   - XF-2A
+     - Mitsubishi XF-2A Viper Zero | Air Development and Test Wing --> Mitsubishi Heavy Industries, Ltd. | XF-2A Viper Zero | 1995 FS-X Prototype | Air Development and Test Wing (on statcard)
+
+- Changed the names of the following Soviet aircraft folders:
+   - IL-10 --> Il-10 Beast
+
+- Changed the names of the following American weapons:
+   - AIM-9P Sidewinder
+     - AIM-9P Sidewinder Air-to-Air Missiles --> AIM-9P-3 Sidewinder Air-to-Air Missiles (long name)
+     - AIM-9P Sidewinder --> AIM-9P-3 Sidewinder (short name)
+   - AIM-7P Block II Sparrow
+     - AIM-7P Block II Sparrow Air-to-Air Missiles --> AIM-7P-2 Sparrow Air-to-Air Missiles (long name)
+     - AIM-7P Block II Sparrow --> AIM-7P-2 Sparrow (short name)
+   - AIM-7F Sparrow
+     - AIM-7F Sparrow Air-to-Air Missiles --> AIM-7F-11 Sparrow Air-to-Air Missiles (long name)
+     - AIM-7F Sparrow --> AIM-7F-11 Sparrow (short name)
+   - AIM-9X Sidewinder
+     - AIM-9X Air-to-Air Missiles --> AIM-9X-1 Sidewinder Air-to-Air Missiles (long name)
+     - AIM-9X Sidewinder --> AIM-9X-1 Sidewinder (short name)
+   - AIM-9X Block II Sidewinder
+     - AIM-9X Block II Air-to-Air Missiles --> AIM-9X-2 Sidewinder Air-to-Air Missiles (long name)
+     - AIM-9X Block II Sidewinder --> AIM-9X-2 Sidewinder (short name)
+   - AIM-9M Sidewinder
+     - AIM-9M Sidewinder Air-to-Air Missiles --> AIM-9M-4 Sidewinder Air-to-Air Missiles (long name)
+     - AIM-9M Sidewinder --> AIM-9M-4 Sidewinder (short name)
+   - AIM-7M Sparrow
+     - AIM-7M Sparrow Air-to-Air Missiles --> AIM-7MF-1 Sparrow Air-to-Air Missiles (long name)
+     - AIM-7M Sparrow --> AIM-7MF-1 Sparrow (short name)
+
+- Changed the names of the following German weapons:
+   - AIM-9B FGW.2
+     - AIM-9B FGW.2 Sidewinder Air-to-Air Missiles --> AIM-9F Sidewinder Air-to-Air Missiles (long name)
+     - AIM-9B FGW.2 Sidewinder --> AIM-9F Sidewinder (short name)
+
 VERSION 0.3.1dev CHANGELOG
 RELEASE DATE: 07/15/2025
 - Renamed and gave new descriptions to a bunch of modifications, mainly American sensors and air-to-air/air-to-ground weaponry. The changes (mainly to the names) are a little too comprehensive to type out, as typing them out would genuinely take an hour or so of time purely by having to list out the old names, and then what the old names were changed to.

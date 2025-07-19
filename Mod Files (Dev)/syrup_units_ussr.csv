@@ -1,6 +1,136 @@
 "<ID|readonly|
 noverify>";"<English>";
 
+"yak-9t_shop";"Yak-9T Ostronosyi";;
+"yak-9t_0";"Yakovlev OKB Yak-9T ""Ostronosyi""";;
+"yak-9t_1";"Yak-9T Ostronosyi";;
+"yak-9t_2";"Yak-9T";;
+
+"yak-9k_shop";"Yak-9K Ostronosyi";;
+"yak-9k_0";"Yakovlev OKB Yak-9K ""Ostronosyi""";;
+"yak-9k_1";"Yak-9K Ostronosyi";;
+"yak-9k_2";"Yak-9K";;
+
+"yak-3_shop";"Yak-3 Ostronosyi (1944)";;
+"yak-3_0";"Yakovlev OKB Yak-3 ""Ostronosyi"" (1944)";;
+"yak-3_1";"Yak-3 Ostronosyi (1944)";;
+"yak-3_2";"Yak-3 (1944)";;
+
+"yak-9u_shop";"Yak-9U Ostronosyi";;
+"yak-9u_0";"Yakovlev OKB Yak-9U ""Ostronosyi""";;
+"yak-9u_1";"Yak-9U Ostronosyi";;
+"yak-9u_2";"Yak-9U";;
+
+"su-8_shop";"Su-8 DDBSh";;
+"su-8_0";"Sukhoi OKB Su-8 | Dvukhmotornyy Dvukhmestnyy Bronirovannyy Shturmovik";;
+"su-8_1";"Su-8 DDBSh";;
+"su-8_2";"Su-8";;
+
+"be_6_shop";"Be-6 Madge";;
+"be_6_0";"Beriev OKB Be-6 Madge";;
+"be_6_1";"Be-6 Madge";;
+"be_6_2";"Be-6";;
+
+"yak-3p_shop";"Yak-3P Ostronosyi";;
+"yak-3p_0";"Yakovlev OKB Yak-3P ""Ostronosyi""";;
+"yak-3p_1";"Yak-3P Ostronosyi";;
+"yak-3p_2";"Yak-3P";;
+
+"yak-9p_shop";"Yak-9P Ostronosyi";;
+"yak-9p_0";"Yakovlev OKB Yak-9P ""Ostronosyi""";;
+"yak-9p_1";"Yak-9P Ostronosyi";;
+"yak-9p_2";"Yak-9P";;
+
+"yak-3u_shop";"Yak-3U Ostronosyi";;
+"yak-3u_0";"Yakovlev OKB Yak-3U ""Ostronosyi""";;
+"yak-3u_1";"Yak-3U Ostronosyi";;
+"yak-3u_2";"Yak-3U";;
+
+"yak-9ut_shop";"Yak-9UT Ostronosyi";;
+"yak-9ut_0";"Yakovlev OKB Yak-9UT ""Ostronosyi""";;
+"yak-9ut_1";"Yak-9UT Ostronosyi";;
+"yak-9ut_2";"Yak-9UT";;
+
+"i_225_shop";"I-225";;
+"i_225_0";"Mikoyan-Gurevich OKB I-225";;
+"i_225_1";"I-225";;
+"i_225_2";"I-225";;
+
+"la-9_shop";"La-9 Fang";;
+"la-9_0";"Lavochkin OKB La-9 Fang";;
+"la-9_1";"La-9 Fang";;
+"la-9_2";"La-9";;
+
+"la-7_shop";"La-7 Fin (1944)";;
+"la-7_0";"Lavochkin OKB La-7 Fin | 1944 Production Standard";;
+"la-7_1";"La-7 Fin (1944)";;
+"la-7_2";"La-7 (1944)";;
+
+"la-7b-20_shop";"La-7 Fin (1945)";;
+"la-7b-20_0";"Lavochkin OKB La-7 Fin | 1945 Production Standard";;
+"la-7b-20_1";"La-7 Fin (1945)";;
+"la-7b-20_2";"La-7 (1945)";;
+
+"su-6_m71_shop";"Su-6 (1943)";;
+"su-6_m71_0";"Sukhoi OKB Su-6 | Third Prototype, 1943";;
+"su-6_m71_1";"Su-6 (1943)";;
+"su-6_m71_2";"Su-6 (1943)";;
+
+"su-6_am42_shop";"Su-6 (1944)";;
+"su-6_am42_0";"Sukhoi OKB Su-6 | Third Prototype, 1944";;
+"su-6_am42_1";"Su-6 (1944)";;
+"su-6_am42_2";"Su-6 (1944)";;
+
+"su_6_single_shop";"Su-6 (1942)";;
+"su_6_single_0";"Sukhoi OKB Su-6 | Second Prototype, 1942";;
+"su_6_single_1";"Su-6 (1942)";;
+"su_6_single_2";"Su-6 (1942)";;
+
+"il-10_shop";"Il-10 Beast";;
+"il-10_0";"Ilyushin OKB Il-10 Beast";;
+"il-10_1";"Il-10 Beast";;
+"il-10_2";"Il-10";;
+
+"il-10_1946_shop";"Il-10 Beast (1946)";;
+"il-10_1946_0";"Ilyushin OKB Il-10 Beast (1946)";;
+"il-10_1946_1";"Il-10 Beast (1946)";;
+"il-10_1946_2";"Il-10 (1946)";;
+
+"tu-2_shop";"Tu-2S Bat";;
+"tu-2_0";"Tupolev OKB Tu-2S Bat";;
+"tu-2_1";"Tu-2S Bat";;
+"tu-2_2";"Tu-2S";;
+
+"tu-2_early_shop";"Tu-2 Bat";;
+"tu-2_early_0";"Tupolev OKB Tu-2 Bat";;
+"tu-2_early_1";"Tu-2 Bat";;
+"tu-2_early_2";"Tu-2";;
+
+"tu-2_postwar_shop";"Tu-2S-44 Bat";;
+"tu-2_postwar_0";"Tupolev OKB Tu-2S-44 Bat";;
+"tu-2_postwar_1";"Tu-2S-44 Bat";;
+"tu-2_postwar_2";"Tu-2S-44";;
+
+"tu-2_postwar_late_shop";"Tu-2S-59 Bat";;
+"tu-2_postwar_late_0";"Tupolev OKB Tu-2S-59 Bat";;
+"tu-2_postwar_late_1";"Tu-2S-59 Bat";;
+"tu-2_postwar_late_2";"Tu-2S-59";;
+
+"yak-3_vk107_shop";"Yak-3 Ostronosyi (1945)";;
+"yak-3_vk107_0";"Yakovlev OKB Yak-3 ""Ostronosyi"" (1945)";;
+"yak-3_vk107_1";"Yak-3 Ostronosyi (1945)";;
+"yak-3_vk107_2";"Yak-3 (1945)";;
+
+"bi_shop";"BI-1";;
+"bi_0";"Bereznyak-Isayev BI-1";;
+"bi_1";"BI-1";;
+"bi_2";"BI-1";;
+
+"tu_14t_shop";"Tu-14T Bosun";;
+"tu_14t_0";"Tupolev OKB Tu-14T Bosun";;
+"tu_14t_1";"Tu-14T Bosun";;
+"tu_14t_2";"Tu-14T";;
+
 "su_27_shop";"Su-27S Flanker-B";;
 "su_27_0";"Sukhoi Su-27S Flanker-B";;
 "su_27_1";"Su-27S Flanker-B";;
@@ -296,3 +426,12 @@ noverify>";"<English>";
 "shop/group/mig-21_group";"MiG-21 Fishbed";;
 "shop/group/mig-15_group";"MiG-15 Fagot";;
 "shop/group/mig-9_group";"MiG-9 Fargo";;
+"shop/group/il-10_group";"Il-10 Beast";;
+"shop/group/yak-1_group";"Yak-1";;
+"shop/group/yak-9_group";"Yak-9";;
+"shop/group/yak-3_group";"Yak-3/9U";;
+"shop/group/yak-9u_group";"Yak-9U";;
+"shop/group/er-2_ach30b_group";"Yer-2 (ACh-30B)";;
+"shop/group/lagg-3_late_group";"LaGG-3 (l)";;
+"shop/group/pe-2_early_group";"Pe-2 (e)";;
+"shop/group/pe-2_late_group";"Pe-2 (l)";;

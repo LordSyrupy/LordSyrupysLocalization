@@ -62,22 +62,22 @@ noverify>";"<English>";
 "av_8s_thailand_2";"▄B.KhL.1 (1973)";;
 
 "t2_early_shop";"T-2 (1975)";;
-"t2_early_0";"Mitsubishi T-2 | Zenki-gata (1975)";;
+"t2_early_0";"Mitsubishi Heavy Industries, Ltd. | T-2 | Zenki-gata (1975)";;
 "t2_early_1";"T-2 (1975)";;
 "t2_early_2";"T-2 (1975)";;
 
 "t2_shop";"T-2 (1979)";;
-"t2_0";"Mitsubishi T-2 | Kōki-gata (1979)";;
+"t2_0";"Mitsubishi Heavy Industries, Ltd. | T-2 | Kōki-gata (1979)";;
 "t2_1";"T-2 (1979)";;
 "t2_2";"T-2 (1979)";;
 
 "f1_shop";"F-1";;
-"f1_0";"Mitsubishi F-1";;
+"f1_0";"Mitsubishi Heavy Industries, Ltd. | F-1";;
 "f1_1";"F-1";;
 "f1_2";"F-1";;
 
 "f-104j_shop";"▅F-104J Starfighter";;
-"f-104j_0";"▅Mitsubishi F-104J Starfighter";;
+"f-104j_0";"▅Mitsubishi Heavy Industries, Ltd. | F-104J Starfighter";;
 "f-104j_1";"▅F-104J Starfighter";;
 "f-104j_2";"▅F-104J";;
 
@@ -107,12 +107,12 @@ noverify>";"<English>";
 "av_8s_late_thailand_2";"▄B.KhL.1 (1998)";;
 
 "f-4ej_shop";"▅F-4EJ Phantom II";;
-"f-4ej_0";"▅Mitsubishi F-4EJ Phantom II";;
+"f-4ej_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Phantom II";;
 "f-4ej_1";"▅F-4EJ Phantom II";;
 "f-4ej_2";"▅F-4EJ";;
 
 "f-4ej_adtw_shop";"▅F-4EJ Phantom II (ADTW)";;
-"f-4ej_adtw_0";"▅Mitsubishi F-4EJ Phantom II | Air Development and Test Wing";;
+"f-4ej_adtw_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Phantom II | Air Development and Test Wing";;
 "f-4ej_adtw_1";"▅F-4EJ Phantom II (ADTW)";;
 "f-4ej_adtw_2";"▅F-4EJ (ADTW)";;
 
@@ -127,7 +127,7 @@ noverify>";"<English>";
 "saab_jas39c_thailand_2";"▄B.Kh.20";;
 
 "f-4ej_kai_shop";"▅F-4EJ Kai Phantom II";;
-"f-4ej_kai_0";"▅Mitsubishi F-4EJ Kai Phantom II";;
+"f-4ej_kai_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Kai Phantom II";;
 "f-4ej_kai_1";"▅F-4EJ Kai Phantom II";;
 "f-4ej_kai_2";"▅F-4EJ Kai";;
 
@@ -136,23 +136,23 @@ noverify>";"<English>";
 "f_16aj_1";"▅YF-16AJ Fighting Falcon";;
 "f_16aj_2";"▅YF-16AJ";;
 
-"f_15j_shop";"▅F-15J Eagle";;
-"f_15j_0";"▅Mitsubishi F-15J Eagle";;
-"f_15j_1";"▅F-15J Eagle";;
+"f_15j_shop";"▅F-15J Īguru";;
+"f_15j_0";"▅Mitsubishi Heavy Industries, Ltd. | F-15J Īguru | Peace Eagle Program";;
+"f_15j_1";"▅F-15J Īguru";;
 "f_15j_2";"▅F-15J";;
 
-"f_15j_kai_shop";"▅F-15J-MSIP Eagle";;
-"f_15j_kai_0";"▅Mitsubishi F-15J-MSIP Eagle";;
-"f_15j_kai_1";"▅F-15J-MSIP Eagle";;
-"f_15j_kai_2";"▅F-15J-MSIP";;
+"f_15j_kai_shop";"▅F-15MJ Īguru";;
+"f_15j_kai_0";"▅Mitsubishi Heavy Industries, Ltd. | F-15MJ Īguru ""J-MSIP"" | Japan-Multi-Stage Improvement Program | Mid-Term Defense Program (2004)";;
+"f_15j_kai_1";"▅F-15MJ Īguru";;
+"f_15j_kai_2";"▅F-15MJ";;
 
 "f_2a_shop";"F-2A Viper Zero";;
-"f_2a_0";"Mitsubishi F-2A Viper Zero";;
+"f_2a_0";"Mitsubishi Heavy Industries, Ltd. | F-2A Viper Zero";;
 "f_2a_1";"F-2A Viper Zero";;
 "f_2a_2";"F-2A";;
 
 "f_2a_adtw_shop";"XF-2A Viper Zero";;
-"f_2a_adtw_0";"Mitsubishi XF-2A Viper Zero | Air Development and Test Wing";;
+"f_2a_adtw_0";"Mitsubishi Heavy Industries, Ltd. | XF-2A Viper Zero | 1995 FS-X Prototype | Air Development and Test Wing";;
 "f_2a_adtw_1";"XF-2A Viper Zero";;
 "f_2a_adtw_2";"XF-2A";;
 

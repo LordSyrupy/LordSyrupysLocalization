@@ -282,11 +282,11 @@ noverify>";"<English>";
 "us_aim9g_sidewinder";"AIM-9G Sidewinder";;
 "us_aim9h_sidewinder";"AIM-9H Sidewinder";;
 "us_aim9j_sidewinder";"AIM-9J Sidewinder";;
-"us_aim9p_sidewinder";"AIM-9P Sidewinder";;
+"us_aim9p_sidewinder";"AIM-9P-3 Sidewinder";;
 "us_aim9l_sidewinder";"AIM-9L Sidewinder";;
 "us_aim9l_sidewinder_bol_pod";"AIM-9L Sidewinder";;
-"us_aim9m_sidewinder";"AIM-9M Sidewinder";;
-"us_aim9m_sidewinder_bol_pod";"AIM-9M Sidewinder";;
+"us_aim9m_sidewinder";"AIM-9M-4 Sidewinder";;
+"us_aim9m_sidewinder_bol_pod";"AIM-9M-4 Sidewinder";;
 "us_aim9l_i_sidewinder";"AIM-9L/I Sidewinder";;
 
 "weapons/us_aim9b_sidewinder";"AIM-9B Sidewinder Air-to-Air Missiles";;
@@ -307,11 +307,11 @@ noverify>";"<English>";
 "weapons/us_aim9e_sidewinder_default";"AIM-9E Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9e_sidewinder_default/short";"AIM-9E Sidewinder";;
 
-"weapons/us_aim9p_sidewinder";"AIM-9P Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9p_sidewinder/short";"AIM-9P Sidewinder";;
+"weapons/us_aim9p_sidewinder";"AIM-9P-3 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9p_sidewinder/short";"AIM-9P-3 Sidewinder";;
 
-"weapons/us_aim9p_sidewinder_default";"AIM-9P Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9p_sidewinder_default/short";"AIM-9P Sidewinder";;
+"weapons/us_aim9p_sidewinder_default";"AIM-9P-3 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9p_sidewinder_default/short";"AIM-9P-3 Sidewinder";;
 
 "weapons/us_aim9c_sidewinder";"AIM-9C Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9c_sidewinder/short";"AIM-9C Sidewinder";;
@@ -397,15 +397,15 @@ noverify>";"<English>";
 "weapons/us_aim9l_sidewinder_default_bol_pod";"AIM-9L Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9l_sidewinder_default_bol_pod/short";"AIM-9L Sidewinder";;
 
-"weapons/us_aim9m_sidewinder";"AIM-9M Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9m_sidewinder/short";"AIM-9M Sidewinder";;
+"weapons/us_aim9m_sidewinder";"AIM-9M-4 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9m_sidewinder/short";"AIM-9M-4 Sidewinder";;
 
-"us_aim9m_sidewinder_default";"AIM-9M Sidewinder";;
-"weapons/us_aim9m_sidewinder_default";"AIM-9M Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9m_sidewinder_default/short";"AIM-9M Sidewinder";;
+"us_aim9m_sidewinder_default";"AIM-9M-4 Sidewinder";;
+"weapons/us_aim9m_sidewinder_default";"AIM-9M-4 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9m_sidewinder_default/short";"AIM-9M-4 Sidewinder";;
 
-"weapons/us_aim9m_sidewinder_bol_pod";"AIM-9M Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9m_sidewinder_bol_pod/short";"AIM-9M Sidewinder";;
+"weapons/us_aim9m_sidewinder_bol_pod";"AIM-9M-4 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9m_sidewinder_bol_pod/short";"AIM-9M-4 Sidewinder";;
 
 "weapons/us_aim9l_i_1_sidewinder";"AIM-9L/I-1 Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9l_i_1_sidewinder/short";"AIM-9L/I-1 Sidewinder";;
@@ -425,41 +425,41 @@ noverify>";"<English>";
 "weapons/us_aim7e2_sparrow";"AIM-7E-4 Sparrow Air-to-Air Missiles";;
 "weapons/us_aim7e2_sparrow/short";"AIM-7E-4 Sparrow";;
 
-"weapons/us_aim7f_sparrow";"AIM-7F Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7f_sparrow/short";"AIM-7F Sparrow";;
+"weapons/us_aim7f_sparrow";"AIM-7F-11 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7f_sparrow/short";"AIM-7F-11 Sparrow";;
 
-"weapons/us_aim7f_sparrow_default";"AIM-7F Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7f_sparrow_default/short";"AIM-7F Sparrow";;
+"weapons/us_aim7f_sparrow_default";"AIM-7F-11 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7f_sparrow_default/short";"AIM-7F-11 Sparrow";;
 
-"weapons/us_aim7m_sparrow";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow/short";"AIM-7MF-1 Sparrow";;
 
 "weapons/us_aim7e2_dogfight_sparrow";"AIM-7E-2 Sparrow Air-to-Air Missiles";;
 "weapons/us_aim7e2_dogfight_sparrow/short";"AIM-7E-2 Sparrow";;
 
-"weapons/us_aim7f_sparrow_f_14";"AIM-7F Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7f_sparrow_f_14/short";"AIM-7F Sparrow";;
+"weapons/us_aim7f_sparrow_f_14";"AIM-7F-11 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7f_sparrow_f_14/short";"AIM-7F-11 Sparrow";;
 
-"weapons/us_aim7m_sparrow_f_14";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow_f_14/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow_f_14";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow_f_14/short";"AIM-7MF-1 Sparrow";;
 
-"weapons/us_aim7m_sparrow_f_15";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow_f_15/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow_f_15";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow_f_15/short";"AIM-7MF-1 Sparrow";;
 
-"weapons/us_aim7m_sparrow_f_15_default";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow_f_15_default/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow_f_15_default";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow_f_15_default/short";"AIM-7MF-1 Sparrow";;
 
-"weapons/us_aim7m_sparrow_f_16";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow_f_16/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow_f_16";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow_f_16/short";"AIM-7MF-1 Sparrow";;
 
-"weapons/us_aim7m_sparrow_f_16_default";"AIM-7M Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7m_sparrow_f_16_default/short";"AIM-7M Sparrow";;
+"weapons/us_aim7m_sparrow_f_16_default";"AIM-7MF-1 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7m_sparrow_f_16_default/short";"AIM-7MF-1 Sparrow";;
 
-"weapons/us_aim7p_sparrow_fa_18";"AIM-7P Block II Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7p_sparrow_fa_18/short";"AIM-7P Block II Sparrow";;
+"weapons/us_aim7p_sparrow_fa_18";"AIM-7P-2 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7p_sparrow_fa_18/short";"AIM-7P-2 Sparrow";;
 
-"weapons/us_aim7p_sparrow_fa_18_default";"AIM-7P Block II Sparrow Air-to-Air Missiles";;
-"weapons/us_aim7p_sparrow_fa_18_default/short";"AIM-7P Block II Sparrow";;
+"weapons/us_aim7p_sparrow_fa_18_default";"AIM-7P-2 Sparrow Air-to-Air Missiles";;
+"weapons/us_aim7p_sparrow_fa_18_default/short";"AIM-7P-2 Sparrow";;
 
 "weapons/us_agm_65a";"AGM-65A Maverick Air-to-Ground Missiles";;
 "weapons/us_agm_65a/short";"AGM-65A Maverick";;
@@ -542,18 +542,18 @@ noverify>";"<English>";
 "weapons/us_aim9n_sidewinder";"AIM-9N Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9n_sidewinder/short";"AIM-9N Sidewinder";;
 
-"weapons/us_aim_9x";"AIM-9X Air-to-Air Missiles";;
-"weapons/us_aim_9x/short";"AIM-9X Sidewinder";;
+"weapons/us_aim_9x";"AIM-9X-1 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim_9x/short";"AIM-9X-1 Sidewinder";;
 
-"weapons/us_aim_9x_block_2";"AIM-9X Block II Air-to-Air Missiles";;
-"weapons/us_aim_9x_block_2/short";"AIM-9X Block II Sidewinder";;
+"weapons/us_aim_9x_block_2";"AIM-9X-2 Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim_9x_block_2/short";"AIM-9X-2 Sidewinder";;
 
 "weapons/178mm_sl_amraam_user_cannon";"AIM-120C-7 SL-AMRAAM";;
-"weapons/127mm_aim_9x_user_cannon";"AIM-9X Block II Sidewinder";;
+"weapons/127mm_aim_9x_user_cannon";"AIM-9X-2 Sidewinder";;
 
 //Missiles, Ger
-"weapons/us_aim9b_fgw_2_sidewinder";"AIM-9B FGW.2 Sidewinder Air-to-Air Missiles";;
-"weapons/us_aim9b_fgw_2_sidewinder/short";"AIM-9B FGW.2 Sidewinder";;
+"weapons/us_aim9b_fgw_2_sidewinder";"AIM-9F Sidewinder Air-to-Air Missiles";;
+"weapons/us_aim9b_fgw_2_sidewinder/short";"AIM-9F Sidewinder";;
 
 "us_iris_t_sl";"IRIS-T (Surface-Launched, Medium-Range)";;
 "weapons/us_iris_t_sl/short";"IRIS-T SLM";;
