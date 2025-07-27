@@ -1,6 +1,416 @@
 "<ID|readonly|
 noverify>";"<English>";
 
+//Unit Measurements
+"mass/kg";"%dkg";;
+"mass/lbs";"%dlbs";;
+"caliber/mm";"%dmm";;
+"caliber/mm_decimals";"%smm";;
+
+//Ammo Belts
+"universal/name";"%smm Omni-Purpose Belts";;
+"universal/name/short";"Universal";;
+
+"ground_targets/name";"%smm Armor-Piercing Belts";;
+"ground_targets/name/short";"Ground Targets";;
+
+"all_tracers/name";"%smm Tracer Belts";;
+"all_tracers/name/short";"Tracers";;
+
+"stealth/name";"%smm Stealth Belts";;
+"stealth/name/short";"Stealth";;
+
+"tracers/name";"%smm Tracer Belts";;
+"tracers/name/short";"Tracers";;
+
+"tracer/name";"%smm Tracer Belts";;
+"tracer/name/short";"Tracers";;
+
+"antitank/name";"%smm Armor-Piercing Belts";;
+"antitank/name/short";"Armored Targets";;
+
+"armor_targets/name";"%smm Armor-Piercing Belts";;
+"armor_targets/name/short";"Armored Targets";;
+
+"armor_target/name";"%smm Armor-Piercing Belts";;
+"armor_target/name/short";"Armored Targets";;
+
+"antibomber/name";"%smm Anti-Aircraft Belts";;
+"antibomber/name/short";"Air Targets";;
+
+"air_targets/name";"%smm Anti-Aircraft Belts";;
+"air_targets/name/short";"Air Targets";;
+
+"air_target/name";"%smm Anti-Aircraft Belts";;
+"air_target/name/short";"Air Targets";;
+
+"fighter/name";"%smm Anti-Aircraft Belts";;
+"fighter/name/short";"Air Targets";;
+
+"night/name";"%smm Night Fighter Belts";;
+"night/name/short";"Night";;
+
+"apit/name";"%smm Armor-Piercing Belts";;
+"apit/name/short";"API-T";;
+
+"apt/name";"%smm Armor-Piercing Belts";;
+"apt/name/short";"AP-T";;
+
+"api_apt/name";"%smm Armor-Piercing Belts";;
+"api_apt/name/short";"AP-T/API";;
+
+"heit/name";"%smm Anti-Aircraft Belts";;
+"heit/name/short";"HEFI-T/IAI";;
+
+"mix/name";"%smm Omni-Purpose Belts";;
+"mix/name/short";"Universal";;
+
+"turret_ap/name";"%smm Armor-Piercing Belts";;
+"turret_ap/name/short";"Armored Targets";;
+
+"turret_apit/name";"%smm Omni-Purpose Belts";;
+"turret_apit/name/short";"Universal";;
+
+"turret_api/name";"%smm Omni-Purpose Belts";;
+"turret_api/name/short";"Universal";;
+
+"turret_ap_he/name";"%smm Omni-Purpose Belts";;
+"turret_ap_he/name/short";"Universal";;
+
+"turret_het/name";"%smm Anti-Aircraft Belts";;
+"turret_het/name/short";"Air Targets";;
+
+//Machine Gun Belts
+"caliber_5.56/desc";"5.56mm ammo belts filled with %s bullets.";;
+
+"caliber_5.8/desc";"5.8mm ammo belts filled with %s bullets.";;
+
+"caliber_6.5/desc";"6.5mm ammo belts filled with %s bullets.";;
+
+"caliber_7.5/desc";"7.5mm ammo belts filled with %s bullets.";;
+
+"caliber_7.62/desc";"7.62mm ammo belts filled with %s bullets.";;
+
+"caliber_7.7/desc";"7.7mm ammo belts filled with %s bullets.";;
+
+"caliber_7.92/desc";"7.92mm ammo belts filled with %s bullets.";;
+
+"caliber_8/desc";"8mm ammo belts filled with %s bullets.";;
+
+"caliber_8.6/desc";"8.6mm ammo belts filled with %s bullets.";;
+
+"caliber_12.7/desc";"12.7mm ammo belts filled with %s bullets.";;
+
+"caliber_13/desc";"13mm ammo belts filled with %s bullets.";;
+
+"caliber_13.2/desc";"13.2mm ammo belts filled with %s bullets.";;
+
+"caliber_14.5/desc";"14.5mm ammo belts filled with %s bullets.";;
+
+"caliber_15/desc";"15mm ammo belts filled with %s bullets.";;
+
+//Autocannon Belts
+"caliber_20/desc";"20mm ammo belts filled with %s shells.";;
+
+"caliber_23/desc";"23mm ammo belts filled with %s shells.";;
+
+"caliber_25/desc";"25mm ammo belts filled with %s shells.";;
+
+"caliber_27/desc";"27mm ammo belts filled with %s shells.";;
+
+"caliber_30/desc";"30mm ammo belts filled with %s shells.";;
+
+"caliber_35/desc";"35mm ammo belts filled with %s shells.";;
+
+"caliber_37/desc";"37mm ammo belts filled with %s shells.";;
+
+"caliber_40/desc";"40mm ammo belts filled with %s shells.";;
+
+"caliber_45/desc";"45mm ammo belts filled with %s shells.";;
+
+"caliber_47/desc";"47mm ammo belts filled with %s shells.";;
+
+"caliber_50/desc";"50mm ammo belts filled with %s shells.";;
+
+"caliber_57/desc";"57mm ammo belts filled with %s shells.";;
+
+//Tank Cannon Belts
+"caliber_75/desc";"75mm cannon shell rack filled with %s shells.";;
+
+"caliber_76.2/desc";"76mm cannon shell rack filled with %s shells.";;
+
+"caliber_85/desc";"85mm cannon shell rack filled with %s shells.";;
+
+"caliber_88/desc";"88mm cannon shell rack filled with %s shells.";;
+
+"caliber_100/desc";"100mm cannon shell rack filled with %s shells.";;
+
+"caliber_102/desc";"102mm cannon shell rack filled with %s shells.";;
+
+"caliber_105/desc";"105mm cannon shell rack filled with %s shells.";;
+
+"caliber_122/desc";"122mm cannon shell rack filled with %s shells.";;
+
+"caliber_128/desc";"128mm cannon shell rack filled with %s shells.";;
+
+"caliber_130/desc";"130mm cannon shell rack filled with %s shells.";;
+
+//Howitzer Belts
+"caliber_152/desc";"152mm cannon shell rack filled with %s shells.";;
+
+//Bullet + Autocannon Types
+"ball/name";"Full Metal Jacket";;
+"ball/name/short";"FMJ";;
+
+"t_ball/name";"Tracer";;
+"t_ball/name/short";"T";;
+
+"i_ball/name";"Incendiary";;
+"i_ball/name/short";"I";;
+
+"ap_ball/name";"Armor-Piercing";;
+"ap_ball/name/short";"AP";;
+
+"ap_t_ball/name";"Armor-Piercing Tracer";;
+"ap_t_ball/name/short";"AP-T";;
+
+"pele_t/name";"Penetrator with Enhanced Lateral Effect Tracer";;
+"pele_t/name/short";"PELE-T";;
+
+"ap_i_ball/name";"Armor-Piercing Incendiary";;
+"ap_i_ball/name/short";"AP-I";;
+
+"ap_i_t_ball/name";"Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball/name/short";"API-T";;
+
+"apds_ball/name";"High-Velocity Armor-Piercing";;
+"apds_ball/name/short";"HVAP";;
+
+"apds_he_i_ball/name";"Armor-Piercing Discarding Sabot with High-Explosive Incendiary";;
+"apds_he_i_ball/name/short";"APDS-HE-I";;
+
+"apcr_i_ball_bs41/name";"High-Velocity Armor-Piercing Incendiary";;
+"apcr_i_ball_bs41/name/short";"HVAP-I";;
+
+"apcr_i_ball/name";"High-Velocity Armor-Piercing Incendiary";;
+"apcr_i_ball/name/short";"HVAP-I";;
+
+"he_ball/name";"Adjustment Incendiary";;
+"he_ball/name/short";"AI";;
+
+"he_i_ball/name";"Immediate-Action Incendiary";;
+"he_i_ball/name/short";"IAI";;
+
+"i_ball_mdz/name";"Immediate-Action Incendiary";;
+"i_ball_mdz/name/short";"IAI";;
+
+"he_i_t_ball/name";"Immediate-Action Incendiary Tracer";;
+"he_i_t_ball/name/short";"IAI-T";;
+
+"he_i_fuse_ball/name";"High-Explosive Incendiary";;
+"he_i_fuse_ball/name/short";"HE-I";;
+
+"he_frag_t_ball/name";"High-Explosive Fragmentation Tracer";;
+"he_frag_t_ball/name/short";"HEF-T";;
+
+"he_frag_ball/name";"High-Explosive Fragmentation";;
+"he_frag_ball/name/short";"HEF";;
+
+"i_t_ball/name";"Incendiary Tracer";;
+"i_t_ball/name/short";"IT";;
+
+"i_ball_M1/name";"M1 Incendiary";;
+"i_ball_M1/name/short";"I";;
+
+"i_ball_M23/name";"M23 Incendiary";;
+"i_ball_M23/name/short";"I";;
+
+"b_mk_1z/name";"Mk.1Z Incendiary";;
+"b_mk_1z/name/short";"I";;
+
+"ap_ball_M2/name";"M2 Armor-Piercing";;
+"ap_ball_M2/name/short";"AP";;
+
+"ball_M2/name";"M2 Full Metal Jacket";;
+"ball_M2/name/short";"FMJ";;
+
+"ap_i_t_ball_M20/name";"M20 Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball_M20/name/short";"API-T";;
+
+"ap_i_t_ball_bzt_44/name";"BZT-44 Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball_bzt_44/name/short";"API-T";;
+
+"ap_i_ball_M8/name";"M8 Armor-Piercing Incendiary";;
+"ap_i_ball_M8/name/short";"AP-I";;
+
+"ap_i_ball_b32/name";"B-32 Armor-Piercing Incendiary";;
+"ap_i_ball_b32/name/short";"AP-I";;
+
+"t_ball_M1/name";"M1 Tracer";;
+"t_ball_M1/name/short";"T";;
+
+"t_ball_t_38/name";"T-38 Tracer";;
+"t_ball_t_38/name/short";"T";;
+
+"ball_shell/name";"Practice";;
+"ball_shell/name/short";"P";;
+
+"ball_t_shell/name";"Practice Tracer";;
+"ball_t_shell/name/short";"PT";;
+
+"t_shell/name";"Tracer";;
+"t_shell/name/short";"T";;
+
+"frag_i/name";"Fragmentation Incendiary";;
+"frag_i/name/short";"FI";;
+
+"frag_i_t/name";"Fragmentation Incendiary Tracer";;
+"frag_i_t/name/short";"FI-T";;
+
+"i/name";"Incendiary";;
+"i/name/short";"I";;
+
+"i_t/name";"Incendiary Tracer";;
+"i_t/name/short";"IT";;
+
+"he_i/name";"High-Explosive Incendiary";;
+"he_i/name/short";"HEI";;
+
+"he_i_t/name";"High-Explosive Incendiary Tracer";;
+"he_i_t/name/short";"HEI-T";;
+
+"he_i_mine/name";"Minengeschoß (High-Explosive Incendiary)";;
+"he_i_mine/name/short";"Minengeschoß HEI";;
+
+"he_i_t_mine/name";"Minengeschoß (High-Explosive Incendiary Tracer)";;
+"he_i_t_mine/name/short";"Minengeschoß HEI-T";;
+
+"he_i_t_n_mine/name";"Minengeschoß (High-Explosive Incendiary Nighttime Tracer)";;
+"he_i_t_n_mine/name/short";"Minengeschoß HEI-T (Night)";;
+
+"he_frag/name";"High-Explosive Fragmentation";;
+"he_frag/name/short";"HEF";;
+
+"he_vt/name";"High-Explosive Variable-Time Fuse";;
+"he_vt/name/short";"HE-VT";;
+
+"he_tf/name";"High-Explosive Timed-Fuse";;
+"he_tf/name/short";"HE-TF";;
+
+"he_frag_t/name";"High-Explosive Fragmentation Tracer";;
+"he_frag_t/name/short";"HEF-T";;
+
+"he_frag_i_t/name";"High-Explosive Fragmentation Incendiary Tracer";
+"he_frag_i_t/name/short";"HEFI-T";;
+
+"he_frag_i/name";"High-Explosive Fragmentation Incendiary";;
+"he_frag_i/name/short";"HEF-I";;
+
+"sapi/name";"Semi-Armor-Piercing Incendiary";;
+"sapi/name/short";"SAP-I";;
+
+"ap/name";"Armor-Piercing";;
+"ap/name/short";"AP";;
+
+"aphe/name";"Armor-Piercing High-Explosive";;
+"aphe/name/short";"APHE";;
+
+"aphe_t/name";"Armor-Piercing High-Explosive Tracer";;
+"aphe_t/name/short";"APHE-T";;
+
+"apc_t/name";"Armor-Piercing Capped";;
+"apc_t/name/short";"APC";;
+
+"ap_t/name";"Armor-Piercing Tracer";;
+"ap_t/name/short";"AP-T";;
+
+"ap_i/name";"Armor-Piercing Incendiary";;
+"ap_i/name/short";"AP-I";;
+
+"ap_i_t/name";"Armor-Piercing Incendiary Tracer";;
+"ap_i_t/name/short";"API-T";;
+
+"apcr/name";"High-Velocity Armor-Piercing";;
+"apcr/name/short";"HVAP";;
+
+"apcr_t/name";"High-Velocity Armor-Piercing Tracer";;
+"apcr_t/name/short";"HVAP-T";;
+
+"s_d/name";"(Self-Destroying)";;
+
+"grenade_mp_underbarrel_launcher/name";"High-Explosive Dual-Purpose";;
+"grenade_mp_underbarrel_launcher/name/short";"HEDP";;
+
+"he_frag_radio_fuse/name";"High-Explosive Variable-Time Fuse";;
+"he_frag_radio_fuse/name/short";"HE-VT";;
+
+"he_frag_dist_fuse/name";"High-Explosive Timed-Fuse";;
+
+"slap/name";"Saboted Light Armor Penetrator";;
+"slap/name/short";"SLAP";;
+
+"slap_t/name";"Saboted Light Armor Penetrator Tracer";;
+"slap_t/name/short";"SLAP-T";;
+
+//Countermeasures
+"countermeasures/desc";"ECM Dispensers: Сountermeasures";;
+"weapons/countermeasure_launcher";"ECM Dispensers: Сountermeasures";;
+"weapons/countermeasure_launcher/short";"ECM Dispensers: Countermeasures";;
+"weapons/countermeasure_launcher_jet";"ECM Dispensers: Сountermeasures";;
+"weapons/countermeasure_launcher_jet/short";"ECM Dispensers: Countermeasures";;
+"weapons/countermeasure_split_launcher_fn_hmp400_lcc";"ECM Dispensers: Сountermeasures";;
+"weapons/countermeasure_split_launcher_fn_hmp400_lcc/short";"ECM Dispensers: Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_only_chaff_large";"ECM Dispensers: Large-Caliber Chaff";;
+"weapons/countermeasure_split_launcher_jet_only_chaff_large/short";"ECM Dispensers: Large-Caliber Chaff";;
+"weapons/countermeasure_split_launcher_jet_only_flare_large";"ECM Dispensers: Flares";;
+"weapons/countermeasure_split_launcher_jet_only_flare_large/short";"ECM Dispensers: Flares";;
+"weapons/countermeasure_large_launcher_jet";"ECM Dispensers: Large-Caliber Countermeasures";;
+"weapons/countermeasure_large_launcher_jet/short";"ECM Dispensers: Large-Caliber Countermeasures";;
+"weapons/countermeasure_chaff_only";"ECM Dispensers: Chaff";;
+"weapons/countermeasure_chaff_only/short";"ECM Dispensers: Chaff";;
+"weapons/countermeasure_chaff_only_large";"ECM Dispensers: Large-Caliber Chaff";;
+"weapons/countermeasure_chaff_only_large/short";"ECM Dispensers: Large-Caliber Chaff";;
+"weapons/countermeasure_large_split_launcher_jet";"ECM Dispensers: Large-Caliber Countermeasures";;
+"weapons/countermeasure_large_split_launcher_jet/short";"ECM Dispensers: Large-Caliber Countermeasures";;
+"weapons/countermeasure_split_launcher_jet";"ECM Dispensers: Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet/short";"ECM Dispensers: Countermeasures";;
+
+"weapons/countermeasure_launcher_jet_bol_pod";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_launcher_jet_bol_pod/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol";"ECM Dispensers (BOL Pods): Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_launcher_jet_bol_pod_aim9m";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_launcher_jet_bol_pod_aim9m/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_launcher_jet_bol_pod_aim9l";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_launcher_jet_bol_pod_aim9l/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_maw_bol_pod";"ECM Dispensers (MAWS-linked BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_maw_bol_pod/short";"ECM Dispensers (MAWS-linked BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod_aim9l";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod_aim9l/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod_aim9m";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod_aim9m/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod";"ECM Dispensers (BOL Pods): Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet_bol_pod/short";"ECM Dispensers (BOL Pods): Countermeasures";;
+
+"weapons/countermeasure_split_launcher_jet_add_pod";"ECM Pods: Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet_add_pod/short";"ECM Pods: Countermeasures";;
+"weapons/countermeasure_split_large_launcher_jet_add_pod";"ECM Pods: Large-Caliber Countermeasures";;
+"weapons/countermeasure_split_large_launcher_jet_add_pod/short";"ECM Pods: Large-Caliber Countermeasures";;
+
+"weapons/countermeasure_large_split_launcher_jet_maw";"ECM Dispensers (MAWS-linked): Large-Caliber Countermeasures";;
+"weapons/countermeasure_large_split_launcher_jet_maw/short";"ECM Dispensers (MAWS-linked): Countermeasures";;
+"weapons/countermeasure_split_launcher_jet_maw";"ECM Dispensers (MAWS-linked): Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet_maw/short";"ECM Dispensers (MAWS-linked): Countermeasures";;
+"weapons/countermeasure_split_large_launcher_jet_maw";"ECM Dispensers (MAWS-linked): Large-Caliber Countermeasures";;
+"weapons/countermeasure_split_large_launcher_jet_maw/short";"ECM Dispensers (MAWS-linked): Large-Caliber Countermeasures";;
+
+"weapons/countermeasure_split_launcher_jet_pids";"ECM Dispensers (PIDS-linked): Сountermeasures";;
+"weapons/countermeasure_split_launcher_jet_pids/short";"ECM Dispensers (PIDS-linked): Countermeasures";;
+
 ///Guns, USA
 "weapons/gunBrowning50_M3_underwing";"Browning M2 12.7mm Heavy Machine Gun (Secondary)";;
 
@@ -61,7 +471,7 @@ noverify>";"<English>";
 "weapons/cannonM61A1_pgu_28_f15";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
 "weapons/cannonM61A1_pgu_28_f15/short";"M61A1 Vulcan";;
 
-"weapons/cannonGAU4";"General Electric GAU-4 Vulcan 20mm Rotary Autocannon";;
+"weapons/cannonGAU4";"GAU-4 Vulcan 20mm Rotary Autocannon";;
 "weapons/cannonGAU4/short";"GAU-4 Vulcan";;
 
 "weapons/cannonGAU4_default";"General Electric GAU-4 Vulcan 20mm Rotary Autocannon";;
@@ -109,7 +519,7 @@ noverify>";"<English>";
 "weapons/cannonM61A2_switzerland";"Flugzeug Kanone 92 20mm Rotary Autocannon";;
 "weapons/cannonM61A2_switzerland/short";"Flz Kan 92";;
 
-"weapons/cannonFlzKan_76";"20 mm Flz Kan 76 cannon";;
+"weapons/cannonFlzKan_76";"Flugzeug Kanone 76 20mm Autocannon";;
 "weapons/cannonFlzKan_76/short";"Flz Kan 76";;
 
 "weapons/cannonDEFA552A_switzerland";"Flugzeug Kanone 65 30mm Autocannon";;
@@ -131,13 +541,11 @@ noverify>";"<English>";
 "weapons/cannonNS37_assault";"Nudelman-Suranov NS-37 37mm Cannon";;
 
 "weapons/cannonSH37";"Shpitalny Sh-37 37mm Autocannon";;
-
 "weapons/cannonSH37/short";"Sh-37";;
 
 "weapons/cannonNS45";"Nudelman-Suranov NS-45 45mm Autocannon";;
 
 "weapons/cannonNS45_heavy_aircrafts";"Nudelman-Suranov NS-45 45mm Autocannon";;
-
 "weapons/cannonNS45_heavy_aircrafts/short";"NS-45";;
 
 "weapons/cannonN37D";"Nudelman N-37D 37mm Autocannon";;
@@ -179,24 +587,19 @@ noverify>";"<English>";
 "weapons/gunUBS";"Berezin UBS 12.7mm Heavy Machine Gun";;
 
 "weapons/cannonGSh_23L_upk_23_250_deafult";"Gryazev-Shipunov GSh-23L 23mm Autocannon";;
-
 "weapons/cannonGSh_23L_upk_23_250";"Gryazev-Shipunov GSh-23L 23mm Autocannon";;
-
 "weapons/cannonGSh_23L";"Gryazev-Shipunov GSh-23L 23mm Autocannon";;
 
 "weapons/cannonGSh_30_2K";"Gryazev-Shipunov GSh-30-2K 30mm Autocannon";;
-
 "weapons/cannonGSh_30_2";"Gryazev-Shipunov GSh-30-2 30mm Autocannon";;
 
 "weapons/cannonGSh_6_30";"Gryazev-Shipunov GSh-6-30 Rotary Autocannon";;
 "weapons/cannonGSh_6_30/short";"GSh-6-30";;
 
 "weapons/cannonGSh_301";"Gryazev-Shipunov GSh-30-1 30mm Autocannon";;
-
 "weapons/cannonGSh_301/short";"GSh-30-1";;
 
 "weapons/cannonGSh_6_23M";"Gryazev-Shipunov GSh-6-23M 23mm Rotary Autocannon";;
-
 "weapons/cannonGSh_6_23M/short";"GSh-6-23M";;
 
 //Guns, GB
@@ -561,28 +964,34 @@ noverify>";"<English>";
 "weapons/180mm_IRIS_T_SL_user_cannon";"IRIS-T SLM";;
 
 "weapons/sws_flz_lwf_63_80";"Flugzeug Lenkwaffe Luft-Luft 63/80 Air-to-Air Missiles";;
-"weapons/sws_flz_lwf_63_80/short";"Flz Lwf 63/80";;
+"weapons/sws_flz_lwf_63_80/short";"Flz Lwf LL 63/80";;
 
 "weapons/sws_flz_lwf_63_75";"Flugzeug Lenkwaffe Luft-Luft 63/75 SIWA Air-to-Air Missiles";;
 "weapons/sws_flz_lwf_63_75/short";"Flz Lwf LL 63/75 SIWA";;
 
 "weapons/sws_flz_lwf_63";"Flugzeug Lenkwaffe Luft-Luft 63 Air-to-Air Missiles";;
-"weapons/sws_flz_lwf_63/short";"Flz Lwf 63";;
+"weapons/sws_flz_lwf_63/short";"Flz Lwf LL 63";;
 
 "weapons/sws_flz_lwf_ll_64";"Flugzeug Lenkwaffe Luft-Luft 64/79 FALCO Air-to-Air Missiles";;
 "weapons/sws_flz_lwf_ll_64/short";"Flz Lwf LL 64/79 FALCO";;
 
 "weapons/us_aim_120b_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM Air-to-Air Missiles";;
-"weapons/us_aim_120b_switzerland/short";"Flz Lwl LL 97 AMRAAM";;
+"weapons/us_aim_120b_switzerland/short";"Flz Lwf LL 97 AMRAAM";;
 
 "weapons/us_aim_120b_default_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM Air-to-Air Missiles";;
-"weapons/us_aim_120b_default_switzerland/short";"Flz Lwl LL 97 AMRAAM";;
+"weapons/us_aim_120b_default_switzerland/short";"Flz Lwf LL 97 AMRAAM";;
 
 "weapons/us_aim_120c_5_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM 120 C-5 Air-to-Air Missiles";;
-"weapons/us_aim_120c_5_switzerland/short";"Flz Lwl LL 97 AMRAAM 120 C-5";;
+"weapons/us_aim_120c_5_switzerland/short";"Flz Lwf LL 97 AMRAAM 120 C-5";;
 
 "weapons/us_aim_120c_5_default_switzerland";"Flugzeug Lenkwaffe Luft-Luft 97 AMRAAM 120 C-5 Air-to-Air Missiles";;
-"weapons/us_aim_120c_5_default_switzerland/short";"Flz Lwl LL 97 AMRAAM 120 C-5";;
+"weapons/us_aim_120c_5_default_switzerland/short";"Flz Lwf LL 97 AMRAAM 120 C-5";;
+
+"weapons/sws_flz_lwf_lb_82";"Flugzeug Lenkwaffe Luft-Boden 82 Air-to-Ground Missiles";;
+"weapons/sws_flz_lwf_lb_82/short";"Flz Lwf LB 82";;
+
+"weapons/fr_as30_switzerland";"Flugzeug Lenkwaffe Luft-Boden 66 Air-to-Ground Missiles";;
+"weapons/fr_as30_switzerland/short";"Flz Lwf LB 66";;
 
 //Missiles, USSR
 "weapons/su_r_3s";"R-3S Atoll-A Air-to-Air Missiles";;
@@ -908,7 +1317,7 @@ noverify>";"<English>";
 "weapons/us_gbu_22_paveway_3";"GBU-22 Paveway III Laser-Guided Bombs (500lb.)";;
 "weapons/us_gbu_22_paveway_3/short";"GBU-22 Paveway III LGB (500lb.)";;
 
-"weapons/us_gbu_39";"GBU-39/B SDB I GPS-Guided Bombs (250lb.)";;
+"weapons/us_gbu_39";"GBU-39/B SDB I GPS-Guided Glide Bombs (250lb.)";;
 "weapons/us_gbu_39/short";"GBU-39/B SDB I (250lb)";;
 
 "weapons/us_2000lb_egbu_24_paveway_3";"EGBU-24B Enhanced Paveway III Dual-Mode Laser-Guided Bombs (2000lb.)";;
@@ -1045,13 +1454,13 @@ noverify>";"<English>";
 "weapons/us_2000lb_mk_84_ldgp_air";"Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (2000lb.)";;
 "weapons/us_2000lb_mk_84_ldgp_air/short";"Mk84 LDGP AIR (2000lb.)";;
 
-"weapons/us_500lb_gbu_62_jdam_er";"GBU-62 Joint Direct Attack Munition (Extended Range) GPS-Guided Bomb (500lb.)";;
+"weapons/us_500lb_gbu_62_jdam_er";"GBU-62 Joint Direct Attack Munition (Extended Range) GPS-Guided Glide Bomb (500lb.)";;
 "weapons/us_500lb_gbu_62_jdam_er/short";"GBU-62 JDAM-ER (500lb.)";;
 
-"weapons/us_500lb_gbu_62_ljdam_er";"GBU-62 Laser Joint Direct Attack Munition (Extended Range) Dual-Mode Laser-Guided Bomb (500lb.)";;
+"weapons/us_500lb_gbu_62_ljdam_er";"GBU-62 Laser Joint Direct Attack Munition (Extended Range) Dual-Mode Laser-Guided Glide Bomb (500lb.)";;
 "weapons/us_500lb_gbu_62_ljdam_er/short";"GBU-62 LJDAM-ER (500lb.)";;
 
-"weapons/us_2000lb_gbu_64_jdam_er";"GBU-64 Joint Direct Attack Munition (Extended Range) GPS-Guided Bomb (2000lb.)";;
+"weapons/us_2000lb_gbu_64_jdam_er";"GBU-64 Joint Direct Attack Munition (Extended Range) GPS-Guided Glide Bomb (2000lb.)";;
 "weapons/us_2000lb_gbu_64_jdam_er/short";"GBU-64 JDAM-ER (2000lb.)";;
 
 "weapons/us_750lb_m117_cone_45";"M117 Low-Drag Demolition Bombs, Cone 45 (750lb.)";;
@@ -1096,12 +1505,10 @@ noverify>";"<English>";
 
 //Bombs, GB
 "weapons/uk_paveway_iv";"Paveway IV Dual-Mode Laser-Guided Bombs (500lb.)";;
-
 "weapons/uk_paveway_iv/short";"Paveway IV DMLGB (500lb.)";;
 
 //Bombs, JP
 "weapons/us_750lb_m117_cone_45_japan";"JM117 Low-Drag Demolition Bombs, Cone 45 (750lb.)";;
-
 "weapons/us_750lb_m117_cone_45_japan/short";"JM117 LDDB (750lb.)";;
 
 //Bombs, CN
@@ -1141,6 +1548,21 @@ noverify>";"<English>";
 
 "weapons/us_zuni_wafar_mk34";"Mk34 ""Zuni"" Smoke Rockets";;
 "weapons/us_zuni_wafar_mk34/short";"Mk34 [SMOKE]";;
+
+"weapons/us_apkws_m151";"AGR-20A Advanced Precision Kill Weapon System II Guided Rockets (M151 HEDP)";;
+"weapons/us_apkws_m151/short";"AGR-20A APKWS II (M151)";;
+
+"weapons/us_apkws_m282";"AGR-20B Advanced Precision Kill Weapon System II Guided Rockets (M282 SAP-HE)";;
+"weapons/us_apkws_m282/short";"AGR-20B APKWS II (M282)";;
+
+"weapons/us_2_75_in_wafar_hydra";"Hydra 70 Wrap-Around Fin Aerial Rockets";;
+"weapons/us_2_75_in_wafar_hydra/short";"Hydra 70 WAFAR";;
+
+"weapons/us_hydra_70_m247";"Hydra 70 Wrap-Around Fin Aerial Rockets (M247 HEDP)";;
+"weapons/us_hydra_70_m247/short";"Hydra 70 WAFAR (M247)";;
+
+"weapons/us_hydra_70_m247_default";"Hydra 70 Wrap-Around Fin Aerial Rockets (M247 HEDP)";;
+"weapons/us_hydra_70_m247_default/short";"Hydra 70 WAFAR (M247)";;
 
 //Rockets, GER
 
@@ -1232,3 +1654,10 @@ noverify>";"<English>";
 //Sensors, SWE
 
 //Sensors, ISR
+
+//Misc, USA
+"weapons/us_750_gal_fastpack_f_15c_left";"Fuel And Sensor Tactical Pack";;
+"weapons/us_750_gal_fastpack_f_15c_left/short";"FAST Pack";;
+
+"weapons/us_750_gal_fastpack_f_15c_right";"Fuel And Sensor Tactical Pack";;
+"weapons/us_750_gal_fastpack_f_15c_right/short";"FAST Pack";;

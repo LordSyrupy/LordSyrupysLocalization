@@ -1,23 +1,272 @@
+VERSION 0.3.2.1dev CHANGELOG
+RELEASE DATE: 07/27/2025
+- Rewrote most existing weapons modifications to line up with their new names. Currently, this mainly applies to American weaponry
+
+- Changed the way countermeasures are displayed, to allow the player to more easily differentiate between built-in countermeasures, BOL countermeasures, MAWS countermeasures, and external countermeasures. These changes are displayed in-game as follows:
+   - ECM Dispensers - built-in countermeasures
+   - ECM Dispensers (BOL Pods) - BOL-pod countermeasures
+   - ECM Dispensers (MAWS-linked) - MAWS countermeasures
+   - ECM Dispensers (MAWS-linked BOL Pods) - MAWS BOL-pod countermeasures
+   - ECM Pods - external countermeasures pods
+
+- Rewrote the following airframe modifications:
+   - Flares/Chaff
+     - Name: Flares/Chaff --> ECM System
+     - Description: Set of Countermeasures --> Electronic Countermeasures System consisting of countermeasures dispensers with provisions for flares and chaff. Flares confuse infrared-guided missiles, while chaff confuses radars and radar-guided missiles.
+   - Flares/Chaff BOL
+     - Name: Flares/Chaff BOL --> BOL Pods
+     - Description: Allows the installation of a Flares/Chaff BOL pod --> Allows the installation of Back-Of-Launcher countermeasures pods; these are ECM pods which fit onto the aircraft's missile pylons and contain provisions for chaff and flares. Flares confuse infrared-guided missiles, while chaff confuses radars and radar-guided missiles.
+   - MAW
+     - Name: MAW --> MAWS
+     - Description: Missile approach warning system, allowing false heat target shoot off. --> Missile Approach Warning System which alerts the pilot when a missile has been launched at their aircraft. The MAWS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile.
+   - PIDS
+     - Name: MAW --> PIDS
+     - Description: Missile approach warning system, allowing false heat target shoot off. --> Perimeter Intrusion Detection System which alerts the pilot when a missile has been launched at their aircraft. The PIDS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile.
+   - G-suit
+     - Corrected incorrect capitalization
+     - Description: G-suit makes it easier to carry overload --> G-Suit makes it easier to carry high G-loads, allowing the pilot to sustain high-G maneuvers for longer periods of time before losing consciousness.
+   - EFS
+     - Name: EFS --> Engine Fire System
+     - Description: Engine Fire System. --> Manually-activated fire suppression system which enables the aircraft to put out engine fires.
+   - EFS(a)
+     - Name: EFS(a) --> Automatic Engine Fire System
+     - Description: Automatic engine Fire System. --> Automatically-activated fire suppression system which enables the aircraft to put out engine fires.
+   - Compressor
+     - Description: Checking and tweaking of compressor provides maximum engine power. --> Checking, tweaking, and regular maintenance of the compressor increases maximum engine power, boosting acceleration and top speed.
+   - Engine
+     - Description: Rebuilding and tuning of the engine, replacement of worn engine with a new one. --> Replacement of worn engine with a new one, increasing acceleration and top speed.
+   - Airframe
+     - Rewrote description to flow better grammatically
+   - Chaff
+     - Name: Chaff --> ECM Pods (Chaff)
+     - Description: Chaff countermeasures --> Allows the installation of external Electronic Countermeasures pods. These pods contain dispensers with belts of chaff, which confuses radars and radar-guided missiles.
+   - New boosters
+     - Corrected incorrect capitalization
+     - Description: New hydraulic boosters improve plane's controllability --> New hydraulic boosters improve the plane's maneuverability.
+
+- Rewrote the following weapon modifications:
+   - SUU-23/A
+     - Name: Gun pod SUU-23/A. --> SUU-23/A
+     - Description: Allows the installation of additional gun pods SUU-23/A. --> Allows the installation of the SUU-23/A gunpod, carrying the GAU-4A Vulcan 20mm rotary autocannon.
+   - SUU-16/A
+     - Name: Gun pod SUU-16/A. --> SUU-16/A
+     - Description: Allows the installation of additional gun pods SUU-16/A. --> Allows the installation of the SUU-16/A gunpod, carrying the M61A1 Vulcan 20mm rotary autocannon.
+   - GPU-2/A
+     - Name: Gun pod GPU-2/A. --> GPU-2/A
+     - Description: Allows the installation of additional gun pods GPU-2/A. --> Allows the installation of the GPU-2/A gunpod, carrying the M197 20mm rotary autocannon.
+   - GPU-5/A
+     - Name: Gun pod GPU-5/A. --> GPU-5/A "Pave Claw"
+     - Description: Allows the installation of additional gun pods GPU-5/A. --> Allows the installation of the GPU-5/A ""Pave Claw"" gunpod, carrying the GAU-13/A 30mm rotary autocannon.
+   - GP-19
+     - Name: Gun pod GP-19 --> GP-19
+     - Description: Allows the installation of gun pods GP-19. --> Allows the installation of the GP-19 gunpod, carrying the GAU-19/A 12.7mm rotary heavy machine gun.
+   - Offensive belts
+     - Name: Offensive [x] mm belts --> [x]mm Belts
+
+- Renamed the following ammunition belts:
+   - Omni-purpose [x] mm ammunition belt --> [x]mm Omni-Purpose Belts
+   - [x] mm ammunition belt with tracers --> [x]mm Tracer Belts
+   - [x] mm ammunition belt for stealth attack --> [x]mm Stealth Belts
+   - [x] mm ammunition belt for armored targets --> [x]mm Armor-Piercing Belts
+   - [x] mm ammunition belt for air targets --> [x]mm Anti-Aircraft Belts
+   - [x] mm night fighters ammunition belt --> [x]mm Night Fighter Belts
+   - [x] mm ammunition belt with API-T shells --> [x]mm Armor-Piercing Belts
+   - [x] mm ammunition belt with AP-T shells --> [x]mm Armor-Piercing Belts
+   - [x] mm ammunition belt with AP-T and API shells --> [x]mm Armor-Piercing Belts
+   - [x] mm ammunition belt with HEI-T or IAI shells --> [x]mm Anti-Aircraft Belts
+   - [x] mm ammunition belt with API-T and HEFI-T shells --> [x]mm Omni-Purpose Belts
+   - [x] mm turret ammunition belt with AP shells --> [x]mm Armor-Piercing Belts
+   - [x] mm turret ammunition belt with API shells --> [x]mm Omni-Purpose Belts
+   - [x] mm turret ammunition belt with API shells --> [x]mm Omni-Purpose Belts
+   - [x] mm turret ammunition belt with AP and HEF shells --> [x]mm Anti-Aircraft Belts
+
+- Changed the format of the description for ammunition belts:
+   - [x] mm machine gun/cannon shell rack filled with [x]mm bullets/shells --> [x]mm ammo belts filled with [x]mm bullets/shells.
+
+- Changed the names of the following bullet/shell types:
+   - Omni-purpose bullet
+     - Omni-purpose bullet --> Full Metal Jacket (long name)
+     - Ball --> FMJ (short name)
+   - PELE-T
+     - Armor-piercing fragmentation tracer shell with enhanced lateral effect --> Penetrator with Enhanced Lateral Effect Tracer (long name)
+   - AP(c)
+     - Armor-piercing bullet (core) --> High-Velocity Armor-Piercing (long name)
+     - AP(c) --> HVAP (short name)
+   - APDS-HEI(c)
+     - Armor-piercing incendiary bullet with high-explosive fragmentation (core) --> Armor-Piercing Discarding Sabot with High-Explosive Incendiary (long name)
+     - APDS-HEI(c) --> APDS-HE-I (short name)
+   - AP-I(c)
+     - Armor-piercing incendiary bullet (cermet core) --> High-Velocity Armor-Piercing Incendiary (long name)
+     - AP-I(c) --> HVAP-I (short name)
+   - Minengeschoß HEI
+     - High-explosive incendiary shell (minengeschoß) --> Minengeschoß (High-Explosive Incendiary) (long name)
+     - HEI --> Minengeschoß HEI (short name)
+   - Minengeschoß HEI-T
+     - High-explosive incendiary tracer shell (minengeschoß) --> Minengeschoß (High-Explosive Incendiary Tracer) (long name)
+     - HEI-T --> Minengeschoß HEI-T (short name)
+   - Minengeschoß HEI-T (Night)
+     - High-explosive incendiary tracer shell (minengeschoß, night tracer) --> Minengeschoß (High-Explosive Incendiary Nighttime Tracer)
+     - HEI-T --> Minengeschoß HEI-T (Night)
+
+- Changed the names of the following American aircraft:
+   - P-38J-15 [Bong]
+     - Richard Bong's Lockheed Corp. P-38J Lightning | Block 15 --> Lockheed Corporation | Richard Bong's P-38J-15 Lightning | Block 15 (on statcard)
+   - F2A-1 [Thach]
+     - John Thach's Brewster Aeronautical Corp. F2A-1 Buffalo --> Brewster Aeronautical Corporation | John Thach's F2A-1 Buffalo (on statcard)
+   - F3F-2 [Galer]
+     - Galer's Grumman Aircraft Engineering Corp. F3F-2 Gulfhawk --> Grumman Aircraft Engineering Corporation | Galer's F3F-2 Gulfhawk (on statcard)
+   - P-36C Hawk [RussianBadger]
+     - TheRussianBadger's Curtiss-Wright Corp. P-36C Hawk --> Curtiss-Wright Corporation | TheRussianBadger's P-36C Hawk (on statcard)
+   - P-36A Hawk [Brown]
+     - Brown's Curtiss-Wright Corp. P-36A Hawk --> Curtiss-Wright Corporation | Brown's P-36A Hawk (on statcard)
+   - P-36A Hawk [Rasmussen]
+     - Rasmussen's Curtiss-Wright Corp. P-36A Hawk --> Curtiss-Wright Corporation | Rasmussen's P-36A Hawk (on statcard)
+
+- Changed the names of the following Soviet aircraft manufacturers:
+   - Sukhoi
+     - Sukhoi --> OKB-51 "Sukhoi" (pre-1991)
+     - Sukhoi --> PAO Kompaniya "Sukhoi"  (post-1991)
+   - Mikoyan-Gurevich
+     - Mikoyan-Gurevich --> OKB-155 "Mikoyan i Gurevich" (pre-1970)
+     - Mikoyan-Gurevich --> OKB-155 "Mikoyan" (1970-1991)
+     - Mikoyan --> RSO Korporatsiya "MiG" (post-1991)
+   - Ilyushin
+     - Ilyushin --> OKB-39 "Ilyushin"
+   - Tupolev
+     - Tupolev --> OKB-156 "Tupolev"
+   - Yakovlev
+     - Yakovlev --> OKB-115 "Yakovlev"
+   - Lavochkin
+     - Lavochkin --> OKB-301 "Lavochkin"
+
+- Changed the names of the following Soviet aircraft:
+   - Su-25BM
+     - Su-25BM Frogfoot-B (558 ARZ) --> Su-25BM Frogfoot-B (in shop)
+     - Sukhoi Su-25BM (558 ARZ) --> OAO 558 Aviaremontnyy Zavod | Su-25BM Frogfoot-B (on statcard)
+     - Su-25BM Frogfoot-B (558 ARZ) --> Su-25BM Frogfoot-B (at medium distance)
+   - Tu-4
+     - Tu-4 --> Tu-4 Bull (in shop)
+     - Tu-4 --> OKB-156 "Tupolev" | Tu-4 Bull (on statcard)
+     - Tu-4 --> Tu-4 Bull (at medium distance)
+   - Yer-2 (ACh-30B) (e)
+     - Yer-2 (ACh-30B) (e) --> Yer-2/ACh-30B (1940) (in shop)
+     - Yer-2 (ACh-30B) Early --> OKB-240 "Yermolaev" | Yer-2 | ACh-30B Engines | 1940 Model (on statcard)
+     - Yer-2 (ACh-30B) --> Yer-2/ACh-30B (1940) (at medium distance)
+     - Yer-2 --> Yer-2 (1940) (at long distance)
+   - Yer-2 (ACh-30B) (l)
+     - Yer-2 (ACh-30B) (l) --> Yer-2/ACh-30B (1941) (in shop)
+     - Yer-2 (ACh-30B) Late --> OKB-240 "Yermolaev" | Yer-2 | ACh-30B Engines | 1941 Model (on statcard)
+     - Yer-2 (ACh-30B) --> Yer-2/ACh-30B (1941) (at medium distance)
+     - Yer-2 --> Yer-2 (1941) (at long distance)
+   - Pe-8
+     - Pe-8 --> NKVD Central Design Bureau №29 | Pe-8 (on statcard)
+   - Pe-2
+     - Pe-2 --> Pe-2 Peshka (in shop)
+     - Pe-2 Peshka --> NKVD Central Design Bureau №29 | Pe-2 Peshka (on statcard)
+     - Pe-2 --> Pe-2 Peshka (at medium distance)
+   - Pe-2-359
+     - Pe-2-359 --> Pe-2-359 Peshka (in shop)
+     - Pe-2-359 Peshka --> NKVD Central Design Bureau №29 | Pe-2-359 Peshka (on statcard)
+     - Pe-2 --> Pe-2-359 Peshka (at medium distance)
+     - Pe-2 --> Pe-2-359 (at long distance)
+   - Pe-2-205
+     - Pe-2-205 --> Pe-2-205 Peshka (in shop)
+     - Pe-2-205 Peshka --> NKVD Central Design Bureau №29 | Pe-2-205 Peshka (on statcard)
+     - Pe-2 --> Pe-2-205 Peshka (at medium distance)
+     - Pe-2 --> Pe-2-205 (at long distance)
+   - Pe-2-110
+     - Pe-2-110 --> Pe-2-110 Peshka (in shop)
+     - Pe-2-110 Peshka --> NKVD Central Design Bureau №29 | Pe-2-110 Peshka (on statcard)
+     - Pe-2 --> Pe-2-110 Peshka (at medium distance)
+     - Pe-2 --> Pe-2-110 (at long distance)
+   - Pe-2-83
+     - Pe-2-83 --> Pe-2-83 Peshka (in shop)
+     - Pe-2-83 Peshka --> NKVD Central Design Bureau №29 | Pe-2-83 Peshka (on statcard)
+     - Pe-2 --> Pe-2-83 Peshka (at medium distance)
+     - Pe-2 --> Pe-2-83 (at long distance)
+   - Pe-2-31
+     - Pe-2-31 --> Pe-2-31 Peshka (in shop)
+     - Pe-2-31 Peshka --> NKVD Central Design Bureau №29 | Pe-2-31 Peshka (on statcard)
+     - Pe-2 --> Pe-2-31 Peshka (at medium distance)
+     - Pe-2 --> Pe-2-31 (at long distance)
+   - Yer-2 (M-105)
+     - Yer-2 (M-105) --> Yer-2 MV-3 (in shop)
+     - Yer-2 (M-105) --> OKB-240 ""Yermolaev"" | Yer-2 MV-3 | 1940 Model (on statcard)
+     - Yer-2 (M-105) --> Yer-2 MV-3 (at medium distance)
+     - Yer-2 --> Yer-2 MV-3 (at long distance)
+   - Yer-2 (M-105)
+     - Yer-2 (M-105R) LU --> Yer-2 LU-MV-2B (in shop)
+     - Yer-2 (M-105R) LU-MV-2B --> OKB-240 ""Yermolaev"" | Yer-2 LU-MV-2B | 1941 Model (on statcard)
+     - Yer-2 (M-105R) --> Yer-2 LU-MV-2B (at medium distance)
+     - Yer-2 --> Yer-2 LU-MV-2B (at long distance)
+
+- Changed the names of the following Swiss weapons:
+   - Flz Lwf LB 82
+     - Flz Lwf LB 82 air-to-ground missile --> Flugzeug Lenkwaffe Luft-Boden 82 Air-to-Ground Missiles (long name)
+   - Flz Lwf LB 66
+     - Flz Lwf LB 66 air-to-ground missiles --> Flugzeug Lenkwaffe Luft-Boden 66 Air-to-Ground Missiles (long name)
+   - Flz Kan 76
+     - 20 mm Flz Kan 76 cannon --> Flugzeug Kanone 76 20mm Autocannon (long name)
+
+- Changed the names of the following American weapons:
+ - F-15 CFTs
+     - Conformal fuel tank --> Fuel And Sensor Tactical Pack (long name)
+     - CFT --> FAST Pack (short name)
+   - AGR-20A
+     - AGR-20A (APKWS II M151) missiles --> AGR-20A Advanced Precision Kill Weapon System II Guided Rockets (M151 HEDP) (long name)
+     - AGR-20A (M151) --> AGR-20A APKWS II (M151) (short name)
+   - AGR-20B
+     - AGR-20B (APKWS II M282) missiles --> AGR-20B Advanced Precision Kill Weapon System II Guided Rockets (M282 SAP-HE) (long name)
+     - AGR-20B (M282) --> AGR-20B APKWS II (M282) (short name)
+   - Hydra-70 M247
+     - 70 mm Hydra-70 M247 rocket --> Hydra 70 Wrap-Around Fin Aerial Rockets (M247 HEDP) (long name)
+     - Hydra-70 M247 --> Hydra 70 WAFAR (M247) (short name)
+   - Hydra-70
+     - 70 mm Hydra-70 rocket --> Hydra 70 Wrap-Around Fin Aerial Rockets (long name)
+     - Hydra-70 --> Hydra 70 WAFAR (short name)
+
 VERSION 0.3.2dev CHANGELOG
 RELEASE DATE: 07/19/2025
-- Changed the name of American aircraft manufacturer "Boeing" to "Boeing Airplane Co." for pre-1961 aircraft, and "Boeing Co." for post-1961 aircraft
-- Changed the name of American aircraft manufacturer "McDonnell Douglas" to "McDonnell Douglas Corp."
-- Changed the name of American aircraft manufacturer "General Dynamics" to "General Dynamics Corp."
-- Changed the name of American aircraft manufacturer "Curtiss" to "Curtiss Aeroplane and Motor Co." for pre-1929 aircraft, and "Curtiss-Wright Corp." for post-1929 aircraft
-- Changed the name of American aircraft manufacturer "Grumman" to "Grumman Aircraft Engineering Corp." for pre-1969 aircraft, and "Grumman Aerospace Corp." for post-1969 aircraft
-- Changed the name of American aircraft manufacturer "Northrop" to "Northrop Corp."
-- Changed the name of American aircraft manufacturer "Northrop Grumman" to "Northrop Grumman Corp."
-- Changed the name of American aircraft manufacturer "Republic" to "Republic Aviation Corp."
-- Changed the name of American aircraft manufacturer "North American" to "North American Aviation"
-- Changed the name of American aircraft manufacturer "Lockheed" to "Lockheed Corp."
-- Changed the name of American aircraft manufacturer "Douglas" to "Douglas Aircraft Co."
-- Changed the name of American aircraft manufacturer "Consolidated" to "Consolidated Aircraft Corp."
-- Changed the name of American aircraft manufacturer "Bell" to "Bell Aircraft Corp."
-- Changed the name of American aircraft manufacturer "Beechcraft" to "Beechcraft Aircraft Corp."
-- Changed the name of American aircraft manufacturer "Martin" to "Martin Co."
-- Changed the name of American aircraft manufacturer "Vought" to "Chance Vought Corp."
-- Changed the name of American aircraft manufacturer "Ling-Temco-Vought" to "Ling-Temco-Vought Aerospace Corp."
-- Changed the name of American aircraft manufacturer "Brewster" to "Brewster Aeronautical Corp."
+- Changed the names of the following American aircraft manufacturers:
+   -  Boeing
+     - Boeing --> Boeing Airplane Company (pre-1961)
+     - Boeing --> The Boeing Company (post-1961)
+   -  McDonnell Douglas
+     - McDonnell Douglas --> McDonnell Douglas Corporation
+   - General Dynamics
+     - General Dynamics --> General Dynamics Corporation
+   -  Curtiss
+     - Curtiss --> Curtiss Aeroplane and Motor Company (pre-1929)
+     - Curtiss --> Curtiss-Wright Corporation (post-1929)
+   -  Grumman
+     - Grumman --> Grumman Aircraft Engineering Corporation (pre-1969)
+     - Grumman --> Grumman Aerospace Corporation (post-1969)
+   -  Northrop
+     - Northrop --> Northrop Corporation
+   -  Northrop Grumman
+     - Northrop Grumman --> Northrop Grumman Corporation
+   -  Republic
+     - Republic --> Republic Aviation Corporation
+   -  North American
+     - North American --> North American Aviation
+   -  Lockheed
+     - Lockheed --> Lockheed Corporation
+   -  Douglas
+     - Douglas --> Douglas Aircraft Company
+   -  Consolidated
+     - Consolidated --> Consolidated Aircraft Corporation
+   - Bell
+     - Bell --> Bell Aircraft Corporation
+   - Beechcraft
+     - Beechcraft --> Beechcraft Aircraft Corporation
+   -  Martin
+     - Martin --> Martin Company
+   -  Vought
+     - Vought --> Chance Vought Corporation
+   -  Ling-Temco-Vought
+     - Ling-Temco-Vought --> LTV Aerospace Corporation
+   -  Brewster
+     - Brewster --> Brewster Aeronautical Corporation
 
 - Changed the names of the following American aircraft:
    - F-14B-150
