@@ -1,0 +1,579 @@
+"<ID|readonly|
+noverify>";"<English>";
+
+"itp_m1_shop";"ITP (M-1)";;
+"itp_m1_0";"N. Polikarpov OKB | Istrebitel Tyazholiy Pushechniy (ITP) | M-1 Prototype, 1942";;
+"itp_m1_1";"ITP (M-1)";;
+"itp_m1_2";"ITP (M-1)";;
+
+"tis_ma_shop";"TIS (MA)";;
+"tis_ma_0";"N. Polikarpov OKB | Tyazholyy Istrebitel' Soprovozhdeniya (TIS) | MA Prototype, 1941";;
+"tis_ma_1";"TIS (MA)";;
+"tis_ma_2";"TIS (MA)";;
+
+"il_8_1944_shop";"Il-8 Sturmovik (1944)";;
+"il_8_1944_0";"OKB-39 ""Ilyushin"" | Il-8 Sturmovik | Obrazets 1944";;
+"il_8_1944_1";"Il-8 Sturmovik (1944)";;
+"il_8_1944_2";"Il-8 (1944)";;
+
+"yak-3_eremin_shop";"Yak-3 Ostronosyi (1944) [Eremin]";;
+"yak-3_eremin_0";"OKB-115 ""Yakovlev"" | Eremin's Yak-3 ""Ostronosyi"" | Obrazets 1944";;
+"yak-3_eremin_1";"Yak-3 Ostronosyi (1944) [Eremin]";;
+"yak-3_eremin_2";"Yak-3 (1944) [Eremin]";;
+
+"b_25j_30_vvs_ussr_shop";"▂B-25J-30 Mitchell";;
+"b_25j_30_vvs_ussr_0";"▂North American Aviation | B-25J-30 Mitchell | Block 30";;
+"b_25j_30_vvs_ussr_1";"▂B-25J-30 Mitchell";;
+"b_25j_30_vvs_ussr_2";"▂B-25J-30";;
+
+"p-47d_ussr_shop";"▂P-47D-27 Thunderbolt";;
+"p-47d_ussr_0";"▂Republic Aviation Corporation | P-47D-27 Thunderbolt | Block 27";;
+"p-47d_ussr_1";"▂P-47D-27 Thunderbolt";;
+"p-47d_ussr_2";"▂P-47D-27";;
+
+"p-63a-5_ussr_shop";"▂P-63A-5 Kingcobra";;
+"p-63a-5_ussr_0";"▂Bell Aircraft Corporation | P-63A-5 Kingcobra | Block 5";;
+"p-63a-5_ussr_1";"▂P-63A-5 Kingcobra";;
+"p-63a-5_ussr_2";"▂P-63A-5";;
+
+"p-63c-5_ussr_shop";"▂P-63C-5 Kingcobra";;
+"p-63c-5_ussr_0";"▂Bell Aircraft Corporation | P-63C-5 Kingcobra | Block 5";;
+"p-63c-5_ussr_1";"▂P-63C-5 Kingcobra";;
+"p-63c-5_ussr_2";"▂P-63C-5";;
+
+"a_20g_30_ussr_shop";"▂A-20G-30 Havoc";;
+"a_20g_30_ussr_0";"▂Douglas Aircraft Company | A-20G-30 Havoc | Block 30";;
+"a_20g_30_ussr_1";"▂A-20G-30 Havoc";;
+"a_20g_30_ussr_2";"▂A-20G-30";;
+
+"i_185_m71_standard_shop";"I-185/M-71";;
+"i_185_m71_standard_0";"N. Polikarpov OKB | I-185 | Obrazets 1942, M-71 Engine";;
+"i_185_m71_standard_1";"I-185/M-71";;
+"i_185_m71_standard_2";"I-185/M-71";;
+
+"i_185_m82_shop";"I-185/M-82";;
+"i_185_m82_0";"N. Polikarpov OKB | I-185 | 1940 Prototype, M-82 Engine";;
+"i_185_m82_1";"I-185/M-82";;
+"i_185_m82_2";"I-185/M-82";;
+
+"la-5fn_shop";"La-5FN";;
+"la-5fn_0";"OKB-301 ""Lavochkin"" | La-5FN";;
+"la-5fn_1";"La-5FN";;
+"la-5fn_2";"La-5FN";;
+
+"il_2m_1943_shop";"Il-2M Sturmovik (1943)";;
+"il_2m_1943_0";"OKB-39 ""Ilyushin"" | Il-2M Sturmovik | Obrazets 1943";;
+"il_2m_1943_1";"Il-2M Sturmovik (1943)";;
+"il_2m_1943_2";"Il-2M (1943)";;
+
+"il-2m_mstitel_shop";"Il-2M Sturmovik ""Mstitel""";;
+"il-2m_mstitel_0";"OKB-39 ""Ilyushin"" | Il-2M Sturmovik ""Мstitel""";;
+"il-2m_mstitel_1";"Il-2M Sturmovik ""Mstitel""";;
+"il-2m_mstitel_2";"Il-2M ""Мstitel""";;
+
+"il-2m_shop";"Il-2M3 Sturmovik";;
+"il-2m_0";"OKB-39 ""Ilyushin"" | Il-2M3 Sturmovik";;
+"il-2m_1";"Il-2M3 Sturmovik";;
+"il-2m_2";"Il-2M3";;
+
+"er-2_m105r_lu2b_shop";"Yer-2 LU-MV-2B";;
+"er-2_m105r_lu2b_0";"OKB-240 ""Yermolaev"" | Yer-2 LU-MV-2B | Obrazets 1941";;
+"er-2_m105r_lu2b_1";"Yer-2 LU-MV-2B";;
+"er-2_m105r_lu2b_2";"Yer-2 LU-MV-2B";;
+
+"er-2_m105_mv3_shop";"Yer-2 MV-3";;
+"er-2_m105_mv3_0";"OKB-240 ""Yermolaev"" | Yer-2 MV-3 | Obrazets 1940";;
+"er-2_m105_mv3_1";"Yer-2 MV-3";;
+"er-2_m105_mv3_2";"Yer-2 MV-3";;
+
+"pe-2-31_shop";"Pe-2-31 Peshka";;
+"pe-2-31_0";"NKVD Central Design Bureau №29 | Pe-2-31 Peshka";;
+"pe-2-31_1";"Pe-2-31 Peshka";;
+"pe-2-31_2";"Pe-2-31";;
+
+"pe-2-83_shop";"Pe-2-83 Peshka";;
+"pe-2-83_0";"NKVD Central Design Bureau №29 | Pe-2-83 Peshka";;
+"pe-2-83_1";"Pe-2-83 Peshka";;
+"pe-2-83_2";"Pe-2-83";;
+
+"pe-2-110_shop";"Pe-2-110 Peshka";;
+"pe-2-110_0";"NKVD Central Design Bureau №29 | Pe-2-110 Peshka";;
+"pe-2-110_1";"Pe-2-110 Peshka";;
+"pe-2-110_2";"Pe-2-110";;
+
+"pe-2-205_shop";"Pe-2-205 Peshka";;
+"pe-2-205_0";"NKVD Central Design Bureau №29 | Pe-2-205 Peshka";;
+"pe-2-205_1";"Pe-2-205 Peshka";;
+"pe-2-205_2";"Pe-2-205";;
+
+"pe-2-359_shop";"Pe-2-359 Peshka";;
+"pe-2-359_0";"NKVD Central Design Bureau №29 | Pe-2-359 Peshka";;
+"pe-2-359_1";"Pe-2-359 Peshka";;
+"pe-2-359_2";"Pe-2-359";;
+
+"pe-2_shop";"Pe-2 Peshka";;
+"pe-2_0";"NKVD Central Design Bureau №29 | Pe-2 Peshka";;
+"pe-2_1";"Pe-2 Peshka";;
+"pe-2_2";"Pe-2";;
+
+"pe-8_m82_shop";"Pe-8";;
+"pe-8_m82_0";"NKVD Central Design Bureau №29 | Pe-8";;
+"pe-8_m82_1";"Pe-8";;
+"pe-8_m82_2";"Pe-8";;
+
+"er-2_ach30b_late_shop";"Yer-2/ACh-30B (1941)";;
+"er-2_ach30b_late_0";"OKB-240 ""Yermolaev"" | Yer-2 | ACh-30B Engines | 1941 Model";;
+"er-2_ach30b_late_1";"Yer-2/ACh-30B (1941)";;
+"er-2_ach30b_late_2";"Yer-2 (1941)";;
+
+"er-2_ach30b_early_shop";"Yer-2/ACh-30B (1940)";;
+"er-2_ach30b_early_0";"OKB-240 ""Yermolaev"" | Yer-2 | ACh-30B Engines | 1940 Model";;
+"er-2_ach30b_early_1";"Yer-2/ACh-30B (1940)";;
+"er-2_ach30b_early_2";"Yer-2 (1940)";;
+
+"yak-9t_shop";"Yak-9T Ostronosyi";;
+"yak-9t_0";"OKB-115 ""Yakovlev"" | Yak-9T ""Ostronosyi""";;
+"yak-9t_1";"Yak-9T Ostronosyi";;
+"yak-9t_2";"Yak-9T";;
+
+"yak-9k_shop";"Yak-9K Ostronosyi";;
+"yak-9k_0";"OKB-115 ""Yakovlev"" | Yak-9K ""Ostronosyi""";;
+"yak-9k_1";"Yak-9K Ostronosyi";;
+"yak-9k_2";"Yak-9K";;
+
+"yak-3_shop";"Yak-3 Ostronosyi (1944)";;
+"yak-3_0";"OKB-115 ""Yakovlev"" | Yak-3 ""Ostronosyi"" (1944)";;
+"yak-3_1";"Yak-3 Ostronosyi (1944)";;
+"yak-3_2";"Yak-3 (1944)";;
+
+"yak-9u_shop";"Yak-9U Ostronosyi";;
+"yak-9u_0";"OKB-115 ""Yakovlev"" | Yak-9U ""Ostronosyi""";;
+"yak-9u_1";"Yak-9U Ostronosyi";;
+"yak-9u_2";"Yak-9U";;
+
+"su-8_shop";"Su-8 DDBSh";;
+"su-8_0";"OKB-51 ""Sukhoi"" | Su-8 | Dvukhmotornyy Dvukhmestnyy Bronirovannyy Shturmovik";;
+"su-8_1";"Su-8 DDBSh";;
+"su-8_2";"Su-8";;
+
+"be_6_shop";"Be-6 Madge";;
+"be_6_0";"OKB-49 ""Beriev"" | Be-6 Madge";;
+"be_6_1";"Be-6 Madge";;
+"be_6_2";"Be-6";;
+
+"yak-3p_shop";"Yak-3P Ostronosyi";;
+"yak-3p_0";"OKB-115 ""Yakovlev"" | Yak-3P ""Ostronosyi""";;
+"yak-3p_1";"Yak-3P Ostronosyi";;
+"yak-3p_2";"Yak-3P";;
+
+"yak-9p_shop";"Yak-9P Ostronosyi";;
+"yak-9p_0";"OKB-115 ""Yakovlev"" | Yak-9P ""Ostronosyi""";;
+"yak-9p_1";"Yak-9P Ostronosyi";;
+"yak-9p_2";"Yak-9P";;
+
+"yak-3u_shop";"Yak-3U Ostronosyi";;
+"yak-3u_0";"OKB-115 ""Yakovlev"" | Yak-3U ""Ostronosyi""";;
+"yak-3u_1";"Yak-3U Ostronosyi";;
+"yak-3u_2";"Yak-3U";;
+
+"yak-9ut_shop";"Yak-9UT Ostronosyi";;
+"yak-9ut_0";"OKB-115 ""Yakovlev"" | Yak-9UT ""Ostronosyi""";;
+"yak-9ut_1";"Yak-9UT Ostronosyi";;
+"yak-9ut_2";"Yak-9UT";;
+
+"i_225_shop";"I-225";;
+"i_225_0";"OKB-155 ""Mikoyan i Gurevich"" | I-225";;
+"i_225_1";"I-225";;
+"i_225_2";"I-225";;
+
+"la-9_shop";"La-9 Fang";;
+"la-9_0";"OKB-301 ""Lavochkin"" | La-9 Fang";;
+"la-9_1";"La-9 Fang";;
+"la-9_2";"La-9";;
+
+"la-7_shop";"La-7 Fin (1944)";;
+"la-7_0";"OKB-301 ""Lavochkin"" | La-7 Fin | 1944 Production Standard";;
+"la-7_1";"La-7 Fin (1944)";;
+"la-7_2";"La-7 (1944)";;
+
+"la-7b-20_shop";"La-7 Fin (1945)";;
+"la-7b-20_0";"OKB-301 ""Lavochkin"" | La-7 Fin | 1945 Production Standard";;
+"la-7b-20_1";"La-7 Fin (1945)";;
+"la-7b-20_2";"La-7 (1945)";;
+
+"su-6_m71_shop";"Su-6 (1943)";;
+"su-6_m71_0";"OKB-51 ""Sukhoi"" | Su-6 | Third Prototype, 1943";;
+"su-6_m71_1";"Su-6 (1943)";;
+"su-6_m71_2";"Su-6 (1943)";;
+
+"su-6_am42_shop";"Su-6 (1944)";;
+"su-6_am42_0";"OKB-51 ""Sukhoi"" | Su-6 | Third Prototype, 1944";;
+"su-6_am42_1";"Su-6 (1944)";;
+"su-6_am42_2";"Su-6 (1944)";;
+
+"su_6_single_shop";"Su-6 (1942)";;
+"su_6_single_0";"OKB-51 ""Sukhoi"" | Su-6 | Second Prototype, 1942";;
+"su_6_single_1";"Su-6 (1942)";;
+"su_6_single_2";"Su-6 (1942)";;
+
+"il-10_shop";"Il-10 Beast";;
+"il-10_0";"OKB-39 ""Ilyushin"" | Il-10 Beast";;
+"il-10_1";"Il-10 Beast";;
+"il-10_2";"Il-10";;
+
+"il-10_1946_shop";"Il-10 Beast (1946)";;
+"il-10_1946_0";"OKB-39 ""Ilyushin"" | Il-10 Beast (1946)";;
+"il-10_1946_1";"Il-10 Beast (1946)";;
+"il-10_1946_2";"Il-10 (1946)";;
+
+"tu-2_shop";"Tu-2S Bat";;
+"tu-2_0";"OKB-156 ""Tupolev"" | Tu-2S Bat";;
+"tu-2_1";"Tu-2S Bat";;
+"tu-2_2";"Tu-2S";;
+
+"tu-2_early_shop";"Tu-2 Bat";;
+"tu-2_early_0";"OKB-156 ""Tupolev"" | Tu-2 Bat";;
+"tu-2_early_1";"Tu-2 Bat";;
+"tu-2_early_2";"Tu-2";;
+
+"tu-2_postwar_shop";"Tu-2S-44 Bat";;
+"tu-2_postwar_0";"OKB-156 ""Tupolev"" | Tu-2S-44 Bat";;
+"tu-2_postwar_1";"Tu-2S-44 Bat";;
+"tu-2_postwar_2";"Tu-2S-44";;
+
+"tu-2_postwar_late_shop";"Tu-2S-59 Bat";;
+"tu-2_postwar_late_0";"OKB-156 ""Tupolev"" | Tu-2S-59 Bat";;
+"tu-2_postwar_late_1";"Tu-2S-59 Bat";;
+"tu-2_postwar_late_2";"Tu-2S-59";;
+
+"yak-3_vk107_shop";"Yak-3 Ostronosyi (1945)";;
+"yak-3_vk107_0";"OKB-115 ""Yakovlev"" | Yak-3 ""Ostronosyi"" (1945)";;
+"yak-3_vk107_1";"Yak-3 Ostronosyi (1945)";;
+"yak-3_vk107_2";"Yak-3 (1945)";;
+
+"bi_shop";"BI-1";;
+"bi_0";"Bereznyak-Isayev BI-1";;
+"bi_1";"BI-1";;
+"bi_2";"BI-1";;
+
+"tu_4_shop";"Tu-4 Bull";;
+"tu_4_0";"OKB-156 ""Tupolev"" | Tu-4 Bull";;
+"tu_4_1";"Tu-4 Bull";;
+"tu_4_2";"Tu-4";;
+
+"tu_4_killstreak_shop";"☢Tu-4 Bull";;
+"tu_4_killstreak_0";"☢OKB-156 ""Tupolev"" | Tu-4 Bull";;
+"tu_4_killstreak_1";"☢Tu-4 Bull";;
+"tu_4_killstreak_2";"☢Tu-4";;
+
+"tu_14t_shop";"Tu-14T Bosun";;
+"tu_14t_0";"OKB-156 ""Tupolev"" | Tu-14T Bosun";;
+"tu_14t_1";"Tu-14T Bosun";;
+"tu_14t_2";"Tu-14T";;
+
+"su_27_shop";"Su-27S Flanker-B";;
+"su_27_0";"OKB-51 ""Sukhoi"" | Su-27S Flanker-B";;
+"su_27_1";"Su-27S Flanker-B";;
+"su_27_2";"Su-27S";;
+
+"su_27sm_shop";"Su-27SM3 Flanker-J";;
+"su_27sm_0";"PAO Kompaniya ""Sukhoi"" | Su-27SM3 Flanker-J";;
+"su_27sm_1";"Su-27SM3 Flanker-J";;
+"su_27sm_2";"Su-27SM3";;
+
+"su_30sm_shop";"Su-30SM Flanker-H";;
+"su_30sm_0";"PAO Kompaniya ""Sukhoi"" | Su-30SM Flanker-H";;
+"su_30sm_1";"Su-30SM Flanker-H";;
+"su_30sm_2";"Su-30SM";;
+
+"su_33_shop";"Su-33 Flanker-D";"Su-33";;
+"su_33_0";"PAO Kompaniya ""Sukhoi"" | Su-33 Flanker-D";;
+"su_33_1";"Su-33 Flanker-D";;
+"su_33_2";"Su-33";;
+
+"mig_23mld_shop";"MiG-23MLD Flogger-K";;
+"mig_23mld_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-23MLD Flogger-K | Product 23-18";;
+"mig_23mld_1";"MiG-23MLD Flogger-K";;
+"mig_23mld_2";"MiG-23MLD";;
+
+"mig_23ml_shop";"MiG-23MLA Flogger-G";;
+"mig_23ml_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-23MLA Flogger-G | Product 23-12A";;
+"mig_23ml_1";"MiG-23MLA Flogger-G";;
+"mig_23ml_2";"MiG-23MLA";;
+
+"mig_29_9_13_shop";"MiG-29A Fulcrum-C";;
+"mig_29_9_13_0";"OKB-155 ""Mikoyan"" | MiG-29A Fulcrum-C | Product 9-13";;
+"mig_29_9_13_1";"MiG-29A Fulcrum-C";;
+"mig_29_9_13_2";"MiG-29A";;
+
+"mig_29smt_9_19_shop";"MiG-29SMT Fulcrum-E";;
+"mig_29smt_9_19_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E | Product 9-17";;
+"mig_29smt_9_19_1";"MiG-29SMT Fulcrum-E";;
+"mig_29smt_9_19_2";"MiG-29SMT";;
+
+"mig_29smt_9_19_missile_test_shop";"MiG-29SMT Fulcrum-E";;
+"mig_29smt_9_19_missile_test_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E | Product 9-17";;
+"mig_29smt_9_19_missile_test_1";"MiG-29SMT Fulcrum-E";;
+"mig_29smt_9_19_missile_test_2";"MiG-29SMT";;
+
+"su_25_shop";"Su-25 Frogfoot-A";;
+"su_25_0";"OKB-51 ""Sukhoi"" | Su-25 Frogfoot-A";;
+"su_25_1";"Su-25 Frogfoot-A";;
+"su_25_2";"Su-25";;
+
+"su_25k_shop";"Su-25K Frogfoot-A";;
+"su_25k_0";"OKB-51 ""Sukhoi"" | Su-25K Frogfoot-A";;
+"su_25k_1";"Su-25K Frogfoot-A";;
+"su_25k_2";"Su-25K";;
+
+"su_25t_shop";"Su-25T Frogfoot-C";;
+"su_25t_0";"OKB-51 ""Sukhoi"" | Su-25T Frogfoot-C";;
+"su_25t_1";"Su-25T Frogfoot-C";;
+"su_25t_2";"Su-25T";;
+
+"su_25tm_shop";"Su-25TM Frogfoot-D";;
+"su_25tm_0";"PAO Kompaniya ""Sukhoi"" | Su-25TM Frogfoot-D";;
+"su_25tm_1";"Su-25TM Frogfoot-D";;
+"su_25tm_2";"Su-25TM";;
+
+"su_25_558arz_shop";"Su-25BM Frogfoot-B";;
+"su_25_558arz_0";"OAO 558 Aviaremontnyy Zavod | Su-25BM Frogfoot-B";;
+"su_25_558arz_1";"Su-25BM Frogfoot-B";;
+"su_25_558arz_2";"Su-25BM";;
+
+"su_25sm3_shop";"Su-25SM3 Frogfoot-E";;
+"su_25sm3_0";"PAO Kompaniya ""Sukhoi"" | Su-25SM3 Frogfoot-E";;
+"su_25sm3_1";"Su-25SM3 Frogfoot-E";;
+"su_25sm3_2";"Su-25SM3";;
+
+"mig_23m_shop";"MiG-23M Flogger-B";;
+"mig_23m_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-23M Flogger-B | Product 23-11M";;
+"mig_23m_1";"MiG-23M Flogger-B";;
+"mig_23m_2";"MiG-23M";;
+
+"mig-21_smt_shop";"MiG-21SMT Fishbed-K";;
+"mig-21_smt_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-21SMT Fishbed-K | Product 50";;
+"mig-21_smt_1";"MiG-21SMT Fishbed-K";;
+"mig-21_smt_2";"MiG-21SMT";;
+
+"mig-21_s_shop";"MiG-21SM Fishbed-J";;
+"mig-21_s_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-21SM Fishbed-J | Product 95M";;
+"mig-21_s_1";"MiG-21SM Fishbed-J";;
+"mig-21_s_2";"MiG-21SM";;
+
+"mig-21_bis_shop";"MiG-21bis Fishbed-L";;
+"mig-21_bis_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-21bis Fishbed-L | Product 75A";;
+"mig-21_bis_1";"MiG-21bis Fishbed-L";;
+"mig-21_bis_2";"MiG-21bis";;
+
+"mig-21_pfm_shop";"MiG-21PFM Fishbed-D";;
+"mig-21_pfm_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-21PFM Fishbed-D | Product 94";;
+"mig-21_pfm_1";"MiG-21PFM Fishbed-D";;
+"mig-21_pfm_2";"MiG-21PFM";;
+
+"su-7b_shop";"Su-7B Fitter-A";;
+"su-7b_0";"OKB-51 ""Sukhoi"" | Su-7B Fitter-A";;
+"su-7b_1";"Su-7B Fitter-A";;
+"su-7b_2";"Su-7B";;
+
+"su-7bkl_shop";"Su-7BKL Fitter-A";;
+"su-7bkl_0";"OKB-51 ""Sukhoi"" | Su-7BKL Fitter-A";;
+"su-7bkl_1";"Su-7BKL Fitter-A";;
+"su-7bkl_2";"Su-7BKL";;
+
+"su-7bmk_shop";"Su-7BMK Fitter-A";;
+"su-7bmk_0";"OKB-51 ""Sukhoi"" | Su-7BMK Fitter-A";;
+"su-7bmk_1";"Su-7BMK Fitter-A";;
+"su-7bmk_2";"Su-7BMK";;
+
+"su_17m2_shop";"Su-17M2 Fitter-D";;
+"su_17m2_0";"OKB-51 ""Sukhoi"" | Su-17M2 Fitter-D";;
+"su_17m2_1";"Su-17M2 Fitter-D";;
+"su_17m2_2";"Su-17M2";;
+
+"su_17m4_shop";"Su-17M4 Fitter-K";;
+"su_17m4_0";"OKB-51 ""Sukhoi"" | Su-17M4 Fitter-K";;
+"su_17m4_1";"Su-17M4 Fitter-K";;
+"su_17m4_2";"Su-17M4";;
+
+"su_22m3_shop";"Su-22M3 Fitter-G";;
+"su_22m3_0";"OKB-51 ""Sukhoi"" | Su-22M3 Fitter-G";;
+"su_22m3_1";"Su-22M3 Fitter-G";;
+"su_22m3_2";"Su-22M3";;
+
+"su_24m_shop";"Su-24M Fencer-D";;
+"su_24m_0";"PAO Kompaniya ""Sukhoi"" | Su-24M Fencer-D";;
+"su_24m_1";"Su-24M Fencer-D";;
+"su_24m_2";"Su-24M";;
+
+"su_34_shop";"Su-34 Fullback";;
+"su_34_0";"PAO Kompaniya ""Sukhoi"" | Su-34 Fullback";;
+"su_34_1";"Su-34 Fullback";;
+"su_34_2";"Su-34";;
+
+"mig-19pt_shop";"MiG-19PT Farmer-B";;
+"mig-19pt_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-19PT Farmer-B";;
+"mig-19pt_1";"MiG-19PT Farmer-B";;
+"mig-19pt_2";"MiG-19PT";;
+
+"mig-21_f13_shop";"MiG-21F-13 Fishbed-C";;
+"mig-21_f13_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-21F-13 Fishbed-C | Product 74";;
+"mig-21_f13_1";"MiG-21F-13 Fishbed-C";;
+"mig-21_f13_2";"MiG-21F-13";;
+
+"yak-30d_shop";"Yak-30D";;
+"yak-30d_0";"OKB-115 ""Yakovlev"" | Yak-30D";;
+"yak-30d_1";"Yak-30D";;
+"yak-30d_2";"Yak-30D";;
+
+"yak-38_shop";"Yak-38 Forger";;
+"yak-38_0";"OKB-115 ""Yakovlev"" | Yak-38 Forger";;
+"yak-38_1";"Yak-38 Forger";;
+"yak-38_2";"Yak-38";;
+
+"yak-38m_shop";"Yak-38M Forger-A";;
+"yak-38m_0";"OKB-115 ""Yakovlev"" | Yak-38M Forger-A";;
+"yak-38m_1";"Yak-38M Forger-A";;
+"yak-38m_2";"Yak-38M";;
+
+"yak-28b_shop";"Yak-28B Brewer-A";;
+"yak-28b_0";"OKB-115 ""Yakovlev"" | Yak-28B Brewer-A";;
+"yak-28b_1";"Yak-28B Brewer-A";;
+"yak-28b_2";"Yak-28B";;
+
+"yak_141_shop";"Yak-141 Freestyle";;
+"yak_141_0";"OKB-115 ""Yakovlev"" | Yak-141 Freestyle";;
+"yak_141_1";"Yak-141 Freestyle";;
+"yak_141_2";"Yak-141";;
+
+"mig-17_shop";"MiG-17 Fresco-A";;
+"mig-17_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-17 Fresco-A";;
+"mig-17_1";"MiG-17 Fresco-A";;
+"mig-17_2";"MiG-17";;
+
+"mig-17_cuba_shop";"MiG-17AS Fresco-A";;
+"mig-17_cuba_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-17AS Fresco-A";;
+"mig-17_cuba_1";"MiG-17AS Fresco-A";;
+"mig-17_cuba_2";"MiG-17AS";;
+
+"mig-15_ns23_shop";"MiG-15 Fagot-A";;
+"mig-15_ns23_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-15 Fagot-A";;
+"mig-15_ns23_1";"MiG-15 Fagot-A";;
+"mig-15_ns23_2";"MiG-15";;
+
+"mig-15_shop";"MiG-15bis Fagot-B";;
+"mig-15_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-15bis Fagot-B";;
+"mig-15_1";"MiG-15bis Fagot-B";;
+"mig-15_2";"MiG-15bis";;
+
+"mig-15bis_ish_shop";"MiG-15ISh Fagot-B";;
+"mig-15bis_ish_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-15ISh Fagot-B";;
+"mig-15bis_ish_1";"MiG-15ISh Fagot-B";;
+"mig-15bis_ish_2";"MiG-15ISh";;
+
+"yak-23_shop";"Yak-23 Flora";;
+"yak-23_0";"OKB-115 ""Yakovlev"" | Yak-23 Flora";;
+"yak-23_1";"Yak-23 Flora";;
+"yak-23_2";"Yak-23";;
+
+"yak-15_shop";"Yak-15 Feather";;
+"yak-15_0";"OKB-115 ""Yakovlev"" | Yak-15 Feather";;
+"yak-15_1";"Yak-15 Feather";;
+"yak-15_2";"Yak-15";;
+
+"yak-15_early_shop";"Yak-15-RD10 Feather";;
+"yak-15_early_0";"OKB-115 ""Yakovlev"" | Yak-15-RD10 Feather";;
+"yak-15_early_1";"Yak-15-RD10 Feather";;
+"yak-15_early_2";"Yak-15-RD10";;
+
+"yak-17_shop";"Yak-17 Feather";;
+"yak-17_0";"OKB-115 ""Yakovlev"" | Yak-17 Feather";;
+"yak-17_1";"Yak-17 Feather";;
+"yak-17_2";"Yak-17";;
+
+"mig-9_shop";"MiG-9 Fargo";;
+"mig-9_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-9 Fargo";;
+"mig-9_1";"MiG-9 Fargo";;
+"mig-9_2";"MiG-9";;
+
+"mig-9_ussr_shop";"MiG-9 Fargo (1948)";;
+"mig-9_ussr_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-9 Fargo (1948)";;
+"mig-9_ussr_1";"MiG-9 Fargo (1948)";;
+"mig-9_ussr_2";"MiG-9 (1948)";;
+
+"la_200_toriy_shop";"La-200 Toriy";;
+"la_200_toriy_0";"OKB-301 ""Lavochkin"" | La-200 Toriy";;
+"la_200_toriy_1";"La-200 Toriy";;
+"la_200_toriy_2";"La-200";;
+
+"la-15_shop";"La-15 Fantail";;
+"la-15_0";"OKB-301 ""Lavochkin"" | La-15 Fantail";;
+"la-15_1";"La-15 Fantail";;
+"la-15_2";"La-15";;
+
+"la_174_shop";"La-174 Fantail";;
+"la_174_0";"OKB-301 ""Lavochkin"" | La-174 Fantail";;
+"la_174_1";"La-174 Fantail";;
+"la_174_2";"La-174";;
+
+"il_28_shop";"Il-28 Beagle-A";;
+"il_28_0";"OKB-39 ""Ilyushin"" | Il-28 Beagle-A";;
+"il_28_1";"Il-28 Beagle-A";;
+"il_28_2";"Il-28";;
+
+"il_28sh_shop";"Il-28Sh Beagle-B";;
+"il_28sh_0";"OKB-39 ""Ilyushin"" | Il-28Sh Beagle-B";;
+"il_28sh_1";"Il-28Sh Beagle-B";;
+"il_28sh_2";"Il-28Sh";;
+
+"su-11_shop";"Su-11 (1947)";;
+"su-11_0";"OKB-51 ""Sukhoi"" | Su-11 | ""Aircraft KL"" (1947)";;
+"su-11_1";"Su-11 (1947)";;
+"su-11_2";"Su-11 (1947)";;
+
+"su-9_shop";"Su-9 (1946)";;
+"su-9_0";"OKB-51 ""Sukhoi"" | Su-9 | ""Aircraft K"" (1946)";;
+"su-9_1";"Su-9 (1946)";;
+"su-9_2";"Su-9 (1946)";;
+
+"l_39za_shop";"▂L-39ZA Albatros";;
+"l_39za_0";"▂Aero L-39ZA Albatros";;
+"l_39za_1";"▂L-39ZA Albatros";;
+"l_39za_2";"▂L-39ZA";;
+
+"mig_27m_shop";"MiG-27M Flogger-J";;
+"mig_27m_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-27M Flogger-J";;
+"mig_27m_1";"MiG-27M Flogger-J";;
+"mig_27m_2";"MiG-27M";;
+
+"mig_27k_shop";"MiG-27K Flogger-J2";;
+"mig_27k_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-27K Flogger-J2";;
+"mig_27k_1";"MiG-27K Flogger-J2";;
+"mig_27k_2";"MiG-27K";;
+
+"shop/group/ar_group";"Ar-2/SB 2";;
+"shop/group/db_3_group";"DB-3/IL-4";;
+"shop/group/il-2i_group";"IL-2";;
+"shop/group/la_5_group";"La-5 (Early)";;
+"shop/group/yak-9tk_group";"Yak-9T/K Ostronosyi";;
+"shop/group/yak-3up_group";"Yak-3U/9UT Ostronosyi";;
+"shop/group/il_28_group";"Il-28 Beagle";;
+"shop/group/la_200_group";"La-200/La-15";;
+"shop/group/su-7_group";"Su-7B/BKL Fitter";;
+"shop/group/mig-19_group";"MiG-19/MiG-21";;
+"shop/group/mig_27_group";"MiG-27 Flogger";;
+"shop/group/mig-23m_group";"MiG-23 Flogger";;
+"shop/group/mig-21_group";"MiG-21 Fishbed";;
+"shop/group/mig-15_group";"MiG-15 Fagot";;
+"shop/group/mig-9_group";"MiG-9 Fargo";;
+"shop/group/il-10_group";"Il-10 Beast";;
+"shop/group/yak-1_group";"Yak-1";;
+"shop/group/yak-9_group";"Yak-9 Ostronosyi";;
+"shop/group/yak-3_group";"Yak-3/9U Ostronosyi";;
+"shop/group/yak-9u_group";"Yak-9U Ostronosyi";;
+"shop/group/er-2_ach30b_group";"Yer-2/ACh-30B";;
+"shop/group/lagg-3_late_group";"LaGG-3 (l)";;
+"shop/group/pe-2_early_group";"Pe-2 (e)";;
+"shop/group/pe-2_late_group";"Pe-2 (l)";;
+"shop/group/tu-2_group";"Tu-2 Bat";;
+"shop/group/er-2_late_group";"Yer-2/ACh-30B";;

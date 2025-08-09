@@ -1,3 +1,113 @@
+VERSION 0.3.2.2dev CHANGELOG
+RELEASE DATE: 08/09/2025
+
+- Standardized the statcard format across all nations
+
+- Changed the names of the following American aircraft:
+   - F-106A Delta Dart
+     - F-106A --> F-106A-130 Delta Dart "Six Shooter" (in shop)
+     - F-106A "Six Shooter --> General Dynamics Convair Division | F-106A-130 Delta Dart | Block 130 | Project Six Shooter (1972) (on statcard)
+     - F-106A --> F-106A-130 Delta Dart "Six Shooter" (at medium distance)
+     - F-106 --> F-106A-130 "Six Shooter" (at long distance)
+
+- Completely overhauled radars and radar statcards
+   - Added a 'Radar Type' line to differentiate between M-Scan and ESA radars
+   - Added lines for 'Infrared Search & Track', 'Surface Target Tracking', 'Look-Up Mode', and 'Look-Down/Shoot-Down Mode', indicating whether or not the radar set has each of the aforementioned modes with either a 'Yes' or No'
+   - Added a 'LD Type' line to differentiate between radars with Pulse-Doppler and radars with MTI
+   - NOTE: the above changes DO NOT APPLY to ALL radars, only a few at the moment. this is a work-in-progress change
+   - Overhauled the 'Look down' and 'Look up' lines so that they now list out each mode of their respective types
+   - Added descriptions to go along with the abbreviations which were already present
+   - Changed the names of the following statcard items:
+     - BVR mode --> LRS - Long-Range Search
+   - Replaced all instances of 'SRC' with 'RWS', except for in IRST systems
+   - Replaced all instances of 'TRK' with 'STT'
+   - Added 'STDBY' to denote standby mode for radars that have it (no idea if this actually does anything but i figured i'd do it anyway)
+   - Added color coding to make the overhauled radar statcards easier to read
+
+- Changed the names of the following Soviet aircraft:
+   - Su-27SM Flanker-E
+     - Su-27SM Flanker-E --> Su-27SM3 Flanker-J (in shop)
+     - PAO Kompaniya "Sukhoi" | Su-27SM Flanker-E --> PAO Kompaniya "Sukhoi" | Su-27SM3 Flanker-J (on statcard)
+     - Su-27SM Flanker-E --> Su-27SM3 Flanker-J (at medium distance)
+     - Su-27SM --> Su-27SM3 (at long distance)
+   - IL-2M type 3
+     - IL-2M type 3 --> Il-2M3 Sturmovik (in shop)
+     - IL-2M type 3 --> OKB-39 "Ilyushin" | Il-2M3 Sturmovik (on statcard)
+     - IL-2M --> Il-2M3 Sturmovik (at medium distance)
+     - IL-2 --> Il-2M3 (at long distance)
+   - IL-2M "Avenger"
+     - IL-2M "Avenger" --> Il-2M Sturmovik "Mstitel" (in shop)
+     - IL-2M "Avenger" --> OKB-39 "Ilyushin" | Il-2M Sturmovik "Мstitel" (on statcard)
+     - IL-2 --> Il-2M Sturmovik "Mstitel" (at medium distance)
+     - IL-2 --> Il-2M "Мstitel" (at long distance)
+   - IL-2M (1943)
+     - IL-2M (1943) --> Il-2M Sturmovik (1943)
+     - IL-2M (1943) --> OKB-39 "Ilyushin" | Il-2M Sturmovik | Obrazets 1943
+     - IL-2M --> Il-2M Sturmovik (1943)
+     - IL-2 --> Il-2M (1943)
+   - La-5FN
+     - La-5FN --> OKB-301 "Lavochkin" | La-5FN (on statcard)
+     - La-5 --> La-5FN (at medium distance)
+     - La-5 --> La-5FN (at long distance)
+   - I-185 (M-82)
+     - I-185 (M-82) --> I-185/M-82 (1940) (in shop)
+     - I-185 (M-82) --> N. Polikarpov OKB | I-185 | 1940 Prototype, M-82 Engine (on statcard)
+     - I-185 --> I-185/M-82 (1940) (at medium distance)
+     - I-185 --> I-185/M-82 (1940) (at long distance)
+   - I-185 (M-71)
+     - I-185 (M-71) --> I-185/M-71 (in shop)
+     - I-185 (M-71) --> N. Polikarpov OKB | I-185 | Obrazets 1942, M-71 Engine (on statcard)
+     - I-185 --> I-185/M-71 (at medium distance)
+     - I-185 --> I-185/M-71 (at long distance)
+   - A-20G-30
+     - A-20G-30 --> A-20G-30 Havoc (in shop)
+     - A-20G-30 Havoc --> Douglas Aircraft Company | A-20G-30 Havoc | Block 30 (on statcard)
+     - A-20G --> A-20G-30 Havoc (at medium distance)
+     - A-20G --> A-20G-30 (at long distance)
+   - P-63C-5
+     - P-63C-5 --> P-63C-5 Kingcobra (in shop)
+     - P-63C-5 Kingcobra --> Bell Aircraft Corporation | P-63C-5 Kingcobra | Block 5 (on statcard)
+     - P-63C --> P-63C-5 Kingcobra (at medium distance)
+     - P-63 --> P-63C-5 (at long distance)
+   - P-63A-5
+     - P-63A-5 --> P-63A-5 Kingcobra (in shop)
+     - P-63A-5 Kingcobra --> Bell Aircraft Corporation | P-63A-5 Kingcobra | Block 5 (on statcard)
+     - P-63A --> P-63A-5 Kingcobra (at medium distance)
+     - P-63 --> P-63A-5 (at long distance)
+   - P-47D-27
+     - P-47D-27 --> P-47D-27 Thunderbolt (in shop)
+     - P-47D-27 Thunderbolt --> Republic Aviation Corporation | P-47D-27 Thunderbolt | Block 27 (on statcard)
+     - P-47D --> P-47D-27 Thunderbolt (at medium distance)
+     - P-47 --> P-47D-27 (at long distance)
+     - B-25J-30
+     - B-25J-30 --> B-25J-30 Mitchell (in shop)
+     - B-25J-30 Mitchell --> North American Aviation | B-25J-30 Mitchell | Block 30 (on statcard)
+     - B-25J --> B-25J-30 Mitchell (at medium distance)
+     - B-25 --> B-25J-30 (at long distance)
+   - Eremin's Yak-3(e)
+     - Eremin's Yak-3(e) --> Yak-3 Ostronosyi (1944) [Eremin]
+     - Eremin's Yak-3(e) --> OKB-115 "Yakovlev" | Eremin's Yak-3 "Ostronosyi" | Obrazets 1944
+     - Yak-3(e) --> Yak-3 Ostronosyi (1944) [Eremin]
+     - Yak-3 --> Yak-3 (1944) [Eremin]
+   - IL-8 (1944)
+     - IL-8 (1944) --> Il-8 Sturmovik (1944)
+     - IL-8 (1944) --> OKB-39 "Ilyushin" | Il-8 Sturmovik | Obrazets 1944
+     - IL-8 --> Il-8 Sturmovik (1944)
+     - IL-8 --> Il-8 (1944)
+   - TIS MA
+     - TIS MA --> N. Polikarpov OKB | Tyazholyy Istrebitel' Soprovozhdeniya (TIS) | MA Prototype, 1941 (on statcard)
+   - ITP (M-1)
+     - ITP (M-1) --> N. Polikarpov OKB | Istrebitel Tyazholiy Pushechniy (ITP) | M-1 Prototype, 1942 (on statcard)
+     - ITP --> ITP (M-1) (at long distance)
+
+- Changed the names of the following American weapons:
+   - AIM-4F
+     - AIM-4F Super Falcon air-to-air missiles --> AIM-4F Super Falcon Air-to-Air Missiles (long name)
+     - AIM-4F --> AIM-4F Super Falcon (short name)
+   - AIM-4G
+     - AIM-4G Super Falcon air-to-air missiles --> AIM-4G Super Falcon Air-to-Air Missiles (long name)
+     - AIM-4G --> AIM-4G Super Falcon (short name)
+
 VERSION 0.3.2.1dev CHANGELOG
 RELEASE DATE: 07/27/2025
 - Rewrote most existing weapons modifications to line up with their new names. Currently, this mainly applies to American weaponry
