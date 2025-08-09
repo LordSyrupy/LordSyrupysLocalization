@@ -2,27 +2,27 @@
 noverify>";"<English>";
 
 "bf-109e-3_japan_shop";"▅Bf 109 E-7 Messer";;
-"bf-109e-3_japan_0";"▅Messerschmitt Bf 109 E-7 Messer";;
+"bf-109e-3_japan_0";"▅Messerschmitt AG | Bf 109 E-7 Messer";;
 "bf-109e-3_japan_1";"▅Bf 109 E-7 Messer";;
 "bf-109e-3_japan_2";"▅Bf 109 E-7";;
 
 "f4u-1a_japan_shop";"▅F4U-1A Corsair";;
-"f4u-1a_japan_0";"▅Vought F4U-1A Corsair";;
+"f4u-1a_japan_0";"▅Chance Vought Corporation | F4U-1A Corsair";;
 "f4u-1a_japan_1";"▅F4U-1A Corsair";;
 "f4u-1a_japan_2";"▅F4U-1A";;
 
 "p-51c-11-nt_japan_shop";"▅P-51C-11 Mustang";;
-"p-51c-11-nt_japan_0";"▅North American P-51C Mustang | Block 11";;
+"p-51c-11-nt_japan_0";"▅North American Aviation | P-51C-11 Mustang | Block 11";;
 "p-51c-11-nt_japan_1";"▅P-51C-11 Mustang";;
 "p-51c-11-nt_japan_2";"▅P-51C-11";;
 
 "sb2c_5_thailand_shop";"▄B.J.3 Helldiver";;
-"sb2c_5_thailand_0";"▄Curtiss B.J.3 Helldiver | SB2C-5";;
+"sb2c_5_thailand_0";"▄Curtiss-Wright Corporation | B.J.3 Helldiver | SB2C-5";;
 "sb2c_5_thailand_1";"▄B.J.3 Helldiver";;
 "sb2c_5_thailand_2";"▄B.J.3";;
 
 "b-17e_japan_shop";"▅B-17E Flying Fortress";;
-"b-17e_japan_0";"▅Boeing B-17E Flying Fortress";;
+"b-17e_japan_0";"▅Boeing Airplane Company | B-17E Flying Fortress";;
 "b-17e_japan_1";"▅B-17E Flying Fortress";;
 "b-17e_japan_2";"▅B-17E";;
 
@@ -32,92 +32,92 @@ noverify>";"<English>";
 "f-84g_thailand_2";"▄B.Kh.16";;
 
 "f-86f-30_japan_shop";"▅F-86F-30 Sabre";;
-"f-86f-30_japan_0";"▅North American F-86F Sabre | Block 30";;
+"f-86f-30_japan_0";"▅North American Aviation | F-86F-30 Sabre | Block 30";;
 "f-86f-30_japan_1";"▅F-86F-30 Sabre";;
 "f-86f-30_japan_2";"▅F-86F-30";;
 
 "f-86f-40_japan_shop";"▅F-86F-40 Sabre";;
-"f-86f-40_japan_0";"▅North American F-86F Sabre | Block 40";;
+"f-86f-40_japan_0";"▅North American Aviation | F-86F-40 Sabre | Block 40";;
 "f-86f-40_japan_1";"▅F-86F-40 Sabre";;
 "f-86f-40_japan_2";"▅F-86F-40";;
 
 "f-86f-40_japan_blue_impulse_shop";"▅F-86F-40 Sabre (6 SQN)";;
-"f-86f-40_japan_blue_impulse_0";"▅North American F-86F Sabre | Block 40, 6 Squadron 8th Air Wing";;
+"f-86f-40_japan_blue_impulse_0";"▅North American Aviation | F-86F-40 Sabre | Block 40 | 6 Squadron 8th Air Wing";;
 "f-86f-40_japan_blue_impulse_1";"▅F-86F-40 Sabre (6 SQN)";;
 "f-86f-40_japan_blue_impulse_2";"▅F-86F-40 (6 SQN)";;
 
 "alpha_jet_a_thailand_shop";"▄B.J.7 Alpha Jet (1999)";;
-"alpha_jet_a_thailand_0";"▄Dassault/Dornier B.J.7 Alpha Jet (1999) | Alpha Jet A";;
+"alpha_jet_a_thailand_0";"▄Dassault/Dornier | B.J.7 Alpha Jet | Alpha Jet A (1999)";;
 "alpha_jet_a_thailand_1";"▄B.J.7 Alpha Jet (1999)";;
 "alpha_jet_a_thailand_2";"▄B.J.7 (1999)";;
 
 "alpha_jet_th_phase_1_shop";"▄B.J.7 Alpha Jet (2004)";;
-"alpha_jet_th_phase_1_0";"▄Dassault/Dornier B.J.7 Alpha Jet (2004) | Alpha Jet TH, Phase 1";;
+"alpha_jet_th_phase_1_0";"▄Dassault/Dornier | B.J.7 Alpha Jet | Alpha Jet TH, Phase 1 (2004)";;
 "alpha_jet_th_phase_1_1";"▄B.J.7 Alpha Jet (2004)";;
 "alpha_jet_th_phase_1_2";"▄B.J.7 (2004)";;
 
 "av_8s_thailand_shop";"▄B.KhL.1 Matador (1973)";;
-"av_8s_thailand_0";"▄Hawker Siddeley B.KhL.1 Matador (1973) | AV-8S";;
+"av_8s_thailand_0";"▄Hawker Siddeley Group, Ltd. | B.KhL.1 Matador | AV-8S (1973)";;
 "av_8s_thailand_1";"▄B.KhL.1 Matador (1973)";;
 "av_8s_thailand_2";"▄B.KhL.1 (1973)";;
 
 "t2_early_shop";"T-2 (1975)";;
-"t2_early_0";"Mitsubishi T-2 | Zenki-gata (1975)";;
+"t2_early_0";"Mitsubishi Heavy Industries, Ltd. | T-2 | Zenki-gata (1975)";;
 "t2_early_1";"T-2 (1975)";;
 "t2_early_2";"T-2 (1975)";;
 
 "t2_shop";"T-2 (1979)";;
-"t2_0";"Mitsubishi T-2 | Kōki-gata (1979)";;
+"t2_0";"Mitsubishi Heavy Industries, Ltd. | T-2 | Kōki-gata (1979)";;
 "t2_1";"T-2 (1979)";;
 "t2_2";"T-2 (1979)";;
 
 "f1_shop";"F-1";;
-"f1_0";"Mitsubishi F-1";;
+"f1_0";"Mitsubishi Heavy Industries, Ltd. | F-1";;
 "f1_1";"F-1";;
 "f1_2";"F-1";;
 
 "f-104j_shop";"▅F-104J Starfighter";;
-"f-104j_0";"▅Mitsubishi F-104J Starfighter";;
+"f-104j_0";"▅Mitsubishi Heavy Industries, Ltd. | F-104J Starfighter";;
 "f-104j_1";"▅F-104J Starfighter";;
 "f-104j_2";"▅F-104J";;
 
 "a_7e_thailand_shop";"▄B.HT.1 Corsair II";;
-"a_7e_thailand_0";"▄Ling-Temco-Vought B.HT.1 Corsair II | A-7E";;
+"a_7e_thailand_0";"▄LTV Aerospace Corporation | B.HT.1 Corsair II | A-7E";;
 "a_7e_thailand_1";"▄B.HT.1 Corsair II";;
 "a_7e_thailand_2";"▄B.HT.1";;
 
 "f-5a_thailand_shop";"▄B.Kh.18 Freedom Fighter";;
-"f-5a_thailand_0";"▄Northrop B.Kh.18 Freedom Fighter | F-5A";;
+"f-5a_thailand_0";"▄Northrop Corporation | B.Kh.18 Freedom Fighter | F-5A";;
 "f-5a_thailand_1";"▄B.Kh.18 Freedom Fighter";;
 "f-5a_thailand_2";"▄B.Kh.18";;
 
-"f-5e_fcu_thailand_shop";"▄B.Kh.18B Tigris FCU";;
-"f-5e_fcu_thailand_0";"▄Northrop B.Kh.18B Tigris | F-5E First Capability Upgrade, 1988";;
-"f-5e_fcu_thailand_1";"▄B.Kh.18B Tigris FCU";;
-"f-5e_fcu_thailand_2";"▄B.Kh.18B FCU";;
+"f-5e_fcu_thailand_shop";"▄B.Kh.18B Tigris (1988)";;
+"f-5e_fcu_thailand_0";"▄Northrop Corporation | B.Kh.18B Tigris | F-5E First Capability Upgrade (1988)";;
+"f-5e_fcu_thailand_1";"▄B.Kh.18B Tigris (1988)";;
+"f-5e_fcu_thailand_2";"▄B.Kh.18B (1988)";;
 
-"f-5t_thailand_shop";"▄B.Kh.18B Tigris SCU";;
-"f-5t_thailand_0";"▄Northrop B.Kh.18B Tigris | F-5E Second Capability Upgrade, 2003";;
-"f-5t_thailand_1";"▄B.Kh.18B Tigris SCU";;
-"f-5t_thailand_2";"▄B.Kh.18B SCU";;
+"f-5t_thailand_shop";"▄B.Kh.18B Tigris (2003)";;
+"f-5t_thailand_0";"▄Northrop Corporation | B.Kh.18B Tigris | F-5E Second Capability Upgrade (2003)";;
+"f-5t_thailand_1";"▄B.Kh.18B Tigris (2003)";;
+"f-5t_thailand_2";"▄B.Kh.18B (2003)";;
 
 "av_8s_late_thailand_shop";"▄B.KhL.1 Matador (1998)";;
-"av_8s_late_thailand_0";"▄Hawker Siddeley B.KhL.1 Matador (1998) | AV-8S";;
+"av_8s_late_thailand_0";"▄Hawker Siddeley Group, Ltd. | B.KhL.1 Matador | AV-8S (1998)";;
 "av_8s_late_thailand_1";"▄B.KhL.1 Matador (1998)";;
 "av_8s_late_thailand_2";"▄B.KhL.1 (1998)";;
 
 "f-4ej_shop";"▅F-4EJ Phantom II";;
-"f-4ej_0";"▅Mitsubishi F-4EJ Phantom II";;
+"f-4ej_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Phantom II";;
 "f-4ej_1";"▅F-4EJ Phantom II";;
 "f-4ej_2";"▅F-4EJ";;
 
 "f-4ej_adtw_shop";"▅F-4EJ Phantom II (ADTW)";;
-"f-4ej_adtw_0";"▅Mitsubishi F-4EJ Phantom II | Air Development and Test Wing";;
+"f-4ej_adtw_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Phantom II | Air Development and Test Wing";;
 "f-4ej_adtw_1";"▅F-4EJ Phantom II (ADTW)";;
 "f-4ej_adtw_2";"▅F-4EJ (ADTW)";;
 
 "f_16a_block_15_ocu_thailand_shop";"▄B.Kh.19 Fighting Falcon";;
-"f_16a_block_15_ocu_thailand_0";"▄General Dynamics B.Kh.19 Fighting Falcon | F-16A-15, Operational Capability Upgrade";;
+"f_16a_block_15_ocu_thailand_0";"▄General Dynamics Corporation | B.Kh.19 Fighting Falcon | F-16A-15OCU (Operational Capability Upgrade)";;
 "f_16a_block_15_ocu_thailand_1";"▄B.Kh.19 Fighting Falcon";;
 "f_16a_block_15_ocu_thailand_2";"▄B.Kh.19";;
 
@@ -127,36 +127,36 @@ noverify>";"<English>";
 "saab_jas39c_thailand_2";"▄B.Kh.20";;
 
 "f-4ej_kai_shop";"▅F-4EJ Kai Phantom II";;
-"f-4ej_kai_0";"▅Mitsubishi F-4EJ Kai Phantom II";;
+"f-4ej_kai_0";"▅Mitsubishi Heavy Industries, Ltd. | F-4EJ Kai Phantom II";;
 "f-4ej_kai_1";"▅F-4EJ Kai Phantom II";;
 "f-4ej_kai_2";"▅F-4EJ Kai";;
 
 "f_16aj_shop";"▅YF-16AJ Fighting Falcon";;
-"f_16aj_0";"▅General Dynamics YF-16AJ Fighting Falcon | 1975 F-X Proposal";;
+"f_16aj_0";"▅General Dynamics Corporation | YF-16AJ Fighting Falcon | 1975 F-X Proposal";;
 "f_16aj_1";"▅YF-16AJ Fighting Falcon";;
 "f_16aj_2";"▅YF-16AJ";;
 
-"f_15j_shop";"▅F-15J Eagle";;
-"f_15j_0";"▅Mitsubishi F-15J Eagle";;
-"f_15j_1";"▅F-15J Eagle";;
+"f_15j_shop";"▅F-15J Īguru";;
+"f_15j_0";"▅Mitsubishi Heavy Industries, Ltd. | F-15J Īguru | Peace Eagle Program";;
+"f_15j_1";"▅F-15J Īguru";;
 "f_15j_2";"▅F-15J";;
 
-"f_15j_kai_shop";"▅F-15J-MSIP Eagle";;
-"f_15j_kai_0";"▅Mitsubishi F-15J-MSIP Eagle";;
-"f_15j_kai_1";"▅F-15J-MSIP Eagle";;
-"f_15j_kai_2";"▅F-15J-MSIP";;
+"f_15j_kai_shop";"▅F-15MJ Īguru";;
+"f_15j_kai_0";"▅Mitsubishi Heavy Industries, Ltd. | F-15MJ Īguru ""J-MSIP"" | Japan-Multi-Stage Improvement Program | Mid-Term Defense Program (2004)";;
+"f_15j_kai_1";"▅F-15MJ Īguru";;
+"f_15j_kai_2";"▅F-15MJ";;
 
 "f_2a_shop";"F-2A Viper Zero";;
-"f_2a_0";"Mitsubishi F-2A Viper Zero";;
+"f_2a_0";"Mitsubishi Heavy Industries, Ltd. | F-2A Viper Zero";;
 "f_2a_1";"F-2A Viper Zero";;
 "f_2a_2";"F-2A";;
 
 "f_2a_adtw_shop";"XF-2A Viper Zero";;
-"f_2a_adtw_0";"Mitsubishi XF-2A Viper Zero | Air Development and Test Wing";;
+"f_2a_adtw_0";"Mitsubishi Heavy Industries, Ltd. | XF-2A Viper Zero | 1995 FS-X Prototype | Air Development and Test Wing";;
 "f_2a_adtw_1";"XF-2A Viper Zero";;
 "f_2a_adtw_2";"XF-2A";;
 
-"shop/group/f-86_japan_group";"▅F-86F";;
+"shop/group/f-86_japan_group";"▅F-86F Sabre";;
 
 //Ground Units
 "jp_type_81_tansam_fcs_shop";"Type 81 Tan-SAM Kai (IFCS)";;
