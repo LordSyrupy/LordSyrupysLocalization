@@ -1,13 +1,88 @@
 "<ID|readonly|
 noverify>";"<English>";
 
+"itp_m1_shop";"ITP (M-1)";;
+"itp_m1_0";"N. Polikarpov OKB | Istrebitel Tyazholiy Pushechniy (ITP) | M-1 Prototype, 1942";;
+"itp_m1_1";"ITP (M-1)";;
+"itp_m1_2";"ITP (M-1)";;
+
+"tis_ma_shop";"TIS (MA)";;
+"tis_ma_0";"N. Polikarpov OKB | Tyazholyy Istrebitel' Soprovozhdeniya (TIS) | MA Prototype, 1941";;
+"tis_ma_1";"TIS (MA)";;
+"tis_ma_2";"TIS (MA)";;
+
+"il_8_1944_shop";"Il-8 Sturmovik (1944)";;
+"il_8_1944_0";"OKB-39 ""Ilyushin"" | Il-8 Sturmovik | Obrazets 1944";;
+"il_8_1944_1";"Il-8 Sturmovik (1944)";;
+"il_8_1944_2";"Il-8 (1944)";;
+
+"yak-3_eremin_shop";"Yak-3 Ostronosyi (1944) [Eremin]";;
+"yak-3_eremin_0";"OKB-115 ""Yakovlev"" | Eremin's Yak-3 ""Ostronosyi"" | Obrazets 1944";;
+"yak-3_eremin_1";"Yak-3 Ostronosyi (1944) [Eremin]";;
+"yak-3_eremin_2";"Yak-3 (1944) [Eremin]";;
+
+"b_25j_30_vvs_ussr_shop";"▂B-25J-30 Mitchell";;
+"b_25j_30_vvs_ussr_0";"▂North American Aviation | B-25J-30 Mitchell | Block 30";;
+"b_25j_30_vvs_ussr_1";"▂B-25J-30 Mitchell";;
+"b_25j_30_vvs_ussr_2";"▂B-25J-30";;
+
+"p-47d_ussr_shop";"▂P-47D-27 Thunderbolt";;
+"p-47d_ussr_0";"▂Republic Aviation Corporation | P-47D-27 Thunderbolt | Block 27";;
+"p-47d_ussr_1";"▂P-47D-27 Thunderbolt";;
+"p-47d_ussr_2";"▂P-47D-27";;
+
+"p-63a-5_ussr_shop";"▂P-63A-5 Kingcobra";;
+"p-63a-5_ussr_0";"▂Bell Aircraft Corporation | P-63A-5 Kingcobra | Block 5";;
+"p-63a-5_ussr_1";"▂P-63A-5 Kingcobra";;
+"p-63a-5_ussr_2";"▂P-63A-5";;
+
+"p-63c-5_ussr_shop";"▂P-63C-5 Kingcobra";;
+"p-63c-5_ussr_0";"▂Bell Aircraft Corporation | P-63C-5 Kingcobra | Block 5";;
+"p-63c-5_ussr_1";"▂P-63C-5 Kingcobra";;
+"p-63c-5_ussr_2";"▂P-63C-5";;
+
+"a_20g_30_ussr_shop";"▂A-20G-30 Havoc";;
+"a_20g_30_ussr_0";"▂Douglas Aircraft Company | A-20G-30 Havoc | Block 30";;
+"a_20g_30_ussr_1";"▂A-20G-30 Havoc";;
+"a_20g_30_ussr_2";"▂A-20G-30";;
+
+"i_185_m71_standard_shop";"I-185/M-71";;
+"i_185_m71_standard_0";"N. Polikarpov OKB | I-185 | Obrazets 1942, M-71 Engine";;
+"i_185_m71_standard_1";"I-185/M-71";;
+"i_185_m71_standard_2";"I-185/M-71";;
+
+"i_185_m82_shop";"I-185/M-82";;
+"i_185_m82_0";"N. Polikarpov OKB | I-185 | 1940 Prototype, M-82 Engine";;
+"i_185_m82_1";"I-185/M-82";;
+"i_185_m82_2";"I-185/M-82";;
+
+"la-5fn_shop";"La-5FN";;
+"la-5fn_0";"OKB-301 ""Lavochkin"" | La-5FN";;
+"la-5fn_1";"La-5FN";;
+"la-5fn_2";"La-5FN";;
+
+"il_2m_1943_shop";"Il-2M Sturmovik (1943)";;
+"il_2m_1943_0";"OKB-39 ""Ilyushin"" | Il-2M Sturmovik | Obrazets 1943";;
+"il_2m_1943_1";"Il-2M Sturmovik (1943)";;
+"il_2m_1943_2";"Il-2M (1943)";;
+
+"il-2m_mstitel_shop";"Il-2M Sturmovik ""Mstitel""";;
+"il-2m_mstitel_0";"OKB-39 ""Ilyushin"" | Il-2M Sturmovik ""Мstitel""";;
+"il-2m_mstitel_1";"Il-2M Sturmovik ""Mstitel""";;
+"il-2m_mstitel_2";"Il-2M ""Мstitel""";;
+
+"il-2m_shop";"Il-2M3 Sturmovik";;
+"il-2m_0";"OKB-39 ""Ilyushin"" | Il-2M3 Sturmovik";;
+"il-2m_1";"Il-2M3 Sturmovik";;
+"il-2m_2";"Il-2M3";;
+
 "er-2_m105r_lu2b_shop";"Yer-2 LU-MV-2B";;
-"er-2_m105r_lu2b_0";"OKB-240 ""Yermolaev"" | Yer-2 LU-MV-2B | 1941 Model";;
+"er-2_m105r_lu2b_0";"OKB-240 ""Yermolaev"" | Yer-2 LU-MV-2B | Obrazets 1941";;
 "er-2_m105r_lu2b_1";"Yer-2 LU-MV-2B";;
 "er-2_m105r_lu2b_2";"Yer-2 LU-MV-2B";;
 
 "er-2_m105_mv3_shop";"Yer-2 MV-3";;
-"er-2_m105_mv3_0";"OKB-240 ""Yermolaev"" | Yer-2 MV-3 | 1940 Model";;
+"er-2_m105_mv3_0";"OKB-240 ""Yermolaev"" | Yer-2 MV-3 | Obrazets 1940";;
 "er-2_m105_mv3_1";"Yer-2 MV-3";;
 "er-2_m105_mv3_2";"Yer-2 MV-3";;
 
@@ -201,10 +276,10 @@ noverify>";"<English>";
 "su_27_1";"Su-27S Flanker-B";;
 "su_27_2";"Su-27S";;
 
-"su_27sm_shop";"Su-27SM Flanker-E";;
-"su_27sm_0";"PAO Kompaniya ""Sukhoi"" | Su-27SM Flanker-E";;
-"su_27sm_1";"Su-27SM Flanker-E";;
-"su_27sm_2";"Su-27SM";;
+"su_27sm_shop";"Su-27SM3 Flanker-J";;
+"su_27sm_0";"PAO Kompaniya ""Sukhoi"" | Su-27SM3 Flanker-J";;
+"su_27sm_1";"Su-27SM3 Flanker-J";;
+"su_27sm_2";"Su-27SM3";;
 
 "su_30sm_shop";"Su-30SM Flanker-H";;
 "su_30sm_0";"PAO Kompaniya ""Sukhoi"" | Su-30SM Flanker-H";;

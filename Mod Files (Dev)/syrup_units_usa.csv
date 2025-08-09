@@ -926,6 +926,11 @@ noverify>";"<English>";
 "p-40c_1";"P-40C Warhawk";;
 "p-40c_2";"P-40C";;
 
+"f_106a_1972_shop";"F-106A-130 Delta Dart ""Six Shooter""";;
+"f_106a_1972_0";"General Dynamics Convair Division | F-106A-130 Delta Dart | Block 130 | Project Six Shooter (1972)";;
+"f_106a_1972_1";"F-106A-130 Delta Dart ""Six Shooter""";;
+"f_106a_1972_2";"F-106A-130 ""Six Shooter""";;
+
 "shop/group/p-26_group";"P-26 Peashooter";;
 "shop/group/p-36_group";"P-36 Hawk";;
 "shop/group/f2a_group";"F2A Buffalo";;

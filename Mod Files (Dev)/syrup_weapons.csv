@@ -158,193 +158,193 @@ noverify>";"<English>";
 //Howitzer Belts
 "caliber_152/desc";"152mm cannon shell rack filled with %s shells.";;
 
-//Bullet + Autocannon Types
-"ball/name";"Full Metal Jacket";;
+//Bullet + Autocannon Shell Types
+"ball/name";"Full Metal Jacket Bullet";;
 "ball/name/short";"FMJ";;
 
-"t_ball/name";"Tracer";;
+"t_ball/name";"Tracer Bullet";;
 "t_ball/name/short";"T";;
 
-"i_ball/name";"Incendiary";;
+"i_ball/name";"Incendiary Bullet";;
 "i_ball/name/short";"I";;
 
-"ap_ball/name";"Armor-Piercing";;
+"ap_ball/name";"Armor-Piercing Bullet";;
 "ap_ball/name/short";"AP";;
 
-"ap_t_ball/name";"Armor-Piercing Tracer";;
+"ap_t_ball/name";"Armor-Piercing Tracer Bullet";;
 "ap_t_ball/name/short";"AP-T";;
 
-"pele_t/name";"Penetrator with Enhanced Lateral Effect Tracer";;
+"pele_t/name";"Penetrator with Enhanced Lateral Effect Tracer Bullet";;
 "pele_t/name/short";"PELE-T";;
 
-"ap_i_ball/name";"Armor-Piercing Incendiary";;
+"ap_i_ball/name";"Armor-Piercing Incendiary Bullet";;
 "ap_i_ball/name/short";"AP-I";;
 
-"ap_i_t_ball/name";"Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball/name";"Armor-Piercing Incendiary Tracer Bullet";;
 "ap_i_t_ball/name/short";"API-T";;
 
-"apds_ball/name";"High-Velocity Armor-Piercing";;
+"apds_ball/name";"High-Velocity Armor-Piercing Bullet";;
 "apds_ball/name/short";"HVAP";;
 
-"apds_he_i_ball/name";"Armor-Piercing Discarding Sabot with High-Explosive Incendiary";;
+"apds_he_i_ball/name";"Armor-Piercing Discarding Sabot with High-Explosive Incendiary Bullet";;
 "apds_he_i_ball/name/short";"APDS-HE-I";;
 
-"apcr_i_ball_bs41/name";"High-Velocity Armor-Piercing Incendiary";;
+"apcr_i_ball_bs41/name";"High-Velocity Armor-Piercing Incendiary Bullet";;
 "apcr_i_ball_bs41/name/short";"HVAP-I";;
 
-"apcr_i_ball/name";"High-Velocity Armor-Piercing Incendiary";;
+"apcr_i_ball/name";"High-Velocity Armor-Piercing Incendiary Bullet";;
 "apcr_i_ball/name/short";"HVAP-I";;
 
-"he_ball/name";"Adjustment Incendiary";;
+"he_ball/name";"Adjustment Incendiary Bullet";;
 "he_ball/name/short";"AI";;
 
-"he_i_ball/name";"Immediate-Action Incendiary";;
+"he_i_ball/name";"Immediate-Action Incendiary Bullet";;
 "he_i_ball/name/short";"IAI";;
 
-"i_ball_mdz/name";"Immediate-Action Incendiary";;
+"i_ball_mdz/name";"Immediate-Action Incendiary Bullet";;
 "i_ball_mdz/name/short";"IAI";;
 
-"he_i_t_ball/name";"Immediate-Action Incendiary Tracer";;
+"he_i_t_ball/name";"Immediate-Action Incendiary Tracer Bullet";;
 "he_i_t_ball/name/short";"IAI-T";;
 
-"he_i_fuse_ball/name";"High-Explosive Incendiary";;
+"he_i_fuse_ball/name";"High-Explosive Incendiary Bullet";;
 "he_i_fuse_ball/name/short";"HE-I";;
 
-"he_frag_t_ball/name";"High-Explosive Fragmentation Tracer";;
+"he_frag_t_ball/name";"High-Explosive Fragmentation Tracer Bullet";;
 "he_frag_t_ball/name/short";"HEF-T";;
 
-"he_frag_ball/name";"High-Explosive Fragmentation";;
+"he_frag_ball/name";"High-Explosive Fragmentation Bullet";;
 "he_frag_ball/name/short";"HEF";;
 
-"i_t_ball/name";"Incendiary Tracer";;
+"i_t_ball/name";"Incendiary Tracer Bullet";;
 "i_t_ball/name/short";"IT";;
 
-"i_ball_M1/name";"M1 Incendiary";;
+"i_ball_M1/name";"M1 Incendiary Bullet";;
 "i_ball_M1/name/short";"I";;
 
-"i_ball_M23/name";"M23 Incendiary";;
+"i_ball_M23/name";"M23 Incendiary Bullet";;
 "i_ball_M23/name/short";"I";;
 
-"b_mk_1z/name";"Mk.1Z Incendiary";;
+"b_mk_1z/name";"Mk.1Z Incendiary Bullet";;
 "b_mk_1z/name/short";"I";;
 
-"ap_ball_M2/name";"M2 Armor-Piercing";;
+"ap_ball_M2/name";"M2 Armor-Piercing Bullet";;
 "ap_ball_M2/name/short";"AP";;
 
-"ball_M2/name";"M2 Full Metal Jacket";;
+"ball_M2/name";"M2 Full Metal Jacket Bullet";;
 "ball_M2/name/short";"FMJ";;
 
-"ap_i_t_ball_M20/name";"M20 Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball_M20/name";"M20 Armor-Piercing Incendiary Tracer Bullet";;
 "ap_i_t_ball_M20/name/short";"API-T";;
 
-"ap_i_t_ball_bzt_44/name";"BZT-44 Armor-Piercing Incendiary Tracer";;
+"ap_i_t_ball_bzt_44/name";"BZT-44 Armor-Piercing Incendiary Tracer Bullet";;
 "ap_i_t_ball_bzt_44/name/short";"API-T";;
 
-"ap_i_ball_M8/name";"M8 Armor-Piercing Incendiary";;
+"ap_i_ball_M8/name";"M8 Armor-Piercing Incendiary Bullet";;
 "ap_i_ball_M8/name/short";"AP-I";;
 
-"ap_i_ball_b32/name";"B-32 Armor-Piercing Incendiary";;
+"ap_i_ball_b32/name";"B-32 Armor-Piercing Incendiary Bullet";;
 "ap_i_ball_b32/name/short";"AP-I";;
 
-"t_ball_M1/name";"M1 Tracer";;
+"t_ball_M1/name";"M1 Tracer Bullet";;
 "t_ball_M1/name/short";"T";;
 
-"t_ball_t_38/name";"T-38 Tracer";;
+"t_ball_t_38/name";"T-38 Tracer Bullet";;
 "t_ball_t_38/name/short";"T";;
 
-"ball_shell/name";"Practice";;
+"ball_shell/name";"Practice Shell";;
 "ball_shell/name/short";"P";;
 
-"ball_t_shell/name";"Practice Tracer";;
+"ball_t_shell/name";"Practice Tracer Shell";;
 "ball_t_shell/name/short";"PT";;
 
-"t_shell/name";"Tracer";;
+"t_shell/name";"Tracer Shell";;
 "t_shell/name/short";"T";;
 
-"frag_i/name";"Fragmentation Incendiary";;
+"frag_i/name";"Fragmentation Incendiary Shell";;
 "frag_i/name/short";"FI";;
 
-"frag_i_t/name";"Fragmentation Incendiary Tracer";;
+"frag_i_t/name";"Fragmentation Incendiary Tracer Shell";;
 "frag_i_t/name/short";"FI-T";;
 
-"i/name";"Incendiary";;
+"i/name";"Incendiary Shell";;
 "i/name/short";"I";;
 
-"i_t/name";"Incendiary Tracer";;
+"i_t/name";"Incendiary Tracer Shell";;
 "i_t/name/short";"IT";;
 
-"he_i/name";"High-Explosive Incendiary";;
+"he_i/name";"High-Explosive Incendiary Shell";;
 "he_i/name/short";"HEI";;
 
-"he_i_t/name";"High-Explosive Incendiary Tracer";;
+"he_i_t/name";"High-Explosive Incendiary Tracer Shell";;
 "he_i_t/name/short";"HEI-T";;
 
-"he_i_mine/name";"Minengeschoß (High-Explosive Incendiary)";;
-"he_i_mine/name/short";"Minengeschoß HEI";;
+"he_i_mine/name";"Minengeschoß Shell (High-Explosive Incendiary)";;
+"he_i_mine/name/short";"HEI";;
 
-"he_i_t_mine/name";"Minengeschoß (High-Explosive Incendiary Tracer)";;
-"he_i_t_mine/name/short";"Minengeschoß HEI-T";;
+"he_i_t_mine/name";"Minengeschoß Shell (High-Explosive Incendiary Tracer)";;
+"he_i_t_mine/name/short";"HEI-T";;
 
-"he_i_t_n_mine/name";"Minengeschoß (High-Explosive Incendiary Nighttime Tracer)";;
-"he_i_t_n_mine/name/short";"Minengeschoß HEI-T (Night)";;
+"he_i_t_n_mine/name";"Minengeschoß Shell (High-Explosive Incendiary Night Tracer)";;
+"he_i_t_n_mine/name/short";"HEI-T";;
 
-"he_frag/name";"High-Explosive Fragmentation";;
+"he_frag/name";"High-Explosive Fragmentation Shell";;
 "he_frag/name/short";"HEF";;
 
-"he_vt/name";"High-Explosive Variable-Time Fuse";;
+"he_vt/name";"High-Explosive Variable-Time Fuse Shell";;
 "he_vt/name/short";"HE-VT";;
 
-"he_tf/name";"High-Explosive Timed-Fuse";;
+"he_tf/name";"High-Explosive Timed-Fuse Shell";;
 "he_tf/name/short";"HE-TF";;
 
-"he_frag_t/name";"High-Explosive Fragmentation Tracer";;
+"he_frag_t/name";"High-Explosive Fragmentation Tracer Shell";;
 "he_frag_t/name/short";"HEF-T";;
 
-"he_frag_i_t/name";"High-Explosive Fragmentation Incendiary Tracer";
+"he_frag_i_t/name";"High-Explosive Fragmentation Incendiary Tracer Shell";
 "he_frag_i_t/name/short";"HEFI-T";;
 
-"he_frag_i/name";"High-Explosive Fragmentation Incendiary";;
+"he_frag_i/name";"High-Explosive Fragmentation Incendiary Shell";;
 "he_frag_i/name/short";"HEF-I";;
 
-"sapi/name";"Semi-Armor-Piercing Incendiary";;
+"sapi/name";"Semi-Armor-Piercing Incendiary Shell";;
 "sapi/name/short";"SAP-I";;
 
-"ap/name";"Armor-Piercing";;
+"ap/name";"Armor-Piercing Shell";;
 "ap/name/short";"AP";;
 
-"aphe/name";"Armor-Piercing High-Explosive";;
+"aphe/name";"Armor-Piercing High-Explosive Shell";;
 "aphe/name/short";"APHE";;
 
-"aphe_t/name";"Armor-Piercing High-Explosive Tracer";;
+"aphe_t/name";"Armor-Piercing High-Explosive Tracer Shell";;
 "aphe_t/name/short";"APHE-T";;
 
-"apc_t/name";"Armor-Piercing Capped";;
+"apc_t/name";"Armor-Piercing Capped Shell";;
 "apc_t/name/short";"APC";;
 
-"ap_t/name";"Armor-Piercing Tracer";;
+"ap_t/name";"Armor-Piercing Tracer Shell";;
 "ap_t/name/short";"AP-T";;
 
-"ap_i/name";"Armor-Piercing Incendiary";;
+"ap_i/name";"Armor-Piercing Incendiary Shell";;
 "ap_i/name/short";"AP-I";;
 
-"ap_i_t/name";"Armor-Piercing Incendiary Tracer";;
+"ap_i_t/name";"Armor-Piercing Incendiary Tracer Shell";;
 "ap_i_t/name/short";"API-T";;
 
-"apcr/name";"High-Velocity Armor-Piercing";;
+"apcr/name";"High-Velocity Armor-Piercing Shell";;
 "apcr/name/short";"HVAP";;
 
-"apcr_t/name";"High-Velocity Armor-Piercing Tracer";;
+"apcr_t/name";"High-Velocity Armor-Piercing Tracer Shell";;
 "apcr_t/name/short";"HVAP-T";;
 
 "s_d/name";"(Self-Destroying)";;
 
-"grenade_mp_underbarrel_launcher/name";"High-Explosive Dual-Purpose";;
+"grenade_mp_underbarrel_launcher/name";"High-Explosive Dual-Purpose Shell";;
 "grenade_mp_underbarrel_launcher/name/short";"HEDP";;
 
-"he_frag_radio_fuse/name";"High-Explosive Variable-Time Fuse";;
+"he_frag_radio_fuse/name";"High-Explosive Variable-Time Fuse Shell";;
 "he_frag_radio_fuse/name/short";"HE-VT";;
 
-"he_frag_dist_fuse/name";"High-Explosive Timed-Fuse";;
+"he_frag_dist_fuse/name";"High-Explosive Timed-Fuse Shell";;
 
 "slap/name";"Saboted Light Armor Penetrator";;
 "slap/name/short";"SLAP";;
@@ -953,6 +953,18 @@ noverify>";"<English>";
 
 "weapons/178mm_sl_amraam_user_cannon";"AIM-120C-7 SL-AMRAAM";;
 "weapons/127mm_aim_9x_user_cannon";"AIM-9X-2 Sidewinder";;
+
+"weapons/us_aim4g_falcon";"AIM-4G Super Falcon Air-to-Air Missiles";;
+"weapons/us_aim4g_falcon/short";"AIM-4G Super Falcon";;
+
+"weapons/us_aim4f_falcon";"AIM-4F Super Falcon Air-to-Air Missiles";;
+"weapons/us_aim4f_falcon/short";"AIM-4F Super Falcon";;
+
+"weapons/us_aim4g_falcon_default";"AIM-4G Super Falcon Air-to-Air Missiles";;
+"weapons/us_aim4g_falcon_default/short";"AIM-4G Super Falcon";;
+
+"weapons/us_aim4f_falcon_default";"AIM-4F Super Falcon Air-to-Air Missiles";;
+"weapons/us_aim4f_falcon_default/short";"AIM-4F Super Falcon";;
 
 //Missiles, Ger
 "weapons/us_aim9b_fgw_2_sidewinder";"AIM-9F Sidewinder Air-to-Air Missiles";;
