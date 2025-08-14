@@ -471,6 +471,9 @@ noverify>";"<English>";
 "weapons/cannonM61A1_pgu_28_f15";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
 "weapons/cannonM61A1_pgu_28_f15/short";"M61A1 Vulcan";;
 
+"weapons/cannonM61A1_low_rpm";"General Electric M61A1 Vulcan 20mm Rotary Autocannon";;
+"weapons/cannonM61A1_low_rpm/short";"M61A1 Vulcan";;
+
 "weapons/cannonGAU4";"GAU-4 Vulcan 20mm Rotary Autocannon";;
 "weapons/cannonGAU4/short";"GAU-4 Vulcan";;
 

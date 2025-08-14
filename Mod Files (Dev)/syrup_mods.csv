@@ -109,7 +109,7 @@ noverify>";"<English>";
 "modification/MAW_system_heli_false_thermal_targets_large/desc";"Missile Approach Warning System which alerts the pilot when a missile has been launched at their aircraft. The MAWS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile.";;
 "modification/MAW_system_heli_false_thermal_targets_large";"MAWS";;
 
-"modification/PIDS_false_thermal_targets/desc";"Perimeter Intrusion Detection System which alerts the pilot when a missile has been launched at their aircraft. The PIDS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile.";;
+"modification/PIDS_false_thermal_targets/desc";"Allows the installation of Pylon Integrated Dispenser Stations; these are ECM pods which fit onto the aircraft's missile pylons and contain provisions for chaff and flares. Flares confuse infrared-guided missiles, while chaff confuses radars and radar-guided missiles.";;
 "modification/PIDS_false_thermal_targets";"PIDS";;
 
 "modification/uk_terma_mcp_false_thermal_targets/desc";"Missile Approach Warning System which alerts the pilot when a missile has been launched at their aircraft. The MAWS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile.";;

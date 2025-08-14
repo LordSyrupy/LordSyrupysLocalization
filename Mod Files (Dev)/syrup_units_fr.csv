@@ -246,7 +246,7 @@ noverify>";"<English>";
 "mirage_f1c_200_1";"Mirage F1 C-200";;
 "mirage_f1c_200_2";"Mirage F1 C-200";;
 
-"mirage_f1c_shop";"Mirage F1C";;
+"mirage_f1c_shop";"Mirage F1 C";;
 "mirage_f1c_0";"Société des Avions Marcel Dassault | Mirage F1 C";;
 "mirage_f1c_1";"Mirage F1 C";;
 "mirage_f1c_2";"Mirage F1 C";;
@@ -266,15 +266,15 @@ noverify>";"<English>";
 "mirage_2000c_s5_1";"Mirage 2000 C-S5";;
 "mirage_2000c_s5_2";"Mirage 2000 C-S5";;
 
-"f_16a_block_15_belgium_shop";"▄F-16A-15 Fighting Falcon";;
-"f_16a_block_15_belgium_0";"▄General Dynamics Corporation | F-16A-15 Fighting Falcon | Block 15";;
-"f_16a_block_15_belgium_1";"▄F-16A-15 Fighting Falcon";;
-"f_16a_block_15_belgium_2";"▄F-16A-15";;
+"f_16a_block_15_belgium_shop";"▄F-16A-15OCU Viper";;
+"f_16a_block_15_belgium_0";"▄Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16A-15 Viper | Block 15 | Operational Capability Upgrade (1988)";;
+"f_16a_block_15_belgium_1";"▄F-16A-15OCU Viper";;
+"f_16a_block_15_belgium_2";"▄F-16A-15OCU";;
 
-"f_16am_block_15_mlu_belgium_shop";"▄F-16AM-15MLU Fighting Falcon";;
-"f_16am_block_15_mlu_belgium_0";"▄General Dynamics Corporation | F-16AM-15 Fighting Falcon | Block 15, Mid-Life Update";;
-"f_16am_block_15_mlu_belgium_1";"▄F-16AM-15MLU Fighting Falcon";;
-"f_16am_block_15_mlu_belgium_2";"▄F-16AM-15MLU";;
+"f_16am_block_15_mlu_belgium_shop";"▄F-16AM-15 Viper";;
+"f_16am_block_15_mlu_belgium_0";"▄Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16AM-15 Viper | Block 15 | Mid-Life Update (2000)";;
+"f_16am_block_15_mlu_belgium_1";"▄F-16AM-15 Viper";;
+"f_16am_block_15_mlu_belgium_2";"▄F-16AM-15";;
 
 "mirage_2000_5f_shop";"Mirage 2000-5F";;
 "mirage_2000_5f_0";"Société des Avions Marcel Dassault | Mirage 2000-5F";;

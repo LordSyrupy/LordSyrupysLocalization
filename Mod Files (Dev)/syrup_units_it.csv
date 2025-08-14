@@ -151,9 +151,9 @@ noverify>";"<English>";
 "f-104s_asa_1";"⛨F-104S-ASA Starfighter";;
 "f-104s_asa_2";"⛨F-104S-ASA";;
 
-"f_16a_block_15_adf_italy_shop";"⛨F-16A-15ADF Fighting Falcon";;
-"f_16a_block_15_adf_italy_0";"⛨General Dynamics Corporation | F-16A-15 Fighting Falcon | Block 15, Air Defense Fighter";;
-"f_16a_block_15_adf_italy_1";"⛨F-16A-15ADF Fighting Falcon";;
+"f_16a_block_15_adf_italy_shop";"⛨F-16A-15ADF Viper";;
+"f_16a_block_15_adf_italy_0";"⛨General Dynamics Corporation | F-16A-15 Viper | Block 15, Air Defense Fighter";;
+"f_16a_block_15_adf_italy_1";"⛨F-16A-15ADF Viper";;
 "f_16a_block_15_adf_italy_2";"⛨F-16A-15ADF";;
 
 "mig_29_9_12b_hungary_shop";"◔MiG-29A Fulcrum-A";;
@@ -171,10 +171,10 @@ noverify>";"<English>";
 "tornado_ids_it_mod95_1";"⛨A-200 Tornado IDS (1995)";;
 "tornado_ids_it_mod95_2";"⛨A-200 (1995)";;
 
-"tornado_ids_it_ret8_shop";"⛨A-200 Tornado IDS MLU (RET8)";;
-"tornado_ids_it_ret8_0";"⛨Panavia Aircraft GmbH | A-200 Tornado | Interdictor/Strike, Mid-Life Update (Retro Enabling Task 8)";;
-"tornado_ids_it_ret8_1";"⛨A-200 Tornado IDS MLU (RET8)";;
-"tornado_ids_it_ret8_2";"⛨A-200 MLU (RET8)";;
+"tornado_ids_it_ret8_shop";"⛨A-200 Tornado IDS MLU (2012)";;
+"tornado_ids_it_ret8_0";"⛨Panavia Aircraft GmbH | A-200 Tornado | Interdictor/Strike | Mid-Life Upgrade | MLU Full, Retro Enabling Task 8 (2012)";;
+"tornado_ids_it_ret8_1";"⛨A-200 Tornado IDS MLU (2012)";;
+"tornado_ids_it_ret8_2";"⛨A-200 MLU (2012)";;
 
 "av_8b_plus_italy_shop";"⛨AV-8B+ Harrier II";;
 "av_8b_plus_italy_0";"⛨McDonnell Douglas Corporation | AV-8B+ Harrier II";;

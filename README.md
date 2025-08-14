@@ -1,6 +1,6 @@
 # LORD SYRUPY'S LOCALIZATION MOD, DEVELOPMENT VERSION
-# CURRENT VERSION: v0.3.2.2dev
-# RELEASE DATE: 08/09/2025
+# CURRENT VERSION: v0.4.1dev
+# RELEASE DATE: 08/14/2025
 
 Maintained by Maple Syrupy.
 
@@ -11,6 +11,12 @@ Most aircraft and weaponry go by their NATO designations. Aircraft and weapons w
 This mod also makes a host of fixes to grammar and conventions, primarily in the form of correcting capitalization errors.
 
 A full list of changes can be found in the CHANGELOG file.
+
+DEVELOPMENT TEAM
+Maple Syrupy
+Marchko
+Neon_Uni
+WarTinder
 
 # INSTALLATION INSTRUCTIONS
 1. Install this mod and unzip its contents.

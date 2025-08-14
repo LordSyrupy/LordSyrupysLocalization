@@ -846,24 +846,24 @@ noverify>";"<English>";
 "fa_18c_late_1";"F/A-18C-52 Hornet";;
 "fa_18c_late_2";"F/A-18C-52";;
 
-"f_16a_block_10_shop";"F-16A-15OCU Fighting Falcon";;
-"f_16a_block_10_0";"General Dynamics Corporation | F-16A-15 Fighting Falcon | Block 15 | Operational Capability Upgrade";;
-"f_16a_block_10_1";"F-16A-15OCU Fighting Falcon";;
+"f_16a_block_10_shop";"F-16A-15OCU Viper";;
+"f_16a_block_10_0";"General Dynamics Corporation | F-16A-15 Viper | Block 15 | Operational Capability Upgrade";;
+"f_16a_block_10_1";"F-16A-15OCU Viper";;
 "f_16a_block_10_2";"F-16A-15OCU";;
 
-"f_16a_block_15_adf_shop";"F-16A-15ADF Fighting Falcon";;
-"f_16a_block_15_adf_0";"General Dynamics Corporation | F-16A-15 Fighting Falcon | Block 15 | Air Defense Fighter";;
-"f_16a_block_15_adf_1";"F-16A-15ADF Fighting Falcon";;
+"f_16a_block_15_adf_shop";"F-16A-15ADF Viper";;
+"f_16a_block_15_adf_0";"General Dynamics Corporation | F-16A-15 Viper | Block 15 | Air Defense Fighter";;
+"f_16a_block_15_adf_1";"F-16A-15ADF Viper";;
 "f_16a_block_15_adf_2";"F-16A-15ADF";;
 
-"f_16c_block_50_shop";"F-16C-50 Fighting Falcon";;
-"f_16c_block_50_0";"General Dynamics Corporation | F-16C-50 Fighting Falcon | Block 50";;
-"f_16c_block_50_1";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_shop";"F-16C-50 Viper";;
+"f_16c_block_50_0";"General Dynamics Corporation | F-16C-50 Viper | Block 50";;
+"f_16c_block_50_1";"F-16C-50 Viper";;
 "f_16c_block_50_2";"F-16C-50";;
 
-"f_16c_block_50_missile_test_shop";"F-16C-50 Fighting Falcon";;
-"f_16c_block_50_missile_test_0";"General Dynamics Corporation | F-16C-50 Fighting Falcon | Block 50";;
-"f_16c_block_50_missile_test_1";"F-16C-50 Fighting Falcon";;
+"f_16c_block_50_missile_test_shop";"F-16C-50 Viper";;
+"f_16c_block_50_missile_test_0";"General Dynamics Corporation | F-16C-50 Viper | Block 50";;
+"f_16c_block_50_missile_test_1";"F-16C-50 Viper";;
 "f_16c_block_50_missile_test_2";"F-16C-50";;
 
 "f_14a_early_shop";"F-14A-110 Tomcat";;
@@ -926,10 +926,10 @@ noverify>";"<English>";
 "p-40c_1";"P-40C Warhawk";;
 "p-40c_2";"P-40C";;
 
-"f_106a_1972_shop";"F-106A-130 Delta Dart ""Six Shooter""";;
-"f_106a_1972_0";"General Dynamics Convair Division | F-106A-130 Delta Dart | Block 130 | Project Six Shooter (1972)";;
-"f_106a_1972_1";"F-106A-130 Delta Dart ""Six Shooter""";;
-"f_106a_1972_2";"F-106A-130 ""Six Shooter""";;
+"f_106a_1972_shop";"F-106A-100 Delta Dart (1975)";;
+"f_106a_1972_0";"General Dynamics Convair Division | F-106A-100 Delta Dart | Block 100 | Project Six Shooter | Polhemus Director FCS Integration and Test (1975)";;
+"f_106a_1972_1";"F-106A-100 Delta Dart (1975)";;
+"f_106a_1972_2";"F-106A-100 (1975)";;
 
 "shop/group/p-26_group";"P-26 Peashooter";;
 "shop/group/p-36_group";"P-36 Hawk";;

@@ -1,3 +1,301 @@
+VERSION 0.4.1dev CHANGELOG
+RELEASE DATE: 08/14/2025
+- With the exceptions of the Netz and YF-16AJ, changed the nickname of the F-16 from "Fighting Falcon" to "Viper"
+
+- Fixed the spacing on the Mirage F1 C's shop name
+
+- Renamed the following radar modes:
+   - PDV --> PD VS
+
+- Rewrote the descriptions of the following modifications:
+   - PIDS
+     - Perimeter Intrusion Detection System which alerts the pilot when a missile has been launched at their aircraft. The PIDS will display the missile's approach vector on the aircraft's RWR, and has a configurable option (toggled ON by default) which will automatically dump countermeasures upon detecting a missile. --> Allows the installation of Pylon Integrated Dispenser Stations; these are ECM pods which fit onto the aircraft's missile pylons and contain provisions for chaff and flares. Flares confuse infrared-guided missiles, while chaff confuses radars and radar-guided missiles.
+
+- Changed the names of the following American aircraft:
+   - F-106A-130 Delta Dart "Six Shooter"
+     - F-106A-130 Delta Dart ""Six Shooter"" --> F-106A-100 Delta Dart (1975) -- in shop
+     - General Dynamics Convair Division | F-106A-130 Delta Dart | Block 130 | Project Six Shooter (1972) --> General Dynamics Convair Division | F-106A-100 Delta Dart | Block 100 | Project Six Shooter | Polhemus Director FCS Integration and Test (1975)
+     - F-106A-130 Delta Dart ""Six Shooter"" --> F-106A-100 Delta Dart (1975) -- at medium distance
+     - F-106A-130 ""Six Shooter"" --> F-106A-100 (1975) -- at long distance
+
+- Changed the names of the following British aircraft:
+   - Tornado F.3 (2003)
+     - Tornado F.3 (2003) --> Tornado F.3 AOP (2003) -- in shop
+     - Panavia Aircraft GmbH | Tornado | Fighter, Mk.3 (2003) --> Panavia Aircraft GmbH | Tornado | Fighter, Mk.3 | AMRAAM Optimization Programme (2003) -- on statcard
+     - Tornado F.3 (2003) --> Tornado F.3 AOP (2003) -- at medium/long distance
+   - Tornado F.3
+     - Tornado F.3 --> Tornado F.3 (1989) -- in shop
+     - Panavia Aircraft GmbH | Tornado | Fighter, Mk.3 --> Panavia Aircraft GmbH | Tornado | Fighter, Mk.3 (1989) -- on statcard
+     - Tornado F.3 --> Tornado F.3 (1989) -- at medium/long distance
+
+- Changed the names of the following Japanese aircraft:
+   - B.Kh.19 Viper
+     - General Dynamics Corporation | B.Kh.19 Viper | F-16A-15OCU (Operational Capability Upgrade) --> General Dynamics Corporation | B.Kh.19 Viper | F-16A-15OCU | Mid-Life Update (2010) -- on statcard
+
+- Changed the names of the following Chinese aircraft:
+   - Gladiator Mk I [CHN]
+     - Gladiator Mk I --> Gladiator Mk. I — in shop
+     - Gladiator Mk I --> Gloster Aircraft Company | Gladiator Mk. I "Gé Jī" — on statcard
+     - Gladiator --> Gladiator Mk. I — at medium distance
+     - Gladiator --> Gladiator Mk. I — at long distance
+   - Ki-27 Otsu [CHN]
+     - Ki-27 Otsu --> Ki 27 Yi — in shop
+     - Ki-27 Otsu --> Nakajima Aircraft | Ki 27 Yi | Type 97 Fighter Yi — on statcard
+     - Ki-27 --> Ki 27 Yi — at medium distance
+     - Ki-27 --> Ki 27 Yi — at long distance
+   - Ki-43-III Ko [CHN]
+     - Ki-43-III Ko --> Ki 43-III Jia Sun — in shop
+     - Ki-43-III Ko Hayabusa --> Nakajima Aircraft Company / Tachikawa Aircraft Company | Ki 43-III Jia | Type 1 Fighter Model 3 Jia "Sun" — on statcard
+     - Ki-43 --> Ki 43-III Jia — at medium distance
+     - Ki-43 --> Ki 43-III Jia — at long distance
+   - CW-21
+     - CW-21 --> C.W.21 — in shop
+     - CW-21 --> Curtiss-Wright Corporation | C.W.21 — on statcard
+     - CW-21 --> C.W.21 — at medium distance
+     - CW-21 --> C.W.21 — at long distance
+   - I-15bis [CHN]
+     - I-15bis --> E-15bis Qishik — in shop
+     - I-15bis --> TsKB-39 "Polikarpov" | E-15bis Qishik | I-15bis — on statcard
+     - I-15 --> E-15bis Qishik — at medium distance
+     - I-15 --> E-15bis — at long distance
+   - I-16 type 5 [CHN]
+     - I-16 type 5 --> E-16-5 Ishak — in shop
+     - I-16 type 5 --> TsKB-39 "Polikarpov" | E-16-5 Ishak | I-16 Type 5 — on statcard
+     - I-16 --> E-16-5 Ishak — at medium distance
+     - I-16 --> E-16-5 — at long distance
+   - I-16 type 10 [CHN]
+     - I-16 type 10 --> E-16-10 Ishak — in shop
+     - I-16 type 10 --> TsKB-39 "Polikarpov" | E-16-10 Ishak | I-16 Type 10 — on statcard
+     - I-16 --> E-16-10 Ishak — at medium distance
+     - I-16 --> E-16-10 — at long distance
+   - I-16 type 17 [CHN]
+     - I-16 type 17 --> E-16-17 Ishak — in shop
+     - I-16 type 17 --> TsKB-39 "Polikarpov" | E-16-17 Ishak | I-16 Type 17 — on statcard
+     - I-16 --> E-16-17 Ishak — at medium distance
+     - I-16 --> E-16-17 — at long distance
+   - I-16 Chung 28 [CHN]
+     - I-16 Chung 28 --> Zhōng 28 Jia — in shop
+     - I-16 Chung 28 --> TsKB-39 "Polikarpov" / Central Aircraft Manufacturing Company | Zhōng 28 Jia — on statcard
+     - I-16 --> Zhōng 28 Jia — at medium distance
+     - I-16 --> Zhōng 28 Jia — at long distance
+   - I-153 M-62 [CHN]
+     - I-153 M-62 --> E-153 Qishik — in shop
+     - I-153 M-62 --> TsKB-39 "Polikarpov" | E-153 Qishik | I-153 Chaika (ASh-62) — on statcard
+     - I-153 --> E-153 Qishik — at medium distance
+     - I-153 --> E-153 — at long distance
+   - V-11
+     - V-11 --> V-11-G — in shop
+     - V-11 --> Vultee Aircraft | V-11-G — on statcard
+     - V-11 --> V-11-G — at medium distance
+     - V-11 --> V-11-G — at long distance
+   - V-11
+     - V-12D --> V-12-D — in shop
+     - V-12D --> Vultee Aircraft | V-12-D — on statcard
+     - V-12D --> V-12-D — at medium distance
+     - V-12D --> V-12-D — at long distance
+   - Hs 123 A-1 [CHN]
+     - Hs 123 A-1 --> Hs 123 A-1 Héng Jī — in shop
+     - Hs 123 A-1 --> Henschel Flugzeug-Werke | Hs 123 A-1 "Héng Jī" — on statcard
+     - Hs 123 A --> Hs 123 A-1 Héng Jī — at medium distance
+     - Hs 123 --> Hs 123 A-1 — at long distance
+   - Martin 139WC
+     - Martin 139WC --> Glenn L. Martin Company | Martin Model 139WC — on statcard
+     - Martin 139 --> Martin 139WC — at long distance
+   - Hawk III
+     - Hawk III --> Curtiss-Wright Corporation | Hawk III — on statcard
+     - Hawk --> Hawk III — at long distance
+   - D.510C [CHN]
+     - D.510C --> D.510C Dì Jī — in shop
+     - D.510C --> Constructions Aéronautiques Émile Dewoitine | D.510C "Dì Jī" — on statcard
+     - D.510C --> D.510C Dì Jī — at medium distance
+   - P-66
+     - P-66 --> P-48-C Vanguard — in shop
+     - P-66 --> Vultee Aircraft | P-48-C Vanguard | P-66 Vanguard — on statcard
+     - P-66 --> P-48-C Vanguard — at medium distance
+     - P-66 --> P-48-C — at long distance
+   - P-40E-1 Kittyhawk [CHN]
+     - P-40E-1 Kittyhawk --> P-40E Kittyhawk — in shop
+     - P-40E-1 Kittyhawk --> Curtiss-Wright Corporation | P-40E Kittyhawk — on statcard
+     - P-40E-1 Kittyhawk --> P-40E Kittyhawk — at medium distance
+     - P-40E-1 --> P-40E — at long distance
+   - A-29
+     - A-29 --> A-29 Hudson — in shop
+     - A-29 --> Lockheed Corporation | A-29 — on statcard
+     - A-29 --> A-29 Hudson — at medium distance
+   - DB-3A [CHN]
+     - DB-3A --> D.B.3 — in shop
+     - DB-3A --> OKB-39 "Ilyushin" | D.B.3 | DB-3A — on statcard
+     - DB-3A --> D.B.3 — at medium distance
+     - DB-3 --> D.B.3 — at long distance
+   - SB 2M-103U [CHN]
+     - SB 2M-103U --> C.B. (M-103U) — in shop
+     - SB 2M-103U --> OKB-156 "Tupolev" | C.B. (M-103U) | SB (M-103U) — on statcard
+     - SB 2M --> C.B. (M-103U) — at medium distance
+     - SB 2M --> C.B. — at long distance
+   - P1Y1 mod. 11 [CHN]
+     - P1Y1 mod. 11 --> P1Y1 — in shop
+     - P1Y1 mod. 11 --> Nakajima Aircraft Company | P1Y1 | Ginga Model 11 — on statcard
+     - P1Y1 mod. 11 --> P1Y1 — at medium distance
+   - H-81A-2 Warhawk
+     - H-81A-2 Warhawk --> Hawk 81A-3 — in shop
+     - Curtiss-Wright Corporation | H-81A-2 Warhawk | Block 2 --> Curtiss-Wright Corporation | Hawk Model 81A-3 — on statcard
+     - H-81A-2 Warhawk --> Hawk 81A-3 — at medium distance
+     - H-81A-2 --> Hawk 81A-3 — at long distance
+   - Ki-45 Hei/Tei [CHN]
+     - Ki-45 Hei/Tei --> Ki 45 Gai Bing Tú Lóng (Dīng) — in shop
+     - Ki-45 Hei/Tei Toryu --> Kawasaki Aircaft Company | Ki 45 Gai Bing "Tú Lóng" | Type 2 Twin-Seat Fighter Model 3 Bing "Tú Lóng" | Dīng Equipment — on statcard
+     - Ki-45 Hei/Tei --> Ki 45 Gai Bing Tú Lóng — at medium distance
+     - Ki-45 --> Ki 45 Gai Bing — at long distance
+   - P-47D-30 Thunderbolt [CHN]
+     - P-47D-30 Thunderbolt --> F-47D-30 Thunderbolt — in shop
+     - Republic Aviation Corporation | P-47D-30 Thunderbolt | Block 30 --> Republic Aviation Corporation | F-47D-30 Thunderbolt | Block 30 — on statcard
+     - P-47D-30 Thunderbolt --> F-47D-30 Thunderbolt — at medium distance
+     - P-47D-30 --> F-47D-30 — at long distance
+   - P-51C-11 Mustang [CHN]
+     - North American Aviation | P-51C-11 Mustang | Block 11 --> North American Aviation | P-51C-11 Mustang ""Yema Jī"" | Block 11 — on statcard
+   - P-51D-20 Mustang [CHN]
+     - P-51D-20 Mustang --> F-51D-20 Mustang — in shop
+     - North American Aviation | P-51D-20 Mustang | Block 20 --> North American Aviation | F-51D-20 Mustang ""Yema Jī"" | Block 20 — on statcard
+     - P-51D-20 Mustang --> F-51D-20 Mustang — at medium distance
+     - P-51D-20 --> F-51D-20 — at long distance
+   - P-51K Mustang [CHN]
+     - P-51K Mustang --> F-51K-15 Mustang — in shop
+     - North American Aviation | P-51K Mustang --> North American Aviation | F-51K-15 Mustang ""Yema Jī"" | Block 15 — on statcard
+     - P-51K Mustang --> F-51K-15 Mustang — at medium distance
+     - P-51K --> F-51K-15 — at long distance
+   - Ki-44-II Hei [CHN]
+     - Ki-44-II Hei --> Ki 44-II Bing Zhōngkuí — in shop
+     - Ki-44-II Hei Shoki --> Nakajima Aircraft Company | Ki 44-II Bing "Zhōngkuí" | Type 2 Fighter Model 2 Bing "Zhōngkuí" — on statcard
+     - Ki-44-II --> Ki 44-II Bing Zhōngkuí — at medium distance
+     - Ki-44 --> Ki 44-II Bing — at long distance
+   - Ki-61-I Otsu [CHN]
+     - Ki-61-I Otsu --> Ki 61-I Yi Fēiyàn — in shop
+     - Ki-61-I Otsu Hien --> Kawasaki Aircraft Company | Ki 61-I Yi "Fēiyàn" | Type 3 Fighter Model 1 Yi "Fēiyàn" — on statcard
+     - Ki-61-I --> Ki 61-I Yi Fēiyàn — at medium distance
+     - Ki-61 --> Ki 61-I Yi — at long distance
+   - A6M2 [CHN]
+     - A6M2 --> A6M2 Líng — in shop
+     - A6M2 Reisen --> Mitsubishi Heavy Industries | A6M2 "Líng" | Type 0 Fighter Model 21 "Líng" — on statcard
+     - A6M2 --> A6M2 Líng — at medium distance
+   - La-11 [CHN]
+     - La-11 --> La-11 Fang — in shop
+     - La-11 --> OKB-301 "Lavochkin" | La-11 Fang — on statcard
+     - La-11 --> La-11 Fang — at medium distance
+     - La-11 --> La-11 — at long distance
+   - La-9 [CHN]
+     - La-9 --> La-9 Fritz — in shop
+     - La-9 --> OKB-301 "Lavochkin" | La-9 Fritz — on statcard
+     - La-9 --> La-9 Fritz — at medium distance
+     - La-9 --> La-9 — at long distance
+   - IL-10 (1946) [CHN]
+     - IL-10 (1946) --> Il-10 Beast (1947) — in shop
+     - IL-10 (1946) --> OKB-39 "Ilyushin" | Il-10 Beast (1947) — on statcard
+     - IL-10 --> Il-10 Beast (1947) — at medium distance
+     - IL-10 --> Il-10 (1947) — at long distance
+   - PB4Y-2 Privateer [CHN]
+     - PB4Y-2 Privateer --> P4Y-2 Privateer — in shop
+     - Consolidated Aircraft Corporation | PB4Y-2 Privateer --> Consolidated Aircraft Corporation | P4Y-2 Privateer — on statcard
+     - PB4Y-2 Privateer --> P4Y-2 Privateer — at medium distance
+     - PB4Y-2 --> P4Y-2 — at long distance
+   - Tu-2S-44 [CHN]
+     - Tu-2S-44 --> Tu-2S-44 Bat — in shop
+     - Tu-2S-44 --> OKB-156 "Tupolev" | Tu-2S series 44 Bat — on statcard
+     - Tu-2S --> Tu-2S-44 Bat — at medium distance
+     - Tu-2 --> Tu-2S-44 — at long distance
+   - Ki-84 Ko [CHN]
+     - Ki-84 Ko --> Ki 84-I Jia Jífēng — in shop
+     - Ki-84 Ko Hayate --> Nakajima Aircraft Company | Ki 84-I Jia "Jífēng" | Type 4 Fighter Model 1 Jia "Jífēng" — on statcard
+     - Ki-84 --> Ki 84-I Jia Jífēng — at medium distance
+     - Ki-84 --> Ki 84-I Jia — at long distance
+   - MiG-9 Fargo (1948) [CHN]
+     - MiG-9 Fargo (1948) --> I-307 Fargo — in shop
+     - OKB-155 "Mikoyan i Gurevich" | MiG-9 Fargo (1948) --> OKB-155 "Mikoyan i Gurevich" | I-307 Fargo — on statcard
+     - MiG-9 Fargo (1948) --> I-307 Fargo — at medium distance
+     - MiG-9 (1948) --> I-307 — at long distance
+   - Tu-4 [CHN]
+     - Tu-4 --> Tu-4 Bull — in shop
+     - Tu-4 --> OKB-156 "Tupolev" | Tu-4 Bull — on statcard
+     - Tu-4 --> Tu-4 Bull — at medium distance
+     - Tu-4 --> Tu-4 — at long distance
+   - H-5 Beagle
+     - H-5 Beagle --> Il-28 Beagle — in shop
+     - Harbin Aircraft Manufacturing Corporation | Il-28 Beagle --> OKB-39 "Ilyushin" | Il-28 Beagle — on statcard
+     - H-5 Beagle --> Il-28 Beagle — at medium distance
+     - H-5 --> Il-28 — at long distance
+   - F-100A Super Sabre [CHN]
+     - F-100A Super Sabre --> F-100A-16 Super Sabre — in shop
+     - North American Aviation | F-100A Super Sabre --> North American Aviation | F-100A-16 Super Sabre | Block 16 — on statcard
+     - F-100A Super Sabre --> F-100A-16 Super Sabre — at medium distance
+     - F-100A --> F-100A-16 — at long distance
+   - F-100F Super Sabre [CHN]
+     - F-100F Super Sabre --> F-100F-6 Super Sabre — in shop
+     - North American Aviation | F-100F Super Sabre --> North American Aviation | F-100F-6 Super Sabre | Block 6 — on statcard
+     - F-100F Super Sabre --> F-100F-6 Super Sabre — at medium distance
+     - F-100F --> F-100F-6 — at long distance
+   - F-104A Starfighter [CHN]
+     - F-104A Starfighter --> F-104A-25 Starfighter — in shop
+     - Lockheed Corporation | F-104A Starfighter --> Lockheed Corporation | F-104A-25 Starfighter | Block 25 — on statcard
+     - F-104A Starfighter --> F-104A-25 Starfighter — at medium distance
+     - F-104A --> F-104A-25 — at long distance
+   - F-104G Starfighter [CHN]
+     - F-104G Starfighter --> F-104G-10 Starfighter — in shop
+     - Lockheed Corporation | F-104G Starfighter --> Lockheed Corporation | F-104G-10 Starfighter | Block 10 — on statcard
+     - F-104G Starfighter --> F-104G-10 Starfighter — at medium distance
+     - F-104G --> F-104G-10 — at long distance
+   - Q-5A/B
+     - Q-5A/B Fantan --> Q-5A Fantan — in shop
+     - Nanchang Aircraft Manufacturing Corporation | Q-5A/B Fantan --> Nanchang Aircraft Manufacturing Corporation | Q-5A Fantan — on statcard
+     - Q-5A/B Fantan --> Q-5A Fantan — at medium distance
+     - Q-5A/B --> Q-5A — at long distance
+   - F-5A Freedom Fighter [CHN]
+     - F-5A Freedom Fighter --> F-5A-25 Freedom Fighter — in shop
+     - Northrop Corporation | F-5A Freedom Fighter --> Northrop Corporation | F-5A-25 Freedom Fighter | Block 25 — on statcard
+     - F-5A Freedom Fighter --> F-5A-25 Freedom Fighter — at medium distance
+     - F-5A --> F-5A-25 — at long distance
+   - F-16A-20MLU Fighting Falcon [CHN]
+     - F-16A-20MLU Fighting Falcon --> F-16A-20 Fighting Falcon — in shop
+     - General Dynamics Corporation | F-16A Fighting Falcon | Block 20, Mid-Life Update --> General Dynamics Corporation | F-16A-20 Fighting Falcon | Block 20 — on statcard
+     - F-16A-20MLU Fighting Falcon --> F-16A-20 Fighting Falcon — at medium distance
+     - F-16A-20MLU --> F-16A-20 — at long distance
+   - J-11 Flanker-B
+     - Shenyang Aircraft Corporation | J-11 Flanker-B+ --> Shenyang Aircraft Corporation | J-11 Flanker-B+ | Su-27SK (2000) — on statcard
+   - J-11A Flanker-B+
+     - J-11A Flanker-B+ --> J-11A MLU Flanker-B+ — in shop
+     - Shenyang Aircraft Corporation | J-11A Flanker-B+ | Mid-Life Update --> Shenyang Aircraft Corporation | J-11A Flanker-B+ | Su-27SK | Mid-Life Update (2015) — on statcard
+     - J-11A Flanker-B+ --> J-11A MLU Flanker-B+ — at medium distance
+     - J-11A --> J-11A MLU — at long distance
+   - Removed the year from the J-10A on all but the statcard
+   - Removed the year from the Q-5 Fantan (1969) on all but the statcard
+
+- Changed the names of the following Italian aircraft:
+   - A-200 Tornado IDS MLU (RET8)
+     - A-200 Tornado IDS MLU (RET8) --> A-200 Tornado IDS MLU (2012) -- in shop
+     - Panavia Aircraft GmbH | A-200 Tornado | Interdictor/Strike, Mid-Life Update (Retro Enabling Task 8) --> Panavia Aircraft GmbH | A-200 Tornado | Interdictor/Strike | Mid-Life Upgrade | MLU Full, Retro Enabling Task 8 (2012) -- on statcard
+     - A-200 Tornado IDS MLU (RET8) --> A-200 Tornado IDS MLU (2012) -- at medium distance
+     - A-200 MLU (RET8) --> A-200 MLU (2012) -- at long distance
+
+- Changed the names of the following French vehicles:
+   - F-16AM-15MLU
+     - F-16AM-15MLU Viper --> F-16AM-15 Viper -- in shop
+     - Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16AM-15 Viper | Block 15, Mid-Life Update --> General Dynamics Corporation | F-16AM-15 Viper | Block 15 | Mid-Life Update (2000) -- on statcard
+     - F-16AM-15MLU Viper --> F-16AM-15 Viper -- at medium distance
+     - F-16AM-15MLU --> F-16AM-15 -- at long distance
+   - F-16A-15
+     - F-16A-15 Viper --> F-16A-15OCU Viper -- in shop
+     - Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16A-15 Viper | Block 15 --> General Dynamics Corporation | F-16A-15 Viper | Block 15 | Operational Capability Upgrade (1988) -- on statcard
+     - F-16A-15 Viper --> F-16A-15OCU Viper -- at medium distance
+     - F-16A-15 --> F-16A-15OCU -- at long distance
+
+- Changed the names of the following Chinese aircraft folders:
+   - J-11 Flanker-B+ --> J-11/A MLU Flanker-B+
+   - F-5 Freedom Fighter --> F-5A/E
+
+- Changed the names of the following American weapons:
+   - M61A1 Vulcan (low-RPM)
+     - 20 mm M61A1 cannon --> General Electric M61A1 Vulcan 20mm Rotary Autocannon -- long name
+     - M61A1 --> M61A1 Vulcan -- short name
+     - this is the variant that's used on the F-106A
+
 VERSION 0.3.2.2dev CHANGELOG
 RELEASE DATE: 08/09/2025
 
