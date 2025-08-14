@@ -37,14 +37,14 @@ noverify>";"<English>";;
 "radar_range_max";"Range";;
 "radar_search_zone_max";"Search Zone";;
 "radar_ld";"Look-Down Modes";;
-"radar_ld_head_on";"        <color=@badTextColor>PD RWS HDN</color> - <color=@userlogColoredText>Pulse-Doppler Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
-          <color=@badTextColor>PD ACQ HDN</color> - <color=@userlogColoredText>Pulse-Doppler Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
-          <color=@badTextColor>PD STT HDN</color> - <color=@userlogColoredText>Pulse-Doppler Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>";;
-"radar_ld_head_on_velocity";"        <color=@badTextColor>PDV SRC HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
-          <color=@badTextColor>PDV ACQ HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
-          <color=@badTextColor>PDV STT HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>";;
-"radar_ld_all_aspects";"        <color=@badTextColor>LD RWS</color> - <color=@userlogColoredText>Look-Down Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
-          <color=@badTextColor>LD STT</color> - <color=@userlogColoredText>Look-Down Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>";;
+"radar_ld_head_on";"      <color=@badTextColor>PD RWS HDN</color> - <color=@userlogColoredText>Pulse-Doppler Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
+        <color=@badTextColor>PD ACQ HDN</color> - <color=@userlogColoredText>Pulse-Doppler Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
+        <color=@badTextColor>PD STT HDN</color> - <color=@userlogColoredText>Pulse-Doppler Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>";;
+"radar_ld_head_on_velocity";"      <color=@badTextColor>PD VS HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
+        <color=@badTextColor>PD VS ACQ HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>
+        <color=@badTextColor>PD VS STT HDN</color> - <color=@userlogColoredText>Pulse-Doppler Velocity Search Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>Head-On</color>";;
+"radar_ld_all_aspects";"      <color=@badTextColor>LD RWS</color> - <color=@userlogColoredText>Look-Down Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
+        <color=@badTextColor>LD STT</color> - <color=@userlogColoredText>Look-Down Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>";;
 "radar_lu";"Look-Up Modes:
         <color=@badTextColor>RWS</color> - <color=@userlogColoredText>Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
         <color=@badTextColor>ACQ</color> - <color=@userlogColoredText>Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
@@ -68,13 +68,13 @@ noverify>";"<English>";;
 "rwr_tracked_threats_max";"Maximum Simultaneous Threats on Scope";;
 "rwr_tracking_detection";"Track Warning: <color=@goodTextColor>Yes</color>";;
 "rwr_launch_detection";"Launch Warning: <color=@goodTextColor>Yes</color>
-    Maximum Tracked Launches on Scope";;
+  Maximum Tracked Launches on Scope";;
 "rwr_tracking_threats_types";"Tracking Threat Types";;
 "rwr_scope_id_threats_types";"Threat Types";;
 "rwr_present_id_threats_types";"Threat Categories";;
 "rwr_threats_unlimited";"Unlimited";;
 "rwr_signal_strength";"Range by Signal Strength: <color=@goodTextColor>Yes</color>";;
-"rwr_iff";"IFF - Identification, Friend or Foe";;
+"rwr_iff";"<color=@badTextColor>IFF</color> - <color=@userlogColoredText>Identification, Friend or Foe</color>";;
 "mlws_type";"Type";;
 "mlws_type_radar";"Radar";;
 "mlws_type_ir";"Optic";;
@@ -88,16 +88,16 @@ noverify>";"<English>";;
 "avionics_sight_vision/lltv";"LLTV";;
 "avionics_sight_vision/flir";"FLIR";;
 "avionics_sensor_radar";"Radar";;
-"avionics_sensor_irst";"Infrared Search & Track: <color=@goodTextColor>Yes</color>
-    IRST Type";;
+"avionics_sensor_irst";"IRST Modes:
+    <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+    <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+    <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+IRST Type";;
 "avionics_sensor_tv";"TV";;
 "avionics_sensor_radar_irst";"Radar/IRST";;
-"avionics_sensor_rwr";"Radar Warning Receiver: <color=@goodTextColor>Yes</color>
-    RWR Model";;
-"avionics_sensor_lws";"Laser Warning Receiver: <color=@goodTextColor>Yes</color>
-    LWR Model";;
-"avionics_sensor_mlws";"Missile Approach Warning System: <color=@goodTextColor>Yes</color>
-    MAWS Model";;
+"avionics_sensor_rwr";"Radar Warning Receiver (RWR)";;
+"avionics_sensor_lws";"Laser Warning Receiver (LWR)";;
+"avionics_sensor_mlws";"Missile Approach Warning System (MAWS)";;
 "avionics_aim_spi";"<color=@badTextColor>SPI</color> - <color=@userlogColoredText>Sensors Point of Interest</color>";;
 "avionics_hmd";"<color=@badTextColor>HMS</color> - <color=@userlogColoredText>Helmet-Mounted System</color>";;
 "avionics_aim_laser_designator";"<color=@badTextColor>LDR</color> - <color=@userlogColoredText>Laser Designator/Rangefinder</color>";;
@@ -105,7 +105,7 @@ noverify>";"<English>";;
 "avionics_auto_cm";"Automatic Countermeasures Dispensing: <color=@goodTextColor>Yes</color>";;
 "avionics_auto_cm_by_rwr";"RWR";;
 "avionics_auto_cm_by_mlws";"MAW";;
-"avionics_auto_cm_sensors";"Sensors";;
+"avionics_auto_cm_sensors";"Triggered by Sensors";;
 "avionics_auto_cm_programs";"Programs";;
 "CCIP";"
     <color=@badTextColor>CCIP</color> - <color=@userlogColoredText>Continuously-Calculated Impact Point</color>";;
@@ -157,18 +157,44 @@ noverify>";"<English>";;
 "sensors/us_an_avr-2";"AN/AVR-2";;
 "sensors/us_an_avs-2";"AN/AVS-2";;
 "sensors/us_an_apq_100";"AN/APQ-100";;
-"sensors/us_an_apg_59";"AN/APG-59";;
+"sensors/us_an_apg_59";"<color=@linkTextHoverColorLight>AN/APG-59</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: </color>×<color=@userlogColoredText>±60°</color>×</color>×<color=@userlogColoredText>±60°</color>";;
+
 "sensors/us_an_apg_59_f_4j";"<color=@linkTextHoverColorLight>AN/APG-59</color>
     Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
     Surface Target Tracking: <color=@badTextColor>No</color>
     Infrared Search & Track: <color=@badTextColor>No</color>
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>";;
-"sensors/us_an_apg_59u";"AN/APG-59U";;
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: </color>×<color=@userlogColoredText>±60°</color>×</color>×<color=@userlogColoredText>±60°</color>";;
+
+"sensors/us_an_apg_59u";"<color=@linkTextHoverColorLight>AN/APG-59U</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: </color>×<color=@userlogColoredText>±60°</color>×</color>×<color=@userlogColoredText>±60°</color>";;
+
 "sensors/us_an_apg_60";"AN/APG-60";;
 "sensors/us_an_apg_61";"AN/APG-61";;
-"sensors/us_an_apg_66";"AN/APG-66";;
+"sensors/us_an_apg_66";"<color=@linkTextHoverColorLight>AN/APG-66</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: </color>×<color=@userlogColoredText>±60°</color>×</color>×<color=@userlogColoredText>±60°</color>";;
+
 "sensors/us_an_apg_66_v_1";"AN/APG-66(V)1";;
 "sensors/us_an_apg_66_v_3";"AN/APG-66(V)3";;
 "sensors/us_an_apg_68_v_5";"AN/APG-68(V)5";;
@@ -182,7 +208,9 @@ noverify>";"<English>";;
     Infrared Search & Track: <color=@badTextColor>No</color>
     Look-Up Mode: <color=@headerOptionSelectedColor>No</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>";;
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±60°</color>×<color=@userlogColoredText>±60°</color>";;
+
 "sensors/us_an_apg_70";"AN/APG-70";;
 "sensors/us_an_apg_70i";"AN/APG-70I";;
 "sensors/us_an_apg_73";"AN/APG-73";;
@@ -199,14 +227,31 @@ noverify>";"<English>";;
     Infrared Search & Track: <color=@badTextColor>No</color>
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>";;
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-75°/+55°</color>×<color=@userlogColoredText>±65°</color>";;
+
 "sensors/us_an_awg_9_tiseo";"<color=@linkTextHoverColorLight>AN/AWG-9</color>
     Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
     Surface Target Tracking: <color=@badTextColor>No</color>
     Infrared Search & Track: <color=@badTextColor>No</color>
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>";;
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-75°/+55°</color>×<color=@userlogColoredText>±65°</color>";;
+
+"sensors/us_ma_1";"<color=@linkTextHoverColorLight>MA-1</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+        <color=@badTextColor>RWS</color> - <color=@userlogColoredText>Range-While-Scan</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
+        <color=@badTextColor>ACQ</color> - <color=@userlogColoredText>Target Acquisition</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
+        <color=@badTextColor>STT</color> - <color=@userlogColoredText>Single-Target Track</color> Mode | Aspect: <color=@goodTextColor>All-Aspect</color>
+    Look-Down/Shoot-Down Mode: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+        <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+        <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±53°</color>×<color=@userlogColoredText>±30°</color>";;
 
 //Soviet/Russian Radars
 "sensors/su_tor_search";"TOR-M1";;
@@ -229,11 +274,58 @@ noverify>";"<English>";;
 "sensors/su_srd-1";"SRD-1";;
 "sensors/su_srd-5";"SRD-5";;
 "sensors/cn_rw_30";"RW-30";;
-"sensors/su_rp-5_search";"RP-5";;
-"sensors/su_rp-5_track";"RP-5";;
-"sensors/su_sapphire_21";"Sapphire-21";;
-"sensors/su_sapphire_23";"Sapphire-23D/TP-23";;
-"sensors/su_sapphire_23e";"Sapphire-23E/TP-23-1";;
+"sensors/su_rp-5_search";"<color=@linkTextHoverColorLight>RP-5</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@badTextColor>No</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-16°/+26°</color>×<color=@userlogColoredText>±60°</color>";;
+
+"sensors/su_rp-5_track";"<color=@linkTextHoverColorLight>RP-5</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@badTextColor>No</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-16°/+26°</color>×<color=@userlogColoredText>±60°</color>";;
+
+"sensors/su_sapphire_21";"<color=@linkTextHoverColorLight>Sapphire-21</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@badTextColor>No</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±17°</color>×<color=@userlogColoredText>±30°</color>";;
+
+"sensors/su_sapphire_23";"<color=@linkTextHoverColorLight>Sapphire-23D/TP-23</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Modes:
+            <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+            <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+            <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>
+    Search Azimuth Presets: <color=@goodTextColor>2</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-38°/+43°</color>×<color=@userlogColoredText>±52°</color>";;
+
+"sensors/su_sapphire_23e";"<color=@linkTextHoverColorLight>Sapphire-23E/TP-23-1</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Modes:
+            <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+            <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+            <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>
+    Search Azimuth Presets: <color=@goodTextColor>2</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-42°/+52°</color>×<color=@userlogColoredText>±56°</color>";;
+
 "sensors/su_sapphire_23mla_2";"<color=@linkTextHoverColorLight>Sapphire-23MLA-2/TP-23M</color>
     Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
     Surface Target Tracking: <color=@badTextColor>No</color>
@@ -244,7 +336,10 @@ noverify>";"<English>";;
             <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>";;
+        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>
+    Search Azimuth Presets: <color=@goodTextColor>2</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-42°/+52°</color>×<color=@userlogColoredText>±56°</color>";;
+
 "sensors/su_sapphire_23mla";"Sapphire-23MLA/TP-23M
     Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
     Surface Target Tracking: <color=@badTextColor>No</color>
@@ -255,7 +350,9 @@ noverify>";"<English>";;
             <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>";;
+        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-42°/+52°</color>×<color=@userlogColoredText>±56°</color>";;
+
 "sensors/su_sapphire_23ml";"<color=@linkTextHoverColorLight>Sapphire-23MLA/TP-23M</color>
     Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
     Surface Target Tracking: <color=@badTextColor>No</color>
@@ -266,10 +363,49 @@ noverify>";"<English>";;
             <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
     Look-Up Mode: <color=@goodTextColor>Yes</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>";;
-"sensors/su_n_019";"N019/OEPS-29";;
-"sensors/su_n_010";"N010";;
-"sensors/su_n_001vep";"N001VEP";;
+        LD Type: <color=@badTextColor>MTI</color> - <color=@userlogColoredText>Moving Target Indicator</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-42°/+52°</color>×<color=@userlogColoredText>±56°</color>";;
+
+"sensors/su_n_019";"<color=@linkTextHoverColorLight>N019/OEPS-29</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Modes:
+            <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+            <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+            <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-45°/+60°</color>×<color=@userlogColoredText>±70°</color>";;
+
+"sensors/su_n_010";"<color=@linkTextHoverColorLight>N010</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Modes:
+            <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+            <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+            <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Search Azimuth Presets: <color=@goodTextColor>3</color>
+    Maximum Vertical Gimbal Limit: <color=@userlogColoredText>-40°/+55°</color>×<color=@userlogColoredText>±85°</color>";;
+
+"sensors/su_n_001vep";"<color=@linkTextHoverColorLight>N001VEP</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Modes:
+            <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+            <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+            <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>-55°/+60°</color>×<color=@userlogColoredText>±60°</color>";;
+
 "sensors/su_n_001k";"N001K";;
 "sensors/su_v_004";"V004";;
 "sensors/su_vn_001";"VN001";;
@@ -285,4 +421,69 @@ noverify>";"<English>";;
             <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
     Look-Up Mode: <color=@badTextColor>No</color>
     Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
-        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>";;
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±45°</color>×<color=@userlogColoredText>±70°</color>";;
+
+//Israeli Radars
+"sensors/il_el_m_2001b";"<color=@linkTextHoverColorLight>ELTA EL/M-2001B</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@badTextColor>No</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@badTextColor>No</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Maximum Vertical Gimbal Limit: -8°/8°
+    Maximum Horizontal Gimbal Limit: -8°/8°";;
+"sensors/il_el_m_2032";"ELTA EL/M-2032";;
+"sensors/il_el_m_2052";"<color=@linkTextHoverColorLight>ELTA EL/M-2052</color>
+    Radar Type: <color=@badTextColor>AESA</color> - <color=@userlogColoredText>Active Electronically-Scanned Array</color>
+    Surface Target Tracking: <color=@goodTextColor>Yes</color>
+        Surface Target Tracking Mode:
+            <color=@badTextColor>GMTI</color> - <color=@userlogColoredText>Ground Moving Target Indicator</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@badTextColor>No</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Maximum Vertical Gimbal Limit: <color=@userlogColoredText>±70°</color>×<color=@userlogColoredText>±70°</color>";;
+
+//British Radars
+"sensors/uk_captor_m";"<color=@linkTextHoverColorLight>CAPTOR-M</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@goodTextColor>Yes</color>
+        Surface Target Tracking Mode:
+            <color=@badTextColor>GMTI</color> - <color=@userlogColoredText>Ground Moving Target Indicator</color>
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±60°</color>×<color=@userlogColoredText>±70°</color>";;
+
+"sensors/uk_captor_m_pirate";"<color=@linkTextHoverColorLight>CAPTOR-M</color>
+    Radar Type: <color=@badTextColor>M-Scan</color> - <color=@userlogColoredText>Mechanically-Scanned</color>
+    Surface Target Tracking: <color=@goodTextColor>Yes</color>
+        Surface Target Tracking Mode:
+            <color=@badTextColor>GMTI</color> - <color=@userlogColoredText>Ground Moving Target Indicator</color>
+    Infrared Search & Track: <color=@goodTextColor>Yes</color>
+        IRST Model: <color=@linkTextHoverColorLight>Passive Infrared Airborne Track Equipment (PIRATE)</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±60°</color>×<color=@userlogColoredText>±70°</color>";;
+
+//Sensors, JP
+"sensors/jp_j_apg_2";"<color=@linkTextHoverColorLight>J/APG-2</color>
+    Radar Type: <color=@badTextColor>AESA</color> - <color=@userlogColoredText>Active Electronically-Scanned Array</color>
+    Surface Target Tracking: <color=@goodTextColor>Yes</color>
+        Surface Target Tracking Modes:
+            <color=@badTextColor>GMTI</color> - <color=@userlogColoredText>Ground Moving Target Indicator</color>
+            <color=@badTextColor>SEA</color> - <color=@userlogColoredText>Seaborne Target Tracking</color> Mode
+    Infrared Search & Track: <color=@badTextColor>No</color>
+    Look-Up Mode: <color=@goodTextColor>Yes</color>
+    Look-Down/Shoot-Down Mode: <color=@goodTextColor>Yes</color>
+        LD Type: <color=@badTextColor>PD</color> - <color=@userlogColoredText>Pulse-Doppler</color>
+    Radar Gimbal Limits: <color=@userlogColoredText>±60°</color>×<color=@userlogColoredText>±60°</color>";;
+
+//British Warning Systems
+"sensors/uk_praetorian_lws";"<color=@linkTextHoverColorLight>Praetorian DASS</color>";;
+"sensors/uk_praetorian_mlws";"<color=@linkTextHoverColorLight>Praetorian DASS</color>";;
+"sensors/uk_praetorian_rwr";"<color=@linkTextHoverColorLight>Praetorian DASS</color>";;
