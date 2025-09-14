@@ -1,152 +1,326 @@
 "<ID|readonly|
 noverify>";"<English>";
 
+"saab_a21a_3_shop";"A 21A-3";;
+"saab_a21a_3_0";"Svenska Aeroplan AB | A 21A-3 (1952)";;
+"saab_a21a_3_1";"A 21A-3";;
+"saab_a21a_3_2";"A 21A-3";;
+
+"bf-109g-2_finland_shop";"▄Bf 109 G-2 Mersu";;
+"bf-109g-2_finland_0";"Messerschmitt AG | ▄Bf 109 G-2 | MT ""Mersu""";;
+"bf-109g-2_finland_1";"▄Bf 109 G-2 Mersu";;
+"bf-109g-2_finland_2";"▄Bf 109 G-2";;
+
+"bf-109g-6_finland_shop";"▄Bf 109 G-6/R6 Mersu (Tp)";;
+"bf-109g-6_finland_0";"Messerschmitt AG | ▄Bf 109 G-6 | Rüstatz 6 | MT ""Mersu"" | Tropenausrüstung";;
+"bf-109g-6_finland_1";"▄Bf 109 G-6/R6 Mersu (Tp)";;
+"bf-109g-6_finland_2";"▄Bf 109 G-6/R6 (Tp)";;
+
+"bf-109g-6_erla_finland_shop";"▄Bf 109 G-6/R6 Erla Mersu";;
+"bf-109g-6_erla_finland_0";"Messerschmitt AG | ▄Bf 109 G-6 Erla | Rüstatz 6 | MT ""Mersu""";;
+"bf-109g-6_erla_finland_1";"▄Bf 109 G-6/R6 Erla Mersu";;
+"bf-109g-6_erla_finland_2";"▄Bf 109 G-6/R6 Erla";;
+
+"ffvs_j22_b_shop";"J 22B";;
+"ffvs_j22_b_0";"Kungliga Flygförvaltningens Flygverkstad i Stockholm | J 22B";;
+"ffvs_j22_b_1";"J 22B";;
+"ffvs_j22_b_2";"J 22B";;
+
+"saab_b18b_shop";"B 18B";;
+"saab_b18b_0";"Svenska Aeroplan AB | B 18B";;
+"saab_b18b_1";"B 18B";;
+"saab_b18b_2";"B 18B";;
+
+"saab_t18b_1_shop";"T 18B-1";;
+"saab_t18b_1_0";"Svenska Aeroplan AB | T 18B-1";;
+"saab_t18b_1_1";"T 18B-1";;
+"saab_t18b_1_2";"T 18B-1";;
+
+"saab_t18b_2_shop";"T 18B-2";;
+"saab_t18b_2_0";"Svenska Aeroplan AB | T 18B-2";;
+"saab_t18b_2_1";"T 18B-2";;
+"saab_t18b_2_2";"T 18B-2";;
+
+"pyorremyrsky_shop";"Pyörremyrsky";;
+"pyorremyrsky_0";"Valtion lentokonetehdas | Pyörremyrsky | PM-1 ""Puu-Mersu""";;
+"pyorremyrsky_1";"Pyörremyrsky";;
+"pyorremyrsky_2";"Pyörremyrsky";;
+
+"ffvs_j22_a_shop";"J 22A";;
+"ffvs_j22_a_0";"Kungliga Flygförvaltningens Flygverkstad i Stockholm | J 22A";;
+"ffvs_j22_a_1";"J 22A";;
+"ffvs_j22_a_2";"J 22A";;
+
+"re_2000_j20_shop";"♛J 20 Falco I";;
+"re_2000_j20_0";"Officine Meccaniche Reggiane SA | ♛J 20 | Re.2000 Falco I";;
+"re_2000_j20_1";"♛J 20 Falco I";;
+"re_2000_j20_2";"♛J 20";;
+
+"saab_b18a_shop";"B 18A";;
+"saab_b18a_0";"Svenska Aeroplan AB | B 18A";;
+"saab_b18a_1";"B 18A";;
+"saab_b18a_2";"B 18A";;
+
+"ju-88a-4_finland_shop";"▄Ju 88 A-4 Iso Stuka";;
+"ju-88a-4_finland_0";"Junkers Flugzeug- und Motorenwerke AG | ▄Ju 88 A-4 | JK ""Iso Stuka"" (1943)";;
+"ju-88a-4_finland_1";"▄Ju 88 A-4 Iso Stuka";;
+"ju-88a-4_finland_2";"▄Ju 88 A-4";;
+
+"b_239_finland_shop";"▄B-239E Ryysteri";;
+"b_239_finland_0";"Brewster Aeronautical Corporation | ▄B-239E | BW ""Ryysteri"" (1943)";;
+"b_239_finland_1";"▄B-239E Ryysteri";;
+"b_239_finland_2";"▄B-239E";;
+
+"hurricane_mk1_late_finland_shop";"▄Hurricane Mk.I (1940)";;
+"hurricane_mk1_late_finland_0";"▄Hawker Aircraft, Ltd. | Hurricane | Mk.I | HC ""Hurricane"" (1940)";;
+"hurricane_mk1_late_finland_1";"▄Hurricane Mk.I (1940)";;
+"hurricane_mk1_late_finland_2";"▄Hurricane Mk.I (1940)";;
+
+"morko_morane_shop";"Mörkö-Morane";;
+"morko_morane_0";"Aéroplanes Morane-Saulnier / Valtion lentokonetehdas | Mörkö-Morane | MSv";;
+"morko_morane_1";"Mörkö-Morane";;
+"morko_morane_2";"Mörkö-Morane";;
+
+"fokker_d21_mod20_shop";"▄Fokker D.XXI-3";;
+"fokker_d21_mod20_0";"N.V. Koninklijke Nederlandse Vliegtuigenfabriek Fokker | ▄D.XXI-3 | FRm sarja I ""Ukko-Mokkeri""";;
+"fokker_d21_mod20_1";"▄Fokker D.XXI-3";;
+"fokker_d21_mod20_2";"▄Fokker D.XXI-3";;
+
+"saab_b17a_shop";"B 17A";;
+"saab_b17a_0";"Svenska Aeroplan AB | B 17A";;
+"saab_b17a_1";"B 17A";;
+"saab_b17a_2";"B 17A";;
+
+"saab_b17b_shop";"B 17B";;
+"saab_b17b_0";"Svenska Aeroplan AB | B 17B";;
+"saab_b17b_1";"B 17B";;
+"saab_b17b_2";"B 17B";;
+
+"saab_b17bs_shop";"S 17BS";;
+"saab_b17bs_0";"Svenska Aeroplan AB | S 17BS";;
+"saab_b17bs_1";"S 17BS";;
+"saab_b17bs_2";"S 17BS";;
+
+"fokker_d21_serie3_finland_shop";"▄Fokker D.XXI-3 (1937)";;
+"fokker_d21_serie3_finland_0";"N.V. Koninklijke Nederlandse Vliegtuigenfabriek Fokker | ▄D.XXI-3 | FR-76 ""Ukko-Mokkeri"" (1937)";;
+"fokker_d21_serie3_finland_1";"▄Fokker D.XXI-3 (1937)";;
+"fokker_d21_serie3_finland_2";"▄Fokker D.XXI-3 (1937)";;
+
+"fiat_cr42_j11_shop";"♛J 11 Falco";;
+"fiat_cr42_j11_0";"Fiat Aviazione | ♛J 11 | CR.42 Falco";;
+"fiat_cr42_j11_1";"♛J 11 Falco";;
+"fiat_cr42_j11_2";"♛J 11";;
+
+"gladiator_j8a_iacobi_shop";"♛J 8A Gladiator [Iacobi]";;
+"gladiator_j8a_iacobi_0";"Gloster Aircraft Company | ♛Ian Iacobi's J 8A | Gladiator Mk.II";;
+"gladiator_j8a_iacobi_1";"♛J 8A Gladiator [Iacobi]";;
+"gladiator_j8a_iacobi_2";"♛J 8A [Iacobi]";;
+
+"gladiator_j8a_shop";"♛J 8A Gladiator";;
+"gladiator_j8a_0";"Gloster Aircraft Company | ♛J 8A | Gladiator Mk.II";;
+"gladiator_j8a_1";"♛J 8A Gladiator";;
+"gladiator_j8a_2";"♛J 8A";;
+
+"j6b_shop";"J 6B Jaktfalken";;
+"j6b_0";"Svenska Aeroplan AB | J 6B Jaktfalken";;
+"j6b_1";"J 6B Jaktfalken";;
+"j6b_2";"J 6B";;
+
+"he_115a_2_sweden_shop";"♛T 2";;
+"he_115a_2_sweden_0";"Heinkel Flugzeugwerke | ♛T 2 | He 115 A-2";;
+"he_115a_2_sweden_1";"♛T 2";;
+"he_115a_2_sweden_2";"♛T 2";;
+
+"saab_b3c_shop";"♛B 3C-2";;
+"saab_b3c_0";"♛Junkers Flugzeug- und Motorenwerke AG | B 3C-2 | Ju 86 K-13";;
+"saab_b3c_1";"♛B 3C-2";;
+"saab_b3c_2";"♛B 3C-2";;
+
+"arado-196a-5_shop";"▄Ar 196 A-5";;
+"arado-196a-5_0";"Arado Flugzeugwerke | ▄Ar 196 A-5 | AR";;
+"arado-196a-5_1";"▄Ar 196 A-5";;
+"arado-196a-5_2";"▄Ar 196 A-5";;
+
 "p-51d-20-na_j26_shop";"♛J 26 Mustang";;
-"p-51d-20-na_j26_0";"♛North American Aviation | J 26 Mustang | P-51D Block 20";;
+"p-51d-20-na_j26_0";"North American Aviation | ♛J 26 | P-51D-20 Mustang";;
 "p-51d-20-na_j26_1";"♛J 26 Mustang";;
 "p-51d-20-na_j26_2";"♛J 26";;
 
 "p-51b_7_sweden_shop";"♛J 26 David";;
-"p-51b_7_sweden_0";"♛North American Aviation | J 26 David | P-51B Block 7";;
+"p-51b_7_sweden_0";"North American Aviation | ♛J 26 David | P-51B-7 Mustang";;
 "p-51b_7_sweden_1";"♛J 26 David";;
 "p-51b_7_sweden_2";"♛J 26 David";;
 
-"bf-109g-6_finland_shop";"▄Bf 109 G-6 Messer";;
-"bf-109g-6_finland_0";"▄Messerschmitt AG | Bf 109 G-6 Messer";;
-"bf-109g-6_finland_1";"▄Bf 109 G-6 Messer";;
-"bf-109g-6_finland_2";"▄Bf 109 G-6";;
+"saab_j21a_1_shop";"J 21A-1";;
+"saab_j21a_1_0";"Svenska Aeroplan AB | J 21A-1";;
+"saab_j21a_1_1";"J 21A-1";;
+"saab_j21a_1_2";"J 21A-1";;
+
+"saab_j21ra_shop";"A 21RA";;
+"saab_j21ra_0";"Svenska Aeroplan AB | A 21RA";;
+"saab_j21ra_1";"A 21RA";;
+"saab_j21ra_2";"A 21RA";;
+
+"saab_a21rb_shop";"A 21RB";;
+"saab_a21rb_0";"Svenska Aeroplan AB | A 21RB";;
+"saab_a21rb_1";"A 21RB";;
+"saab_a21rb_2";"A 21RB";;
+
+"saab_j29f_shop";"J 29F Tunnan";;
+"saab_j29f_0";"Svenska Aeroplan AB | J 29F Tunnan";;
+"saab_j29f_1";"J 29F Tunnan";;
+"saab_j29f_2";"J 29F";;
+
+"saab_j29a_shop";"J 29A Tunnan";;
+"saab_j29a_0";"Svenska Aeroplan AB | J 29A Tunnan";;
+"saab_j29a_1";"J 29A Tunnan";;
+"saab_j29a_2";"J 29A";;
+
+"saab_j29b_shop";"A 29B Tunnan";;
+"saab_j29b_0";"Svenska Aeroplan AB | A 29B Tunnan";;
+"saab_j29b_1";"A 29B Tunnan";;
+"saab_j29b_2";"A 29B";;
+
+"saab_j29d_shop";"J 29D Tunnan";;
+"saab_j29d_0";"Svenska Aeroplan AB | J 29D Tunnan | Alt. 2";;
+"saab_j29d_1";"J 29D Tunnan";;
+"saab_j29d_2";"J 29D";;
 
 "saab_sk60b_shop";"SK 60B";;
-"saab_sk60b_0";"Saab AB | SK 60B";;
+"saab_sk60b_0";"Svenska Aeroplan AB | SK 60B";;
 "saab_sk60b_1";"SK 60B";;
 "saab_sk60b_2";"SK 60B";;
 
-"saab_105oe_shop";"Saab 105Ö";;
-"saab_105oe_0";"Saab AB | Saab 105Ö";;
-"saab_105oe_1";"Saab 105Ö";;
-"saab_105oe_2";"Saab 105Ö";;
+"saab_105oe_shop";"◗Saab 105Ö";;
+"saab_105oe_0";"Svenska Aeroplan AB | ◗Saab 105Ö";;
+"saab_105oe_1";"◗Saab 105Ö";;
+"saab_105oe_2";"◗Saab 105Ö";;
 
 "saab_105g_shop";"Saab 105G";;
-"saab_105g_0";"Saab AB | Saab 105G";;
+"saab_105g_0";"Svenska Aeroplan AB | Saab 105G";;
 "saab_105g_1";"Saab 105G";;
 "saab_105g_2";"Saab 105G";;
 
-"hunter_f50_sweden_shop";"♛J 34 Hunter Mk.50";;
-"hunter_f50_sweden_0";"♛Hawker Aircraft, Ltd. | J 34 Hunter Mk.50";;
-"hunter_f50_sweden_1";"♛J 34 Hunter Mk.50";;
+"hunter_f50_sweden_shop";"♛J 34 Hunter";;
+"hunter_f50_sweden_0";"Hawker Aircraft, Ltd. | ♛J 34 | Hunter Mk.50";;
+"hunter_f50_sweden_1";"♛J 34 Hunter";;
 "hunter_f50_sweden_2";"♛J 34";;
 
 "saab_j32b_shop";"J 32B Lansen";;
-"saab_j32b_0";"Saab AB | J 32B Lansen";;
+"saab_j32b_0";"Svenska Aeroplan AB | J 32B Lansen";;
 "saab_j32b_1";"J 32B Lansen";;
 "saab_j32b_2";"J 32B";;
 
 "saab_a32a_shop";"A 32A Lansen";;
-"saab_a32a_0";"Saab AB | A 32A Lansen";;
+"saab_a32a_0";"Svenska Aeroplan AB | A 32A Lansen";;
 "saab_a32a_1";"A 32A Lansen";;
 "saab_a32a_2";"A 32A";;
 
-"saab_a32a_red_adam_shop";"A 32A Lansen «Röd Adam»";;
-"saab_a32a_red_adam_0";"Saab AB | A 32A Lansen «Röd Adam»";;
-"saab_a32a_red_adam_1";"A 32A Lansen «Röd Adam»";;
-"saab_a32a_red_adam_2";"A 32A «Röd Adam»";;
+"saab_a32a_red_adam_shop";"A 32A Lansen (F 17)";;
+"saab_a32a_red_adam_0";"Svenska Aeroplan AB | A 32A Lansen | Blekinge Flygflottilj (F 17 Kallinge)";;
+"saab_a32a_red_adam_1";"A 32A Lansen (F 17)";;
+"saab_a32a_red_adam_2";"A 32A (F 17)";;
 
-"saab_j35xs_shop";"DKS/35S Draken";;
-"saab_j35xs_0";"Saab AB | DKS/35S Draken | J 35XS";;
-"saab_j35xs_1";"DKS/35S Draken";;
-"saab_j35xs_2";"DKS/35S";;
+"saab_j35xs_shop";"▄Saab 35S Draken";;
+"saab_j35xs_0";"Saab-Valmet | ▄Saab 35S Draken | DKS ""Silitysrauta"" (1993)";;
+"saab_j35xs_1";"▄Saab 35S Draken";;
+"saab_j35xs_2";"▄Saab 35S";;
 
-"saab_f35_wdns_shop";"F-35 Draken (WDNS)";;
-"saab_f35_wdns_0";"Saab AB | F-35 Draken | Weapon Delivery and Navigation System";;
-"saab_f35_wdns_1";"F-35 Draken (WDNS)";;
-"saab_f35_wdns_2";"F-35 (WDNS)";;
+"saab_f35_wdns_shop";"♔F-35 WDNS Draken";;
+"saab_f35_wdns_0";"Saab-Scania AB | ♔F-35 Draken | Weapon Delivery and Navigation System";;
+"saab_f35_wdns_1";"♔F-35 WDNS Draken";;
+"saab_f35_wdns_2";"♔F-35 WDNS";;
 
 "saab_j35d_shop";"J 35D Draken";;
-"saab_j35d_0";"Saab AB | J 35D Draken";;
+"saab_j35d_0";"Svenska Aeroplan AB | J 35D Draken";;
 "saab_j35d_1";"J 35D Draken";;
 "saab_j35d_2";"J 35D";;
 
 "saab_aj37_shop";"AJ 37 Viggen";;
-"saab_aj37_0";"Saab AB | AJ 37 Viggen";;
+"saab_aj37_0";"Saab-Scania AB | AJ 37 Viggen";;
 "saab_aj37_1";"AJ 37 Viggen";;
 "saab_aj37_2";"AJ 37";;
 
 "saab_ajs37_shop";"AJS 37 Viggen";;
-"saab_ajs37_0";"Saab AB | AJS 37 Viggen";;
+"saab_ajs37_0";"Saab-Scania AB | AJS 37 Viggen";;
 "saab_ajs37_1";"AJS 37 Viggen";;
 "saab_ajs37_2";"AJS 37";;
 
-"mig_21_bis_finland_shop";"▄MiG-21bis Fishbed-L";;
-"mig_21_bis_finland_0";"▄OKB-155 ""Mikoyan i Gurevich"" | MiG-21bis Fishbed-L | Product 75A";;
-"mig_21_bis_finland_1";"▄MiG-21bis Fishbed-L";;
+"mig_21_bis_finland_shop";"▄MiG-21bis Fishbed-N";;
+"mig_21_bis_finland_0";"OKB-155 ""Mikoyan"" | ▄MiG-21bis Fishbed-N | MGB ""Konelan putki"" (1985)";;
+"mig_21_bis_finland_1";"▄MiG-21bis Fishbed-N";;
 "mig_21_bis_finland_2";"▄MiG-21bis";;
 
-"f-5ag_norway_shop";"◢F-5A(G) Tiger-PAWS";;
-"f-5ag_norway_0";"◢Northrop Corporation | F-5A(G) Tiger-PAWS";;
-"f-5ag_norway_1";"◢F-5A(G) Tiger-PAWS";;
-"f-5ag_norway_2";"◢F-5A(G)";;
+"f-5ag_norway_shop";"◢F-5A(G)-40 Freedom Fighter (Tiger-PAWS)";;
+"f-5ag_norway_0";"Northrop Corporation | ◢F-5A(G)-40 Freedom Fighter | Tiger Program for Avionics and Weapons Systems (PAWS) | Eye of the Tiger Program (2007)";;
+"f-5ag_norway_1";"◢F-5A(G)-40 Freedom Fighter (Tiger-PAWS)";;
+"f-5ag_norway_2";"◢F-5A(G)-40 (Tiger-PAWS)";;
 
 "saab_ja37_shop";"JA 37C Jaktviggen";;
-"saab_ja37_0";"Saab AB | JA 37C Jaktviggen";;
+"saab_ja37_0";"Saab-Scania AB | JA 37C Jaktviggen";;
 "saab_ja37_1";"JA 37C Jaktviggen";;
 "saab_ja37_2";"JA 37C";;
 
 "saab_ja37d_shop";"JA 37D Jaktviggen";;
-"saab_ja37d_0";"Saab AB | JA 37D Jaktviggen";;
+"saab_ja37d_0";"Saab-Scania AB | JA 37D Jaktviggen";;
 "saab_ja37d_1";"JA 37D Jaktviggen";;
 "saab_ja37d_2";"JA 37D";;
 
 "saab_ja37di_shop";"JA 37DI Jaktviggen";;
-"saab_ja37di_0";"Saab AB | JA 37DI Jaktviggen";;
+"saab_ja37di_0";"Saab-Scania AB | JA 37DI Jaktviggen";;
 "saab_ja37di_1";"JA 37DI Jaktviggen";;
 "saab_ja37di_2";"JA 37DI";;
 
-"saab_ja37di_f21_shop";"JA 37DI Jaktviggen (F 21 Luleå)";;
-"saab_ja37di_f21_0";"Saab AB | JA 37DI Jaktviggen | Norrbotten Wing, F 21 Luleå";;
-"saab_ja37di_f21_1";"JA 37DI Jaktviggen (F 21 Luleå)";;
+"saab_ja37di_f21_shop";"JA 37DI Jaktviggen (F 21)";;
+"saab_ja37di_f21_0";"Saab-Scania AB | JA 37DI Jaktviggen | Norrbottens Flygflottilj (F 21 Luleå)";;
+"saab_ja37di_f21_1";"JA 37DI Jaktviggen (F 21)";;
 "saab_ja37di_f21_2";"JA 37DI (F 21)";;
 
 "saab_jas39a_shop";"JAS 39A Gripen A";;
-"saab_jas39a_0";"Saab AB | JAS 39A Gripen A";;
+"saab_jas39a_0";"Saab AB | JAS 39A Gripen A (2011)";;
 "saab_jas39a_1";"JAS 39A Gripen A";;
 "saab_jas39a_2";"JAS 39A";;
 
 "saab_jas39c_shop";"JAS 39C Gripen C";;
-"saab_jas39c_0";"Saab AB | JAS 39C Gripen C";;
+"saab_jas39c_0";"Saab AB | JAS 39C Gripen C (2011)";;
 "saab_jas39c_1";"JAS 39C Gripen C";;
 "saab_jas39c_2";"JAS 39C";;
 
 "fa_18c_finland_shop";"▄F-18C Hornet";;
-"fa_18c_finland_0";"▄Patria Group PLC | F-18C Hornet";;
+"fa_18c_finland_0";"McDonnell Douglas Corporation / Patria Group PLC | ▄F-18C Hornet | HN";;
 "fa_18c_finland_1";"▄F-18C Hornet";;
 "fa_18c_finland_2";"▄F-18C";;
 
 "fa_18c_mlu_2_finland_shop";"▄F/A-18C Hornet MLU 2";;
-"fa_18c_mlu_2_finland_0";"▄Patria Group PLC | F/A-18C Hornet | Mid-Life Upgrade 2";;
+"fa_18c_mlu_2_finland_0";"McDonnell Douglas Corporation / Patria Group PLC | ▄F/A-18C Hornet | HN | Mid-Life Upgrade 2";;
 "fa_18c_mlu_2_finland_1";"▄F/A-18C Hornet MLU 2";;
 "fa_18c_mlu_2_finland_2";"▄F/A-18C MLU 2";;
 
-"vampire_fb5_j28b_shop";"♛J 28B Vampire Mk.50";;
-"vampire_fb5_j28b_0";"♛de Havilland Aircraft Company, Ltd. | J 28B Vampire Mk.50";;
-"vampire_fb5_j28b_1";"♛J 28B Vampire Mk.50";;
+"vampire_fb5_j28b_shop";"♛J 28B Vampire";;
+"vampire_fb5_j28b_0";"de Havilland Aircraft Company, Ltd. | ♛J 28B | Vampire Mk.50";;
+"vampire_fb5_j28b_1";"♛J 28B Vampire";;
 "vampire_fb5_j28b_2";"♛J 28B";;
 
 "vampire_fb52_finland_shop";"▄Vampire Mk.52A";;
-"vampire_fb52_finland_0";"▄de Havilland Aircraft Company, Ltd. | DH.100 Vampire Mk.52A";;
+"vampire_fb52_finland_0";"de Havilland Aircraft Company, Ltd. | ▄DH.100 Vampire Mk.52A | VA ""Vamppi""";;
 "vampire_fb52_finland_1";"▄Vampire Mk.52A";;
 "vampire_fb52_finland_2";"▄Vampire Mk.52A";;
 
-"saab_j35a_shop";"J 35A Draken";;
-"saab_j35a_0";"Saab AB | J 35A Draken";;
-"saab_j35a_1";"J 35A Draken";;
-"saab_j35a_2";"J 35A";;
+"saab_j35a_shop";"J 35A-1 Draken";;
+"saab_j35a_0";"Svenska Aeroplan AB | J 35A-1 Draken ""Adam Kort""";;
+"saab_j35a_1";"J 35A-1 Draken";;
+"saab_j35a_2";"J 35A-1";;
 
-"shop/group/bf_109g_sweden_group";"▄Bf 109G Messer";;
+"shop/group/bf_109g_sweden_group";"▄Bf 109G Mersu";;
 "shop/group/saab_ja37d_group";"JA37D/DI Jaktviggen";;
-"shop/group/vampire_fb_group";"Vampire Mk.50/52A";;
+"shop/group/vampire_fb_group";"♛J 28B/Vampire Mk.52A";;
+"shop/group/saab_j21a_group";"J 21A";;
+"shop/group/saab_t18b_group";"T 18B";;
+"shop/group/saab_b17a_group";"B 17A/B";;
+"shop/group/gladiator_j8a_group";"♛J 8A/J 6B";;
 
 //Ground Vehicles
 "sw_eldenhet_98_shop";"Eldenhet 98 IRIS-T SLS";;
-"sw_eldenhet_98_0";"Saab AB | Eldenhet 98 IRIS-T SLS";;
+"sw_eldenhet_98_0";"Svenska Aeroplan AB | Eldenhet 98 IRIS-T SLS";;
 "sw_eldenhet_98_1";"Eldenhet 98 IRIS-T SLS";;
 "sw_eldenhet_98_2";"Elde 98";;

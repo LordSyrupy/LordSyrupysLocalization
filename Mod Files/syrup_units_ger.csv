@@ -809,14 +809,3 @@ noverify>";"<English>";
 "shop/group/he_112_group";"He 112 A-0";;
 "shop/group/ju-87g_group";"Ju 87G Stuka";;
 "shop/group/ju-87br_group";"Ju 87B/R Stuka";;
-
-//Ground Units
-"germ_iris_slm_launcher_shop";"IRIS-T SLM (MAN SX45 TEL)";;
-"germ_iris_slm_launcher_0";"Diehl Defence GmbH | IRIS-T SLM | Rheinmetall MAN SX45 Transporter Erector Launcher";;
-"germ_iris_slm_launcher_1";"IRIS-T SLM (MAN SX45 TEL)";;
-"germ_iris_slm_launcher_2";"IRIS-T SLM (TEL)";;
-
-"germ_iris_slm_fcs_shop";"IRIS-T SLM (MAN SX45 TOC)";;
-"germ_iris_slm_fcs_0";"Diehl Defence GmbH | IRIS-T SLM | Rheinmetall MAN SX45 Tactical Operations Center";;
-"germ_iris_slm_fcs_1";"IRIS-T SLM (MAN SX45 TOC)";;
-"germ_iris_slm_fcs_2";"IRIS-T SLM (TOC)";;

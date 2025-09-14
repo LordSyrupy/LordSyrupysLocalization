@@ -1,3 +1,1947 @@
+VERSION 0.4 CHANGELOG
+RELEASE DATE: 09/14/2025
+- Removed reworks for ground vehicles added in the Leviathans update
+
+- Tweaked and heavily reworked radar statcards
+   - Changed the names of the following radar statcard items:
+     - STT SARH - Single-Target Track, Semi-Active Radar Homing Mode --> CW - Continuous-Wave Guidance Mode
+     - LRS - Long-Range Search Mode --> BVR - Beyond Visual-Range Combat Mode
+     - Look-Down Sub-Modes --> Radar Sub-Modes
+     - MTI - Moving Target Indication --> AMTI - Airborne Moving Target Indication
+     - Radar/IRST --> Radar/IRST - Radar + Infrared Search-and-Track Sensor
+     - Search IRST --> IRST - Non-Tracking Infrared Search-and-Track Sensor
+     - Track IRST --> IRST - Target-Tracking Infrared Search-and-Track Sensor
+     - Search Radar/IRST --> Radar/IRST - Search Radar + Infrared Search-and-Track Sensor
+     - Track Radar/IRST --> Radar/IRST - Tracking Radar + Infrared Search-and-Track Sensor
+     - Search Radar/TV --> Radar/TV - Search Radar + Television Camera
+     - Track Radar/TV --> Radar/TV - Tracking Radar + Television Camera
+     - Radar/TV tracker --> Radar/TV - Radar + Target-Tracking Television Camera
+     - Search TV --> TV - Non-Tracking Television Camera
+     - TV Tracker --> TV - Target-Tracking Television Camera
+     - TV --> TV - Television Camera
+     - LLTV --> LLTV - Low-Light Television Camera
+     - FLIR --> FLIR - Forward-Looking Infrared Camera
+     - Changed all instances of PD in the "Radar Sub-Modes" category to LD
+   - Changed the names of the following pilot statcard items:
+     - Type --> Avionics Suite
+     - Radar --> Avionics Suite
+     - HMS - Helmet-Mounted System --> HMS - Helmet-Mounted Sight
+     - IRCM - Infrared Countermeasures --> DIRCM - Directional Infrared Countermeasures
+   - Changed the names of the following radar models:
+     - N001 --> N001 Myech
+     - N001VEP Mech --> N001VESh Myech
+     - N001K Mech --> N001K Myech
+     - N011M --> N011M Bars
+     - Sapphire-21 --> RP-21 Sapfir
+     - Sapphire-23 --> RP-23 Sapfir (all models)
+     - RP-5 --> RP-5 Izumrud
+   - Added new information to the following sensor types:
+     - Radar Rangefinder
+       - ACQ - Rangefinder Target Acquisition Mode
+       - STT - Single-Target Track Mode
+   - Added new information to the following radar models:
+     - N010
+       - IRST Model: OLS-UE
+     - N010M
+       - IRST Model: OLS-UEM
+     - N001, N001VEP, N001K
+       - IRST Model: OLS-27
+     - CAPTOR-M
+       - IRST Model: Passive Infrared Airborne Track Equipment (PIRATE)
+   - Rearranged radar statcard formatting, both for readability and to make working on radar statcards easier.
+     - IRST Model is now displayed beneath Radar Model on the statcard for the following radars:
+       - Sapphire-23 (all models)
+       - MA-1
+       - N001 (all models)
+       - CAPTOR-M
+       - N010 (all models)
+       - N011M
+       - N019 (all models)
+     - Removed the Infrared Search-and-Track: Yes/No line, as it was redundant and didn't communicate any useful information to the player. For radar sets with an IRST sensor, the information which was displayed on this line (the various IRST modes) has been moved to the line denoting the radar's type
+     - Removed the lists of sub-modes from the "Look-Up/Look-Down Mode" and "Infrared Search-and-Track: Yes/No" lines. Basic radar/IRST sub-modes are now listed under the "Type" line
+   - Changed the names of radar frequency bands to include their frequency in MHz (for frequencies below 1 GHz) and GHz (for frequencies above 1 GHz)
+   - Changed the "Look-Up Modes: Yes/No" and "Look-Down Modes: Yes/No" lines
+     - Removed the "Yes/No" and replaced it with the type of look-up or look-down mode the radar possesses
+     - Added "Ground Clutter/Chaff Filtering: Yes/No" next to the look-up/look-down mode, separated by a vertical line
+   - Added short descriptions to the following statcard items:
+     - RWS - Range-While-Scan Mode
+     - LD-VS - Look-Down Velocity-Search Mode
+     - TWS - Look-Down Track-While-Scan Mode
+     - TWS+ - Look-Down Track-While-Scan+ Mode
+     - ESA TWS - Electronically-Scanned Array Look-Down Track-While-Scan Mode
+     - IFF - Identification, Friend-or-Foe
+     - BVR - Beyond-Visual-Range Combat Mode
+     - ACM - Air Combat Mode
+     - HMS - Helmet-Mounted Sight
+     - NCTR - Non-Cooperative Target Recognition
+     - CW - Continuous-Wave Guidance Mode
+     - DL - Radar/Missile Datalink
+     - Range by Signal Strength: Yes
+   - Added "Radar Period", "Radar Scan Speed", and "Notch Gate" lines to certain radars
+   - Added an "Aspect" line to the radar modes in the "Radar Sub-Modes" category
+
+- Changed the names of the following radar modes on the HUD:
+   - Look-Up Modes
+     - STDBY --> STBY
+     - RWS --> P-RWS
+     - ACQ --> P-ACQ
+     - ACM --> P-ACM
+     - HMS --> P-HMS
+     - STT --> P-STT
+   - Look-Down Modes
+     - LD --> LD STBY
+     - LD RWS --> LD-RWS
+     - ACQ --> LD-ACQ
+     - ACM --> LD-ACM
+     - STT --> LD-STT
+   - Pulse-Doppler Velocity Search Modes
+     - PD VS --> PD-VS STBY
+     - PD VS RWS --> PD-VS
+     - PD VS ACQ --> PD-VS ACQ
+     - PD ACM --> PD-VS ACM
+     - BST PD --> PD-VS BST
+     - PD VS HDN STBY --> PD-VS STBY
+     - PD VS HDN RWS --> PD-VS
+     - PD VS HDN ACQ --> PD-VS ACQ
+     - PD VS HDN ACM --> PD-VS ACM
+   - Pulse-Doppler Modes
+     - PD --> PD STBY
+     - PD RWS --> PD-RWS
+     - PD ACQ --> PD-ACQ
+     - PD ACM --> PD-ACM
+     - PD HMS --> PD-HMS
+     - PD BST --> PD-BST
+     - PD STT --> PD-STT
+     - PD RAM --> RAM
+   - Pulse-Doppler Headon Modes
+     - PD --> PD HDN STBY
+     - PD HDN RWS --> PD-RWS HDN
+     - PD HDN ACQ --> PD-ACQ HDN
+     - PD HDN ACM --> PD-ACM HDN
+     - PD HDN HMS --> PD-HMS HDN
+     - PD HDN BST --> PD-BST HDN
+     - PD HDN STT --> PD-STT HDN
+   - GMTI Modes
+     - GMTI --> GMTI STBY
+     - GMTI RWS --> GMTI-RWS
+     - GMTI ACQ --> GMTI-ACQ
+     - GMTI ACM --> GMTI-BST
+     - GMTI BST --> GMTI-BST
+     - GMTI STT --> GMTI-STT
+   - Sea Modes
+     - SEA --> SEA STBY
+     - SEA RWS --> SEA-RWS
+     - SEA ACQ --> SEA-ACQ
+     - SEA ACM --> SEA-BST
+     - SEA BST --> SEA-BST
+     - SEA TRK --> SEA-STT
+   - MTI Modes
+     - MTI --> AMTI STBY
+     - MTI RWS --> AMTI-RWS
+     - MTI ACQ --> AMTI-ACQ
+     - MTI ACM --> AMTI-ACM
+     - MTI STT --> AMTI-STT
+   - TWS Modes
+     - TWS --> TWS STBY
+     - TWS --> TWS
+     - PD ACQ --> PD-ACQ
+     - PD ACM --> PD-ACM
+     - PD BST --> PD-BST
+     - PD STT --> PD-STT
+   - TWS Headon Modes
+     - TWS HDN STBY --> TWS HDN STBY
+     - TWS HDN --> TWS HDN
+     - PD HDN ACQ --> PD-ACQ HDN
+     - PD HDN ACM --> PD-ACM HDN
+     - PD HDN BST --> PD-BST HDN
+     - PD HDN STT --> PD-STT HDN
+   - TWS GMTI Modes
+     - GMTI TWS STBY --> GMTI-TWS STDBY
+     - GMTI TWS --> GMTI-TWS
+     - GMTI ACQ --> GMTI-ACQ
+     - GMTI ACM --> GMTI-BST
+     - GMTI BST --> GMTI-BST
+     - GMTI STT --> GMTI-STT
+   - TWS SEA Modes
+     - SEA TWS STDBY --> SEA-TWS STBY
+     - SEA TWS --> SEA-TWS
+     - SEA ACQ --> SEA-ACQ
+     - SEA ACM --> SEA-BST
+     - SEA BST --> SEA-BST
+     - SEA STT --> SEA-STT
+   - IRST Modes
+     - IRST STDBY --> IRST STBY
+     - SRC IR --> IR-SRC
+     - ACQ IR --> IR-ACQ
+     - ACM IR --> IR-ACM
+     - HMS IR --> IR-HMS
+     - STT IR --> IR-STT
+
+- Changed the names of the following Chinese aircraft:
+   - Gladiator Mk I [CHN]
+     - Gladiator Mk I --> Gladiator Mk. I — in shop
+     - Gladiator Mk I --> Gloster Aircraft Company | Gladiator Mk. I "Gé Jī" — on statcard
+     - Gladiator --> Gladiator Mk. I — at medium distance
+     - Gladiator --> Gladiator Mk. I — at long distance
+   - Ki-27 Otsu [CHN]
+     - Ki-27 Otsu --> Ki 27 Yi — in shop
+     - Ki-27 Otsu --> Nakajima Aircraft | Ki 27 Yi | Type 97 Fighter Yi — on statcard
+     - Ki-27 --> Ki 27 Yi — at medium distance
+     - Ki-27 --> Ki 27 Yi — at long distance
+   - Ki-43-III Ko [CHN]
+     - Ki-43-III Ko --> Ki 43-III Jia Sun — in shop
+     - Ki-43-III Ko Hayabusa --> Nakajima Aircraft Company / Tachikawa Aircraft Company | Ki 43-III Jia | Type 1 Fighter Model 3 Jia "Sun" — on statcard
+     - Ki-43 --> Ki 43-III Jia — at medium distance
+     - Ki-43 --> Ki 43-III Jia — at long distance
+   - CW-21
+     - CW-21 --> C.W.21 — in shop
+     - CW-21 --> Curtiss-Wright Corporation | C.W.21 — on statcard
+     - CW-21 --> C.W.21 — at medium distance
+     - CW-21 --> C.W.21 — at long distance
+   - I-15bis [CHN]
+     - I-15bis --> E-15bis Qishik — in shop
+     - I-15bis --> TsKB-39 "Polikarpov" | E-15bis Qishik | I-15bis — on statcard
+     - I-15 --> E-15bis Qishik — at medium distance
+     - I-15 --> E-15bis — at long distance
+   - I-16 type 5 [CHN]
+     - I-16 type 5 --> E-16-5 Ishak — in shop
+     - I-16 type 5 --> TsKB-39 "Polikarpov" | E-16-5 Ishak | I-16 Type 5 — on statcard
+     - I-16 --> E-16-5 Ishak — at medium distance
+     - I-16 --> E-16-5 — at long distance
+   - I-16 type 10 [CHN]
+     - I-16 type 10 --> E-16-10 Ishak — in shop
+     - I-16 type 10 --> TsKB-39 "Polikarpov" | E-16-10 Ishak | I-16 Type 10 — on statcard
+     - I-16 --> E-16-10 Ishak — at medium distance
+     - I-16 --> E-16-10 — at long distance
+   - I-16 type 17 [CHN]
+     - I-16 type 17 --> E-16-17 Ishak — in shop
+     - I-16 type 17 --> TsKB-39 "Polikarpov" | E-16-17 Ishak | I-16 Type 17 — on statcard
+     - I-16 --> E-16-17 Ishak — at medium distance
+     - I-16 --> E-16-17 — at long distance
+   - I-16 Chung 28 [CHN]
+     - I-16 Chung 28 --> Zhōng 28 Jia — in shop
+     - I-16 Chung 28 --> TsKB-39 "Polikarpov" / Central Aircraft Manufacturing Company | Zhōng 28 Jia — on statcard
+     - I-16 --> Zhōng 28 Jia — at medium distance
+     - I-16 --> Zhōng 28 Jia — at long distance
+   - I-153 M-62 [CHN]
+     - I-153 M-62 --> E-153 Qishik — in shop
+     - I-153 M-62 --> TsKB-39 "Polikarpov" | E-153 Qishik | I-153 Chaika (ASh-62) — on statcard
+     - I-153 --> E-153 Qishik — at medium distance
+     - I-153 --> E-153 — at long distance
+   - V-11
+     - V-11 --> V-11-G — in shop
+     - V-11 --> Vultee Aircraft | V-11-G — on statcard
+     - V-11 --> V-11-G — at medium distance
+     - V-11 --> V-11-G — at long distance
+   - V-11
+     - V-12D --> V-12-D — in shop
+     - V-12D --> Vultee Aircraft | V-12-D — on statcard
+     - V-12D --> V-12-D — at medium distance
+     - V-12D --> V-12-D — at long distance
+   - Hs 123 A-1 [CHN]
+     - Hs 123 A-1 --> Hs 123 A-1 Héng Jī — in shop
+     - Hs 123 A-1 --> Henschel Flugzeug-Werke | Hs 123 A-1 "Héng Jī" — on statcard
+     - Hs 123 A --> Hs 123 A-1 Héng Jī — at medium distance
+     - Hs 123 --> Hs 123 A-1 — at long distance
+   - Martin 139WC
+     - Martin 139WC --> Glenn L. Martin Company | Martin Model 139WC — on statcard
+     - Martin 139 --> Martin 139WC — at long distance
+   - Hawk III
+     - Hawk III --> Curtiss-Wright Corporation | Hawk III — on statcard
+     - Hawk --> Hawk III — at long distance
+   - D.510C [CHN]
+     - D.510C --> D.510C Dì Jī — in shop
+     - D.510C --> Constructions Aéronautiques Émile Dewoitine | D.510C "Dì Jī" — on statcard
+     - D.510C --> D.510C Dì Jī — at medium distance
+   - P-66
+     - P-66 --> P-48-C Vanguard — in shop
+     - P-66 --> Vultee Aircraft | P-48-C Vanguard | P-66 Vanguard — on statcard
+     - P-66 --> P-48-C Vanguard — at medium distance
+     - P-66 --> P-48-C — at long distance
+   - P-40E-1 Kittyhawk [CHN]
+     - P-40E-1 Kittyhawk --> P-40E Kittyhawk — in shop
+     - P-40E-1 Kittyhawk --> Curtiss-Wright Corporation | P-40E Kittyhawk — on statcard
+     - P-40E-1 Kittyhawk --> P-40E Kittyhawk — at medium distance
+     - P-40E-1 --> P-40E — at long distance
+   - A-29
+     - A-29 --> A-29 Hudson — in shop
+     - A-29 --> Lockheed Corporation | A-29 — on statcard
+     - A-29 --> A-29 Hudson — at medium distance
+   - DB-3A [CHN]
+     - DB-3A --> D.B.3 — in shop
+     - DB-3A --> OKB-39 "Ilyushin" | D.B.3 | DB-3A — on statcard
+     - DB-3A --> D.B.3 — at medium distance
+     - DB-3 --> D.B.3 — at long distance
+   - SB 2M-103U [CHN]
+     - SB 2M-103U --> C.B. (M-103U) — in shop
+     - SB 2M-103U --> OKB-156 "Tupolev" | C.B. (M-103U) | SB (M-103U) — on statcard
+     - SB 2M --> C.B. (M-103U) — at medium distance
+     - SB 2M --> C.B. — at long distance
+   - P1Y1 mod. 11 [CHN]
+     - P1Y1 mod. 11 --> P1Y1 — in shop
+     - P1Y1 mod. 11 --> Nakajima Aircraft Company | P1Y1 | Ginga Model 11 — on statcard
+     - P1Y1 mod. 11 --> P1Y1 — at medium distance
+   - H-81A-2 Warhawk
+     - H-81A-2 Warhawk --> Hawk 81A-3 — in shop
+     - Curtiss-Wright Corporation | H-81A-2 Warhawk | Block 2 --> Curtiss-Wright Corporation | Hawk Model 81A-3 — on statcard
+     - H-81A-2 Warhawk --> Hawk 81A-3 — at medium distance
+     - H-81A-2 --> Hawk 81A-3 — at long distance
+   - Ki-45 Hei/Tei [CHN]
+     - Ki-45 Hei/Tei --> Ki 45 Gai Bing Tú Lóng (Dīng) — in shop
+     - Ki-45 Hei/Tei Toryu --> Kawasaki Aircaft Company | Ki 45 Gai Bing "Tú Lóng" | Type 2 Twin-Seat Fighter Model 3 Bing "Tú Lóng" | Dīng Equipment — on statcard
+     - Ki-45 Hei/Tei --> Ki 45 Gai Bing Tú Lóng — at medium distance
+     - Ki-45 --> Ki 45 Gai Bing — at long distance
+   - P-47D-30 Thunderbolt [CHN]
+     - P-47D-30 Thunderbolt --> F-47D-30 Thunderbolt — in shop
+     - Republic Aviation Corporation | P-47D-30 Thunderbolt | Block 30 --> Republic Aviation Corporation | F-47D-30 Thunderbolt | Block 30 — on statcard
+     - P-47D-30 Thunderbolt --> F-47D-30 Thunderbolt — at medium distance
+     - P-47D-30 --> F-47D-30 — at long distance
+   - P-51C-11 Mustang [CHN]
+     - North American Aviation | P-51C-11 Mustang | Block 11 --> North American Aviation | P-51C-11 Mustang ""Yema Jī"" | Block 11 — on statcard
+   - P-51D-20 Mustang [CHN]
+     - P-51D-20 Mustang --> F-51D-20 Mustang — in shop
+     - North American Aviation | P-51D-20 Mustang | Block 20 --> North American Aviation | F-51D-20 Mustang ""Yema Jī"" | Block 20 — on statcard
+     - P-51D-20 Mustang --> F-51D-20 Mustang — at medium distance
+     - P-51D-20 --> F-51D-20 — at long distance
+   - P-51K Mustang [CHN]
+     - P-51K Mustang --> F-51K-15 Mustang — in shop
+     - North American Aviation | P-51K Mustang --> North American Aviation | F-51K-15 Mustang ""Yema Jī"" | Block 15 — on statcard
+     - P-51K Mustang --> F-51K-15 Mustang — at medium distance
+     - P-51K --> F-51K-15 — at long distance
+   - Ki-44-II Hei [CHN]
+     - Ki-44-II Hei --> Ki 44-II Bing Zhōngkuí — in shop
+     - Ki-44-II Hei Shoki --> Nakajima Aircraft Company | Ki 44-II Bing "Zhōngkuí" | Type 2 Fighter Model 2 Bing "Zhōngkuí" — on statcard
+     - Ki-44-II --> Ki 44-II Bing Zhōngkuí — at medium distance
+     - Ki-44 --> Ki 44-II Bing — at long distance
+   - Ki-61-I Otsu [CHN]
+     - Ki-61-I Otsu --> Ki 61-I Yi Fēiyàn — in shop
+     - Ki-61-I Otsu Hien --> Kawasaki Aircraft Company | Ki 61-I Yi "Fēiyàn" | Type 3 Fighter Model 1 Yi "Fēiyàn" — on statcard
+     - Ki-61-I --> Ki 61-I Yi Fēiyàn — at medium distance
+     - Ki-61 --> Ki 61-I Yi — at long distance
+   - A6M2 [CHN]
+     - A6M2 --> A6M2 Líng — in shop
+     - A6M2 Reisen --> Mitsubishi Heavy Industries | A6M2 "Líng" | Type 0 Fighter Model 21 "Líng" — on statcard
+     - A6M2 --> A6M2 Líng — at medium distance
+   - La-11 [CHN]
+     - La-11 --> La-11 Fang — in shop
+     - La-11 --> OKB-301 "Lavochkin" | La-11 Fang — on statcard
+     - La-11 --> La-11 Fang — at medium distance
+     - La-11 --> La-11 — at long distance
+   - La-9 [CHN]
+     - La-9 --> La-9 Fritz — in shop
+     - La-9 --> OKB-301 "Lavochkin" | La-9 Fritz — on statcard
+     - La-9 --> La-9 Fritz — at medium distance
+     - La-9 --> La-9 — at long distance
+   - IL-10 (1946) [CHN]
+     - IL-10 (1946) --> Il-10 Beast (1947) — in shop
+     - IL-10 (1946) --> OKB-39 "Ilyushin" | Il-10 Beast (1947) — on statcard
+     - IL-10 --> Il-10 Beast (1947) — at medium distance
+     - IL-10 --> Il-10 (1947) — at long distance
+   - PB4Y-2 Privateer [CHN]
+     - PB4Y-2 Privateer --> P4Y-2 Privateer — in shop
+     - Consolidated Aircraft Corporation | PB4Y-2 Privateer --> Consolidated Aircraft Corporation | P4Y-2 Privateer — on statcard
+     - PB4Y-2 Privateer --> P4Y-2 Privateer — at medium distance
+     - PB4Y-2 --> P4Y-2 — at long distance
+   - Tu-2S-44 [CHN]
+     - Tu-2S-44 --> Tu-2S-44 Bat — in shop
+     - Tu-2S-44 --> OKB-156 "Tupolev" | Tu-2S series 44 Bat — on statcard
+     - Tu-2S --> Tu-2S-44 Bat — at medium distance
+     - Tu-2 --> Tu-2S-44 — at long distance
+   - Ki-84 Ko [CHN]
+     - Ki-84 Ko --> Ki 84-I Jia Jífēng — in shop
+     - Ki-84 Ko Hayate --> Nakajima Aircraft Company | Ki 84-I Jia "Jífēng" | Type 4 Fighter Model 1 Jia "Jífēng" — on statcard
+     - Ki-84 --> Ki 84-I Jia Jífēng — at medium distance
+     - Ki-84 --> Ki 84-I Jia — at long distance
+   - MiG-9 Fargo (1948) [CHN]
+     - MiG-9 Fargo (1948) --> I-307 Fargo — in shop
+     - OKB-155 "Mikoyan i Gurevich" | MiG-9 Fargo (1948) --> OKB-155 "Mikoyan i Gurevich" | I-307 Fargo — on statcard
+     - MiG-9 Fargo (1948) --> I-307 Fargo — at medium distance
+     - MiG-9 (1948) --> I-307 — at long distance
+   - Tu-4 [CHN]
+     - Tu-4 --> Tu-4 Bull — in shop
+     - Tu-4 --> OKB-156 "Tupolev" | Tu-4 Bull — on statcard
+     - Tu-4 --> Tu-4 Bull — at medium distance
+     - Tu-4 --> Tu-4 — at long distance
+   - H-5 Beagle
+     - H-5 Beagle --> Il-28 Beagle — in shop
+     - Harbin Aircraft Manufacturing Corporation | Il-28 Beagle --> OKB-39 "Ilyushin" | Il-28 Beagle — on statcard
+     - H-5 Beagle --> Il-28 Beagle — at medium distance
+     - H-5 --> Il-28 — at long distance
+   - F-100A Super Sabre [CHN]
+     - F-100A Super Sabre --> F-100A-16 Super Sabre — in shop
+     - North American Aviation | F-100A Super Sabre --> North American Aviation | F-100A-16 Super Sabre | Block 16 — on statcard
+     - F-100A Super Sabre --> F-100A-16 Super Sabre — at medium distance
+     - F-100A --> F-100A-16 — at long distance
+   - F-100F Super Sabre [CHN]
+     - F-100F Super Sabre --> F-100F-6 Super Sabre — in shop
+     - North American Aviation | F-100F Super Sabre --> North American Aviation | F-100F-6 Super Sabre | Block 6 — on statcard
+     - F-100F Super Sabre --> F-100F-6 Super Sabre — at medium distance
+     - F-100F --> F-100F-6 — at long distance
+   - F-104A Starfighter [CHN]
+     - F-104A Starfighter --> F-104A-25 Starfighter — in shop
+     - Lockheed Corporation | F-104A Starfighter --> Lockheed Corporation | F-104A-25 Starfighter | Block 25 — on statcard
+     - F-104A Starfighter --> F-104A-25 Starfighter — at medium distance
+     - F-104A --> F-104A-25 — at long distance
+   - F-104G Starfighter [CHN]
+     - F-104G Starfighter --> F-104G-10 Starfighter — in shop
+     - Lockheed Corporation | F-104G Starfighter --> Lockheed Corporation | F-104G-10 Starfighter | Block 10 — on statcard
+     - F-104G Starfighter --> F-104G-10 Starfighter — at medium distance
+     - F-104G --> F-104G-10 — at long distance
+   - Q-5A/B
+     - Q-5A/B Fantan --> Q-5A Fantan — in shop
+     - Nanchang Aircraft Manufacturing Corporation | Q-5A/B Fantan --> Nanchang Aircraft Manufacturing Corporation | Q-5A Fantan — on statcard
+     - Q-5A/B Fantan --> Q-5A Fantan — at medium distance
+     - Q-5A/B --> Q-5A — at long distance
+   - F-5A Freedom Fighter [CHN]
+     - F-5A Freedom Fighter --> F-5A-25 Freedom Fighter — in shop
+     - Northrop Corporation | F-5A Freedom Fighter --> Northrop Corporation | F-5A-25 Freedom Fighter | Block 25 — on statcard
+     - F-5A Freedom Fighter --> F-5A-25 Freedom Fighter — at medium distance
+     - F-5A --> F-5A-25 — at long distance
+   - F-16A-20MLU Fighting Falcon [CHN]
+     - F-16A-20MLU Fighting Falcon --> F-16A-20 Fighting Falcon — in shop
+     - General Dynamics Corporation | F-16A Fighting Falcon | Block 20, Mid-Life Update --> General Dynamics Corporation | F-16A-20 Fighting Falcon | Block 20 — on statcard
+     - F-16A-20MLU Fighting Falcon --> F-16A-20 Fighting Falcon — at medium distance
+     - F-16A-20MLU --> F-16A-20 — at long distance
+   - J-11 Flanker-B
+     - Shenyang Aircraft Corporation | J-11 Flanker-B+ --> Shenyang Aircraft Corporation | J-11 Flanker-B+ | Su-27SK (2000) — on statcard
+   - J-11A Flanker-B+
+     - J-11A Flanker-B+ --> J-11A MLU Flanker-B+ — in shop
+     - Shenyang Aircraft Corporation | J-11A Flanker-B+ | Mid-Life Update --> Shenyang Aircraft Corporation | J-11A Flanker-B+ | Su-27SK | Mid-Life Update (2015) — on statcard
+     - J-11A Flanker-B+ --> J-11A MLU Flanker-B+ — at medium distance
+     - J-11A --> J-11A MLU — at long distance
+   - Removed the year from the J-10A on all but the statcard
+   - Removed the year from the Q-5 Fantan (1969) on all but the statcard
+
+- Changed the names of the following British aircraft:
+   - Lancaster B Mk I
+       - Lancaster B Mk I --> Lancaster B.I --  in shop
+       - Lancaster B Mk I --> A.V. Roe and Company | Lancaster | Bomber, Mk.I --  on statcard
+       - Lancaster --> Lancaster B.I --  at medium distance
+       - Lancaster --> Lancaster B.I --  at long distance
+  - Lancaster B Mk III
+       - Lancaster B Mk III --> Lancaster B.III --  in shop
+       - Lancaster B Mk III --> A.V. Roe and Company | Lancaster | Bomber, Mk.III --  on statcard
+       - Lancaster --> Lancaster B.III --  at medium distance
+       - Lancaster --> Lancaster B.III --  at long distance
+  - Typhoon Mk Ib/L
+       - Typhoon Mk Ib/L --> Typhoon Mk.IB (1943) --  in shop
+       - Typhoon Mk Ib /Late --> Hawker Aircraft, Ltd. | Typhoon Mk.IB (1943) --  on statcard
+       - Typhoon --> Typhoon Mk.IB (1943) --  at medium distance
+       - Typhoon --> Typhoon Mk.IB (1943) --  at long distance
+  - Spitfire Mk Vc/trop
+       - Spitfire Mk Vc/trop --> Spitfire Mk.VC(trop) --  in shop
+       - Spitfire Mk Vc/trop --> Supermarine Aviation Works | Spitfire Mk.V | Type C Wing | Tropicalised --  on statcard
+       - Spitfire --> Spitfire Mk.VC(trop) --  at medium distance
+       - Spitfire --> Spitfire Mk.VC(trop) --  at long distance
+  - Spitfire Mk Vc
+       - Spitfire Mk Vc --> Spitfire Mk.VC --  in shop
+       - Spitfire Mk Vc --> Supermarine Aviation Works | Spitfire Mk.V | Type C Wing --  on statcard
+       - Spitfire --> Spitfire Mk.VC --  at medium distance
+       - Spitfire --> Spitfire Mk.VC --  at long distance
+  - Firefly F Mk I
+       - Firefly F Mk I --> Firefly F.I --  in shop
+       - Firefly F Mk I --> Fairey Aviation Company, Ltd. | Firefly | Fighter, Mk.I --  on statcard
+       - Firefly F --> Firefly F.I --  at medium distance
+       - Firefly --> Firefly F.I --  at long distance
+  - Firefly FR Mk V
+       - Firefly FR Mk V --> Firefly FR.V --  in shop
+       - Firefly FR Mk V --> Fairey Aviation Company, Ltd. | Firefly | Fighter/Reconnaissance, Mk.V --  on statcard
+       - Firefly FR --> Firefly FR.V --  at medium distance
+       - Firefly --> Firefly FR.V --  at long distance
+  - Mosquito FB Mk VI
+       - Mosquito FB Mk VI --> Mosquito FB.VI --  in shop
+       - Mosquito FB Mk VI --> de Havilland Aircraft Company, Ltd. | Mosquito | Fighter/Bomber, Mk.VI --  on statcard
+       - Mosquito FB --> Mosquito FB.VI --  at medium distance
+       - Mosquito --> Mosquito FB.VI --  at long distance
+  - Mosquito FB Mk XVIII
+       - Mosquito FB Mk XVIII --> Mosquito FB.XVIII --  in shop
+       - Mosquito FB Mk XVIII --> de Havilland Aircraft Company, Ltd. | Mosquito | Fighter/Bomber, Mk.XVIII --  on statcard
+       - Mosquito FB --> Mosquito FB.XVIII --  at medium distance
+       - Mosquito --> Mosquito FB.XVIII --  at long distance
+  - Halifax B Mk IIIa
+       - Halifax B Mk IIIa --> Halifax B.IIIA --  in shop
+       - Halifax B Mk IIIa --> Handley Page, Ltd. | Halifax | Bomber, Mk.IIIA --  on statcard
+       - Halifax B Mk III --> Halifax B.IIIA --  at medium distance
+       - Halifax --> Halifax B.IIIA --  at long distance
+  - Stirling B Mk I
+       - Stirling B Mk I --> Stirling B.I --  in shop
+       - Stirling B Mk I --> Short Brothers plc | Stirling | Bomber, Mk.I --  on statcard
+       - Stirling --> Stirling B.I --  at medium distance
+       - Stirling --> Stirling B.I --  at long distance
+  - Stirling B Mk III
+       - Stirling B Mk III --> Stirling B.III --  in shop
+       - Stirling B Mk III --> Short Brothers plc | Stirling | Bomber, Mk.III --  on statcard
+       - Stirling --> Stirling B.III --  at medium distance
+       - Stirling --> Stirling B.III --  at long distance
+  - Hellcat Mk II
+       - Hellcat Mk II --> Hellcat Mk.II --  in shop
+       - Hellcat Mk II --> Grumman Aircraft Engineering Corporation | Hellcat Mk.II | F6F- 5 --  on statcard
+       - Hellcat --> Hellcat Mk.II --  at medium distance
+       - Hellcat --> Hellcat Mk.II --  at long distance
+  - Whirlwind P.9
+       - Whirlwind P.9 --> Whirlwind P.9 --  in shop
+       - Whirlwind P.9 --> Westland Aircraft | Whirlwind P.9 | 1938 Prototype --  on statcard
+       - Whirlwind P.9 --> Whirlwind P.9 --  at medium distance
+       - Whirlwind --> Whirlwind P.9 --  at long distance
+  - Spitfire F Mk IXc
+       - Spitfire F Mk IXc --> Spitfire F.IXC --  in shop
+       - Spitfire F Mk IXc --> Supermarine Aviation Works | Spitfire | Fighter, Mk.IX | Type C Wing --  on statcard
+       - Spitfire --> Spitfire F.IXC --  at medium distance
+       - Spitfire --> Spitfire F.IXC --  at long distance
+  - Brigand B 1
+       - Brigand B 1 --> Brigand B.I --  in shop
+       - Brigand B 1 --> Bristol Aeroplane Company | Brigand | Bomber, Mk.I --  on statcard
+       - Brigand B 1 --> Brigand B.I --  at medium distance
+       - Brigand --> Brigand B.I --  at long distance
+  - Whirlwind Mk I
+       - Whirlwind Mk I --> Whirlwind Mk.I --  in shop
+       - Whirlwind Mk I --> Westland Aircraft | Whirlwind Mk.I --  on statcard
+       - Whirlwind Mk I --> Whirlwind Mk.I --  at medium distance
+       - Whirlwind --> Whirlwind Mk.I --  at long distance
+  - Hurricane Mk IIB/Trop
+       - Hurricane Mk IIB/Trop --> Hurricane Mk.IIB Trop. --  in shop
+       - Hurricane Mk IIB/Trop --> Hawker Aircraft, Ltd. | Hurricane Mk.IIB | Tropicalised --  on statcard
+       - Hurricane Mk II --> Hurricane Mk.IIB Trop. --  at medium distance
+       - Hurricane --> Hurricane Mk.IIB Trop. --  at long distance
+  - Hurricane Mk I/L
+       - Hurricane Mk I/L --> Hurricane Mk.I --  in shop
+       - Hurricane Mk I Late --> Hawker Aircraft, Ltd. | Hurricane Mk.I --  on statcard
+       - Hurricane --> Hurricane Mk.I --  at medium distance
+       - Hurricane --> Hurricane Mk.I --  at long distance
+  - Spitfire Mk Ia
+       - Spitfire Mk Ia --> Spitfire Mk.IA --  in shop
+       - Spitfire Mk Ia --> Supermarine Aviation Works | Spitfire Mk.II | Type A Wing  --  on statcard
+       - Spitfire Mk I --> Spitfire Mk.IA --  at medium distance
+       - Spitfire --> Spitfire Mk.IA --  at long distance
+  - Spitfire Mk IIa
+       - Spitfire Mk IIa --> Spitfire Mk.IIA --  in shop
+       - Spitfire Mk IIa --> Supermarine Aviation Works | Spitfire Mk.II | Type A Wing --  on statcard
+       - Spitfire --> Spitfire Mk.IIA --  at medium distance
+       - Spitfire --> Spitfire Mk.IIA --  at long distance
+  - Spitfire Mk IIb
+       - Spitfire Mk IIb --> Spitfire Mk.IIB --  in shop
+       - Spitfire Mk IIb --> Supermarine Aviation Works | Spitfire Mk.II | Type B Wing  --  on statcard
+       - Spitfire --> Spitfire Mk.IIB --  at medium distance
+       - Spitfire --> Spitfire Mk.IIB --  at long distance
+  - Spitfire Mk Vb/trop
+       - Spitfire Mk Vb/trop --> Spitfire Mk.VB(trop) --  in shop
+       - Spitfire Mk Vb/trop --> Supermarine Aviation Works | Spitfire Mk.V | Type B Wing | Tropicalised --  on statcard
+       - Spitfire --> Spitfire Mk.VB(trop) --  at medium distance
+       - Spitfire --> Spitfire Mk.VB(trop) --  at long distance
+  - Spitfire Mk Vb
+       - Spitfire Mk Vb --> Spitfire Mk.VB --  in shop
+       - Spitfire Mk Vb --> Supermarine Aviation Works | Spitfire Mk.V | Type B Wing --  on statcard
+       - Spitfire --> Spitfire Mk.VB --  at medium distance
+       - Spitfire --> Spitfire Mk.VB --  at long distance
+  - Sea Hurricane Mk IB
+       - Sea Hurricane Mk IB --> Sea Hurricane Mk.IB --  in shop
+       - Sea Hurricane Mk IB --> Hawker Aircraft, Ltd. | Sea Hurricane Mk.IB --  on statcard
+       - Sea Hurricane Mk I --> Sea Hurricane Mk.IB --  at medium distance
+       - Hurricane --> Sea Hurricane Mk.IB --  at long distance
+  - Sea Hurricane Mk IC
+       - Sea Hurricane Mk IC --> Sea Hurricane Mk.IC --  in shop
+       - Sea Hurricane Mk IC --> Hawker Aircraft, Ltd. | Sea Hurricane Mk.IIC --  on statcard
+       - Sea Hurricane Mk I --> Sea Hurricane Mk.IC --  at medium distance
+       - Hurricane --> Sea Hurricane Mk.IC --  at long distance
+  - Firebrand TF Mk IV
+       - Firebrand TF Mk IV --> Firebrand TF.IV --  in shop
+       - Firebrand TF Mk IV --> Blackburn Aircraft, Ltd. | Firebrand | Torpedo Fighter, Mk.IV --  on statcard
+       - Firebrand TF --> Firebrand TF.IV --  at medium distance
+       - Firebrand --> Firebrand TF.IV --  at long distance
+  - Hurricane Mk IV
+       - Hurricane Mk IV --> Hurricane Mk.IV --  in shop
+       - Hurricane Mk IV --> Hawker Aircraft, Ltd. | Hurricane Mk.IV --  on statcard
+       - Hurricane Mk IV --> Hurricane Mk.IV --  at medium distance
+       - Hurricane --> Hurricane Mk.IV --  at long distance
+  - Beaufighter Mk VIc
+       - Beaufighter Mk VIc --> Beaufighter Mk.VIC --  in shop
+       - Beaufighter Mk VIc --> Bristol Aeroplane Company | Beaufighter Mk.VI | Coastal Command --  on statcard
+       - Beaufighter --> Beaufighter Mk.VIC --  at medium distance
+       - Beaufighter --> Beaufighter Mk.VIC --  at long distance
+  - Beaufighter Mk X
+       - Beaufighter Mk X --> Beaufighter TF.X --  in shop
+       - Beaufighter Mk X --> Bristol Aeroplane Company | Beaufighter | Torpedo Fighter, Mk.X --  on statcard
+       - Beaufighter --> Beaufighter TF.X --  at medium distance
+       - Beaufighter --> Beaufighter TF.X --  at long distance
+  - Beaufighter Mk 21
+       - Beaufighter Mk 21 --> Beaufighter Mk.21 --  in shop
+       - Beaufighter Mk 21 --> Bristol Aeroplane Company | Beaufighter Mk.21 --  on statcard
+       - Beaufighter --> Beaufighter Mk.21 --  at medium distance
+       - Beaufighter --> Beaufighter Mk.21 --  at long distance
+  - Sunderland Mk IIIa
+       - Sunderland Mk IIIa --> Sunderland Mk.IIIA --  in shop
+       - Sunderland Mk IIIa --> Short Brothers plc | Sunderland Mk.IIIA --  on statcard
+       - Sunderland Mk III --> Sunderland Mk.IIIA --  at medium distance
+       - Sunderland --> Sunderland Mk.IIIA --  at long distance
+  - Sunderland Mk V
+       - Sunderland Mk V --> Sunderland Mk.V --  in shop
+       - Sunderland Mk V --> Short Brothers plc | Sunderland Mk.V --  on statcard
+       - Sunderland Mk V --> Sunderland Mk.V --  at medium distance
+       - Sunderland --> Sunderland Mk.V --  at long distance
+  - Wellington Mk Ic
+       - Wellington Mk Ic --> Wellington Mk.IC --  in shop
+       - Wellington Mk Ic --> Vickers- Armstrongs, Ltd. | Wellington Mk.IC --  on statcard
+       - Wellington --> Wellington Mk.IC --  at medium distance
+       - Wellington --> Wellington Mk.IC --  at long distance
+  - Wellington Mk Ic/L
+       - Wellington Mk Ic/L --> Wellington Mk.II --  in shop
+       - Wellington Mk Ic /Late --> Vickers- Armstrongs, Ltd. | Wellington Mk.II --  on statcard
+       - Wellington --> Wellington Mk.II --  at medium distance
+       - Wellington --> Wellington Mk.II --  at long distance
+  - Wellington Mk III
+       - Wellington Mk III --> Wellington Mk.III --  in shop
+       - Wellington Mk III --> Vickers- Armstrongs, Ltd. | Wellington Mk.III --  on statcard
+       - Wellington --> Wellington Mk.III --  at medium distance
+       - Wellington --> Wellington Mk.III --  at long distance
+  - Wellington Mk X
+       - Wellington Mk X --> Wellington Mk.X --  in shop
+       - Wellington Mk X --> Vickers- Armstrongs, Ltd. | Wellington Mk.X --  on statcard
+       - Wellington --> Wellington Mk.X --  at medium distance
+       - Wellington --> Wellington Mk.X --  at long distance
+  - Avenger Mk II
+       - Avenger Mk II --> Avenger GR.II --  in shop
+       - Avenger Mk II --> Grumman Aircraft Engineering Corporation | Avenger | Ground Attack/Reconnaissance, Mk.II | TBM- 1C --  on statcard
+       - Avenger --> Avenger GR.II --  at medium distance
+       - Avenger --> Avenger GR.II --  at long distance
+  - Firecrest
+       - Firecrest --> Firecrest --  in shop
+       - Firecrest --> Blackburn Aircraft, Ltd. | B.48 Firecrest | 1947 Prototype --  on statcard
+       - Firecrest --> Firecrest --  at medium distance
+       - Firecrest --> Firecrest --  at long distance
+  - Corsair F Mk II
+       - Corsair F Mk II --> Corsair F.II --  in shop
+       - Corsair F Mk II --> Grumman Aircraft Engineering Corporation | Corsair | Fighter, Mk. II | F4U- 1A --  on statcard
+       - Corsair F Mk II --> Corsair F.II --  at medium distance
+       - Corsair --> Corsair F.II --  at long distance
+  - Spitfire Mk.IIa Venture I
+       - Spitfire Mk.IIa Venture I --> Spitfire Mk.IIA ""Venture I"" --  in shop
+       - Spitfire Mk.IIa Venture I --> Supermarine Aviation Works | Spitfire Mk.II ""Venture I"" | Type A Wing --  on statcard
+       - Spitfire --> Spitfire Mk.IIA ""Venture I"" --  at medium distance
+       - Spitfire --> Spitfire Mk.IIA ""Venture I"" --  at long distance
+  - Beaufighter Mk I (40- mm)
+       - Beaufighter Mk I (40- mm) --> DAP Beaufighter Mk.I (1940) --  in shop
+       - Beaufighter Mk I Prototype (40- mm) --> Bristol Aeroplane Company / Department of Aircraft Production (DAP) | Beaufighter Mk.I | Prototype R2055, 1940 Modification --  on statcard
+       - Beaufighter Mk I --> DAP Beaufighter Mk.I (1940) --  at medium distance
+       - Beaufighter --> DAP Beaufighter Mk.I (1940) --  at long distance
+  - Boston Mk I
+       - Boston Mk I --> Boston Mk.I --  in shop
+       - Boston Mk I --> Douglas Aircraft Company | Boston Mk.I | DB- 7 --  on statcard
+       - Boston --> Boston Mk.I --  at medium distance
+       - Boston --> Boston Mk.I --  at long distance
+  - DB- 7
+       - DB- 7 --> Boston Mk.III --  in shop
+       - DB- 7 --> Douglas Aircraft Company | Boston Mk.III | DB- 7 --  on statcard
+       - DB- 7 --> Boston Mk.III --  at medium distance
+       - DB- 7 --> Boston Mk.III --  at long distance
+  - Martlet Mk IV
+       - Martlet Mk IV --> Martlet Mk.IV --  in shop
+       - Martlet Mk IV --> Grumman Aircraft Engineering Corporation | Martlet Mk.IV | F4F- 4 Wildcat --  on statcard
+       - Martlet --> Martlet Mk.IV --  at medium distance
+       - Martlet --> Martlet Mk.IV --  at long distance
+  - Boomerang Mk I
+       - Boomerang Mk I --> Boomerang Mk.I --  in shop
+       - Boomerang Mk I --> Commonwealth Aircraft Corporation | Boomerang Mk.I --  on statcard
+       - Boomerang --> Boomerang Mk.I --  at medium distance
+       - Boomerang --> Boomerang Mk.I --  at long distance
+  - Boomerang Mk II
+       - Boomerang Mk II --> Boomerang Mk.II --  in shop
+       - Boomerang Mk II --> Commonwealth Aircraft Corporation | Boomerang Mk.II --  on statcard
+       - Boomerang --> Boomerang Mk.II --  at medium distance
+       - Boomerang --> Boomerang Mk.II --  at long distance
+  - Fury Mk I
+       - Fury Mk I --> Fury Mk.I --  in shop
+       - Fury Mk I --> Hawker Aircraft, Ltd. | Fury Mk.I --  on statcard
+       - Fury Mk I --> Fury Mk.I --  at medium distance
+       - Fury --> Fury Mk.I --  at long distance
+  - Fury Mk II
+       - Fury Mk II --> Fury Mk.II --  in shop
+       - Fury Mk II --> Hawker Aircraft, Ltd. | Fury Mk.II --  on statcard
+       - Fury Mk II --> Fury Mk.II --  at medium distance
+       - Fury --> Fury Mk.II --  at long distance
+  - Tuck's Gladiator Mk II
+       - Tuck's Gladiator Mk II --> Gladiator Mk.II [Tuck] --  in shop
+       - Tuck's Gladiator Mk II --> Gloster Aircraft Company, Ltd. | Tuck's Gladiator Mk.II --  on statcard
+       - Gladiator Mk II --> Gladiator Mk.II [Tuck] --  at medium distance
+       - Gladiator --> Gladiator Mk.II [Tuck] --  at long distance
+  - Gladiator Mk II
+       - Gladiator Mk II --> Gladiator Mk.II --  in shop
+       - Gladiator Mk II --> Gloster Aircraft Company, Ltd. | Gladiator Mk.II --  on statcard
+       - Gladiator --> Gladiator Mk.II --  at medium distance
+       - Gladiator --> Gladiator Mk.II --  at long distance
+  - Nimrod Mk I
+       - Nimrod Mk I --> Nimrod Mk.I --  in shop
+       - Nimrod Mk I --> Hawker Aircraft, Ltd. | Nimrod Mk.I --  on statcard
+       - Nimrod Mk I --> Nimrod Mk.I --  at medium distance
+       - Nimrod --> Nimrod Mk.I --  at long distance
+  - Nimrod Mk II
+       - Nimrod Mk II --> Nimrod Mk.II --  in shop
+       - Nimrod Mk II --> Hawker Aircraft, Ltd. | Nimrod Mk.II --  on statcard
+       - Nimrod Mk II --> Nimrod Mk.II --  at medium distance
+       - Nimrod --> Nimrod Mk.II --  at long distance
+  - Sea Gladiator Mk I
+       - Sea Gladiator Mk I --> Sea Gladiator Mk.I --  in shop
+       - Sea Gladiator Mk I --> Gloster Aircraft Company, Ltd. | Sea Gladiator Mk.I --  on statcard
+       - Sea Gladiator --> Sea Gladiator Mk.I --  at medium distance
+       - Gladiator --> Sea Gladiator Mk.I --  at long distance
+  - Chesapeake Mk I
+       - Chesapeake Mk I --> Chesapeake Mk.I --  in shop
+       - Chesapeake Mk I --> Chance Vought Corporation | Chesapeake Mk.I | V- 156B- 1 --  on statcard
+       - Chesapeake Mk I --> Chesapeake Mk.I --  at medium distance
+       - Chesapeake Mk I --> Chesapeake Mk.I --  at long distance
+  - Blenheim Mk IV
+       - Blenheim Mk IV --> Blenheim Mm.IV --  in shop
+       - Blenheim Mk IV --> Bristol Aeroplane Company | Blenheim Mk.IV --  on statcard
+       - Blenheim --> Blenheim Mk.IV --  at medium distance
+       - Blenheim --> Blenheim Mk.IV --  at long distance
+  - Beaufort Mk VIII
+       - Beaufort Mk VIII --> DAP Beaufort Mk.VIII --  in shop
+       - Beaufort Mk VIII --> Bristol Aeroplane Company / Department of Aircraft Production (DAP) | Beaufort Mk.VIII --  on statcard
+       - Beaufort --> DAP Beaufort Mk.VIII --  at medium distance
+       - Beaufort --> DAP Beaufort Mk.VIII --  at long distance
+  - Swordfish Mk I
+       - Swordfish Mk I --> Swordfish Mk.I --  in shop
+       - Swordfish Mk I --> Fairey Aviation Company, Ltd. | Swordfish Mk.I --  on statcard
+       - Swordfish --> Swordfish Mk.I --  at medium distance
+       - Swordfish --> Swordfish Mk.I --  at long distance
+  - Hampden Mk I
+       - Hampden Mk I --> Hampden Mk.I --  in shop
+       - Hampden Mk I --> Handley Page, Ltd. | HP.52 Hampden Mk.I --  on statcard
+       - Hampden Mk I --> Hampden Mk.I --  at medium distance
+       - Hampden --> Hampden Mk.I --  at long distance
+  - Hampden TB Mk I
+       - Hampden TB Mk I --> Hampden TB.I --  in shop
+       - Hampden TB Mk I --> Handley Page, Ltd. | HP.52 Hampden | Torpedo Bomber, Mk.I --  on statcard
+       - Hampden TB Mk I --> Hampden TB.I --  at medium distance
+       - Hampden --> Hampden TB.I --  at long distance
+  - Wirraway
+       - Wirraway --> Wirraway Mk.I --  in shop
+       - Wirraway --> Commonwealth Aircraft Corporation (CAC) | Wirraway Mk.I --  on statcard
+       - Wirraway --> Wirraway Mk.I --  at medium distance
+       - Wirraway --> Wirraway Mk.I --  at long distance
+  - Catalina Mk IIIa
+       - Catalina Mk IIIa --> Catalina Mk.IIIA --  in shop
+       - Catalina Mk IIIa --> Consolidated Aircraft Corporation | Catalina Mk.IIIA | PBY- 5A --  on statcard
+       - Catalina Mk III --> Catalina Mk.IIIA --  at medium distance
+       - Catalina --> Catalina Mk.IIIA --  at long distance
+
+- Changed the names of the following Canadian aircraft:
+   - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+   - added a roundel
+   - CF-188A
+     - CF-188A --> CF-188A Hornet -- in shop
+     - CF-188A --> McDonnell Douglas Corporation | CF-188A Hornet -- on statcard
+     - CF-188A --> CF188A Hornet -- at medium distance
+
+- Changed the names of the following Australian aircraft:
+   - F/A-18A
+     - F/A-18A --> F/A-18A Hornet -- in shop
+     - F/A-18A Hornet --> Government Aircraft Factories (GAF) | F/A-18A Hornet -- on statcard
+     - F/A-18A --> F/A-18A Hornet -- at medium distance
+   - AF/A-18A
+     - AF/A-18A Late --> F/A-18A Hornet (HUG 2.4)
+     - AF/A-18A (HUG 2.4) Hornet --> Boeing Australia Holdings Pty, Ltd. | F/A-18A Hornet | Hornet Upgrade Program, Phase 2.4 (on statcard)
+     - AF/A-18A --> F/A-18A Hornet (HUG 2.4)
+     - AF/A-18A --> F/A-18A (HUG 2.4)
+
+- Changed the names of the following Japanese aircraft:
+   - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+   - Kikka
+     - Kikka --> M7N1-J Kō Kikka Kai -- in shop
+     - Kikka --> Nakajima Aircraft | M7N1-J Kikka Kai | Experimental Model 21 Kō  -- on statcard
+     - Kikka --> M7N1-J Kō Kikka Kai -- at medium distance
+     - Kikka --> M7N1-J Kō -- at long distance
+   - Ki-200
+     - Ki-200 --> Ki 200 -- in shop
+     - Ki-200 Shusui --> Mitsubishi Heavy Industries | Ki 200 -- on statcard
+     - Ki-200 --> Ki 200 -- at medium distance
+     - Ki-200 --> Ki 200 -- at long distance
+   - R2Y2 Kai V3
+     - R2Y2 Kai V3 --> R2Y2-G Keiun Kai (Model 11) -- in shop
+     - R2Y2 Keiun-Kai V3 --> Yokosuka Naval Arsenal | R2Y2-G Keiun Kai | Experimental Model 11 -- on statcard
+     - R2Y2 Kai --> R2Y2-G Keiun Kai (Model 11) -- at medium distance
+     - R2Y2 --> R2Y2-G (Model 11) -- at long distance
+   - R2Y2 Kai V1
+     - R2Y2 Kai V1 --> R2Y2-G Keiun Kai (Model 22) -- in shop
+     - R2Y2 Keiun-Kai V1 --> Yokosuka Naval Arsenal | R2Y2-G Keiun Kai  | Experimental Model 22 -- on statcard
+     - R2Y2 Kai --> R2Y2-G Keiun Kai (Model 22) -- at medium distance
+     - R2Y2 --> R2Y2-G (Model 22) -- at long distance
+   - R2Y2 Kai V2
+     - R2Y2 Kai V2 --> R2Y2-G Keiun Kai (Model 32) -- in shop
+     - R2Y2 Keiun-Kai V2 --> Yokosuka Naval Arsenal | R2Y2-G Keiun Kai | Experimental Model 32 -- on statcard
+     - R2Y2 Kai --> R2Y2-G Keiun Kai (Model 32) -- at medium distance
+     - R2Y2 --> R2Y2-G (Model 32) -- at long distance
+   - N1K1-Ja
+     - N1K1-Ja --> N1K1-J Kō Shiden -- in shop
+     - N1K1-Ja --> Kawashini Aircraft | N1K1-J Shiden | Model 11 Kō -- on statcard
+     - N1K1 --> N1K1-J Kō Shiden -- at medium distance
+     - N1K --> N1K1-J Kō -- at long distance
+   - N1K2-J
+     - N1K2-J --> N1K2-J Shiden -- in shop
+     - N1K2-J Shiden-Kai --> Kawashini Aircraft | N1K2-J Shiden | Model 12 -- on statcard
+     - N1K2 --> N1K2-J Shiden -- at medium distance
+     - N1K --> N1K2-J -- at long distance
+   - N1K2-Ja
+     - N1K2-Ja --> N1K2-J Kō Shiden -- in shop
+     - N1K2-Ja Shiden-Kai --> Kawashini Aircraft | N1K2-J Shiden |Model 12 Kō -- on statcard
+     - N1K2 --> N1K2-J Kō Shiden -- at medium distance
+     - N1K --> N1K2-J Kō -- at long distance
+   - A7M2
+     - A7M2 --> A7M2 Reppū -- in shop
+     - A7M2 Reppu --> Mitsubishi Heavy Industries | A7M2 Reppū | Model 11 -- on statcard
+     - A7M2 --> A7M2 Reppū -- at medium distance
+     - A7M --> A7M2 -- at long distance
+   - A6M5 Otsu
+     - A6M5 Otsu --> A6M5 Otsu Reisen -- in shop
+     - A6M5 Otsu --> "Mitsubishi Heavy Industries | A6M5 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 52 Otsu " -- on statcard
+     - A6M5 --> A6M5 Otsu Reisen -- at medium distance
+     - A6M5 --> A6M5 Otsu -- at long distance
+   - A6M5 Hei
+     - A6M5 Hei --> A6M5 Hei Reisen -- in shop
+     - A6M5 Hei --> "Mitsubishi Heavy Industries | A6M5 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 52 Hei" -- on statcard
+     - A6M5 Hei --> A6M5 Hei Reisen -- at medium distance
+     - A6M5 --> A6M5 Hei -- at long distance
+   - Ki-61-I Hei
+     - Ki-61-I Hei --> Ki 61-I Hei Hien -- in shop
+     - Ki-61-I Hei Hien --> Kawasaki Aircraft Industries | Ki 61-I Hien | Type 3 Fighter | Model 1 Hei  -- on statcard
+     - Ki-61-I --> Ki 61-I Hei Hien -- at medium distance
+     - Ki-61 --> Ki 61-I Hei -- at long distance
+   - Tada's Ki-61-I Hei
+     - Tada's Ki-61-I Hei --> Ki 61-I Hei Hien [Tada] -- in shop
+     - Tada's Ki-61-I Hei Hien --> Kawasaki Aircraft Industries | Takeichi Tada's Ki 61-I Hien | Type 3 Fighter | Model 1 Hei  -- on statcard
+     - Ki-61-I --> Ki 61-I Hei Hien [Tada] -- at medium distance
+     - Ki-61 --> Ki 61-I Hei [Tada] -- at long distance
+  - Ki-84 Ko
+     - Ki-84 Ko --> Ki 84-I Kō Hayate -- in shop
+     - Ki-84 Ko Hayate --> Nakajima Aircraft | Ki 84-I Hayate | Type 4 Fighter | Model 1 Kō  -- on statcard
+     - Ki-84 --> Ki 84-I Kō Hayate -- at medium distance
+     - Ki-84 --> Ki 84-I Kō -- at long distance
+   - Ki-84 Otsu
+     - Ki-84 Otsu --> Ki 84-I Otsu Hayate -- in shop
+     - Ki-84 Otsu Hayate --> Nakajima Aircraft | Ki 84-I Hayate | Type 4 Fighter | Model 1 Otsu  -- on statcard
+     - Ki-84 --> Ki 84-I Otsu Hayate -- at medium distance
+     - Ki-84 --> Ki 84-I Otsu -- at long distance
+   - Ki-84 Hei
+     - Ki-84 Hei --> Ki 84-I Hei Hayate -- in shop
+     - Ki-84 Hei Hayate --> Nakajima Aircraft | Ki 84-I Hayate | Type 4 Fighter | Model 1 Hei  -- on statcard
+     - Ki-84 --> Ki 84-I Hei Hayate -- at medium distance
+     - Ki-84 --> Ki 84-I Hei -- at long distance
+   - J7W1
+     - J7W1 --> J7W1 Shinden -- in shop
+     - J7W1 Shinden --> Naval Aviation Technology Arsenal / Kyūshū Aircraft | J7W1 Shinden | 18th Experimental Otsu Land Fighter -- on statcard
+     - J7W1 --> J7W1 Shinden -- at medium distance
+     - J7W --> J7W1 -- at long distance
+   - J2M3
+     - J2M3 --> J2M3 Raiden -- in shop
+     - J2M3 Raiden --> Mitsubishi Heavy Industries | J2M3 Raiden | Model 21 -- on statcard
+     - J2M3 --> J2M3 Raiden -- at medium distance
+     - J2M --> J2M3 -- at long distance
+   - J2M5
+     - J2M5 --> J2M5 Raiden -- in shop
+     - J2M5 Raiden --> Mitsubishi Heavy Industries | J2M5 Raiden | Model 33 -- on statcard
+     - J2M5 --> J2M5 Raiden -- at medium distance
+     - J2M --> J2M5 -- at long distance
+   - Ki-83
+     - Ki-83 --> Ki 83 -- in shop
+     - Ki-83 --> Mitsubishi Heavy Industries | Ki 83 -- on statcard
+     - Ki-83 --> Ki 83 -- at medium distance
+     - Ki-83 --> Ki 83 -- at long distance
+   - G8N1
+     - G8N1 --> G8N1 Renzan -- in shop
+     - G8N1 Renzan --> Nakajima Aircraft | G8N1 Renzan | 18th Experimental Land Attack Aircraft -- on statcard
+     - G8N1 --> G8N1 Renzan -- at medium distance
+     - G8N --> G8N1 -- at long distance
+   - A7M1 (NK9H)
+     - A7M1 (NK9H) --> A7M1 Reppū -- in shop
+     - A7M1 Reppu (NK9H) --> Mitsubishi Heavy Industries | A7M1 Reppū | 17th Experimental Kō Carrier-Based Fighter -- on statcard
+     - A7M1 --> A7M1 Reppū -- at medium distance
+     - A7M --> A7M1 -- at long distance
+   - J2M5 (Type 5)
+     - J2M5 (Type 5) --> J2M5 Raiden (Type 5) -- in shop
+     - J2M5 (Type 5) Raiden --> Mitsubishi Heavy Industries | J2M5 Raiden | Model 33 | Type 5 30mm Autocannon -- on statcard
+     - J2M5 --> J2M5 Raiden (Type 5) -- at medium distance
+     - J2M --> J2M5 (Type 5) -- at long distance
+   - Ki-87
+     - Ki-87 --> Ki 87 -- in shop
+     - Ki-87 --> Nakajima Aircraft | Ki 87 -- on statcard
+     - Ki-87 --> Ki 87 -- at medium distance
+     - Ki-87 --> Ki 87 -- at long distance
+  - A6M6c
+     - A6M6c --> A6M6 Reisen -- in shop
+     - A6M6c --> "Mitsubishi Heavy Industries | A6M6 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 53" -- on statcard
+     - A6M6c --> A6M6 Reisen -- at medium distance
+     - A6M6 --> A6M6 -- at long distance
+   - Ki-94-II
+     - Ki-94-II --> Ki 94-II -- in shop
+     - Ki-94-II --> Tachikawa Aircaft | Ki 94-II -- on statcard
+     - Ki-94-II --> Ki 94-II -- at medium distance
+     - Ki-94-II --> Ki 94-II -- at long distance
+   - J6K1
+     - J6K1 --> J6K1 Jinpū -- in shop
+     - J6K1 --> Kawanshini Aircraft Company | J6K1 Jinpū | 18th Experimental Kō Land Fighter -- on statcard
+     - J6K1 --> J6K1 Jinpū -- at medium distance
+     - J6K1 --> J6K1 -- at long distance
+   - A6M3
+     - A6M3 --> A6M3 Reisen (Model 32) -- in shop
+     - A6M3 Reisen --> "Mitsubishi Heavy Industries | A6M3 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 32" -- on statcard
+     - A6M3 --> A6M3 Reisen (Model 32) -- at medium distance
+     - A6M3 --> A6M3 (Model 32) -- at long distance
+   - A6M3 mod. 22
+     - A6M3 mod. 22 --> A6M3 Reisen (Model 22) -- in shop
+     - A6M3 Reisen mod. 22 --> "Mitsubishi Heavy Industries | A6M3 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 22" -- on statcard
+     - A6M3 --> A6M3 Reisen (Model 22) -- at medium distance
+     - A6M3 --> A6M3 (Model 22) -- at long distance
+   - A6M3 mod. 22Ko
+     - A6M3 mod. 22Ko --> A6M3 Kō Reisen -- in shop
+     - A6M3 Reisen mod. 22Ko --> "Mitsubishi Heavy Industries | A6M3 Reisen | Type 0 Carrier Fighter ""Zero"" | Model 22 Kō " -- on statcard
+     - A6M3 --> A6M3 Kō Reisen -- at medium distance
+     - A6M3 --> A6M3 Kō -- at long distance
+   - A6M5
+     - A6M5 --> A6M5 Reisen -- in shop
+     - A6M5 Reisen --> Mitsubishi Heavy Industries | A6M5 Reisen | Type 0 Carrier Fighter | Model 52 -- on statcard
+     - A6M5 --> A6M5 Reisen -- at medium distance
+     - A6M5 --> A6M5 -- at long distance
+   - Ki-43-III Otsu
+     - Ki-43-III Otsu --> Ki 43-III Otsu Hayabusa -- in shop
+     - Ki-43-III Otsu Hayabusa --> Nakajima Aircraft / Tachikawa Aircraft | Ki 43-III Hayabusa | Type 1 Fighter | Model 3 Otsu  -- on statcard
+     - Ki-43 --> Ki 43-III Otsu Hayabusa -- at medium distance
+     - Ki-43 --> Ki 43-III Otsu -- at long distance
+   - Ki-61-I Tei
+     - Ki-61-I Tei --> Ki 61-I Hei Hien -- in shop
+     - Ki-61-I Tei Hien --> Kawasaki Aircraft Industries | Ki 61-I Hien | Type 3 Fighter | Model 1 Hei  -- on statcard
+     - Ki-61-I --> Ki 61-I Hei Hien -- at medium distance
+     - Ki-61 --> Ki 61-I Hei -- at long distance
+   - Ki-61-II Otsu Kai
+     - Ki-61-II Otsu Kai --> Ki 61-II Kai Kō Hien -- in shop
+     - Ki-61-II Otsu Kai --> Kawasaki Aircraft Industries | Ki 61-II Hien | Type 3 Fighter | Model 2 Kai Kō  -- on statcard
+     - Ki-61 --> Ki 61-II Kai Kō Hien -- at medium distance
+     - Ki-61 --> Ki 61-II Kai Kō -- at long distance
+   - Ki-100
+     - Ki-100 --> Ki 100-I Kō -- in shop
+     - Ki-100 --> Kawasaki Aircraft Industries | Ki 100-I Kō -- on statcard
+     - Ki-100 --> Ki 100-I Kō -- at medium distance
+     - Ki-100 --> Ki 100-I Kō -- at long distance
+   - Ki-108 Kai
+     - Ki-108 Kai --> Ki 108 Kai -- in shop
+     - Ki-108 Kai --> Kawasaki Aircraft Industries | Ki 108 Kai -- on statcard
+     - Ki-108 Kai --> Ki 108 Kai -- at medium distance
+     - Ki-108 Kai --> Ki 108 Kai -- at long distance
+- Cont.:
+  - J2M2
+     - J2M2 --> J2M2 Raiden -- in shop
+     - J2M2 Raiden --> Mitsubishi Heavy Industries | J2M2 Raiden | Model 11 -- on statcard
+     - J2M2 --> J2M2 Raiden -- at medium distance
+     - J2M --> J2M2 -- at long distance
+   - J5N1
+     - J5N1 --> J5N1 Tenrai -- in shop
+     - J5N1 --> Nakajima Aircraft | J5N1 Tenrai | 18th Experimental Twin-Engine Land Fighter -- on statcard
+     - J5N1 --> J5N1 Tenrai -- at medium distance
+     - J5N1 --> J5N1 -- at long distance
+   - P1Y1 mod. 11
+     - P1Y1 mod. 11 --> P1Y1 Ginga -- in shop
+     - "P1Y1 mod. 11 "Ginga"" --> Nakajima Aircraft | P1Y1 Ginga | Model 11 -- on statcard
+     - P1Y1 mod. 11 --> P1Y1 Ginga -- at medium distance
+     - P1Y1 --> P1Y1 -- at long distance
+   - B7A2
+     - B7A2 --> B7A1 Ryusei -- in shop
+     - B7A2 Ryusei --> Aichi Aircraft | B7A1 Ryusei | Experimental | NK9C -- on statcard
+     - B7A2 --> B7A1 Ryusei -- at medium distance
+     - B7A2 --> B7A1 -- at long distance
+   - B7A2 (Homare 23)
+     - B7A2 (Homare 23) --> B7A2 Ryusei Kai -- in shop
+     - B7A2 (Homare 23) Ryusei --> Aichi Aircraft | B7A2 Ryusei Kai | Experimental  -- on statcard
+     - B7A2 --> B7A2 Ryusei Kai -- at medium distance
+     - B7A2 --> B7A2 -- at long distance
+   - Ki-49-IIb
+     - Ki-49-IIb --> Ki 49-II Otsu Donryu (1942) -- in shop
+     - Ki-49-IIb Donryu --> Nakajima Aircraft | Ki 49-II Donryu | Type 100 Heavy Bomber | Model 2 Otsu (1942) -- on statcard
+     - Ki-49-II --> Ki 49-II Otsu Donryu (1942) -- at medium distance
+     - Ki-49 --> Ki 49-II Otsu (1942) -- at long distance
+   - Ki-49-IIb/L
+     - Ki-49-IIb/L --> Ki 49-II Otsu Donryu (1943) -- in shop
+     - Ki-49-IIb Donryu /Late --> Nakajima Aircraft | Ki 49-II Donryu | Type 100 Heavy Bomber | Model 2 Otsu (1943) -- on statcard
+     - Ki-49-II --> Ki 49-II Otsu Donryu (1943) -- at medium distance
+     - Ki-49 --> Ki 49-II Otsu (1943) -- at long distance
+   - G5N1
+     - G5N1 --> G5N1 Shinzan -- in shop
+     - G5N1 Shinzan --> Nakajima Aircraft | G5N1 Shinzan | 13th Experimental Land Attack Aircraft -- on statcard
+     - G5N1 --> G5N1 Shinzan -- at medium distance
+     - G5N --> G5N1 -- at long distance
+   - Ki-67-I Otsu
+     - Ki-67-I Otsu --> Ki 67-I Otsu Hiryū -- in shop
+     - Ki-67-I Otsu --> Mitsubishi Aircraft Company | Ki 67-I Hiryū  | Type 4 Heavy Bomber | Model 1 Otsu  -- on statcard
+     - Ki-67 --> Ki 67-I Otsu Hiryū -- at medium distance
+     - Ki-67 --> Ki 67-I Otsu -- at long distance
+   - Ki-67-I Ko
+     - Ki-67-I Ko --> Ki 67-I Kō Hiryū -- in shop
+     - Ki-67-I Ko --> Mitsubishi Aircraft Company | Ki 67-I Hiryū | Type 4 Heavy Bomber | Model 1 Kō  -- on statcard
+     - Ki-67 --> Ki 67-I Kō Hiryū -- at medium distance
+     - Ki-67 --> Ki 67-I Kō -- at long distance
+   - Ki-96
+     - Ki-96 --> Ki 96 (No. 3) -- in shop
+     - Ki-96 --> Kawasaki Aircraft Industries | Ki 96 | Prototype No. 3 -- on statcard
+     - Ki-96 --> Ki 96 (No. 3) -- at medium distance
+     - Ki-96 --> Ki 96 (No. 3) -- at long distance
+  - Ki-100-II
+     - Ki-100-II --> Ki 100-II -- in shop
+     - Ki-100-II --> Kawasaki Aircraft Industries | Ki 100-II -- on statcard
+     - Ki-100 --> Ki 100-II -- at medium distance
+     - Ki-100 --> Ki 100-II -- at long distance
+   - A6M2-N
+     - A6M2-N --> A6M2-N -- in shop
+     - A6M2-N --> Nakajima Aircraft | A6M2-N | Type 2 Seaplane Fighter -- on statcard
+     - A6M2-N --> A6M2-N -- at medium distance
+     - A6M2-N --> A6M2-N -- at long distance
+   - N1K1
+     - N1K1 --> N1K1 Kyōfū -- in shop
+     - N1K1 Kyofu --> Kawashini Aircraft | N1K1 Kyōfū -- on statcard
+     - N1K1 --> N1K1 Kyōfū -- at medium distance
+     - N1K1 --> N1K1 -- at long distance
+   - A6M2 mod. 11
+     - A6M2 mod. 11 --> A6M2 Reisen (Model 11) -- in shop
+     - A6M2 mod. 11 --> Mitsubishi Heavy Industries | A6M2 Reisen | Type 0 Carrier Fighter | Model 11 -- on statcard
+     - A6M2 --> A6M2 Reisen (Model 11) -- at medium distance
+     - A6M2 --> A6M2 (Model 11) -- at long distance
+   - A6M2
+     - A6M2 --> A6M2 Reisen (Model 21) -- in shop
+     - A6M2 Reisen --> Mitsubishi Heavy Industries | A6M2 Reisen | Type 0 Carrier Fighter | Model 21 -- on statcard
+     - A6M2 --> A6M2 Reisen (Model 21) -- at medium distance
+     - A6M2 --> A6M2 (Model 21) -- at long distance
+   - Ki-44-I
+     - Ki-44-I --> Ki 44-I Shōki -- in shop
+     - Ki-44-I Shoki --> Nakajima Aircraft Company | Ki 44-I Shōki | Type 2 Fighter | Model 1  -- on statcard
+     - Ki-44 --> Ki 44-I Shōki -- at medium distance
+     - Ki-44 --> Ki 44-I -- at long distance
+   - Ki-44-I 34
+     - Ki-44-I 34 --> Ki 44-I Shōki (47th FS) -- in shop
+     - Ki-44-I 34 Shoki --> Nakajima Aircraft Company | Ki 44-I Shōki | Type 2 Fighter | Model 1 | Independent 47th Flight Squadron -- on statcard
+     - Ki-44 --> Ki 44-I Shōki (47th FS) -- at medium distance
+     - Ki-44 --> Ki 44-I (47th FS) -- at long distance
+   - Ki-44-II Otsu
+     - Ki-44-II Otsu --> Ki 44-II Otsu Shōki -- in shop
+     - Ki-44-II Otsu Shoki --> Nakajima Aircraft Company | Ki 44-II Shōki | Type 2 Fighter | Model 2 Otsu  -- on statcard
+     - Ki-44-II --> Ki 44-II Otsu Shōki -- at medium distance
+     - Ki-44 --> Ki 44-II Otsu -- at long distance
+   - Ki-44-II Hei
+     - Ki-44-II Hei --> Ki 44-II Hei Shōki -- in shop
+     - Ki-44-II Hei Shoki --> Nakajima Aircraft Company | Ki 44-II Shōki | Type 2 Fighter | Model 2 Hei  -- on statcard
+     - Ki-44-II --> Ki 44-II Hei Shōki -- at medium distance
+     - Ki-44 --> Ki 44-II Hei -- at long distance
+   - Ki-61-I Ko
+     - Ki-61-I Ko --> Ki 61-I Kō Hien -- in shop
+     - Ki-61-I Ko Hien --> Kawasaki Aircraft Industries | Ki 61-I Hien | Type 3 Fighter | Model 1 Kō  -- on statcard
+     - Ki-61-I --> Ki 61-I Kō Hien -- at medium distance
+     - Ki-61 --> Ki 61-I Kō -- at long distance
+   - Ki-61-I Otsu
+     - Ki-61-I Otsu --> Ki 61-I Otsu Hien -- in shop
+     - Ki-61-I Otsu Hien --> Kawasaki Aircraft Industries | Ki 61-I Hien | Type 3 Fighter | Model 1 Otsu  -- on statcard
+     - Ki-61-I --> Ki 61-I Otsu Hien -- at medium distance
+     - Ki-61 --> Ki 61-I Otsu -- at long distance
+   - J1N1
+     - J1N1 --> J1N1 -- in shop
+     - J1N1 --> Nakajima Aircraft | J1N1 | 13th Experimental Twin-Engine Land Fighter -- on statcard
+     - J1N1 --> J1N1 -- at medium distance
+     - J1N1 --> J1N1 -- at long distance
+   - Ki-102 Otsu
+     - Ki-102 Otsu --> Ki 102 Otsu -- in shop
+     - Ki-102 Otsu --> Kawasaki Aircraft Industries | Ki 102 Otsu | Type 5 Twin-Engine Attack Aircraft -- on statcard
+     - Ki-102 --> Ki 102 Otsu -- at medium distance
+     - Ki-102 --> Ki 102 Otsu -- at long distance
+   - B6N2 Model 12
+     - B6N2 Model 12 --> B6N2 Tenzan -- in shop
+     - B6N2 Model 12 --> Nakajima Aircraft | B6N2 Tenzan | Model 12 -- on statcard
+     - B6N2 Model 12 --> B6N2 Tenzan -- at medium distance
+     - B6N2 --> B6N2 -- at long distance
+  - B6N2a Model 12Ko
+     - B6N2a Model 12Ko --> B6N2 Kō Tenzan -- in shop
+     - B6N2a Model 12Ko --> Nakajima Aircraft | B6N2 Tenzan | Model 12 Kō -- on statcard
+     - B6N2a Model 12Ko --> B6N2 Kō Tenzan -- at medium distance
+     - B6N2a --> B6N2 Kō -- at long distance
+   - D4Y1
+     - D4Y1 --> D4Y1 Suisei -- in shop
+     - D4Y1 --> Aichi Aircraft | D4Y1 Suisei | Model 11 -- on statcard
+     - D4Y1 --> D4Y1 Suisei -- at medium distance
+     - D4Y1 --> D4Y1 -- at long distance
+   - D4Y2
+     - D4Y2 --> D4Y2 Suisei -- in shop
+     - D4Y2 --> Aichi Aircraft | D4Y2 Suisei | Model 12 -- on statcard
+     - D4Y2 --> D4Y2 Suisei -- at medium distance
+     - D4Y2 --> D4Y2 -- at long distance
+   - D4Y3 Ko
+     - D4Y3 Ko --> D4Y3 Kō Suisei -- in shop
+     - D4Y3 Ko --> Aichi Aircraft | D4Y3 Suisei | Model 12 Kō -- on statcard
+     - D4Y3 Ko --> D4Y3 Kō Suisei -- at medium distance
+     - D4Y3 Ko --> D4Y3 Kō -- at long distance
+   - G4M1
+     - G4M1 --> G4M1 -- in shop
+     - G4M1 --> Mitsubishi Heavy Industries | G4M1 | Type 1 Land Attack Aircraft | Model 11 -- on statcard
+     - G4M1 --> G4M1 -- at medium distance
+     - G4M1 --> G4M1 -- at long distance
+   - H8K2
+     - H8K2 --> H8K2 -- in shop
+     - H8K2 --> Kawashini Aircraft | H8K2 | Type 2 Flying Boat | Model 12 -- on statcard
+     - H8K --> H8K2 -- at medium distance
+     - H8K --> H8K2 -- at long distance
+   - Ki-49-I
+     - Ki-49-I --> Ki 49-I Donryu -- in shop
+     - Ki-49-I Donryu --> Nakajima Aircraft | Ki 49-I Donryu | Type 100 Heavy Bomber | Model 1 Otsu -- on statcard
+     - Ki-49-I --> Ki 49-I Donryu -- at medium distance
+     - Ki-49 --> Ki 49-I -- at long distance
+   - Ki-49-IIa
+     - Ki-49-IIa --> Ki 49-II Kō Donryu -- in shop
+     - Ki-49-IIa Donryu --> Nakajima Aircraft | Ki 49-II Donryu | Type 100 Heavy Bomber | Model 2 Kō  -- on statcard
+     - Ki-49-II --> Ki 49-II Kō Donryu -- at medium distance
+     - Ki-49 --> Ki 49-II Kō -- at long distance
+   - A7He1
+     - A7He1 --> A7He1 -- in shop
+     - A7He1 --> Heinkel Flugzeugwerke | A7He1 | Heinkel Model 112 Land Fighter -- on statcard
+     - A7He1 --> A7He1 -- at medium distance
+     - A7He1 --> A7He1 -- at long distance
+   - H8K3
+     - H8K3 --> H8K3 -- in shop
+     - H8K3 --> Kawashini Aircraft | H8K3 | Type 2 Flying Boat | Model 22 -- on statcard
+     - H8K --> H8K3 -- at medium distance
+     - H8K --> H8K3 -- at long distance
+   - Ki-48-II Otsu
+     - Ki-48-II Otsu --> Ki 48-II Otsu -- in shop
+     - Ki-48-II Otsu --> Kawasaki Aircraft Industries | Ki 48-II Otsu | Type 99 Twin-Engine Light Bomber | Model 2 Otsu -- on statcard
+     - Ki-48 --> Ki 48-II Otsu -- at medium distance
+     - Ki-48 --> Ki 48-II Otsu -- at long distance
+   - Ki-48-II Otsu
+     - Ki-48-II Otsu --> Ki 48-II Otsu -- in shop
+     - Ki-48-II Otsu --> Kawasaki Aircraft Industries | Ki 48-II Otsu | Type 99 Twin-Engine Light Bomber | Model 2 Otsu -- on statcard
+     - Ki-48 --> Ki 48-II Otsu -- at medium distance
+     - Ki-48 --> Ki 48-II Otsu -- at long distance
+   - Ki-21-I Hei
+     - Ki-21-I Hei --> Ki 21-I Hei -- in shop
+     - Ki-21-I Hei --> Mitsubishi Heavy Industries | Ki 21-I Hei | Type 97 Heavy Bomber | Model 1 Hei -- on statcard
+     - Ki-21-I --> Ki 21-I Hei -- at medium distance
+     - Ki-21 --> Ki 21-I Hei -- at long distance
+   - F4U-1A
+     - F4U-1A --> F4U-1A Korusea -- in shop
+     - F4U-1A Corsair --> "Vought-Sikorsky Aircraft | F4U-1A Korusea ""Shikorusukī""" -- on statcard
+     - F4U-1 --> F4U-1A Korusea -- at medium distance
+     - F4U --> F4U-1A -- at long distance
+   - F1M2
+     - F1M2 --> F1M2 -- in shop
+     - F1M2 --> Mitsubishi Heavy Industries | F1M2 | Type 0 Observation Aircraft -- on statcard
+     - F1M2 --> F1M2 -- at medium distance
+     - F1M --> F1M2 -- at long distance
+  - A5M4
+     - A5M4 --> A5M4 -- in shop
+     - A5M4 --> Mitsubishi Heavy Industries | A5M4 | Type 96 No. 4 Carrier Fighter | Model 4 -- on statcard
+     - A5M4 --> A5M4 -- at medium distance
+     - A5M4 --> A5M4 -- at long distance
+   - Ki-10-I
+     - Ki-10-I --> Ki 10-I -- in shop
+     - Ki-10-I --> Kawasaki Aircraft Industries | Ki 10-I | Type 95 Fighter | Model 1 -- on statcard
+     - Ki-10 --> Ki 10-I -- at medium distance
+     - Ki-10 --> Ki 10-I -- at long distance
+   - Ki-10-I C
+     - Ki-10-I C --> Ki 10-I (1st FS) -- in shop
+     - Ki-10-I C --> Kawasaki Aircraft Industries | Ki 10-I | Type 95 Fighter | Model 1 | 1st Flight Squadron -- on statcard
+     - Ki-10 --> Ki 10-I (1st FS) -- at medium distance
+     - Ki-10 --> Ki 10-I (1st FS) -- at long distance
+   - Ki-10-II
+     - Ki-10-II --> Ki 10-II -- in shop
+     - Ki-10-II --> Kawasaki Aircraft Industries | Ki 10-II | Type 95 Fighter | Model 2 -- on statcard
+     - Ki-10 --> Ki 10-II -- at medium distance
+     - Ki-10 --> Ki 10-II -- at long distance
+   - Ki-10-II C
+     - Ki-10-II C --> Ki 10-II (77th FS) -- in shop
+     - Ki-10-II C --> Kawasaki Aircraft Industries | Ki 10-II | Type 95 Fighter | Model 2 | 77th Flight Squadron -- on statcard
+     - Ki-10 --> Ki 10-II (77th FS) -- at medium distance
+     - Ki-10 --> Ki 10-II (77th FS) -- at long distance
+   - Ki-27 Otsu
+     - Ki-27 Otsu --> Ki 27 Otsu -- in shop
+     - Ki-27 Otsu --> Nakajima Aircraft | Ki 27 | Type 97 Fighter Otsu -- on statcard
+     - Ki-27 --> Ki 27 Otsu -- at medium distance
+     - Ki-27 --> Ki 27 Otsu -- at long distance
+   - Ki-27 Otsu Tachiarai
+     - Ki-27 Otsu Tachiarai --> Ki 27 Otsu (4th FS) -- in shop
+     - Ki-27 Otsu Tachiarai --> Nakajima Aircraft | Ki 27 | Type 97 Fighter Otsu | 4th Flight Squadron -- on statcard
+     - Ki-27 --> Ki 27 Otsu (4th FS) -- at medium distance
+     - Ki-27 --> Ki 27 Otsu (4th FS) -- at long distance
+   - Ki-43-I
+     - Ki-43-I --> Ki 43-I Hei Hayabusa -- in shop
+     - Ki-43-I Hayabusa --> Nakajima Aircraft | Ki 43-I Hayabusa | Type 1 Fighter | Model 1 Hei  -- on statcard
+     - Ki-43 --> Ki 43-I Hei Hayabusa -- at medium distance
+     - Ki-43 --> Ki 43-I Hei -- at long distance
+   - Ki-43-II
+     - Ki-43-II --> Ki 43-II Otsu Hayabusa -- in shop
+     - Ki-43-II Hayabusa --> Nakajima Aircraft | Ki 43-II Hayabusa | Type 1 Fighter | Model 2 Otsu -- on statcard
+     - Ki-43 --> Ki 43-II Otsu Hayabusa  -- at medium distance
+     - Ki-43 --> Ki 43-II Otsu -- at long distance
+   - Ki-45 Tei
+     - Ki-45 Tei --> Ki 45 Kai Hei Toryu (Tei) -- in shop
+     - Ki-45 Tei Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Hei  | Tei Equipment -- on statcard
+     - Ki-45 Tei --> Ki 45 Kai Hei Toryu (Tei) -- at medium distance
+     - Ki-45 --> Ki 45 Kai Hei (Tei) -- at long distance
+   - Ki-45 Otsu
+     - Ki-45 Otsu --> Ki 45 Kai Otsu Toryu -- in shop
+     - Ki-45 Otsu Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Otsu  -- on statcard
+     - Ki-45 Otsu --> Ki 45 Kai Otsu Toryu -- at medium distance
+     - Ki-45 --> Ki 45 Kai Otsu -- at long distance
+   - Ki-45 Ko/Tei
+     - Ki-45 Otsu --> Ki 45 Kai Kō Toryu (Tei) -- in shop
+     - Ki-45 Otsu Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Kō  | Tei Equipment -- on statcard
+     - Ki-45 Otsu --> Ki 45 Kai Kō Toryu (Tei) -- at medium distance
+     - Ki-45 --> Ki 45 Kai Kō (Tei) -- at long distance
+  - Ki-45 Hei
+     - Ki-45 Otsu --> Ki 45 Kai Hei Toryu -- in shop
+     - Ki-45 Otsu Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Hei  -- on statcard
+     - Ki-45 Otsu --> Ki 45 Kai Hei Toryu -- at medium distance
+     - Ki-45 --> Ki 45 Kai Hei -- at long distance
+   - Ki-45 Hei/Tei
+     - Ki-45 Otsu --> Ki 45 Kai Hei Toryu (Tei) -- in shop
+     - Ki-45 Otsu Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Hei | Tei Equipment -- on statcard
+     - Ki-45 Otsu --> Ki 45 Kai Hei Toryu (Tei) -- at medium distance
+     - Ki-45 --> Ki 45 Kai Hei (Tei) -- at long distance
+   - Ki-45 Ko
+     - Ki-45 Otsu --> Ki 45 Kai Kō Toryu -- in shop
+     - Ki-45 Otsu Toryu --> Kawasaki Aircraft Industries | Ki 45 Toryu | Type 2 Two-Seat Fighter | Kai Kō  -- on statcard
+     - Ki-45 Otsu --> Ki 45 Kai Kō Toryu -- at medium distance
+     - Ki-45 --> Ki 45 Kai Kō -- at long distance
+   - Ki-109
+     - Ki-109 --> Ki 109 -- in shop
+     - Ki-109 --> Mitsubishi Heavy Industries | Ki 109 -- on statcard
+     - Ki-109 --> Ki 109 -- at medium distance
+     - Ki-109 --> Ki 109 -- at long distance
+   - B5N2
+     - B5N2 --> B5N2 -- in shop
+     - B5N2 --> Nakajima Aircraft | B5N2 | Type 97 Carrier Attack Bomber | Model 12 -- on statcard
+     - B5N2 --> B5N2 -- at medium distance
+     - B5N2 --> B5N2 -- at long distance
+   - D3A1
+     - D3A1 --> D3A1 -- in shop
+     - D3A1 --> Aichi Aircraft | D3A1 | Type 99 Carrier Bomber | Model 11 -- on statcard
+     - D3A1 --> D3A1 -- at medium distance
+     - D3A1 --> D3A1 -- at long distance
+   - B6N1 Model 11
+     - B6N1 Model 11 --> B6N1 Tenzan -- in shop
+     - B6N1 Model 11 --> Nakajima Aircraft | B6N1 Tenzan | Model 11 -- on statcard
+     - B6N1 Model 11 --> B6N1 Tenzan -- at medium distance
+     - B6N1 --> B6N1 -- at long distance
+   - Ki-32
+     - Ki-32 --> Ki 32 -- in shop
+     - Ki-32 --> Kawasaki Aircraft Industries | Ki 32 | Type 98 Light Bomber -- on statcard
+     - Ki-32 --> Ki 32 -- at medium distance
+     - Ki-32 --> Ki 32 -- at long distance
+   - Ki-21-Ia
+     - Ki-21-Ia --> Ki 21-I Kō -- in shop
+     - Ki-21-Ia --> Mitsubishi Heavy Industries | Ki 21-I | Type 97 Heavy Bomber | Model 1 Kō -- on statcard
+     - Ki-21-I --> Ki 21-I Kō -- at medium distance
+     - Ki-21 --> Ki 21-I Kō -- at long distance
+   - H6K4
+     - H6K4 --> H6K4 -- in shop
+     - H6K4 --> Kawashini Aircraft | H6K4 | Type 97 Flying Boat | Model 22 -- on statcard
+     - H6K --> H6K4 -- at medium distance
+     - H6K --> H6K4 -- at long distance
+   - Hagiri's A5M4
+     - Hagiri's A5M4 --> A5M4 [Hagiri] -- in shop
+     - Hagiri's A5M4 --> Mitsubishi Heavy Industries | Matsuo Hagiri's A5M4 | Type 96 No. 4 Carrier Fighter | Model 4 -- on statcard
+     - A5M4 --> A5M4 [Hagiri] -- at medium distance
+     - A5M --> A5M4 [Hagiri] -- at long distance
+
+- Changed the names of the following Thai aircraft:
+   - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+   - B.J.3 Helldiver
+     - Curtiss-Wright Corporation | B.J.3 Helldiver | SB2C-5 --> Curtiss-Wright Corporation | B.J.3 | SB2C-5 Helldiver -- on statcard
+   - B.Kh.16 Thunderjet
+     - Republic Aviation Corporation | B.Kh.16 Thunderjet | F-84G-21 --> Republic Aviation Corporation | B.Kh.16 | F-84G-21 Thunderjet -- on statcard
+   - B.J.7 Alpha Jet (1999)
+     - Dassault/Dornier | B.J.7 Alpha Jet | Alpha Jet A (1999) --> Dassault/Dornier | B.J.7 | Alpha Jet A (1999) -- on statcard
+   - B.J.7 Alpha Jet (2004)
+     - Dassault/Dornier | B.J.7 ALpha Jet | Alpha Jet TH, Phase 1 (2004) --> Dassault/Dornier | B.J.7 | Alpha Jet TH, Phase 1 (2004) -- on statcard
+   - B.KhL.1 Matador (1973)
+     - Hawker Siddeley Group, Ltd. | B.KhL.1 Matador | AV-8S (1973) --> Hawker Siddeley Group, Ltd. | B.KhL.1 | AV-8S Matador (1973) -- on statcard
+   - B.HT.1 Corsair II
+     - LTV Aerospace Corporation | B.HT.1 Corsair II | A-7E --> LTV Aerospace Corporation | B.HT.1 | A-7E Corsair II -- on statcard
+   - B.Kh.18 Freedom Fighter
+     - Northrop Corporation | B.Kh.18 Freedom Fighter | F-5A --> Northrop Corporation | B.Kh.18 | F-5A Freedom Fighter -- on statcard
+   - B.Kh.18B Tigris (1988)
+     - B.Kh.18B Tigris (1988) --> B.Kh.18Kh Tigris (1988) - in shop
+     - Northrop Corporation | B.Kh.18B Tigris | F-5T First Capability Upgrade (1988) --> Northrop Corporation | B.Kh.18Kh | F-5T Tigris | First Capability Upgrade (1988) - on statcard
+     - B.Kh.18B Tigris (1988) --> B.Kh.18Kh Tigris (1988) - at medium distance
+     - B.Kh.18B (1988) --> B.Kh.18Kh (1988) - at long distance
+   - B.Kh.18B Tigris (2003)
+     - B.Kh.18B Tigris (2003) --> B.Kh.18Kh Tigris (2003) - in shop
+     - Northrop Corporation | B.Kh.18B Tigris | F-5T Second Capability Upgrade (2003) --> Northrop Corporation | B.Kh.18Kh | F-5T Tigris | Second Capability Upgrade (2003) - on statcard
+     - B.Kh.18B Tigris (2003) --> B.Kh.18Kh Tigris (2003) - at medium distance
+     - B.Kh.18B (2003) --> B.Kh.18Kh (2003) - at long distance
+   - B.KhL.1 Matador (1998)
+     - Hawker Siddeley Group, Ltd. | B.KhL.1 Matador | AV-8S (1998) --> Hawker Siddeley Group, Ltd. | B.KhL.1 | AV-8S Matador (1998) - on statcard
+   - B.Kh.19 Viper
+     - General Dynamics Corporation | B.Kh.19 Viper | F-16A-15OCU | Mid-Life Update (2010) --> General Dynamics Corporation | B.Kh.19 | F-16A-15OCU Viper | Mid-Life Update (2010) - on statcard
+   - B.Kh.20 Gripen C
+     - Saab AB | B.Kh.20 Gripen C | JAS 39C --> Saab AB | B.Kh.20 | JAS 39C Gripen C - on statcard
+  - F-5TH TCU
+    - F-5TH TCU --> B.Kh.18Kh Super Tigris (2014) -- in shop
+    - F-5TH Super Tigris TCU --> Northrop Corporation | B.Kh.18Kh | F-5TH Super Tigris | Third Capability Upgrade (2014)
+    - F-5TH --> B.Kh.18Kh Super Tigris (2014) -- at medium distance
+    - F-5 --> B.Kh.18Kh (2014) -- at long distance
+
+- Changed the names of the following Swedish aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - A 32A Lansen «Röd Adam»
+    - A 32A Lansen «Röd Adam» --> A 32A Lansen (F 17) -- in shop
+    - Saab AB | A 32A Lansen «Röd Adam» --> Svenska Aeroplan AB | A 32A Lansen | Blekinge Flygflottilj (F 17 Kallinge) -- on statcard
+    - A 32A Lansen «Röd Adam» --> A 32A Lansen (F 17) -- at medium distance
+    - A 32A «Röd Adam» --> A 32A (F 17) -- at long distance
+  - F-35 Draken (WDNS)
+    - added a roundel
+    - F-35 Draken (WDNS) --> F-35 WDNS Draken -- in shop
+    - Saab AB | F-35 Draken | Weapon Delivery and Navigation System --> Saab-Scania AB | F-35 Draken | Weapon Delivery and Navigation System -- on statcard
+    - F-35 Draken (WDNS) --> F-35 WDNS Draken -- at medium distance
+    - F-35 WDNS --> F-35 WDNS -- at long distance
+  - F-5A(G) Tiger-PAWS
+    - F-5A(G) Tiger-PAWS --> F-5A(G)-40 Freedom Fighter (Tiger-PAWS) -- in shop
+    - Northrop Corporation | F-5A(G) Tiger-PAWS --> Northrop Corporation | F-5A(G)-40 Freedom Fighter | Tiger Program for Avionics and Weapons Systems (PAWS) | Eye of the Tiger Program (2007) -- on statcard
+    - F-5A(G) Tiger-PAWS --> F-5A(G)-40 Freedom Fighter (Tiger-PAWS) -- at medium distance
+    - F-5A(G) --> F-5A(G)-40 (Tiger-PAWS) -- at long distance
+  - MiG-21bis Fishbed-L
+    - MiG-21bis Fishbed-L --> MiG-21bis Fishbed-N -- in shop
+    - OKB-155 ""Mikoyan i Gurevich"" | MiG-21bis Fishbed-L | Product 75A --> OKB-155 ""Mikoyan"" | MiG-21bis Fishbed-N | MGB ""Konelan putki"" (1985) -- on statcard
+    - MiG-21bis Fishbed-L --> MiG-21bis Fishbed-N -- at medium distance
+  - JA 37DI (F 21 Luleå)
+    - JA 37DI Jaktviggen (F 21 Luleå) --> JA 37DI Jaktviggen (F 21) -- in shop
+    - Saab AB | JA 37DI Jaktviggen | Norrbotten Wing, F 21 Luleå --> Saab-Scania AB | JA 37DI Jaktviggen | Norrbottens Flygflottilj (F 21 Luleå) -- on statcard
+    - JA 37DI Jaktviggen (F 21 Luleå) --> JA 37DI Jaktviggen (F 21) -- at medium distance
+  - JAS 39A
+    - Saab AB | JAS 39A Gripen A --> Saab AB | JAS 39A Gripen (2011) -- on statcard
+  - JAS 39C
+    - Saab AB | JAS 39C Gripen C --> Saab AB | JAS 39C Gripen (2011) -- on statcard
+  - J29F
+    - J29F --> J 29F Tunnan -- in shop
+    - J29F Tunnan --> Svenska Aeroplan AB | J 29F Tunnan -- on statcard
+    - J29F --> J 29F Tunnan -- at medium distance
+    - J29 --> J 29F -- at long distance
+  - J29A
+    - J29A --> J 29A Tunnan -- in shop
+    - J29A Tunnan --> Svenska Aeroplan AB | J 29A Tunnan -- on statcard
+    - J29A --> J 29A Tunnan -- at medium distance
+    - J29 --> J 29A -- at long distance
+  - A29B
+    - A29B --> A 29B Tunnan -- in shop
+    - A29B Tunnan --> Svenska Aeroplan AB | A 29B Tunnan -- on statcard
+    - A29B --> A 29B Tunnan -- at medium distance
+    - A29 --> A 29B -- at long distance
+  - J 35A Draken
+    - J 35A Draken --> J 35A-1 Draken -- in shop
+    - Svenska Aeroplan AB | J 35A Draken --> Svenska Aeroplan AB | J 35A-1 Draken ""Adam kort"" -- on statcard
+    - J 35A Draken --> J 35A-1 Draken -- at medium distance
+    - J 35A --> J 35A-1 -- at long distance
+  - J 34 Hunter Mk.50
+     - J 34 Hunter Mk.50 --> J 34 Hunter -- in shop
+     - Hawker Aircraft, Ltd. | J 34 Hunter Mk.50 --> Hawker Aircraft, Ltd. | J 34 | Hunter Mk.50 -- on statcard
+     - J 34 Hunter Mk.50 --> J 34 Hunter -- at medium distance
+  - J 28B Vampire Mk.50
+     - J 28B Vampire Mk.50 --> J 28B Vampire -- in shop
+     - de Havilland Aircraft Company, Ltd. | J 28B Vampire Mk.50 --> de Havilland Aircraft Company, Ltd. | J 28B | Vampire Mk.50 -- on statcard
+     - J 28B Vampire Mk.50 --> J 28B Vampire -- at medium distance
+  - J21RA
+    - J21RA --> A 21RA -- in shop
+    - J21RA --> Svenska Aeroplan AB | A 21RA -- on statcard
+    - J21RA --> A 21RA -- at medium distance
+    - J21R --> A 21RA -- at long distance
+  - A21RB
+    - A21RB --> A 21RB -- in shop
+    - A21RB --> Svenska Aeroplan AB | A 21RB -- on statcard
+    - A21RB --> A 21RB -- at medium distance
+    - A21R --> A 21RB -- at long distance
+  - Saab 105Ö
+    - added a roundel
+  - J29D
+    - J29D --> J 29D Tunnan -- in shop
+    - J29D Tunnan --> Svenska Aeroplan AB | J 29D Tunnan | Alt. 2 -- on statcard
+    - J29D --> J 29D Tunnan -- at medium distance
+    - J29 --> J 29D -- at long distance
+  - J 26 Mustang
+     - North American Aviation | J 26 Mustang | P-51D Block 20 --> North American Aviation | J 26 | P-51D-20 Mustang-- on statcard
+  - J 26 David
+     - North American Aviation | J 26 David | P-51B Block 7 --> North American Aviation | J 26 David | P-51B-7 Mustang -- on statcard
+  - J21A-1
+    - J21A-1 --> J 21A-1 -- in shop
+    - J21A-1 --> Svenska Aeroplan AB | J 21A-1 -- on statcard
+    - J21A-1 --> J 21A-1 -- at medium distance
+    - J21A --> J 21A-1 -- at long distance
+  - J21A-2
+    - J21A-2 --> J 21A-2 -- in shop
+    - J21A-2 --> Svenska Aeroplan AB | J 21A-2 -- on statcard
+    - J21A-2 --> J 21A-2 -- at medium distance
+    - J21A --> J 21A-2 -- at long distance
+  - A21A-3
+    - A21A-3 --> A 21A-3 -- in shop
+    - A21A-3 --> Svenska Aeroplan AB | A 21A-3 (1952) -- on statcard
+    - A21A-3 --> A 21A-3 -- at medium distance
+    - A21A --> A 21A-3 -- at long distance
+  - J22-B
+    - J22-B --> J 22B -- in shop
+    - J22-B --> Kungliga Flygförvaltningens Flygverkstad i Stockholm | J 22B -- on statcard
+    - J22-B --> J 22B -- at medium distance
+    - J22 --> J 22B -- at long distance
+  - B18B
+    - B18B --> B 18B -- in shop
+    - B18B --> Svenska Aeroplan AB | B 18B -- on statcard
+    - B18B --> B 18B -- at medium distance
+    - B18 --> B 18B -- at long distance
+  - T18B
+    - T18B --> T 18B-1 -- in shop
+    - T18B --> Svenska Aeroplan AB | T 18B-1 -- on statcard
+    - T18B --> T 18B-1 -- at medium distance
+    - T18B --> T 18B-1 -- at long distance
+  - T18B (57)
+    - T18B (57) --> T 18B-2 -- in shop
+    - T18B (57) --> Svenska Aeroplan AB | T 18B-2 -- on statcard
+    - T18B (57) --> T 18B-2 -- at medium distance
+    - T18B --> T 18B-2 -- at long distance
+  - J22-A
+    - J22-A --> J 22A -- in shop
+    - J22-A --> Kungliga Flygförvaltningens Flygverkstad i Stockholm | J 22A -- on statcard
+    - J22-A --> J 22A -- at medium distance
+    - J22 --> J 22A -- at long distance
+  - J20
+    - J20 --> J 20 Falco I -- in shop
+    - J20 --> Officine Meccaniche Reggiane SA | J 20 | Re.2000 Falco I -- on statcard
+    - J20 --> J 20 Falco I -- at medium distance
+    - J20 --> J 20 -- at long distance
+  - B18A
+    - B18A --> B 18A -- in shop
+    - B18A --> Svenska Aeroplan AB | B 18A -- on statcard
+    - B18A --> B 18A -- at medium distance
+    - B18A --> B 18A -- at long distance
+  - B17A
+    - B17A --> B 17A -- in shop
+    - B17A --> Svenska Aeroplan AB | B 17A -- on statcard
+    - B17A --> B 17A -- at medium distance
+    - B17 --> B 17A -- at long distance
+  - B17B
+    - B17B --> B 17B -- in shop
+    - B17B --> Svenska Aeroplan AB | B 17B -- on statcard
+    - B17B --> B 17B -- at medium distance
+    - B17 --> B 17B -- at long distance
+  - S17BS
+    - S17BS --> S 17BS -- in shop
+    - S17BS --> Svenska Aeroplan AB | S 17BS -- on statcard
+    - S17BS --> S 17BS -- at medium distance
+    - S17 --> S 17BS -- at long distance
+  - J11
+    - J11 --> J 11 Falco -- in shop
+    - J11 --> Fiat Aviazione | J 11 | CR.42 Falco -- on statcard
+    - J11 --> J 11 Falco -- at medium distance
+    - J11 --> J 11 -- at long distance
+  - Iacobi's J8A
+    - Iacobi's J8A --> J 8A Gladiator [Iacobi] -- in shop
+    - Iacobi's J8A --> Gloster Aircraft Company | Ian Iacobi's J 8A | Gladiator Mk.II -- on statcard
+    - Iacobi's J8A --> J 8A Gladiator [Iacobi] -- at medium distance
+    - J8A --> J 8A [Iacobi] -- at long distance
+  - J6B
+    - J6B --> J 6B Jaktfalken -- in shop
+    - J6B --> Svenska Aeroplan AB | J 6B Jaktfalken -- on statcard
+    - J6B --> J 6B Jaktfalken -- at medium distance
+    - J6B --> J 6B -- at long distance
+  - T 2
+    - added a roundel
+    - T 2 --> Heinkel Flugzeugwerke | T 2 | He 115 A-2 -- on statcard
+  - B3C
+    - B3C --> B 3C-2 -- in shop
+    - B3C --> Junkers Flugzeug- und Motorenwerke AG | B 3C-2 | Ju 86 K-13 -- on statcard
+    - B3C --> B 3C-2 -- at medium distance
+    - B3C --> B 3C-2 -- at long distance
+
+- Changed the names of the following Finnish aircraft:
+  - F-18C Hornet
+    - Patria Group PLC | F-18C Hornet --> McDonnell Douglas Corporation / Patria Group PLC | F-18C Hornet | HN -- on statcard
+  - F/A-18C MLU 2
+    - Patria Group PLC | F/A-18C Hornet | Mid-Life Upgrade 2 --> McDonnell Douglas Corporation / Patria Group PLC | F/A-18C Hornet | HN | Mid-Life Upgrade 2-- on statcard
+  - Vampire Mk.52A
+    - de Havilland Aircraft Company, Ltd. | DH.100 Vampire Mk.52A --> de Havilland Aircraft Company, Ltd. | DH.100 Vampire Mk. 52A | VA ""Vamppi"" -- on statcard
+  - DKS/35S Draken
+    - added a roundel
+    - DKS/35S Draken --> Saab 35S Draken
+    - Saab AB | DKS/35S Draken | J 35XS --> Saab-Valmet | Saab 35S | DKS ""Silitysrauta"" (1993)
+    - DKS/35S Draken --> Saab 35S Draken
+    - DKS/35S --> Saab 35S
+  - Fokker D.XXI-3
+    - Fokker D.XXI-3 --> Fokker D.XXI-3 (1937) -- in shop
+    - Fokker D.XXI Series 3 --> N.V. Koninklijke Nederlandse Vliegtuigenfabriek Fokker | D.XXI-3 | FR-76 ""Ukko-Mokkeri"" (1937) -- on statcard
+    - Fokker D.XXI --> Fokker D.XXI-3 (1937) -- at medium distance
+    - Fokker --> Fokker D.XXI-3 (1937) -- at long distance
+  - Ju 88 A-4
+    - Ju 88 A-4 --> Ju 88 A-4 Iso Stuka -- in shop
+    - Ju 88 A-4 --> Junkers Flugzeug- und Motorenwerke AG | Ju 88 A-4 | JK ""Iso Stuka"" (1943) -- on statcard
+    - Ju 88 A --> Ju 88 A-4 Iso Stuka -- at medium distance
+    - Ju 88 --> Ju 88 A-4 -- at long distance
+  - B-239
+    - B-239 --> B-239E Ryysteri -- in shop
+    - Brewster Model 239 --> Brewster Aeronautical Corporation | B-239E | BW ""Ryysteri"" (1943) -- on statcard
+    - B-239 --> B-239E Ryysteri -- at medium distance
+    - B-239 --> B-239E -- at long distance
+  - Hurricane Mk I/L
+    - Hurricane Mk I/L --> Hurricane Mk.I (1940) -- in shop
+    - Hurricane Mk I Late --> Hawker Aircraft, Ltd. | Hurricane | Mk.I | HC ""Hurricane"" (1940) -- on statcard
+    - Hurricane --> Hurricane Mk.I (1940) -- at medium distance
+    - Hurricane --> Hurricane Mk.I (1940) -- at long distance
+  - Mörkö-Morane
+    - Mörkö-Morane --> Aéroplanes Morane-Saulnier / Valtion lentokonetehdas | Mörkö-Morane | MSv -- on statcard
+  - Fokker D.XXI
+    - Fokker D.XXI --> Fokker D.XXI-3 -- in shop
+    - Fokker D.XXI --> N.V. Koninklijke Nederlandse Vliegtuigenfabriek Fokker | D.XXI-3 | FRm sarja I ""Ukko-Mokkeri"" -- on statcard
+    - Fokker D.XXI --> Fokker D.XXI-3 -- at medium distance
+    - Fokker --> Fokker D.XXI-3 -- at long distance
+  - Bf 109 G-2
+    - Bf 109 G-2 --> Bf 109 G-2 Mersu -- in shop
+    - Bf 109 G-2 --> Messerschmitt AG | Bf 109 G-2 | MT ""Mersu"" -- on statcard
+    - Bf 109 G --> Bf 109 G-2 Mersu -- at medium distance
+    - Bf 109 --> Bf 109 G-2 -- at long distance
+  - Bf 109 G-6 Messer
+    - Bf 109 G-6 Messer --> Bf 109 G-6/R6 Mersu (Tp) -- in shop
+    - Messerschmitt AG | Bf 109 G-6 Messer --> Messerschmitt AG | Bf 109 G-6 | Rüstatz 6 | MT ""Mersu"" | Tropenausrüstung -- on statcard
+    - Bf 109 G-6 Messer --> Bf 109 G-6/R6 Mersu (Tp) -- at medium distance
+    - Bf 109 G-6 --> Bf 109 G-6/R6 (Tp) -- at long distance
+  - Bf 109 G-6 Erla
+    - Bf 109 G-6 Erla --> Bf 109 G-6/R6 Erla Mersu -- in shop
+    - Bf 109 G-6 Erla --> Messerschmitt AG | Bf 109 G-6 Erla | Rüstatz 6 | MT ""Mersu"" -- on statcard
+    - Bf 109 G --> Bf 109 G-6/R6 Erla Mersu -- at medium distance
+    - Bf 109 --> Bf 109 G-6/R6 Erla -- at long distance
+  - VL Pyörremyrsky
+    - VL Pyörremyrsky --> Pyörremyrsky -- in shop
+    - VL Pyörremyrsky --> Valtion lentokonetehdas | Pyörremyrsky | PM-1 ""Puu-Mersu"" -- on statcard
+    - VL Pyörremyrsky --> Pyörremyrsky -- at medium distance
+    - VL Pyörremyrsky --> Pyörremyrsky -- at long distance
+  - Ar 196 A-5
+    - Ar 196 A-5 --> Arado Flugzeugwerke | Ar 196 A-5 | AR -- on statcard
+    - Ar 196 --> Ar 196 A-5 -- at long distance
+
+- Changed the names of the following Italian aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - A-200 Tornado IDS (1982)
+    - A-200 --> A-200A -- on all names
+  - A-200 Tornado IDS (1995)
+    - A-200 --> A-200A -- on all names
+  - A-200 Tornado IDS MLU
+    - A-200 --> A-200C -- on all names
+  - G.56
+    - G.56 --> G.56 Centauro -- in shop
+    - G.56 --> Fiat Aviazone | G.56 Centauro | 1944 Prototype -- on statcard
+    - G.56 --> G.56 Centauro  -- at medium distance
+    - G.56 --> G.56 -- at long distance
+  - G.55
+    - G.55 serie 1 --> G.55/1 Centauro -- in shop
+    - G.55 Centauro serie 1 --> Fiat Aviazone | G.55 Centauro | Serie 1 -- on statcard
+    - G.55 --> G.55/1 Centauro -- at medium distance
+    - G.55 --> G.55/1 -- at long distance
+  - Re.2005 serie 0
+    - Re.2005 serie 0 --> Re.2005 Sagittario -- in shop
+    - Re.2005 serie 0 --> Officine Meccaniche Reggiane S.p.A | Re.2005 Sagittario -- on statcard
+    - Re.2005 serie 0 --> Re.2005 Sagittario -- at medium distance
+    - Re.2005 --> Re.2005 -- at long distance
+  - C. 205 serie 3
+    - C. 205 serie 3 --> C.205V Veltro -- in shop
+    - C. 205 serie 3 --> Aeronautica Macchi | C.205V Veltro | Serie 3 -- on statcard
+    - C. 205 serie 3 --> C.205V Veltro -- at medium distance
+    - C. 205 --> C.205V -- at long distance
+  - G.55S
+    - G.55S --> G.55/S Centauro -- in shop
+    - G.55S --> Fiat Aviazone | G.55 Centauro | Silurante -- on statcard
+    - G.55S --> G.55/S Centauro -- at medium distance
+    - G.55S --> G.55/S -- at long distance
+  - G.55 sottoserie 0
+    - G.55 sottoserie 0 --> G.55/0 Centauro -- in shop
+    - G.55 sottoserie 0 --> Fiat Aviazone | G.55 Centauro | Sottoserie 0 -- on statcard
+    - G.55 --> G.55/0 Centauro -- at medium distance
+    - G.55 --> G.55/0 -- at long distance
+  - Re.2001 CN
+    - Re.2001 CN --> Re.2001CN Falco II -- in shop
+    - Re.2001 CN --> Officine Meccaniche Reggiane S.p.A | Re.2001 Falco II | Caccia Notturna -- on statcard
+    - Re.2001 CN --> Re.2001CN Falco II -- at medium distance
+    - Re.2001 --> Re.2001CN -- at long distance
+  - C.202EC
+    - C. 202EC --> C.202EC Folgore -- in shop
+    - C. 202EC --> Aeronautica Macchi | C.202 Folgore | Esperimento Cannoni -- on statcard
+    - C. 202EC --> C.202EC Folgore -- at medium distance
+    - C. 202 --> C.202EC -- at long distance
+  - C.205N2
+    - C. 205N2 --> C.205N2 Orione -- in shop
+    - C. 205N2 --> Aeronautica Macchi | C.205N2 Orione | 1943 Prototype -- on statcard
+    - C. 205N2 --> C.205N2 Orione -- at medium distance
+    - C. 205 --> C.205N2 -- at long distance
+  - SM.92
+    - SM.92 --> SM.92 -- in shop
+    - SM.92 --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.92 | 1943 Prototype -- on statcard
+    - SM.92 --> SM.92 -- at medium distance
+    - SM.92 --> SM.92 -- at long distance
+  - P.108B serie 1
+    - P.108B serie 1 --> P.108B I Bombardiere -- in shop
+    - P.108B serie 1 --> Rinaldo Piaggio S.p.A | P.108B Bombardiere | Serie 1 -- on statcard
+    - P.108B serie 1 --> P.108B I Bombardiere -- at medium distance
+    - P.108B --> P.108B I -- at long distance
+  - P.108B serie 2
+    - P.108B serie 2 --> P.108B II Bombardiere -- in shop
+    - P.108B serie 2 --> Rinaldo Piaggio S.p.A | P.108B Bombardiere | Serie 2 -- on statcard
+    - P.108B serie 2 --> P.108B II Bombardiere -- at medium distance
+    - P.108B --> P.108B II -- at long distance
+  - Spitfire Mk Vb/trop
+    - Spitfire Mk Vb/trop --> Spitfire Mk.VB(trop) -- in shop
+    - Spitfire Mk Vb/trop --> Supermarine Aviation Works | Spitfire Mk.V | Type B Wing | Tropicalised -- on statcard
+    - Spitfire --> Spitfire Mk.VB(trop) -- at medium distance
+    - Spitfire --> Spitfire Mk.VB(trop) -- at long distance
+  - Bf 110 G-4
+    - Bf 110 G-4 --> Messerschmitt AG | Bf 110 G-4 -- on statcard
+    - Bf 110 G --> Bf 110 G-4 -- at medium distance
+    - Bf 110 --> Bf 110 G-4 -- at long distance
+  - Re.2001 serie 1
+    - Re.2001 serie 1 --> Re.2001 Falco II -- in shop
+    - Re.2001 serie 1 --> Officine Meccaniche Reggiane S.p.A | Re.2001 Falco II | Serie 1 -- on statcard
+    - Re.2001 serie 1 --> Re.2001 Falco II -- at medium distance
+    - Re.2001 --> Re.2001 -- at long distance
+  - Re.2001 gruppo 22
+    - Re.2001 gruppo 22 --> Re.2001 Falco II (22° G.) -- in shop
+    - Re.2001 serie 1 gruppo 22 --> Officine Meccaniche Reggiane S.p.A | Re.2001 Falco II | Serie 1 | 22° Gruppo -- on statcard
+    - Re.2001 gruppo 22 --> Re.2001 Falco II (22° G.) -- at medium distance
+    - Re.2001 --> Re.2001 (22° G.) -- at long distance
+  - Re.2001 CB
+    - Re.2001 CB --> Re.2001CB Falco II -- in shop
+    - Re.2001 CB --> Officine Meccaniche Reggiane S.p.A | Re.2001 Falco II | Caccia Bombardiere -- on statcard
+    - Re.2001 CB --> Re.2001CB Falco II -- at medium distance
+    - Re.2001 --> Re.2001CB -- at long distance
+  - Re.2002 Early
+    - Re.2002 Early --> Re.2002 Ariete (1942) -- in shop
+    - Re.2002 Early --> Officine Meccaniche Reggiane S.p.A | Re.2002 Ariete (1942) -- on statcard
+    - Re.2002 Early --> Re.2002 Ariete (1942) -- at medium distance
+    - Re.2002 --> Re.2002 (1942) -- at long distance
+  - C. 200 serie 3
+    - C. 200 serie 3 --> C.200/3 Saetta -- in shop
+    - C. 200 Saetta serie 3 --> Aeronautica Macchi | C.200 Saetta | Serie 3 -- on statcard
+    - C. 200 --> C.200/3 Saetta -- at medium distance
+    - C. 200 --> C.200/3 -- at long distance
+  - C. 200 serie 7
+    - C. 200 serie 7 --> C.200/7 Saetta -- in shop
+    - C. 200 Saetta serie 7 --> Aeronautica Macchi | C.200 Saetta | Serie 7 -- on statcard
+    - C. 200 --> C.200/7 Saetta -- at medium distance
+    - C. 200 --> C.200/7 -- at long distance
+  - C. 202
+    - C. 202 --> C.202 Folgore -- in shop
+    - C. 202 Folgore --> Aeronautica Macchi | C.202 Folgore -- on statcard
+    - C. 202 --> C.202 Folgore -- at medium distance
+    - C. 202 --> C.202 -- at long distance
+  - C.205 serie 1
+    - C. 205 serie 1 --> C.205S Veltro -- in shop
+    - C. 205 serie 1 --> Aeronautica Macchi | C.205S Veltro | Serie 1 -- on statcard
+    - C. 205 serie 1 --> C.205S Veltro -- at medium distance
+    - C. 205 --> C.205S -- at long distance
+  - Ju 87 D-3
+    - Ju 87 D-3 --> Ju 87 D-3 Stuka -- in shop
+    - Ju 87 D-3 --> Junkers Flugzeug- und Motorenwerke AG | Ju 87 D-3 Stuka -- on statcard
+    - Ju 87 D --> Ju 87 D-3 Stuka -- at medium distance
+    - Ju 87 --> Ju 87 D-3 -- at long distance
+  - SM.91
+    - SM.91 --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.91 | 1943 Prototype -- on statcard
+  - S.M.79 AS
+    - S.M.79 AS --> SM.79-I Sparviero -- in shop
+    - S.M.79 Sparviero AS (1941) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79-I Sparviero -- on statcard
+    - S.M.79 --> SM.79-I Sparviero -- at medium distance
+    - S.M.79 --> SM.79-I -- at long distance
+  - S.M.79 bis/N
+    - S.M.79 bis/N --> SM.79bis Sparviero (1942) -- in shop
+    - S.M.79 Sparviero bis/N (1942) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79bis Sparviero (1942) -- on statcard
+    - S.M.79 --> SM.79bis Sparviero (1942) -- at medium distance
+    - S.M.79 --> SM.79bis (1942) -- at long distance
+  - S.M.79 bis.T.M
+    - S.M.79 bis/T.M --> SM.79bis Sparviero (1943) -- in shop
+    - S.M.79 Sparviero bis/T.M (1943) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79bis Sparviero (1943) -- on statcard
+    - S.M.79 --> SM.79bis Sparviero (1943) -- at medium distance
+    - S.M.79 --> SM.79bis (1943) -- at long distance
+  - S.M.79 B
+    - S.M.79 B --> SM.79B Sparviero -- in shop
+    - S.M.79 Sparviero B (1936) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79B Sparviero -- on statcard
+    - S.M.79 --> SM.79B Sparviero -- at medium distance
+    - S.M.79 --> SM.79B -- at long distance
+  - Z.1007 bis serie 5
+    - Z.1007 bis serie 5 --> Z.1007bis Alcione (Serie 5) -- in shop
+    - Z.1007 bis serie 5 --> Cantieri Aeronautici e Navali Triestini | Z.1007bis Alcione | Serie 5 -- on statcard
+    - Z.1007 bis --> Z.1007bis Alcione (Serie 5) -- at medium distance
+    - Z.1007 --> Z.1007bis (Serie 5) -- at long distance
+  - Z.1007 bis serie 3
+    - Z.1007 bis serie 3 --> Z.1007bis Alcione (Serie 3) -- in shop
+    - Z.1007 bis serie 3 --> Cantieri Aeronautici e Navali Triestini | Z.1007bis Alcione | Serie 3 -- on statcard
+    - Z.1007 bis --> Z.1007bis Alcione (Serie 3) -- at medium distance
+    - Z.1007 --> Z.1007bis (Serie 3) -- at long distance
+  Re.2000 serie 1
+    - Re.2000 serie 1 --> Re.2000 Falco I -- in shop
+    - Re.2000 serie 1 --> Officine Meccaniche Reggiane S.p.A | Re.2000 Falco I | Serie 1 -- on statcard
+    - Re.2000 --> Re.2000 Falco I -- at medium distance
+    - Re.2000 --> Re.2000 -- at long distance
+  - Re.2000 G.A.
+    - Re.2000 G.A. --> Re.2000GA Falco I -- in shop
+    - Re.2000 G.A. --> Officine Meccaniche Reggiane S.p.A | Re.2000GA Falco I | Serie 3 -- on statcard
+    - Re.2000 --> Re.2000GA Falco I -- at medium distance
+    - Re.2000 --> Re.2000GA -- at long distance
+  - Ro.44
+    - Ro.44 --> Ro.44 -- in shop
+    - Ro.44 --> Industrie Meccaniche e Aeronautiche Meridionali | Ro.44 -- on statcard
+    - Ro.44 --> Ro.44 -- at medium distance
+    - Ro.44 --> Ro.44 -- at long distance
+  - G.50 serie 2
+    - G.50 serie 2 --> G.50 Freccia -- in shop
+    - G.50 Freccia serie 2 --> Fiat Aviazone | G.50 Freccia | Serie 2 -- on statcard
+    - G.50 --> G.50 Freccia -- at medium distance
+    - G.50 --> G.50 -- at long distance
+  - G.50 AS serie 7
+    - G.50 AS serie 7 --> G.50bis/AS Freccia -- in shop
+    - G.50 Freccia AS serie 7 --> Fiat Aviazone | G.50bis/AS Freccia | Serie 7 -- on statcard
+    - G.50 --> G.50bis/AS Freccia -- at medium distance
+    - G.50 --> G.50bis/AS -- at long distance
+  - CR.42
+    - CR.42 --> CR.42 Falco -- in shop
+    - CR.42 Falco --> Fiat Aviazone | CR.42 Falco -- on statcard
+    - CR.42 --> CR.42 Falco -- at medium distance
+    - CR.42 --> CR.42 -- at long distance
+  - CR.32
+    - CR.32 --> CR.32 -- in shop
+    - CR.32 --> Fiat Aviazone | CR.32 -- on statcard
+    - CR.32 --> CR.32 -- at medium distance
+    - CR.32 --> CR.32 -- at long distance
+  - CR.32bis
+    - CR.32 bis --> CR.32bis -- in shop
+    - CR.32 bis --> Fiat Aviazone | CR.32bis -- on statcard
+    - CR.32 bis --> CR.32bis -- at medium distance
+    - CR.32 --> CR.32bis -- at long distance
+  - CR.32quater
+    - CR.32 quater --> CR.32quater -- in shop
+    - CR.32 quater --> Fiat Aviazone | CR.32quater -- on statcard
+    - CR.32 quater --> CR.32quater -- at medium distance
+    - CR.32 --> CR.32quater -- at long distance
+  - Ba.65 (K.14) L
+    - Ba.65 (K.14) L --> Ba.65 K.14 L -- in shop
+    - Ba.65 (K.14) L --> Società Italiana Ernesto Breda | Ba.65 K.14 | L-type Defensive Turret -- on statcard
+    - Ba.65 (K.14) L --> Ba.65 K.14 L -- at medium distance
+    - Ba.65 --> Ba.65 K.14 L -- at long distance
+  - Ju 87 R-2
+    - Ju 87 R-2 --> Ju 87 R-2 Stuka -- in shop
+    - Ju 87 R-2 --> Junkers Flugzeug- und Motorenwerke | Ju 87 R-2 Stuka -- on statcard
+    - Ju 87 R --> Ju 87 R-2 Stuka  -- at medium distance
+    - Ju 87 --> Ju 87 R-2 -- at long distance
+  - F.C.20 Bis
+    - F.C.20 Bis --> FC.20bis -- in shop
+    - F.C.20 Bis --> Construzioni Aeronautiche Novaresi S.A. | FC.20bis -- on statcard
+    - F.C.20 Bis --> FC.20bis -- at medium distance
+    - F.C.20 --> FC.20bis -- at long distance
+  - S.81
+    - S.81 --> SM.81 Pipistrello -- in shop
+    - S.81 --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.81 Pipistrello -- on statcard
+    - S.81 --> SM.81 Pipistrello  -- at medium distance
+    - S.81 --> SM.81 -- at long distance
+  - B.R.20DR
+    - B.R.20DR --> BR.20DR Cicogna -- in shop
+    - B.R.20DR --> Fiat Aviazone | BR.20DR Cicogna -- on statcard
+    - B.R.20DR --> BR.20 Cicogna -- at medium distance
+    - B.R.20 --> BR.20DR -- at long distance
+  - B.R.20M M1
+    - B.R.20M M1 --> BR.20M Cicogna -- in shop
+    - B.R.20M M1 --> Fiat Aviazone | BR.20M Cicogna -- on statcard
+    - B.R.20M M1 --> BR.20M Cicogna -- at medium distance
+    - B.R.20 --> BR.20M -- at long distance
+  - S.M.79 serie 1
+    - S.M.79 serie 1 --> SM.79 Sparviero (1936) -- in shop
+    - S.M.79 Sparviero serie 1 (1936) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79 Sparviero (1936) -- on statcard
+    - S.M.79 --> SM.79 Sparviero (1936) -- at medium distance
+    - S.M.79 --> SM.79 Sparviero (1936) -- at long distance
+  - S.M.79 serie 8
+    - S.M.79 serie 8 --> SM.79 (1939) -- in shop
+    - S.M.79 Sparviero serie 8 (1939) --> Società Anonima Costruzioni Aeronautiche Savoia-Marchetti | SM.79 Sparviero (1939) -- on statcard
+    - S.M.79 --> SM.79 Sparviero (1939) -- at medium distance
+    - S.M.79 --> SM.79 (1939) -- at long distance
+  - Marcolin's C.R.42 CN
+    - Marcolin's C.R.42 CN --> CR.42CN Falco [Marcolin] -- in shop
+    - Marcolin's C.R.42 CN --> Fiat Aviazone | Marcolin's CR.42 Falco | Caccia Notturne -- on statcard
+    - CR.42 CN --> CR.42CN Falco [Marcolin] -- at medium distance
+    - CR.42 --> CR.42CN [Marcolin] -- at long distance
+  - Breda 88 (P.XI)
+    - Breda 88 (P.XI) --> Ba.88 Lince -- in shop
+    - Breda 88 (P.XI) --> Società Italiana Ernesto Breda | Ba.88 Lince -- on statcard
+    - Breda 88 (P.XI) --> Ba.88 Lince -- at medium distance
+    - Breda 88 --> Ba.88 -- at long distance
+  - P.108A serie 2
+    - P.108A serie 2 --> P.108A Bombardiere -- in shop
+    - P.108A serie 2 --> Rinaldo Piaggio S.p.A | P.108A Bombardiere | Serie 2 -- on statcard
+    - P.108A serie 2 --> P.108A Bombardiere -- at medium distance
+
+- Changed the names of the following Hungarian aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - IL-10
+    - IL-10 --> Il-10 Beast -- in shop
+    - IL-10 Párduc --> OKB-39 ""Ilyushin"" | Il-10 Beast ""Párduc"" -- on statcard
+    - IL-10 --> Il-10 Beast -- at medium distance
+    - IL-10 --> Il-10 -- at long distance
+  - Tu-2S-59
+    - Tu-2S-59 --> Tu-2S-59 Bat -- in shop
+    - Tu-2S-59 --> OKB-39 ""Ilyushin"" | Tu-2S Bat | Series 59 -- on statcard
+    - Tu-2S --> Tu-2S-59 Bat -- at medium distance
+    - Tu-2 --> Tu-2S-59 -- at long distance
+  - Yak-9P
+    - Yak-9P --> OKB-115 ""Yakovlev"" | Yak-9P -- on statcard
+    - Yak-9 --> Yak-9P -- at long distance
+
+- Changed the names of the following Romanian aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - He 112 B-1/U2
+    - added a roundel
+    - He 112 B-1/U2 --> Heinkel Flugzeugwerke | He 112 B-1 | Umrüstbausatz 2 -- on statcard
+    - He 112 B --> He 112 B-1/U2 -- at medium distance
+    - He 112 --> He 112 B-1/U2 -- at long distance
+  - IAR-81C
+    - IAR-81C --> IAR 81C -- in shop
+    - IAR-81C --> Industria Aeronautică Română | IAR 81C -- on statcard
+    - IAR-81C --> IAR 81C -- at medium distance
+    - IAR-81C --> IAR 81C -- at long distance
+  - Hs 129 B-2 (Romania)
+    - added a roundel
+    - Hs 129 B-2 (Romania) --> Hs 129 B-3 -- in shop
+    - Hs 129 B-2 (Romanian Air Force) --> Henschel Flugzeugwerke AG | Hs 129 B-3 -- on statcard
+    - Hs 129 B --> Hs 129 B-3 -- at medium distance
+    - Hs 129 --> Hs 129 B-3 -- at long distance
+  - MiG-29A Sniper
+    - Aerostar S.A. | MiG-29A Fulcrum-A | DASA/Elbit Sniper Modernization Program (1997) --> Aerostar S.A. / DASA / Elbit Systems, Ltd. | MiG-29A Fulcrum-A | Product 9-12A | Sniper Modernization Program (1997) -- on statcard
+
+- Changed the names of the following French aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+
+- Changed the names of the following Belgian aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - F-16A OCU
+    - F-16A OCU --> F-16A-15OCU Viper -- in shop
+    - F-16A Block 15 OCU Fighting Falcon --> Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16A-15OCU Viper | Block 15 | Operational Capability Upgrade (1988)
+    - F-16A --> F-16A-15OCU Viper -- at medium distance
+    - F-16 --> F-16A-15OCU -- at long distance
+  - F-16A-15OCU (tech tree ver)
+    - F-16A-15OCU Viper --> F-16A-15 Viper -- in shop
+    - Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16A-15 Viper | Block 15 | Operational Capability Upgrade (1988) --> Sociétés Anonyme Belge de Constructions Aéronautiques (SABCA) | F-16A-15 Viper | Block 15 -- on statcard
+    - F-16A-15OCU Viper --> F-16A-15 Viper -- at medium distance
+    - F-16A-15OCU --> F-16A-15 -- at long distance
+
+- Changed the names of the following Israeli aircraft:
+  - for all statcards, moved the roundel to be next to the aircraft name instead of the manufacturer
+  - F-16I Sufa
+    - added an Israeli roundel
+    - F-16I Sufa --> F-16I Sufa -- in shop
+    - F-16I Sufa --> General Dynamics Corporation | F-16I Sufa -- on statcard
+    - F-16I --> F-16I Sufa -- at medium distance
+    - F-16 --> F-16I -- at long distance
+  - Mirage III CJ "Shahak"
+    - removed the quotes surrounding "Shahak"
+  - Mirage 5 F "Nesher"
+    - removed the quotes surrounding "Nesher"
+  - A-4N Skyhawk II "Ayit"
+    - A-4N Skyhawk II "Ayit" --> A-4N Ayit -- in shop
+    - Douglas Aircraft Company | A-4N Skyhawk II "Ayit" --> Douglas Aircraft Company | A-4N Ayit -- on statcard
+    - A-4N Skyhawk II "Ayit" --> A-4N Ayit -- at medium distance
+
+- Changed the names of the following Soviet aircraft folders:
+   - Yak-9 --> Yak-9/9B
+   - IL-2M --> Il-2M Sturmovik
+   - LaGG-3 (e) --> LaGG-3-8/11
+
+- Changed the names of the following Japanese aircraft folders:
+   - R2Y2 --> R2Y2-G Keiun Kai
+   - N1K --> N1K1/2
+   - A6M5 --> A6M5 Reisen Otsu/Hei
+   - Ki-84 (e) --> Ki 84-I Kō/Otsu
+   - J2M --> J2M3/5
+   - A6M3 --> A6M3 Reisen
+   - Ki-44 --> Ki 44-I/61-I Kō
+   - Ki-61 --> Ki 44-II Hei/61-I Otsu
+   - Ki-61-I late --> Ki 61-I Tei/II Kai Kō
+   - Ki-49 (l) --> Ki 49-II Otsu Donryu
+   - Ki-67 --> Ki 67-I Kō/Otsu
+   - A6M2/N1K1 --> A6M2-N/N1K1
+   - A6M2 --> A6M2 Reisen
+   - B6N --> B6N2/2 Kō
+   - D4Y --> D4Y1/2
+   - Ki-49 (e) --> Ki 49-I/II Kō Donryu
+   - Ki-10 --> Ki 10-I/II
+   - Ki-43 --> Ki 43-I/II
+   - Ki-45 --> Ki 45 Kai Kō/Hei
+   - Ki-45 (e) --> Ki 45 Kai Hei (Tei)/Otsu
+
+- Changed the names of the following Swedish aircraft folders:
+   - added roundels where they were missing
+   - J21A --> J 21A
+   - T18B --> T 18B
+   - B17 --> B 17A/B
+   - J8A/J6B --> J 8A/J 6B
+   - Bf 109G Messer --> Bf 109G
+   - Vampire Mk.50/52A --> J 28B/Vampire
+
+- Changed the names of the following Italian aircraft folders:
+   - G.55/Re.2005 --> G.55/Re.2005
+   - P.108B --> P.108B Bombardiere
+   - Re.2000 --> Re.2000 Falco I
+   - Re.2001 --> Re.2001 Falco II
+   - G.50 --> G.50 Freccia
+   - C. 200 --> C.200 Saetta
+   - S.M.79 (e) --> SM.79 Sparviero (1936-1939)
+   - C. 202/C. 205 (e) --> C.202/C.205
+   - S.M.79 (l) --> SM.79 Sparviero (1936-1943)
+   - Z.1007 --> Z.1007 Alcione
+   - Ba.65/Ju 87 --> Ba.65/Ju 87
+   - B.R.20 --> BR.20 Cigona
+   - Breda 88/P.108 --> Ba.88/P.108
+   - A-200 Tornado IDS --> A-200A/C Tornado IDS
+
+- Changed the names of the following British weapons:
+   - Skyflash 3000
+     - Skyflash 3000 Pre-TEMP Air-to-Air Missiles --> Skyflash Pre-TEMP Air-to-Air Missiles -- long name
+     - Skyflash 3000 --> Skyflash -- short name
+   - Skyflash 5000 TEMP
+     - Skyflash 5000 TEMP Air-to-Air Missiles --> Skyflash TEMP Air-to-Air Missiles --> long name
+     - Skyflash 5000 TEMP --> Skyflash TEMP -- short name
+   - Skyflash 6000 SuperTEMP
+     - Skyflash 6000 SuperTEMP Air-to-Air Missiles --> Skyflash SuperTEMP Air-to-Air Missiles -- long name
+     - Skyflash 6000 SuperTEMP --> Skyflash SuperTEMP -- short name
+
+- Changed the names of the following German weapons:
+   - MK 108
+     - 30 mm MK 108 cannon --> MK 108 | Maschinenkanone 108 30mm Autocannon
+     - 30 mm MK 108 cannon (secondary) --> MK 108 | Maschinenkanone 108 30mm Autocannon
+   - MG 151
+     - 20 mm MG 151 cannon --> MG 151/20 | Maschinengewehr 151/20 20mm Autocannon
+     - 15 mm MG 151 cannon --> MG 151/25 | Maschinengewehr 151/15 15mm Heavy Machine Gun
+   - MK 103
+     - 30 mm MK 103 cannon --> MK 103 | Maschinenkanone 103 30mm Autocannon
+   - MG 131
+     - 13 mm MG 131 machine gun --> MG 131 | Maschinengewehr 131 13mm Heavy Machine Gun
+   - MG 17
+     - 7.92 mm MG 17 machine gun --> MG 17 | Maschinengewehr 17 7.92mm Machine Gun
+   - MG 81
+     - 7.92 mm MG 81 machine gun --> MG 81 | Maschinengewehr 81 7.92mm Machine Gun
+   - Mk.214a
+     - 50 mm Mk.214a cannon --> MK 214A | Maschinenkanone 214A 50mm Autocannon
+   - MG FF & MG FF/M
+     - 20 mm MG FF cannon --> MG FF | Maschinengewehr Flügel Fest 20mm Autocannon
+     - 20 mm MG FF/M cannon --> M GFF/M | Maschinengewehr Flügel Fest (Minengeschoß) 20mm Autocannon
+   - MG 15
+     - 7.92 mm MG 15 machine gun --> MG 15 | Maschinengewehr 15 7.92mm Machine Gun
+   - MG C/30L
+     - 20 mm MG C/30L cannon --> MG C/30L | Maschinengewehr C/30L 20mm Autocannon
+   - BK 3.7
+     - 37 mm BK 3.7 cannon --> BK 3.7 | Bordkanone 3.7 37mm Autocannon
+   - BK 7.5
+     - 75 mm BK 7.5 cannon --> BK 7.5 | Bordkanone 7.5 75mm Autocannon
+
+- Changed the names of the following Swiss weapons:
+   - FFK-HS-45
+     - 20 mm FFK-HS-45 cannon --> FF-K 45 | Flugzeugflügelkanone 45 20mm Autocannon -- long name
+     - FFK-HS-45 --> FF-K 45 -- short name
+   - FMK-HS-45
+     - 20 mm FMK-HS-45 cannon --> FM-K 45 | Flugzeugmotorkanone 45 20mm Autocannon -- long name
+     - FMK-HS-45 --> FM-K 45 -- short name
+   - Fl.Mg. 29
+     - 7.45 mm Fl.Mg. 29 machine gun --> MG 29 | Maschinengewehr 29 7.45mm Machine Gun -- long name
+     - Fl.Mg. 29 --> MG 29 -- short name
+   - Beob.-Doppel.-Mg. 29
+     - 7.5 mm Beob.-Doppel.-Mg. 29 machine gun --> MG 29 | Maschinengewehr 29 7.5mm Machine Gun -- long name
+     - Beob.-Doppel.-Mg. 29 --> MG 29 -- short name
+
 VERSION 0.3.3 CHANGELOG
 RELEASE DATE: 08/14/2025
 - With the exceptions of the Netz and YF-16AJ, changed the nickname of the F-16 from "Fighting Falcon" to "Viper"

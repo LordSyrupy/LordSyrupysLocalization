@@ -516,8 +516,8 @@ noverify>";"<English>";
 "weapons/cannonM24A1";"Hispano-Suiza M24A1 20mm Autocannon";;
 
 //Guns, Ger
-"weapons/cannon_mauser_bk_27";"Mauser Bordkanone 27 27mm Autocannon";;
-"weapons/cannon_mauser_bk_27/short";"BK27";;
+"weapons/cannon_mauser_bk_27";"BK 27 | Bordkanone 27 27mm Autocannon";;
+"weapons/cannon_mauser_bk_27/short";"BK 27";;
 
 "weapons/cannonM61A2_switzerland";"Flugzeug Kanone 92 20mm Rotary Autocannon";;
 "weapons/cannonM61A2_switzerland/short";"Flz Kan 92";;
@@ -527,6 +527,58 @@ noverify>";"<English>";
 
 "weapons/cannonDEFA552A_switzerland";"Flugzeug Kanone 65 30mm Autocannon";;
 "weapons/cannonDEFA552A_switzerland/short";"Flz Kan 65";;
+
+"weapons/cannonMK108";"MG 108 | Maschinenkanone 108 30mm Autocannon";;
+"weapons/cannonMK108_underwing";"MG 108 | Maschinenkanone 108 30mm Autocannon";;
+
+"weapons/cannonMG15120_turret";"MG 151/20 | Maschinengewehr 151/20 20mm Autocannon";;
+"weapons/cannonMG15120";"MG 151/20 | Maschinengewehr 151/20 20mm Autocannon";;
+"weapons/cannonMG15120_underwing";"MG 151/20 | Maschinengewehr 151/20 20mm Autocannon";;
+
+"weapons/cannonMK103";"MG 103 | Maschinenkanone 103 30mm Autocannon";;
+"weapons/cannonMK103_underwing";"MG 103 | Maschinenkanone 103 30mm Autocannon";;
+"weapons/cannonMK103_underwing_go229";"MG 103 | Maschinenkanone 103 30mm Autocannon";;
+
+"weapons/gunMG131";"MG 131 | Maschinengewehr 131 13mm Heavy Machine Gun";;
+"weapons/gunMG131_turret";"MG 131 | Maschinengewehr 131 13mm Heavy Machine Gun";;
+
+"weapons/cannonMG15115";"MG 151/15 | Maschinengewehr 151/15 15mm Heavy Machine Gun";;
+"weapons/cannonMG15115_underwing";"MG 151/15 | Maschinengewehr 151/15 15mm Heavy Machine Gun";;
+
+"weapons/gunMG17";"MG 17 | Maschinengewehr 17 7.92mm Machine Gun";;
+"weapons/gunMG17_turret";"MG 17 | Maschinengewehr 17 7.92mm Machine Gun";;
+
+"weapons/gunMG81";"MG 81 | Maschinengewehr 81 7.92mm Machine Gun";;
+"weapons/gunMG81_turret";"MG 81 | Maschinengewehr 81 7.92mm Machine Gun";;
+"weapons/gunMG81_underwing";"MG 81 | Maschinengewehr 81 7.92mm Machine Gun";;
+
+"weapons/cannonMk214a";"MK 214A | Maschinenkanone 214A 50mm Autocannon";;
+
+"weapons/cannonMGFF";"MG FF | Maschinengewehr Flügel Fest 20mm Autocannon";;
+"weapons/cannonMGFF_turret";"MG FF/M | Maschinengewehr Flügel Fest (Minengeschoß) 20mm Autocannon";;
+"weapons/cannonMGFFM";"MG FF/M | Maschinengewehr Flügel Fest (Minengeschoß) 20mm Autocannon";;
+
+"weapons/gunMG15";"MG 15 | Maschinengewehr 15 7.92mm Machine Gun";;
+"weapons/gunMG15_turret";"MG 15 | Maschinengewehr 15 7.92mm Machine Gun";;
+
+"weapons/cannonMGC30L";"MG C/30L | Maschinengewehr C/30L 20mm Autocannon";;
+
+"weapons/cannonBK37";"BK 3.7 | Bordkanone 3.7 37mm Autocannon";;
+"weapons/cannonBK37_underwing";"BK 3.7 | Bordkanone 3.7 37mm Autocannon";;
+
+"weapons/cannonBK75";"BK 7.5 | Bordkanone 7.5 75mm Autocannon";;
+
+"weapons/cannon_ff_k_45";"FF-K 45 | Flugzeugflügelkanone 45 20mm Autocannon";;
+"weapons/cannon_ff_k_45/short";"FF-K 45";;
+
+"weapons/cannon_fm_k_45";"FM-K 45 | Flugzeugmotorkanone 45 20mm Autocannon";;
+"weapons/cannon_fm_k_45/short";"FM-K 45";;
+
+"weapons/gun_fl_mg_27";"MG 29 | Maschinengewehr 29 7.45mm Machine Gun";;
+"weapons/gun_fl_mg_27/short";"MG 29";;
+
+"weapons/gun_mg_29_turret";"MG 29 | Maschinengewehr 29 7.5mm Machine Gun";;
+"weapons/gun_mg_29_turret/short";"MG 29";;
 
 //Guns, USSR
 "weapons/cannonNR23";"Nudelman-Richter NR-23 23mm Autocannon";;
@@ -1130,23 +1182,23 @@ noverify>";"<English>";
 "weapons/su_r_27er1/short";"R-27ER1 Alamo-C";;
 
 //Missiles, GB
-"weapons/uk_skyflash_aim_7";"Skyflash 3000 Pre-TEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_aim_7/short";"Skyflash 3000";;
+"weapons/uk_skyflash_aim_7";"Skyflash Pre-TEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_aim_7/short";"Skyflash";;
 
-"weapons/uk_skyflash_aim_7_dogfight";"Skyflash 3000 Pre-TEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_aim_7_dogfight/short";"Skyflash 3000";;
+"weapons/uk_skyflash_aim_7_dogfight";"Skyflash Pre-TEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_aim_7_dogfight/short";"Skyflash";;
 
-"weapons/uk_skyflash_aim_7_dogfight_default";"Skyflash 3000 Pre-TEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_aim_7_dogfight_default/short";"Skyflash 3000";;
+"weapons/uk_skyflash_aim_7_dogfight_default";"Skyflash Pre-TEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_aim_7_dogfight_default/short";"Skyflash";;
 
-"weapons/uk_skyflash_aim_7_dogfight_tornado";"Skyflash 5000 TEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_aim_7_dogfight_tornado/short";"Skyflash 5000 TEMP";;
+"weapons/uk_skyflash_aim_7_dogfight_tornado";"Skyflash TEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_aim_7_dogfight_tornado/short";"Skyflash TEMP";;
 
-"weapons/uk_skyflash_aim_7_dogfight_tornado_default";"Skyflash 5000 TEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_aim_7_dogfight_tornado_default/short";"Skyflash 5000 TEMP";;
+"weapons/uk_skyflash_aim_7_dogfight_tornado_default";"Skyflash TEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_aim_7_dogfight_tornado_default/short";"Skyflash TEMP";;
 
-"weapons/uk_skyflash_temp";"Skyflash 6000 SuperTEMP Air-to-Air Missiles";;
-"weapons/uk_skyflash_temp/short";"Skyflash 6000 SuperTEMP";;
+"weapons/uk_skyflash_temp";"Skyflash SuperTEMP Air-to-Air Missiles";;
+"weapons/uk_skyflash_temp/short";"Skyflash SuperTEMP";;
 
 "weapons/uk_sraam";"SRAAM-75 Short-Range Air-to-Air Missiles";;
 "weapons/uk_sraam/short";"SRAAM-75";;
@@ -1219,6 +1271,9 @@ noverify>";"<English>";
 
 "weapons/su_pl5e2_default";"PL-5EII Atoll-F Air-to-Air Missiles";;
 "weapons/su_pl5e2_default/short";"PL-5EII Atoll-F";;
+
+"weapons/cn_pl11";"PL-11 Air-to-Air Missiles";;
+"weapons/cn_pl11_short";"PL-11";;
 
 //Missiles, IT
 "weapons/it_aspide_1a";"Aspide-1A Air-to-Air Missiles";;

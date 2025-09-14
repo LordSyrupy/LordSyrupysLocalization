@@ -532,7 +532,7 @@ noverify>";"<English>";
 "b-29_2";"B-29A";;
 
 "p-51d-20-na_shop";"P-51D-20 Mustang";;
-"p-51d-20-na_0";"North American Aviation | P-51D-20  Mustang | Block 20";;
+"p-51d-20-na_0";"North American Aviation | P-51D-20 Mustang | Block 20";;
 "p-51d-20-na_1";"P-51D-20 Mustang";;
 "p-51d-20-na_2";"P-51D-20";;
 
@@ -967,22 +967,3 @@ noverify>";"<English>";
 "shop/group/f_86_group";"F-86 Sabre";;
 "shop/group/p-39_group";"P-39 Airacobra";;
 "shop/group/f4u_group";"F4U Corsair";;
-
-//Ground Units
-"us_sl_amraam_fcs_shop";"CLAWS (M1097A2 IFCS)";;
-"us_sl_amraam_fcs_0";"Complementary Low-Altitude Weapon System | M1097A2 Integrated Fire Control Station";;
-"us_sl_amraam_fcs_1";"CLAWS (M1097A2 IFCS)";;
-"us_sl_amraam_fcs_2";"CLAWS (M1097A2 IFCS)";;
-
-"us_sl_amraam_launcher_shop";"CLAWS (M1097A2 HML)";;
-"us_sl_amraam_launcher_0";"Complementary Low-Altitude Weapon System | M1097A2 High-Mobility Launcher";;
-"us_sl_amraam_launcher_1";"CLAWS (M1097A2 HML)";;
-"us_sl_amraam_launcher_2";"CLAWS (M1097A2 HML)";;
-
-"shop/group/us_sl_amraam_fcs_group";"CLAWS (M1097A2)";;
-
-//Helicopters
-"rah_66_shop";"RAH-66 Comanche";;
-"rah_66_0";"Boeing-Sikorsky | RAH-66 Comanche | 2002 LHX Prototype";;
-"rah_66_1";"RAH-66 Comanche";;
-"rah_66_2";"RAH-66";;

@@ -1,8 +1,8 @@
-# LORD SYRUPY'S LOCALIZATION MOD
-# CURRENT VERSION: v0.3.3
-# RELEASE DATE: 08/14/2025
+# MAPLE SYRUP LOCALIZATION MOD
+# CURRENT VERSION: v0.4
+# RELEASE DATE: 09/14/2025
 
-Maintained by Maple Syrupy.
+Maintained by Maple.
 
 This mod aims to provide a fresh user experience for War Thunder by altering the names of vehicles and weaponry to be more consistent with each other and more accurate to real-life, with pure 100% accuracy taking a backseat in favor of stylistic liberties here and there. The changes made are generally short and to-the-point, with an emphasis on readability and recognizability.
 
@@ -12,11 +12,23 @@ This mod also makes a host of fixes to grammar and conventions, primarily in the
 
 A full list of changes can be found in the CHANGELOG file.
 
-DEVELOPMENT TEAM:
-Maple Syrupy
+DEVELOPMENT TEAM
+Maple
 Marchko
-Neon_Uni
 WarTinder
+
+RU TRANSLATION TEAM
+Jevelius
+Rladoss
+KoTIk_AbARmOTIk
+Maksim
+tatteredstarr
+LoxLoxius
+Nipuch
+adskiy_utenok
+
+UKR TRANSLATION TEAM
+Nipuch
 
 # INSTALLATION INSTRUCTIONS
 1. Install this mod and unzip its contents.
