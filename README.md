@@ -12,23 +12,23 @@ This mod also makes a host of fixes to grammar and conventions, primarily in the
 
 A full list of changes can be found in the CHANGELOG file.
 
-# DEVELOPMENT TEAM
-Maple
-Marchko
-WarTinder
+DEVELOPMENT TEAM
+- Maple
+- Marchko
+- WarTinder
 
-# RU TRANSLATION TEAM
-Jevelius
-Rladoss
-KoTIk_AbARmOTIk
-Maksim
-tatteredstarr
-LoxLoxius
-Nipuch
+RU TRANSLATION TEAM
+- Jevelius
+- Rladoss
+- KoTIk_AbARmOTIk
+- Maksim
+- tatteredstarr
+- LoxLoxius
+- Nipuch
 adskiy_utenok
 
-# UKR TRANSLATION TEAM
-Nipuch
+UKR TRANSLATION TEAM
+- Nipuch
 
 # INSTALLATION INSTRUCTIONS
 1. Install this mod and unzip its contents.
