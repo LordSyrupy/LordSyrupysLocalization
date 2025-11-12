@@ -311,6 +311,11 @@ noverify>";"<English>";
 "saab_j35a_1";"J 35A-1 Draken";;
 "saab_j35a_2";"J 35A-1";;
 
+"f_16am_block_20_mlu_norway_shop";"◢F-16AM-20 Viper";;
+"f_16am_block_20_mlu_norway_0";"General Dynamics Corporation | ◢F-16AM-20 Viper | Block 20";;
+"f_16am_block_20_mlu_norway_1";"◢F-16AM-20 Viper";;
+"f_16am_block_20_mlu_norway_2";"◢F-16AM-20";;
+
 "shop/group/bf_109g_sweden_group";"▄Bf 109G Mersu";;
 "shop/group/saab_ja37d_group";"JA37D/DI Jaktviggen";;
 "shop/group/vampire_fb_group";"♛J 28B/Vampire Mk.52A";;
@@ -318,9 +323,3 @@ noverify>";"<English>";
 "shop/group/saab_t18b_group";"T 18B";;
 "shop/group/saab_b17a_group";"B 17A/B";;
 "shop/group/gladiator_j8a_group";"♛J 8A/J 6B";;
-
-//Ground Vehicles
-"sw_eldenhet_98_shop";"Eldenhet 98 IRIS-T SLS";;
-"sw_eldenhet_98_0";"Svenska Aeroplan AB | Eldenhet 98 IRIS-T SLS";;
-"sw_eldenhet_98_1";"Eldenhet 98 IRIS-T SLS";;
-"sw_eldenhet_98_2";"Elde 98";;
