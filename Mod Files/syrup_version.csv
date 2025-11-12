@@ -1,7 +1,7 @@
 "<ID|readonly|
 noverify>";"<English>";
-mainmenu/custom_lang_info;<color=@commonTextColor>Lord Syrupy's Localization Mod</color> <color=@goodTextColor>v0.4</color>
-mainmenu/custom_lang_info/tooltip;"You have installed Lord Syrupy's Localization Mod <color=@goodTextColor>v0.4</color>. Vehicle, weapon, and modification names may appear different.
+mainmenu/custom_lang_info;<color=@commonTextColor>Lord Syrupy's Localization Mod</color> <color=@goodTextColor>v0.4.1</color>
+mainmenu/custom_lang_info/tooltip;"You have installed Maple's Localization Mod <color=@goodTextColor>v0.4.1</color>. Vehicle, weapon, and modification names may appear different.
 
 Questions? Comments? Concerns? Join the Discord server: https://discord.gg/zhr3XQaFsj
 
@@ -11,21 +11,7 @@ https://github.com/LordSyrupy/LordSyrupysLocalization
 
 DEVELOPMENT TEAM
 Maple Syrupy
-Marchko
 WarTinder
-
-RU TRANSLATION TEAM
-Jevelius
-Rladoss
-KoTIk_AbARmOTIk
-Maksim
-tatteredstarr
-LoxLoxius
-Nipuch
-adskiy_utenok
-
-UKR TRANSLATION TEAM
-Nipuch
 
 ""If you wish to make an apple pie from scratch, you must first invent the universe."" -Carl Sagan
 
