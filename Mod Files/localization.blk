@@ -81,7 +81,7 @@ locTable{
   file:t="%lang/modded/syrup_menu_texts.csv"
   file:t="%lang/modded/syrup_mods.csv"
   file:t="%lang/modded/syrup_ai_units.csv"
-  file:t="%lang/modded/syrup_version_dev.csv"
+  file:t="%lang/modded/syrup_version.csv"
   file:t="%lang/modded/syrup_sensors.csv"
   file:t="%lang/modded/syrup_ui.csv"
 
