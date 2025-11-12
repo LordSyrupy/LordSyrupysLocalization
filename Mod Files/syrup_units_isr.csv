@@ -89,22 +89,22 @@ noverify>";"<English>";
 "md_460_sambad_shop";"Super Mystère B2 Sambad";;
 "md_460_sambad_0";"Société des Avions Marcel Dassault | M.D.460 Super Mystère B2 Sambad";;
 "md_460_sambad_1";"Super Mystère B2 Sambad;;
-"md_460_sambad_2";"SMB2 Sambad;;
+"md_460_sambad_2";"Super Mystère B2;;
 
-"md_460_saar_shop";"Super Mystère B2 Sa'ar";;
-"md_460_saar_0";"Société des Avions Marcel Dassault | M.D.460 Super Mystère B2 Sa'ar";;
-"md_460_saar_1";"Super Mystère B2 Sa'ar";;
-"md_460_saar_2";"SMB2 Sa'ar";;
+"md_460_saar_shop";"Sa'ar";;
+"md_460_saar_0";"Société des Avions Marcel Dassault | Sa'ar | M.D.460 Super Mystère B2";;
+"md_460_saar_1";"Sa'ar";;
+"md_460_saar_2";"Sa'ar";;
 
 "mirage_3cj_shop";"Mirage III CJ Shahak";;
 "mirage_3cj_0";"Société des Avions Marcel Dassault | Mirage III CJ Shahak";;
 "mirage_3cj_1";"Mirage III CJ Shahak";;
 "mirage_3cj_2";"Mirage III CJ";;
 
-"nesher_shop";"Mirage 5 F Nesher";;
-"nesher_0";"Israeli Aircraft Industries (IAI) | Mirage 5 F Nesher";;
-"nesher_1";"Mirage 5 F Nesher";;
-"nesher_2";"Mirage 5 F";;
+"nesher_shop";"Nesher";;
+"nesher_0";"Israeli Aircraft Industries (IAI) | Nesher | Mirage 5 F";;
+"nesher_1";"Nesher";;
+"nesher_2";"Nesher";;
 
 "kfir_canard_shop";"Kfir C.1P Gderot";;
 "kfir_canard_0";"Israeli Aircraft Industries (IAI) | Kfir C.1P Gderot";;
@@ -142,7 +142,7 @@ noverify>";"<English>";
 "f_16d_block_40_barak_2_missile_test_2";"F-16D-40";;
 
 "f_16c_block_40_barak_2_shop";"F-16C-40 Barak II";;
-"f_16c_block_40_barak_2_0";"General Dynamics Corporation | F-16C Barak II | Block 40";;
+"f_16c_block_40_barak_2_0";"General Dynamics Corporation | F-16C-40 Barak II | Block 40";;
 "f_16c_block_40_barak_2_1";"F-16C-40 Barak II";;
 "f_16c_block_40_barak_2_2";"F-16C-40";;
 
@@ -151,15 +151,15 @@ noverify>";"<English>";
 "f_16a_block_10_iaf_1";"F-16A-10 Netz";;
 "f_16a_block_10_iaf_2";"F-16A-10";;
 
-"f_16a_block_10_netz_mod_shop";"F-16A-10 Netz (Mod.)";;
-"f_16a_block_10_netz_mod_0";"General Dynamics Corporation | F-16A-10 Netz | Block 10 (Modified)";;
-"f_16a_block_10_netz_mod_1";"F-16A-10 Netz (Mod.)";;
-"f_16a_block_10_netz_mod_2";"F-16A-10";;
+"f_16a_block_10_netz_mod_shop";"F-16A-5 Netz (115 SQN)";;
+"f_16a_block_10_netz_mod_0";"General Dynamics Corporation | F-16A-5 Netz | Block 5 | 115 Squadron ""Red Squadron""";;
+"f_16a_block_10_netz_mod_1";"F-16A-5 Netz (115 SQN)";;
+"f_16a_block_10_netz_mod_2";"F-16A-5 (115 SQN)";;
 
-"kfir_c10_colombia_shop";"◡Kfir C.10 B.60 COA";;
-"kfir_c10_colombia_0";"Israeli Aircraft Industries (IAI) | ◡Kfir C.10 | Block 60, COA";;
-"kfir_c10_colombia_1";"◡Kfir C.10 B.60 COA";;
-"kfir_c10_colombia_2";"◡Kfir C.10";;
+"kfir_c10_colombia_shop";"◡Kfir COA";;
+"kfir_c10_colombia_0";"Israeli Aircraft Industries (IAI) | ◡Kfir COA | Block 60";;
+"kfir_c10_colombia_1";"◡Kfir COA";;
+"kfir_c10_colombia_2";"◡Kfir COA";;
 
 "f_15a_iaf_shop";"F-15A-18 Baz";;
 "f_15a_iaf_0";"McDonnell Douglas Aircraft Company | F-15A-18 Baz | Block 18";;
@@ -167,7 +167,7 @@ noverify>";"<English>";
 "f_15a_iaf_2";"F-15A-18";;
 
 "f_15c_baz_msip_shop";"F-15A-2000 Baz Meshupar";;
-"f_15c_baz_msip_0";"McDonnell Douglas Aircraft Company | F-15A-18 Baz-2000 | Block 18, Meshupar (Improved)";;
+"f_15c_baz_msip_0";"McDonnell Douglas Aircraft Company | F-15A-2000 Baz | Baz 2000/Meshupar Program (1995)";;
 "f_15c_baz_msip_1";"F-15A-2000 Baz Meshupar";;
 "f_15c_baz_msip_2";"F-15A-2000";;
 
@@ -176,7 +176,7 @@ noverify>";"<English>";
 "f_15i_raam_1";"F-15I Ra'am";;
 "f_15i_raam_2";"F-15I";;
 
-"f_16i_sufa_shop";"F-16I Sufa";;
-"f_16i_sufa_0";"General Dynamics Corporation | F-16I Sufa";;
-"f_16i_sufa_1";"F-16I Sufa";;
-"f_16i_sufa_2";"F-16I";;
+"f_16i_sufa_shop";"F-16I-52+ Sufa";;
+"f_16i_sufa_0";"General Dynamics Corporation | F-16I-52+ Sufa | Block 52+";;
+"f_16i_sufa_1";"F-16I-52+ Sufa";;
+"f_16i_sufa_2";"F-16I-52+";;

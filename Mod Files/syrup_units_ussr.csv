@@ -307,12 +307,12 @@ noverify>";"<English>";
 "mig_29_9_13_2";"MiG-29A";;
 
 "mig_29smt_9_19_shop";"MiG-29SMT Fulcrum-E";;
-"mig_29smt_9_19_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E | Product 9-17";;
+"mig_29smt_9_19_0";"RSO Korporatsiya ""MiG""" | MiG-29SMT Fulcrum-E | Product 9-19";;
 "mig_29smt_9_19_1";"MiG-29SMT Fulcrum-E";;
 "mig_29smt_9_19_2";"MiG-29SMT";;
 
 "mig_29smt_9_19_missile_test_shop";"MiG-29SMT Fulcrum-E";;
-"mig_29smt_9_19_missile_test_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E | Product 9-17";;
+"mig_29smt_9_19_missile_test_0";"RSO Korporatsiya ""MiG""" | MiG-29SMT Fulcrum-E | Product 9-19";;
 "mig_29smt_9_19_missile_test_1";"MiG-29SMT Fulcrum-E";;
 "mig_29smt_9_19_missile_test_2";"MiG-29SMT";;
 
@@ -850,6 +850,16 @@ noverify>";"<English>";
 "pe-2-1_0";"NKVD Central Design Bureau №29 ""Petlyakov"" | Pe-2-1 Peshka";;
 "pe-2-1_1";"Pe-2-1 Peshka";;
 "pe-2-1_2";"Pe-2-1";;
+
+"su_30mk2v_venezuela_shop";"▄Su-30MK2 Flanker-G+";;
+"su_30mk2v_venezuela_0";"PAO Kompaniya ""Sukhoi"" | ▄Su-30MK2 Flanker-G+";;
+"su_30mk2v_venezuela_1";"▄Su-30MK2 Flanker-G+";;
+"su_30mk2v_venezuela_2";"▄Su-30MK2";;
+
+"yak_1_litvyak_shop";"Yak-1 [Litvyak]";;
+"yak_1_litvyak_0";"OKB-115 | S. A. Yakovlev | Litvyak's Yak-1";;
+"yak_1_litvyak_1";"Yak-1 [Litvyak]";;
+"yak_1_litvyak_2";"Yak-1 [Litvyak]";;
 
 "shop/group/ar_group";"Ar-2/SB-2";;
 "shop/group/db_3_group";"DB-3B/Il-4 Bob";;

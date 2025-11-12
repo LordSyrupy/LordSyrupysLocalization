@@ -601,10 +601,10 @@ noverify>";"<English>";
 "f-4jk_1";"▄F-4J Phantom F.3";;
 "f-4jk_2";"▄F-4J F.3";;
 
-"ef_2000_fgr4_shop";"▄EF-2000A Typhoon FGR.4";;
-"ef_2000_fgr4_0";"Eurofighter Jagdflugzeug GmbH | ▄EF-2000A Typhoon | Fighter/Ground Attack/Reconnaissance, Mk.4";;
-"ef_2000_fgr4_1";"▄EF-2000A Typhoon FGR.4";;
-"ef_2000_fgr4_2";"▄EF-2000A FGR.4";;
+"ef_2000_fgr4_shop";"▄Typhoon FGR.4";;
+"ef_2000_fgr4_0";"Eurofighter Jagdflugzeug GmbH | ▄Typhoon | Fighter/Ground Attack/Reconnaissance, Mk.4";;
+"ef_2000_fgr4_1";"▄Typhoon FGR.4";;
+"ef_2000_fgr4_2";"▄Typhoon FGR.4";;
 
 "harrier_gr7_shop";"Harrier GR.7";;
 "harrier_gr7_0";"British Aerospace PLC | Harrier | Ground Attack/Reconnaissance, Mk.7";;
@@ -626,10 +626,10 @@ noverify>";"<English>";
 "saab_jas39c_south_africa_1";"▄JAS 39C Gripen C";;
 "saab_jas39c_south_africa_2";"▄JAS 39C";;
 
-"saab_jas39c_south_africa_missile_test_shop";"JAS 39C Gripen C";;
-"saab_jas39c_south_africa_missile_test_0";"Saab AB | JAS 39C Gripen C";;
-"saab_jas39c_south_africa_missile_test_1";"JAS 39C Gripen C";;
-"saab_jas39c_south_africa__missile_test2";"JAS 39C";;
+"saab_jas39c_south_africa_missile_test_shop";"▄JAS 39C Gripen C";;
+"saab_jas39c_south_africa_missile_test_0";"Saab AB | ▄JAS 39C Gripen C";;
+"saab_jas39c_south_africa_missile_test_1";"▄JAS 39C Gripen C";;
+"saab_jas39c_south_africa__missile_test2";"▄JAS 39C";;
 
 "tornado_gr1_shop";"▄Tornado IDS GR.1";;
 "tornado_gr1_0";"Panavia Aircraft GmbH | ▄Tornado IDS | Ground Attack/Reconnaissance, Mk.1";;
@@ -652,7 +652,7 @@ noverify>";"<English>";
 "tornado_f3_late_2";"▄Tornado F.3 AOP (2003)";;
 
 "mig-21_bison_shop";"☸MiG-21UPG Bison";;
-"mig-21_bison_0";"☸Hindustan Aeronautics, Ltd. (HAL) | MiG-21UPG Bison";;
+"mig-21_bison_0";"Hindustan Aeronautics, Ltd. (HAL) | ☸MiG-21UPG Bison";;
 "mig-21_bison_1";"☸MiG-21UPG Bison";;
 "mig-21_bison_2";"☸MiG-21UPG";;
 
@@ -667,9 +667,19 @@ noverify>";"<English>";
 "fa_18a_raaf_2";"▄F/A-18A";;
 
 "fa_18a_hug_2_raaf_shop";"▄F/A-18A Hornet (HUG 2.4)";;
-"fa_18a_hug_2_raaf_0";"▄Boeing Australia Holdings Pty, Ltd. | F/A-18A Hornet | Hornet Upgrade Program, Phase 2.4";;
+"fa_18a_hug_2_raaf_0";"Boeing Australia Holdings Pty, Ltd. | ▄F/A-18A Hornet | Hornet Upgrade Program, Phase 2.4";;
 "fa_18a_hug_2_raaf_1";"▄F/A-18A Hornet (HUG 2.4)";;
 "fa_18a_hug_2_raaf_2";"▄F/A-18A (HUG 2.4)";;
+
+"hawk_200_shop";"Hawk 200";;
+"hawk_200_0";"British Aerospace plc | Hawk 200";;
+"hawk_200_1";"Hawk 200";;
+"hawk_200_2";"Hawk 200";;
+
+"hawk_200_rda_shop";"Hawk 200 (RDA)";;
+"hawk_200_rda_0";"British Aerospace plc | Hawk 200 | Radar Development Aircraft";;
+"hawk_200_rda_1";"Hawk 200 (RDA)";;
+"hawk_200_rda_2";"Hawk 200 (RDA)";;
 
 "shop/group/meteor3_group";"Meteor F.3";;
 "shop/group/meteor4_group";"Meteor F.4";;
@@ -690,3 +700,5 @@ noverify>";"<English>";
 "shop/group/firefly_group";"Firefly";;
 "shop/group/seafire_group";"Seafire";;
 "shop/group/spitfire_griffon_group";"Spitfire F.22/24";;
+"shop/group/hawk_200_group";"Hawk 200/200 (RDA)";;
+

@@ -20,23 +20,23 @@ IRST Modes:
     <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
     <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
     <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode";;
-"radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Radar + Target-Tracking Television Camera</color>";;
-"radar_type";"Avionics Suite";;
+"radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Radar w/ Contrast Television Sensor (Tracking Unit)</color>";;
+"radar_type";"Sensor Type";;
 "search_radar";"<color=@linkTextHoverColorLight>Search Radar</color>
 Radar Modes:
     <color=@badTextColor>RWS</color> - <color=@userlogColoredText>Range-While Scan</color> | Sorts targets on the scope by range.";;
-"search_radar_irst";"<color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Search Radar + Infrared Search-and-Track Camera</color>";;
-"search_irst";"<color=@linkTextHoverColorLight>IRST</color> - <color=@userlogColoredText>Non-Tracking Infrared Search-and-Track Camera</color>";;
-"search_radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Search Radar + Television Camera</color>";;
-"search_tv";"<color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText> Non-Tracking Television Camera</color>";;
+"search_radar_irst";"<color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Search Radar w/ Infrared Search-and-Track Sensor</color>";;
+"search_irst";"<color=@linkTextHoverColorLight>IRST</color> - <color=@userlogColoredText>Infrared Search-and-Track Sensor (Search Unit)</color>";;
+"search_radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Search Radar w/ Television Sensor</color>";;
+"search_tv";"<color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText>Contrast Television Sensor (Search Unit)</color>";;
 "track_radar";"<color=@linkTextHoverColorLight>Tracking Radar</color>
 Radar Modes:
-    <color=@badTextColor>ACQ</color> - <color=@userlogColoredText>Target Acquisition</color> Mode
+    <color=@badTextColor>ACQ/ACM</color> - <color=@userlogColoredText>Target Acquisition</color> Mode / <color=@userlogColoredText>Air Combat Mode</color>
     <color=@badTextColor>STT</color> - <color=@userlogColoredText>Single-Target Track</color> Mode";;
-"track_radar_irst";"<color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Tracking Radar + Infrared Search-and-Track Sensor</color>";;
-"track_irst";"<color=@linkTextHoverColorLight>IRST</color> - <color=@userlogColoredText>Target-Tracking Infrared Search-and-Track Sensor</color>";;
-"track_radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Tracking Radar + Television Camera</color>";;
-"track_tv";"<color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText>Target-Tracking Television Camera</color>";;
+"track_radar_irst";"<color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Radar w/ Infrared Search-and-Track Sensor (Tracking Unit)</color>";;
+"track_irst";"<color=@linkTextHoverColorLight>IRST</color> - <color=@userlogColoredText>Infrared Search-and-Track Sensor (Tracking Unit)</color>";;
+"track_radar_tv";"<color=@linkTextHoverColorLight>Radar/TV</color> - <color=@userlogColoredText>Radar w/ Contrast Television Sensor (Tracking Unit)</color>";;
+"track_tv";"<color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText>Contrast Television Sensor (Tracking Unit)</color>";;
 "radar_range_finder";"<color=@linkTextHoverColorLight>Radar Rangefinder</color>
 Radar Modes:
     <color=@badTextColor>ACQ</color> - <color=@userlogColoredText>Rangefinder Target Acquisition</color> Mode
@@ -100,24 +100,34 @@ Radar Modes:
 "avionics_sight_cannon";"Ballistics Computer (Cannons)";;
 "avionics_sight_rocket";"Ballistics Computer (Rockets)";;
 "avionics_sight_bomb";"Ballistics Computer (Bombs)";;
-"avionics_sight_vision/tv";"<color=@badTextColor>TV</color> - <color=@userlogColoredText>Television Camera</color>";;
-"avionics_sight_vision/lltv";"<color=@badTextColor>LLTV</color> - <color=@userlogColoredText>Low-Light Television Camera</color>";;
-"avionics_sight_vision/flir";"<color=@badTextColor>FLIR</color> - <color=@userlogColoredText>Forward-Looking Infrared Camera</color>";;
-"avionics_sensor_radar";"Sensor Suite: <color=@linkTextHoverColorLight>Radar</color> | Model";;
-"avionics_sensor_irst";"Sensor Suite: <color=@linkTextHoverColorLight>IRST</color> - <color=@userlogColoredText>Infrared Search-and-Track Sensor</color> | Type";;
-"avionics_sensor_tv";"Sensor Suite: <color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText>Television Camera</color>";;
-"avionics_sensor_radar_irst";"Sensor Suite: <color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Radar + Infrared Search-and-Track Sensor</color> | Model";;
+"avionics_sight_vision/tv";"<color=@badTextColor>TV</color> - <color=@userlogColoredText>Television Sensor</color>";;
+"avionics_sight_vision/lltv";"<color=@badTextColor>LLTV</color> - <color=@userlogColoredText>Low-Light Television Sensor</color>";;
+"avionics_sight_vision/flir";"<color=@badTextColor>FLIR</color> - <color=@userlogColoredText>Forward-Looking Infrared Sensor</color>";;
+"avionics_sensor_radar";"Avionics Suite: <color=@linkTextHoverColorLight>Radar</color>
+Radar Model";;
+"avionics_sensor_irst";"IRST Modes:
+    <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+    <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+    <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+IRST Type";;
+"avionics_sensor_tv";"Avionics Suite: <color=@linkTextHoverColorLight>TV</color> - <color=@userlogColoredText>Television Sensor</color>";;
+"avionics_sensor_radar_irst";"Avionics Suite: <color=@linkTextHoverColorLight>Radar/IRST</color> - <color=@userlogColoredText>Radar w/ Infrared Search-and-Track Sensor</color>
+IRST Modes:
+    <color=@badTextColor>SRC IR</color> - <color=@userlogColoredText>IR Search</color> Mode
+    <color=@badTextColor>ACQ IR</color> - <color=@userlogColoredText>IR Target Acquisition</color> Mode
+    <color=@badTextColor>STT IR</color> - <color=@userlogColoredText>IR Single-Target Track</color> Mode
+Radar Model";;
 "avionics_sensor_rwr";"<color=@badTextColor>RWR</color> - <color=@userlogColoredText>Radar Warning Receiver</color> | Model";;
 "avionics_sensor_lws";"<color=@badTextColor>LWR</color> - <color=@userlogColoredText>Laser Warning Receiver</color> | Model";;
 "avionics_sensor_mlws";"<color=@badTextColor>MAWS</color> - <color=@userlogColoredText>Missile Approach Warning System</color> | Model";;
 "avionics_aim_spi";"<color=@badTextColor>SPI</color> - <color=@userlogColoredText>Sensors Point of Interest</color>";;
-"avionics_hmd";"<color=@badTextColor>HMS</color> - <color=@userlogColoredText>Helmet-Mounted Sight</color>";;
+"avionics_hmd";"<color=@badTextColor>HMS</color> - <color=@userlogColoredText>Helmet-Mounted System</color>";;
 "avionics_aim_laser_designator";"<color=@badTextColor>LDR</color> - <color=@userlogColoredText>Laser Designator/Rangefinder</color>";;
-"avionics_countermeasure_ircm";"<color=@badTextColor>DIRCM</color> - <color=@userlogColoredText>Directional Infrared Countermeasures</color>";;
-"avionics_auto_cm";"Automatic Countermeasure Dumping: <color=@goodTextColor>Yes</color>";;
+"avionics_countermeasure_ircm";"<color=@badTextColor>IRCM</color> - <color=@userlogColoredText>Infrared Countermeasures</color>";;
+"avionics_auto_cm";"Automatic Countermeasures Dispensing: <color=@goodTextColor>Yes</color>";;
 "avionics_auto_cm_by_rwr";"RWR";;
 "avionics_auto_cm_by_mlws";"MAWS";;
-"avionics_auto_cm_sensors";"Triggered By";;
+"avionics_auto_cm_sensors";"Triggered by Sensors";;
 "avionics_auto_cm_programs";"Programs";;
 "CCIP";"
     <color=@badTextColor>CCIP</color> - <color=@userlogColoredText>Continuously-Calculated Impact Point</color>";;
