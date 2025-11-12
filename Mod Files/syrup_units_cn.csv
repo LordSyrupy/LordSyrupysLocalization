@@ -402,9 +402,9 @@ noverify>";"<English>";
 "j_11b_1";"␗J-11B Flanker-L";;
 "j_11b_2";"␗J-11B";;
 
-"jh_7a_shop";"JH-7A Flounder";;
-"jh_7a_0";"Xi'an Aircraft Industrial Corporation | JH-7A Flounder";;
-"jh_7a_1";"JH-7A Flounder";;
+"jh_7a_shop";"JH-7A Fēi Bào";;
+"jh_7a_0";"Xi'an Aircraft Industrial Corporation (XAC) | JH-7A Fēi Bào (Flying Leopard)";;
+"jh_7a_1";"JH-7A Fēi Bào";;
 "jh_7a_2";"JH-7A";;
 
 "jf_17_shop";"JF-17A Thunder";;
@@ -412,7 +412,17 @@ noverify>";"<English>";
 "jf_17_1";"JF-17A Thunder";;
 "jf_17_2";"JF-17A";;
 
-"shop/group/ki_27_group;"☀Ki 27/Ki 43";;
+"jh_7_shop";"JH-7 Fēi Bào";;
+"jh_7_0";"Xi'an Aircraft Industrial Corporation (XAC) | JH-7 Fēi Bào (Flying Leopard) | Block 02";;
+"jh_7_1";"JH-7 Fēi Bào";;
+"jh_7_2";"JH-7";;
+
+"jh_7a_prototype_shop";"JH-7A Fēi Bào (811)";;
+"jh_7a_prototype_0";"Xi'an Aircraft Industrial Corporation (XAC) | JH-7A Fēi Bào (Flying Leopard) | Prototype 811";;
+"jh_7a_prototype_1";"JH-7A Fēi Bào (811)";;
+"jh_7a_prototype_2";"JH-7A (811)";;
+
+"shop/group/ki_27_group";"☀Ki 27/Ki 43";;
 "shop/group/i-16_china_group";"Zhōng 28/☀E-16";;
 "shop/group/p_40_china_group";"☀P-40 Kittyhawk/P-43 Lancer";;
 "shop/group/db_3_china_group";"☀D.B.3/C.B.";;
