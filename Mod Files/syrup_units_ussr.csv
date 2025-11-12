@@ -197,7 +197,7 @@ noverify>";"<English>";
 "la-7_2";"La-7 (1944)";;
 
 "la-7b-20_shop";"La-7 Fin (1945)";;
-"la-7b-20_0";"OKB-301 ""Lavochkin"" | La-7 Fin | 1945 Production Standard";;
+"la-7b-20_0";"OKB-301 ""Lavochkin"" | La-7 | 1945 Production Standard Fin";;
 "la-7b-20_1";"La-7 Fin (1945)";;
 "la-7b-20_2";"La-7 (1945)";;
 
@@ -307,12 +307,12 @@ noverify>";"<English>";
 "mig_29_9_13_2";"MiG-29A";;
 
 "mig_29smt_9_19_shop";"MiG-29SMT Fulcrum-E";;
-"mig_29smt_9_19_0";"RSO Korporatsiya ""MiG""" | MiG-29SMT Fulcrum-E | Product 9-19";;
+"mig_29smt_9_19_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E | Product 9-19";;
 "mig_29smt_9_19_1";"MiG-29SMT Fulcrum-E";;
 "mig_29smt_9_19_2";"MiG-29SMT";;
 
 "mig_29smt_9_19_missile_test_shop";"MiG-29SMT Fulcrum-E";;
-"mig_29smt_9_19_missile_test_0";"RSO Korporatsiya ""MiG""" | MiG-29SMT Fulcrum-E | Product 9-19";;
+"mig_29smt_9_19_missile_test_0";"RSO Korporatsiya ""MiG"" | MiG-29SMT Fulcrum-E| Product 9-19";;
 "mig_29smt_9_19_missile_test_1";"MiG-29SMT Fulcrum-E";;
 "mig_29smt_9_19_missile_test_2";"MiG-29SMT";;
 
@@ -497,7 +497,7 @@ noverify>";"<English>";
 "mig-9_2";"MiG-9";;
 
 "mig-9_ussr_shop";"MiG-9 Fargo (1948)";;
-"mig-9_ussr_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-9 Fargo (1948)";;
+"mig-9_ussr_0";"OKB-155 ""Mikoyan i Gurevich"" | MiG-9 Fargo (1948)";;
 "mig-9_ussr_1";"MiG-9 Fargo (1948)";;
 "mig-9_ussr_2";"MiG-9 (1948)";;
 
