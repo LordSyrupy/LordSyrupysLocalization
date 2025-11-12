@@ -1,8 +1,8 @@
-# MAPLE SYRUP LOCALIZATION MOD
+# MAPLE'S LOCALIZATION MOD
 # CURRENT VERSION: v0.4
 # RELEASE DATE: 09/14/2025
 
-Maintained by Maple.
+Maintained by Maple and WarTinder.
 
 This mod aims to provide a fresh user experience for War Thunder by altering the names of vehicles and weaponry to be more consistent with each other and more accurate to real-life, with pure 100% accuracy taking a backseat in favor of stylistic liberties here and there. The changes made are generally short and to-the-point, with an emphasis on readability and recognizability.
 
@@ -14,7 +14,6 @@ A full list of changes can be found in the CHANGELOG file.
 
 DEVELOPMENT TEAM
 - Maple
-- Marchko
 - WarTinder
 
 RU TRANSLATION TEAM
@@ -25,10 +24,7 @@ RU TRANSLATION TEAM
 - tatteredstarr
 - LoxLoxius
 - Nipuch
-adskiy_utenok
-
-UKR TRANSLATION TEAM
-- Nipuch
+- adskiy_utenok
 
 # INSTALLATION INSTRUCTIONS
 1. Install this mod and unzip its contents.
