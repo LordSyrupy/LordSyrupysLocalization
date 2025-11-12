@@ -1,5 +1,5 @@
 # MAPLE'S LOCALIZATION MOD
-# CURRENT VERSION: v0.4
+# CURRENT VERSION: v0.4.1
 # RELEASE DATE: 09/14/2025
 
 Maintained by Maple and WarTinder.
