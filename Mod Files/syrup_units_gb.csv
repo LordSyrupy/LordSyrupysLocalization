@@ -1,5 +1,4 @@
-"<ID|readonly|
-noverify>";"<English>";
+"<ID|readonly|noverify>";"<English>";
 
 "lancaster_mk1_shop";"Lancaster B.I";;
 "lancaster_mk1_0";"A.V. Roe and Company | Lancaster | Bomber, Mk.I";;
@@ -701,4 +700,10 @@ noverify>";"<English>";
 "shop/group/seafire_group";"Seafire";;
 "shop/group/spitfire_griffon_group";"Spitfire F.22/24";;
 "shop/group/hawk_200_group";"Hawk 200/200 (RDA)";;
+
+//helicopters
+"ah_64e_britain_shop";"▄Apache AH.2";;
+"ah_64e_britain_0";"Boeing Defense, Space & Security | ▄Apache | Attack Helicopter, Mk.2";;
+"ah_64e_britain_1";"▄Apache AH.2";;
+"ah_64e_britain_2";"▄Apache AH.2";;
 
