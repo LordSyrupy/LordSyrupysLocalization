@@ -1,5 +1,4 @@
-"<ID|readonly|
-noverify>";"<English>";
+"<ID|readonly|noverify>";"<English>";
 
 //Unit Measurements
 "mass/kg";"%dkg";;
@@ -966,16 +965,16 @@ noverify>";"<English>";
 "weapons/us_agm_123/short";"AGM-123 Skipper (1000lb.)";;
 
 "weapons/us_agm_119a_penguin";"AGM-119A Penguin Infrared-Guided Anti-Ship Missiles";;
-"weapons/us_agm_119a_penguin/short";"AGM-119A Penguin ASM";;
+"weapons/us_agm_119a_penguin/short";"AGM-119A Penguin";;
 
 "weapons/us_agm_12b_bullpup";"AGM-12B Bullpup Air-to-Ground Missiles";;
-"weapons/us_agm_12b_bullpup/short";"AGM-12B Bullpup AGM";;
+"weapons/us_agm_12b_bullpup/short";"AGM-12B Bullpup";;
 
 "weapons/us_agm_12b_bullpup_heli";"AGM-12B Bullpup Air-to-Ground Missiles";;
-"weapons/us_agm_12b_bullpup_heli/short";"AGM-12B Bullpup AGM";;
+"weapons/us_agm_12b_bullpup_heli/short";"AGM-12B Bullpup";;
 
 "weapons/us_agm_12c_bullpup";"AGM-12C Bullpup Air-to-Ground Missiles";;
-"weapons/us_agm_12c_bullpup/short";"AGM-12C Bullpup AGM";;
+"weapons/us_agm_12c_bullpup/short";"AGM-12C Bullpup";;
 
 "weapons/us_2000lb_agm_130a";"AGM-130A Infrared-Guided Air-to-Ground Missile (2000lb.)";;
 "weapons/us_2000lb_agm_130a/short";"AGM-130A (2000lb.)";;
@@ -1278,13 +1277,13 @@ noverify>";"<English>";
 "weapons/it_aspide_1a/short";"Aspide-1A";;
 
 //Missiles, FR
-"weapons/fr_r_550_magic";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 1 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk1 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic/short";"R550 MAGIC I";;
 
-"weapons/fr_r_550_magic_2";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 2 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic_2";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk2 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic_2/short";"R550 MAGIC II";;
 
-"weapons/fr_r_550_magic_2_default";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk 2 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic_2_default";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk2 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic_2_default/short";"R550 MAGIC II";;
 
 "weapons/fr_r_530_matra_ir";"R.530E Air-to-Air Missiles";;
@@ -1296,10 +1295,10 @@ noverify>";"<English>";
 "weapons/fr_r_511_matra";"R.511 Air-to-Air Missiles";;
 "weapons/fr_r_511_matra/short";"R.511";;
 
-"weapons/fr_mica_em";"Missile d'Interception, de Combat et d'Auto-défense (MICA) Électromagnétique Air-to-Air Missiles";;
+"weapons/fr_mica_em";"Missile d'Interception, de Combat et d'Auto-défense Électromagnétique (MICA-EM) Air-to-Air Missiles";;
 "weapons/fr_mica_em/short";"MICA-EM";;
 
-"weapons/fr_mica_em_default";"Missile d'Interception, de Combat et d'Auto-défense (MICA) Électromagnétique Air-to-Air Missiles";;
+"weapons/fr_mica_em_default";"Missile d'Interception, de Combat et d'Auto-défense Électromagnétique (MICA-EM) Air-to-Air Missiles";;
 "weapons/fr_mica_em_default/short";"MICA-EM";;
 
 //Missiles, SWE
@@ -1359,43 +1358,43 @@ noverify>";"<English>";
 
 //Bombs, USA
 "weapons/us_gbu_12_paveway_2";"GBU-12 Paveway II Laser-Guided Bomb (500lb.)";;
-"weapons/us_gbu_12_paveway_2/short";"GBU-12 Paveway II LGB (500lb.)";;
+"weapons/us_gbu_12_paveway_2/short";"GBU-12 Paveway II (500lb.)";;
 
 "weapons/us_gbu_49_paveway_2";"EGBU-12 Enhanced Paveway II Dual-Mode Laser-Guided Bomb (500lb.)";;
-"weapons/us_gbu_49_paveway_2/short";"EGBU-12 Paveway II DMLGB (500lb.)";;
+"weapons/us_gbu_49_paveway_2/short";"EGBU-12 Paveway II (500lb.)";;
 
 "weapons/us_gbu_48_paveway_2";"EGBU-16 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (1000lb.)";;
-"weapons/us_gbu_48_paveway_2/short";"EGBU-16 Paveway II DMLGB (1000lb.)";;
+"weapons/us_gbu_48_paveway_2/short";"EGBU-16 Paveway II (1000lb.)";;
 
 "weapons/us_gbu_50_paveway_2";"EGBU-10 Enhanced Paveway II Dual-Mode Laser-Guided Bombs (2000lb.)";;
-"weapons/us_gbu_50_paveway_2/short";"EGBU-10 Paveway II DMLGB (2000lb.)";;
+"weapons/us_gbu_50_paveway_2/short";"EGBU-10 Paveway II (2000lb.)";;
 
 "weapons/us_gbu_16_paveway_2";"GBU-16 Paveway II Laser-Guided Bombs (1000lb.)";;
 "weapons/us_gbu_16_paveway_2/short";"GBU-16 Paveway II (1000lb.)";;
 
 "weapons/us_gbu_10_paveway_2";"GBU-10 Paveway II Laser-Guided Bombs (2000lb.)";;
-"weapons/us_gbu_10_paveway_2/short";"GBU-10 Paveway II LGB (2000lb.)";;
+"weapons/us_gbu_10_paveway_2/short";"GBU-10 Paveway II (2000lb.)";;
 
 "weapons/us_2000lb_gbu_24";"GBU-24 Paveway III Laser-Guided Bombs (2000lb.)";;
-"weapons/us_2000lb_gbu_24/short";"GBU-24 Paveway III LGB (2000lb.)";;
+"weapons/us_2000lb_gbu_24/short";"GBU-24 Paveway III (2000lb.)";;
 
 "weapons/us_2000lb_gbu_27";"GBU-27 Paveway III Laser-Guided Bombs (2000lb.)";;
-"weapons/us_2000lb_gbu_27/short";"GBU-27 Paveway III LGB (2000lb.)";;
+"weapons/us_2000lb_gbu_27/short";"GBU-27 Paveway III (2000lb.)";;
 
 "weapons/us_gbu_22_paveway_3";"GBU-22 Paveway III Laser-Guided Bombs (500lb.)";;
-"weapons/us_gbu_22_paveway_3/short";"GBU-22 Paveway III LGB (500lb.)";;
+"weapons/us_gbu_22_paveway_3/short";"GBU-22 Paveway III (500lb.)";;
 
 "weapons/us_gbu_39";"GBU-39/B SDB I GPS-Guided Glide Bombs (250lb.)";;
 "weapons/us_gbu_39/short";"GBU-39/B SDB I (250lb)";;
 
 "weapons/us_2000lb_egbu_24_paveway_3";"EGBU-24B Enhanced Paveway III Dual-Mode Laser-Guided Bombs (2000lb.)";;
-"weapons/us_2000lb_egbu_24_paveway_3/short";"EGBU-24B Paveway III DMLGB (2000lb.)";;
+"weapons/us_2000lb_egbu_24_paveway_3/short";"EGBU-24B Paveway III (2000lb.)";;
 
 "weapons/us_2000lb_gbu_15v1";"GBU-15(V)1/B Television-Guided Bombs (2000lb.)";;
-"weapons/us_2000lb_gbu_15v1/short";"GBU-15(V)1/B TGB (2000lb.)";;
+"weapons/us_2000lb_gbu_15v1/short";"GBU-15(V)1/B (2000lb.)";;
 
 "weapons/us_2000lb_gbu_15v2";"GBU-15(V)2/B Infrared-Guided Bombs (2000lb.)";;
-"weapons/us_2000lb_gbu_15v2/short";"GBU-15(V)2/B IRGB (2000lb.)";;
+"weapons/us_2000lb_gbu_15v2/short";"GBU-15(V)2/B (2000lb.)";;
 
 "weapons/us_2000lb_gbu_8_hobos";"GBU-8 Television-Guided Homing Bomb System (2000lb.)";;
 "weapons/us_2000lb_gbu_8_hobos/short";"GBU-8 HOBOS (2000lb.)";;
@@ -1433,14 +1432,14 @@ noverify>";"<English>";
 "weapons/us_agm_62a_2_erdl";"AGM-62A Walleye II Extended-Range Datalink Television-Guided Bombs (825lb.)";;
 "weapons/us_agm_62a_2_erdl/short";"AGM-62A Walleye II ER/DL (825lb.)";;
 
-"weapons/us_1000lb_anm65_cone";"AN-M65A1 General-Purpose High-Explosive Bombs, Fin M129 (1000lb.)";;
-"weapons/us_1000lb_anm65_cone/short";"AN-M65A1 GPHE (1000lb.)";;
+"weapons/us_1000lb_anm65_cone";"AN-M65A1 General Purpose High-Explosive Bombs, Fin M129 (1000lb.)";;
+"weapons/us_1000lb_anm65_cone/short";"AN-M65A1 (1000lb.)";;
 
-"weapons/us_2000lbs_anm66";"AN-M66A2 General-Purpose High-Explosive Bombs (2000lb.)";;
-"weapons/us_2000lbs_anm66/short";"AN-M66A2 GPHE (2000lb.)";;
+"weapons/us_2000lbs_anm66";"AN-M66A2 General Purpose High-Explosive Bombs (2000lb.)";;
+"weapons/us_2000lbs_anm66/short";"AN-M66A2 (2000lb.)";;
 
-"weapons/us_2000lbs_anm66_cone";"AN-M66A2 General-Purpose High-Explosive Bombs (2000lb.)";;
-"weapons/us_2000lbs_anm66_cone/short";"AN-M66A2 GPHE (2000lb.)";;
+"weapons/us_2000lbs_anm66_cone";"AN-M66A2 General Purpose High-Explosive Bombs (2000lb.)";;
+"weapons/us_2000lbs_anm66_cone/short";"AN-M66A2 (2000lb.)";;
 
 "weapons/us_1600lb_ap_an_mk1";"AN-Mk1 Armor-Piercing High-Explosive Bombs (1600lb.)";;
 "weapons/us_1600lb_ap_an_mk1/short";"AN-Mk1 APHE (1600lb.)";;
@@ -1449,18 +1448,18 @@ noverify>";"<English>";
 "weapons/us_1600lb_ap_an_mk1_45/short";"AN-Mk1 APHE (1600lb.)";;
 
 "weapons/us_1000lbs";"AN-M65A1 General Purpose High-Explosive Bombs (1000lb.)";;
-"weapons/us_1000lbs/short";"AN-M65A1 GPHE (1000lb.)";;
+"weapons/us_1000lbs/short";"AN-M65A1 (1000lb.)";;
 
 "weapons/us_100lbs";"AN-M30A1 100lb. General Purpose High-Explosive Bombs";;
 
-"weapons/us_2000lbs";"AN-M66A2 General-Purpose High-Explosive Bombs (2000lb.)";;
-"weapons/us_2000lbs/short";"AN-M66A1 GPHE (2000lb.)";;
+"weapons/us_2000lbs";"AN-M66A2 General Purpose High-Explosive Bombs (2000lb.)";;
+"weapons/us_2000lbs/short";"AN-M66A1 (2000lb.)";;
 
 "weapons/us_500lbs";"AN-M64A1 General Purpose High Explosve Bombs (500lb.)";;
 "weapons/us_500lbs/short";"AN-M64A1 (500lb.)";;
 
 "weapons/us_500lb_mk_82_ldgp_air";"Mk82 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (500lb.)";;
-"weapons/us_500lb_mk_82_ldgp_air/short";"Mk82 LDGP AIR (500lb.)";;
+"weapons/us_500lb_mk_82_ldgp_air/short";"Mk82 AIR (500lb.)";;
 
 "weapons/us_250lb_mk_81_ldgp_snakeye";"Mk81 Snakeye High-Drag General Purpose Tail-Fin Air-Retarded Bombs (250lb.)";;
 "weapons/us_250lb_mk_81_ldgp_snakeye/short";"Mk81 Snakeye (250lb.)";;
@@ -1472,55 +1471,55 @@ noverify>";"<English>";
 "weapons/us_500lb_mk_82_ldgp_snakeye_default/short";"Mk82 Snakeye (500lb.)";;
 
 "weapons/us_1000lb_anm65a1";"AN-M65A1 Low-Drag General Purpose Bombs (1000lb.)";;
-"weapons/us_1000lb_anm65a1/short";"AN-M65A1 LDGP (1000lb.)";;
+"weapons/us_1000lb_anm65a1/short";"AN-M65A1 (1000lb.)";;
 
 "weapons/us_1000lb_anm65a1_default";"AN-M65A1 Low-Drag General Purpose Bombs (1000lb.)";;
-"weapons/us_1000lb_anm65a1_default/short";"AN-M65A1 LDGP (1000lb.)";;
+"weapons/us_1000lb_anm65a1_default/short";"AN-M65A1 (1000lb.)";;
 
 "weapons/us_100lb_anm30";"AN-M30A1 General Purpose High-Explosve Bombs (100lb.)";;
-"weapons/us_100lb_anm30/short";"AN-M30A1 GPHE (100lb.)";;
+"weapons/us_100lb_anm30/short";"AN-M30A1 (100lb.)";;
 
 "weapons/us_250lb_anm57";"AN-M57 General Purpose High-Explosive Bombs (250lb.)";;
-"weapons/us_250lb_anm57/short";"AN-M57 GPHE (250lb.)";;
+"weapons/us_250lb_anm57/short";"AN-M57 (250lb.)";;
 
 "weapons/us_250lb_anm57_default";"AN-M57 General Purpose High-Explosive Bombs (250lb.)";;
-"weapons/us_250lb_anm57_default/short";"AN-M57 GPHE (250lb.)";;
+"weapons/us_250lb_anm57_default/short";"AN-M57 (250lb.)";;
 
 "weapons/us_500lb_anm64a1";"AN-M64A1 General Purpose High-Explosive Bombs (500lb.)";;
-"weapons/us_500lb_anm64a1/short";"AN-M64A1 GPHE (500lb.)";;
+"weapons/us_500lb_anm64a1/short";"AN-M64A1 (500lb.)";;
 
 "weapons/us_1000lb_anm65a1_rod";"AN-M65A1 Light-Case General Purpose Bombs (1000lb.)";;
-"weapons/us_1000lb_anm65a1_rod/short";"AN-M65A1 LCGP (1000lb.)";;
+"weapons/us_1000lb_anm65a1_rod/short";"AN-M65A1 (1000lb.)";;
 
 "weapons/us_500lb_anm64a1_rod";"AN-M64A1 General Purpose High-Explosive Bombs (500lb.)";;
-"weapons/us_500lb_anm64a1_rod/short";"AN-M64A1 GPHE (500lb.)";;
+"weapons/us_500lb_anm64a1_rod/short";"AN-M64A1 (500lb.)";;
 
 "weapons/us_250lb_mk_81_ldgp";"Mk81 Low-Drag General Purpose Bombs (250lb)";;
-"weapons/us_250lb_mk_81_ldgp/short";"Mk81 LDGP (250lb.)";;
+"weapons/us_250lb_mk_81_ldgp/short";"Mk81 (250lb.)";;
 
 "weapons/us_500lb_mk_82_ldgp";"Mk82 Low-Drag General Purpose Bombs (500lb.)";;
-"weapons/us_500lb_mk_82_ldgp/short";"MK82 LDGP (500lb.)";;
+"weapons/us_500lb_mk_82_ldgp/short";"MK82 (500lb.)";;
 
 "weapons/us_500lb_mk_82_ldgp_default";"Mk82 Low-Drag General Purpose Bombs (500lb.)";;
-"weapons/us_500lb_mk_82_ldgp_default/short";"Mk82 LDGP (500lb.)";;
+"weapons/us_500lb_mk_82_ldgp_default/short";"Mk82 (500lb.)";;
 
 "weapons/us_1000lb_mk_83_ldgp";"Mk83 Low-Drag General Purpose Bombs (1000lb.)";;
-"weapons/us_1000lb_mk_83_ldgp/short";"Mk83 LDGP (1000lb.)";;
+"weapons/us_1000lb_mk_83_ldgp/short";"Mk83 (1000lb.)";;
 
 "weapons/us_1000lb_mk_83_ldgp_default";"Mk83 Low-Drag General Purpose Bombs (1000lb.)";;
-"weapons/us_1000lb_mk_83_ldgp_default/short";"Mk83 LDGP (1000lb.)";;
+"weapons/us_1000lb_mk_83_ldgp_default/short";"Mk83 (1000lb.)";;
 
 "weapons/us_2000lb_mk_84_ldgp";"Mk84 Low-Drag General Purpose Bombs (2000lb.)";;
-"weapons/us_2000lb_mk_84_ldgp/short";"Mk84 LDGP (2000lb.)";;
+"weapons/us_2000lb_mk_84_ldgp/short";"Mk84 (2000lb.)";;
 
 "weapons/us_3000lb_m118";"M118 Low-Drag Demolition Bombs (3000lb.)";;
-"weapons/us_3000lb_m118/short";"M118 LDDB (3000lb.)";;
+"weapons/us_3000lb_m118/short";"M118 (3000lb.)";;
 
 "weapons/us_4000lb_anm56_box";"AN-M56 Light-Case General Purpose Bombs (4000lb.)";;
-"weapons/us_4000lb_anm56_box/short";"AN-M56 LCGP (4000lb.)";;
+"weapons/us_4000lb_anm56_box/short";"AN-M56 (4000lb.)";;
 
 "weapons/us_2000lb_mk_84_ldgp_air";"Mk84 Low-Drag General Purpose Ballute-Type Air-Retarded Bombs (2000lb.)";;
-"weapons/us_2000lb_mk_84_ldgp_air/short";"Mk84 LDGP AIR (2000lb.)";;
+"weapons/us_2000lb_mk_84_ldgp_air/short";"Mk84 AIR (2000lb.)";;
 
 "weapons/us_500lb_gbu_62_jdam_er";"GBU-62 Joint Direct Attack Munition (Extended Range) GPS-Guided Glide Bomb (500lb.)";;
 "weapons/us_500lb_gbu_62_jdam_er/short";"GBU-62 JDAM-ER (500lb.)";;
@@ -1532,10 +1531,10 @@ noverify>";"<English>";
 "weapons/us_2000lb_gbu_64_jdam_er/short";"GBU-64 JDAM-ER (2000lb.)";;
 
 "weapons/us_750lb_m117_cone_45";"M117 Low-Drag Demolition Bombs, Cone 45 (750lb.)";;
-"weapons/us_750lb_m117_cone_45/short";"M117 LDDB (750lb.)";;
+"weapons/us_750lb_m117_cone_45/short";"M117 (750lb.)";;
 
 "weapons/us_1000lb_mk_83_ldgp_air";"Mk83 Low-Drag General Purpose Ballute-Type Air-Retarded Bomb (1000lb.)";;
-"weapons/us_1000lb_mk_83_ldgp_air/short";"Mk83 LDGP AIR (1000lb.)";;
+"weapons/us_1000lb_mk_83_ldgp_air/short";"Mk83 AIR (1000lb.)";;
 
 "weapons/us_500lb_mk77_mod2";"Mk77 Mod 2 Incendiary Napalm Bombs (750lb.)";;
 "weapons/us_500lb_mk77_mod2/short";"Mk77 INC (750lb.)";;
@@ -1568,16 +1567,81 @@ noverify>";"<English>";
 "weapons/us_750lb_mk77_mod0/short";"Mk77 INC (750lb.)";;
 
 //Bombs, GER
+"weapons/de_sc50";"50 kg SC50JA bomb";;
+"weapons/de_sc50_default";"50 kg SC50JA bomb";;
+"weapons/de_sc50_default/short";"SC50";;
+
+"weapons/de_sc250";"250 kg SC250JA bomb";;
+"weapons/de_sc250_default";"250 kg SC250JA bomb";;
+"weapons/de_sc250_default/short";"SC250";;
+
+"weapons/de_sc500";"500 kg SC500K bomb";;
+
+"weapons/de_sc_ag300";"300 kg SC AG bomb";;
+"weapons/de_sc_ag300/short";"300 kg SC AG";;
+
+"weapons/de_sc250_87";"250 kg SC250JA bomb";;
+
+"weapons/de_fx1400";"PC 1400 X (Fritz X)";;
+
+"weapons/de_hs_293a1";"HS 293 A-1 guided bomb";;
+"weapons/de_hs_293a1/short";"HS 293 A-1";;
+
+"weapons/de_sc500_87";"500 kg SC500K bomb";;
+
+"weapons/de_sc1800b";"1800 kg SC1800B bomb";;
+
+"weapons/de_sc1000";"1000 kg SC1000L2 bomb";;
+"weapons/de_sc1000_default";"1000 kg SC1000L2 bomb";;
+"weapons/de_sc1000_default/short";"SC1000";;
+
+"weapons/de_sd10a";"10 kg SD10C bomb";;
+
+"weapons/de_sd50";"50 kg SD50 bomb";;
+"weapons/de_sd50/short";"SD50";;
+
+"weapons/de_sd70";"70 kg SD70 bomb";;
+"weapons/de_sd70/short";"SD70";;
+
+"weapons/de_pc500_ap";"500 kg PC500 armor-piercing bomb";;
+"weapons/de_pc500_ap/short";"PC500";;
+
+"weapons/de_pd500_ap";"500 kg PD500 armor-piercing bomb";;
+"weapons/de_pd500_ap/short";"PD500";;
+
+"weapons/de_pc500_rs_ap";"500 kg PC500 RS armor-piercing rocket bomb";;
+"weapons/de_pc500_rs_ap/short";"PC500 RS";;
+
+"weapons/de_pc1000_ap";"1000 kg PC1000 armor-piercing bomb";;
+"weapons/de_pc1000_ap/short";"PC1000";;
+
+"weapons/de_pc1000_rs_ap";"1000 kg PC1000 RS armor-piercing rocket bomb";;
+"weapons/de_pc1000_rs_ap/short";"PC1000 RS";;
+
+"weapons/de_pc1600_ap";"1600 kg PC1600 armor-piercing bomb";;
+"weapons/de_pc1600_ap/short";"PC1600";;
+
+"weapons/de_pc1800_rs_ap";"1800 kg PC1800 RS armor-piercing rocket bomb";;
+"weapons/de_pc1800_rs_ap/short";"PC1800 RS";;
+
+"weapons/de_250_matra_25e";"250 kg Matra 25E bomb";;
+"weapons/de_250_matra_25e/short";"250 kg Matra 25E";;
+
+"weapons/de_sc2500";"2500 kg SC2500 bomb";;
+"weapons/de_sc2500/short";"SC2500";;
+
+"weapons/de_sb2500";"2500 kg SB2500 bomb";;
+"weapons/de_sb2500/short";"SB2500";;
 
 //Bombs, USSR
 
 //Bombs, GB
 "weapons/uk_paveway_iv";"Paveway IV Dual-Mode Laser-Guided Bombs (500lb.)";;
-"weapons/uk_paveway_iv/short";"Paveway IV DMLGB (500lb.)";;
+"weapons/uk_paveway_iv/short";"Paveway IV (500lb.)";;
 
 //Bombs, JP
 "weapons/us_750lb_m117_cone_45_japan";"JM117 Low-Drag Demolition Bombs, Cone 45 (750lb.)";;
-"weapons/us_750lb_m117_cone_45_japan/short";"JM117 LDDB (750lb.)";;
+"weapons/us_750lb_m117_cone_45_japan/short";"JM117 (750lb.)";;
 
 //Bombs, CN
 
