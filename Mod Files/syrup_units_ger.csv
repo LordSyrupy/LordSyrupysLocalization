@@ -370,15 +370,15 @@ noverify>";"<English>";;
 "f-4f_kws_lv_1";"◄F-4F Phantom II KWS-LV";;
 "f-4f_kws_lv_2";"◄F-4F KWS-LV";;
 #
-"tornado_ids_de_assta1_shop";"☢IDS-Tornado (ASSTA 1.0)";;
-"tornado_ids_de_assta1_0";"Panavia Aircraft GmbH | ☢Tornado | Interdictor/Strike | Avionics System Software Tornado in Ada, Version 1.0";;
-"tornado_ids_de_assta1_1";"☢IDS-Tornado (ASSTA 1.0)";;
-"tornado_ids_de_assta1_2";"☢IDS-Tornado (ASSTA 1.0)";;
+"tornado_ids_de_assta1_shop";"◄IDS-Tornado (ASSTA 1.0)";;
+"tornado_ids_de_assta1_0";"Panavia Aircraft GmbH | ◄Tornado | Interdictor/Strike | Avionics System Software Tornado in Ada, Version 1.0";;
+"tornado_ids_de_assta1_1";"◄IDS-Tornado (ASSTA 1.0)";;
+"tornado_ids_de_assta1_2";"◄IDS-Tornado (ASSTA 1.0)";;
 #
-tornado_ids_de_assta1_killstreak_shop;◄IDS-Tornado (ASSTA 1.0);;
-tornado_ids_de_assta1_killstreak_0;Panavia Aircraft GmbH | ◄Tornado | Interdictor/Strike | Avionics System Software Tornado in Ada, Version 1.0;;
-tornado_ids_de_assta1_killstreak_1;◄IDS-Tornado (ASSTA 1.0);;
-tornado_ids_de_assta1_killstreak_2;◄IDS-Tornado (ASSTA 1.0);;
+tornado_ids_de_assta1_killstreak_shop;☢IDS-Tornado (ASSTA 1.0);;
+tornado_ids_de_assta1_killstreak_0;Panavia Aircraft GmbH | ☢Tornado | Interdictor/Strike | Avionics System Software Tornado in Ada, Version 1.0;;
+tornado_ids_de_assta1_killstreak_1;☢IDS-Tornado (ASSTA 1.0);;
+tornado_ids_de_assta1_killstreak_2;☢IDS-Tornado (ASSTA 1.0);;
 #
 "tornado_ids_de_mfg_shop";"◄IDS-Tornado (MFG)";;
 "tornado_ids_de_mfg_0";"Panavia Aircraft GmbH | ◄Tornado | Interdictor/Strike (Marineflieger)";;
