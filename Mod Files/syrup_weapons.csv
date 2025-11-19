@@ -579,9 +579,9 @@
 "weapons/gun_mg_29_turret/short";"MG 29";;
 #
 #Guns, USSR
-"weapons/cannonNR23";"Nudelman-Richter NR-23 23mm Autocannon";;
+"weapons/cannonNR23";"Nudelman-Rikhter NR-23 23mm Autocannon";;
 #
-"weapons/cannonNR23_turret";"Nudelman-Richter NR-23 23mm Autocannon";;
+"weapons/cannonNR23_turret";"Nudelman-Rikhter NR-23 23mm Autocannon";;
 #
 "weapons/cannonNS23";"Nudelman-Suranov NS-23 23mm Cannon";;
 #
@@ -655,6 +655,10 @@
 "weapons/cannonGSh_6_23M";"Gryazev-Shipunov GSh-6-23M 23mm Rotary Autocannon";;
 "weapons/cannonGSh_6_23M/short";"GSh-6-23M";;
 #
+weapons/cannonNR30;Nudelman-Rikhter NR-30 30mm Autocannon;;
+weapons/cannonNR30_early;Nudelman-Rikhter NR-30 30mm Autocannon;;
+weapons/cannonNR30_early/short;NR-30;;
+#
 #Guns, GB
 "weapons/cannonADEN";"Royal Small Arms Factory ADEN 30mm Autocannon";;
 #
@@ -672,10 +676,35 @@
 "weapons/cannonJM61A2/short";"JM61A2 Vulcan";;
 #
 #Guns, CN
+weapons/cannonType30_1;China Ordnance Industries Type 30-1 30mm Autocannon;;
+weapons/cannonType30_1/short;Type 30-1;;
+#
+weapons/cannon_type23_2k;China Ordnance Industries Type 23-2K 23mm Autocannon;;
+#
+weapons/cannonType_23_3;China Ordnance Industries Type 23-3 23mm Autocannon;;
+#
+weapons/cannonType_30_4;China Ordnance Industries Type 30-4 30mm Autocannon;;
+weapons/cannonType_30_4/short;Type 30-4;;
 #
 #Guns, IT
 #
 #Guns, FR
+weapons/cannonDEFA541;DEFA 541 | Direction des Études et Fabrications d'Armement 541 30mm Autocannon;;
+weapons/cannonDEFA551;DEFA 551 | Direction des Études et Fabrications d'Armement 551 30mm Autocannon;;
+#
+weapons/cannonDEFA552;DEFA 552 | Direction des Études et Fabrications d'Armement 552 30mm Autocannon;;
+weapons/cannonDEFA552A;DEFA 552A | Direction des Études et Fabrications d'Armement 552A 30mm Autocannon;;
+#
+weapons/cannonDEFA553;DEFA 553 | Direction des Études et Fabrications d'Armement 553 30mm Autocannon;;
+weapons/cannonDEFA553_gunpod;DEFA 553 | Direction des Études et Fabrications d'Armement 553 30mm Autocannon;;
+weapons/cannonDEFA553_gunpod/short;DEFA 553;;
+#
+weapons/cannonDEFA554;DEFA 554 | Direction des Études et Fabrications d'Armement 554 30mm Autocannon;;
+weapons/cannonDEFA554/short;DEFA 554;;
+weapons/cannonDEFA554_gunpod;DEFA 554 | Direction des Études et Fabrications d'Armement 554 30mm Autocannon;;
+weapons/cannonDEFA554_gunpod/short;DEFA 554;;
+#
+weapons/cannonGLAT_M791;Nexter Systems 30M 791 30mm Autocannon;;
 #
 #Guns, SWE
 "weapons/cannonAkan_m55";"Automatkanon m/55 30mm Autocannon";;
@@ -1211,6 +1240,11 @@ weapons/us_aim7p_sparrow_fa_18/short;AIM-7P-2 Sparrow;;
 "weapons/uk_fireflash";"Fireflash Air-to-Air Missiles";;
 "weapons/uk_fireflash/short";"Fireflash";;
 #
+weapons/r_darter;R-Darter Air-to-Air Missiles;;
+weapons/r_darter/short;R-Darter;;
+weapons/r_darter_default;R-Darter Air-to-Air Missiles;;
+weapons/r_darter_default/short;R-Darter;;
+#
 #Missiles, JP
 "weapons/us_aim9p4_sidewinder";"AIM-9P-4 Sidewinder Air-to-Air Missiles";;
 "weapons/us_aim9p4_sidewinder/short";"AIM-9P-4 Sidewinder";;
@@ -1244,51 +1278,63 @@ weapons/us_aim7p_sparrow_fa_18/short;AIM-7P-2 Sparrow;;
 "weapons/jp_asm2/short";"ASM-2";;
 #
 #Missiles, CN
-"weapons/cn_pl12";"PL-12 Adze Air-to-Air Missiles";;
-"weapons/cn_pl12/short";"PL-12 Adze";;
+"weapons/cn_pl12";"Pī Lì-12 Air-to-Air Missiles";;
+"weapons/cn_pl12/short";"PL-12";;
 #
-"weapons/cn_pl12_default";"PL-12 Adze Air-to-Air Missiles";;
-"weapons/cn_pl12_default/short";"PL-12 Adze";;
+"weapons/cn_pl12_default";"Pī Lì-12 Air-to-Air Missiles";;
+"weapons/cn_pl12_default/short";"PL-12";;
 #
-"weapons/su_pl2";"PL-2 Atoll-C Air-to-Air Missiles";;
+"weapons/su_pl2";"Pī Lì-2 Atoll-C Air-to-Air Missiles";;
 "weapons/su_pl2/short";"PL-2 Atoll-C";;
 #
-"weapons/su_pl2_default";"PL-2 Atoll-C Air-to-Air Missiles";;
+"weapons/su_pl2_default";"Pī Lì-2 Atoll-C Air-to-Air Missiles";;
 "weapons/su_pl2_default/short";"PL-2 Atoll-C";;
 #
-"weapons/su_pl5b";"PL-5B Atoll-D Air-to-Air Missiles";;
+"weapons/su_pl5b";"Pī Lì-5B Atoll-D Air-to-Air Missiles";;
 "weapons/su_pl5b/short";"PL-5B Atoll-D";;
 #
-"weapons/su_pl5b_default";"PL-5B Atoll-D Air-to-Air Missiles";;
+"weapons/su_pl5b_default";"Pī Lì-5B Atoll-D Air-to-Air Missiles";;
 "weapons/su_pl5b_default/short";"PL-5B Atoll-D";;
 #
-"weapons/su_pl5c";"PL-5C Atoll-E Air-to-Air Missiles";;
+"weapons/su_pl5c";"Pī Lì-5C Atoll-E Air-to-Air Missiles";;
 "weapons/su_pl5c/short";"PL-5C Atoll-E";;
 #
-"weapons/su_pl5c_default";"PL-5C Atoll-E Air-to-Air Missiles";;
+"weapons/su_pl5c_default";"Pī Lì-5C Atoll-E Air-to-Air Missiles";;
 "weapons/su_pl5c_default/short";"PL-5C Atoll-E";;
 #
-"weapons/su_pl5e2";"PL-5EII Atoll-F Air-to-Air Missiles";;
+"weapons/su_pl5e2";"Pī Lì-5EII Atoll-F Air-to-Air Missiles";;
 "weapons/su_pl5e2/short";"PL-5EII Atoll-F";;
 #
-"weapons/su_pl5e2_default";"PL-5EII Atoll-F Air-to-Air Missiles";;
+"weapons/su_pl5e2_default";"Pī Lì-5EII Atoll-F Air-to-Air Missiles";;
 "weapons/su_pl5e2_default/short";"PL-5EII Atoll-F";;
 #
-"weapons/cn_pl11";"PL-11 Air-to-Air Missiles";;
+"weapons/cn_pl11";"Pī Lì-11 Air-to-Air Missiles";;
 "weapons/cn_pl11_short";"PL-11";;
 #
+weapons/su_pl7;Pī Lì-7 Air-to-Air Missiles;;
+weapons/su_pl7/short;PL-7;;
+#
+weapons/su_pl8;Pī Lì-8 Air-to-Air Missiles;;
+weapons/su_pl8/short;PL-8;;
+weapons/su_pl8_default;Pī Lì-8 Air-to-Air Missiles;;
+weapons/su_pl8_default/short;PL-8;;
+#
+weapons/cn_pl8b;Pī Lì-8B Air-to-Air Missiles;;
+weapons/cn_pl8b/short;PL-8B;;
+weapons/cn_pl8b_default;Pī Lì-8B Air-to-Air Missiles;;
+weapons/cn_pl8b_default/short;PL-8B;;
 #Missiles, IT
 "weapons/it_aspide_1a";"Aspide-1A Air-to-Air Missiles";;
 "weapons/it_aspide_1a/short";"Aspide-1A";;
 #
 #Missiles, FR
-"weapons/fr_r_550_magic";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk1 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic";"R550 MAGIC I | Missile Auto-Guidé Interception et Combat R550 Mk1 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic/short";"R550 MAGIC I";;
 #
-"weapons/fr_r_550_magic_2";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk2 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic_2";"R550 MAGIC II | Missile Auto-Guidé Interception et Combat R550 Mk2 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic_2/short";"R550 MAGIC II";;
 #
-"weapons/fr_r_550_magic_2_default";"Missile Auto-Guidé Interception et Combat (MAGIC) R550 Mk2 Air-to-Air Missiles";;
+"weapons/fr_r_550_magic_2_default";"R550 MAGIC II | Missile Auto-Guidé Interception et Combat R550 Mk2 Air-to-Air Missiles";;
 "weapons/fr_r_550_magic_2_default/short";"R550 MAGIC II";;
 #
 "weapons/fr_r_530_matra_ir";"R.530E Air-to-Air Missiles";;
@@ -1300,10 +1346,10 @@ weapons/us_aim7p_sparrow_fa_18/short;AIM-7P-2 Sparrow;;
 "weapons/fr_r_511_matra";"R.511 Air-to-Air Missiles";;
 "weapons/fr_r_511_matra/short";"R.511";;
 #
-"weapons/fr_mica_em";"Missile d'Interception, de Combat et d'Auto-défense Électromagnétique (MICA-EM) Air-to-Air Missiles";;
+"weapons/fr_mica_em";"MICA-EM | Missile d'Interception, de Combat et d'Auto-défense Électromagnétique Air-to-Air Missiles";;
 "weapons/fr_mica_em/short";"MICA-EM";;
 #
-"weapons/fr_mica_em_default";"Missile d'Interception, de Combat et d'Auto-défense Électromagnétique (MICA-EM) Air-to-Air Missiles";;
+"weapons/fr_mica_em_default";"MICA-EM | Missile d'Interception, de Combat et d'Auto-défense Électromagnétique Air-to-Air Missiles";;
 "weapons/fr_mica_em_default/short";"MICA-EM";;
 #
 #Missiles, SWE
@@ -1360,6 +1406,29 @@ weapons/us_aim7p_sparrow_fa_18/short;AIM-7P-2 Sparrow;;
 "weapons/swd_rb75t/short";"Rb 75T";;
 #
 #Missiles, ISR
+weapons/il_shafrir_1;Shafrir-1 Air-to-Air Missiles;;
+weapons/il_shafrir_1/short;Shafrir-1;;
+#
+weapons/il_shafrir_2;Shafrir-2 Air-to-Air Missiles;;
+weapons/il_shafrir_2/short;Shafrir-2;;
+weapons/il_shafrir_2_default;Shafrir-2 Air-to-Air Missiles;;
+weapons/il_shafrir_2_default/short;Shafrir-2;;
+#
+weapons/il_pyton_3;Python-3 Air-to-Air Missiles;;
+weapons/il_pyton_3/short;Python-3;;
+weapons/il_pyton_3_default;Python-3 Air-to-Air Missiles;;
+weapons/il_pyton_3_default/short;Python-3;;
+#
+weapons/il_pyton_4;Python-4 Air-to-Air Missiles;;
+weapons/il_pyton_4/short;Python-4;;
+#
+weapons/il_python_5_sam;Python-5 Air-to-Air Missiles;;
+weapons/il_python_5_sam/short;Python-5;;
+#
+weapons/il_derby;Derby Air-to-Air Missiles;;
+weapons/il_derby/short;Derby;;
+weapons/il_derby_default;Derby Air-to-Air Missiles;;
+weapons/il_derby_default/short;Derby;;
 #
 #Bombs, USA
 "weapons/us_gbu_12_paveway_2";"GBU-12 Paveway II Laser-Guided Bomb (500lb.)";;
@@ -1799,3 +1868,4 @@ weapons/us_aim7p_sparrow_fa_18/short;AIM-7P-2 Sparrow;;
 "weapons/us_750_gal_fastpack_f_15c_right";"Fuel And Sensor Tactical Pack";;
 "weapons/us_750_gal_fastpack_f_15c_right/short";"FAST Pack";;
 #
+
