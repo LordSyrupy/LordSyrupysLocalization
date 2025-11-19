@@ -685,6 +685,11 @@ tornado_ids_de_assta1_britain_killstreak_0;Panavia Aircraft GmbH | ☢Tornado | 
 tornado_ids_de_assta1_britain_killstreak_1;☢Tornado GR.1;;
 tornado_ids_de_assta1_britain_killstreak_2;☢Tornado GR.1;;
 #
+mosquito_b_mk16_shop;Mosquito B.XVI;;
+mosquito_b_mk16_0;de Havilland Aircraft Company, Ltd. | Mosquito | Bomber, Mk.XVI;;
+mosquito_b_mk16_1;Mosquito B.XVI;;
+mosquito_b_mk16_2;Mosquito B.XVI;;
+#
 "shop/group/meteor3_group";"Meteor F.3";;
 "shop/group/meteor4_group";"Meteor F.4";;
 "shop/group/blenheim_group";"Blenheim/Beaufort";;
